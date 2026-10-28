@@ -4,7 +4,7 @@
 
 ModernLinc organizes advertising preparation, product content, data reconciliation and business handoffs into eighteen task-focused Skills. This public catalog presents each Skill's purpose, inputs, deliverables and conditions of use, supported by complete synthetic examples.
 
-[中文](README.md) · [Product catalog](docs/skill-catalog.md) · [Getting started](docs/getting-started.md) · [Delivery](docs/evaluation-and-delivery.md) · [Help](SUPPORT.md)
+[中文](README.md) · [Product catalog](docs/skill-catalog.md) · [Getting started](docs/getting-started.md) · [Delivery](docs/evaluation-and-delivery.md) · [Help](SUPPORT.md) · [Updates and feedback (中文)](docs/updates-and-feedback.md)
 
 ## Try one complete exercise
 

@@ -36,6 +36,9 @@ REQUIRED = (
     '.github/PULL_REQUEST_TEMPLATE.md', '.github/workflows/validate-public-repo.yml',
     'SUPPORT.md', 'catalog.json', 'docs/compatibility.md',
     'docs/evaluation-and-delivery.md', 'tests/test_product_contract.py',
+    'docs/updates-and-feedback.md',
+    '.github/ISSUE_TEMPLATE/01-product-question.md',
+    '.github/ISSUE_TEMPLATE/02-documentation.md',
 )
 CSV_FIELDS = {
     'orders.csv': ('order_id', 'currency', 'gross_usd'),

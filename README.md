@@ -4,7 +4,7 @@
 
 ModernLinc 将广告准备、商品内容、数据核算和业务协作组织为十八项独立 Skill。本产品目录展示每项的适用任务、材料要求、成果形式与使用条件，配合完整合成案例，方便团队评估并选择所需能力。
 
-[English](README_EN.md) · [产品目录](docs/skill-catalog.md) · [使用指南](docs/getting-started.md) · [交付与授权](docs/evaluation-and-delivery.md) · [获取帮助](SUPPORT.md)
+[English](README_EN.md) · [产品目录](docs/skill-catalog.md) · [使用指南](docs/getting-started.md) · [交付与授权](docs/evaluation-and-delivery.md) · [获取帮助](SUPPORT.md) · [更新与反馈](docs/updates-and-feedback.md)
 
 ## 先试一项
 
