@@ -3,6 +3,7 @@
 from pathlib import Path
 import json
 import re
+import subprocess
 import sys
 from urllib.parse import unquote, urlsplit
 
@@ -100,6 +101,11 @@ def validate(root):
     allowed = set(REQUIRED)
     for slug in EXPECTED:
         allowed.update('skills/' + slug + '/' + rel for rel in ('SKILL.md', 'examples/input.md', 'examples/output.md', 'assets/screenshots/README.md'))
+    if (root / '.git').exists():
+        tracked = subprocess.run(['git', 'ls-files', '-z'], cwd=root, capture_output=True, check=True)
+        for rel in filter(None, tracked.stdout.decode('utf-8').split('\0')):
+            if rel not in allowed:
+                errors.append(rel + ': tracked file is outside the reviewed allowlist')
     for p in sorted(root.rglob('*')):
         rel = p.relative_to(root)
         if any(part in {'.git', '__pycache__', '.pytest_cache'} for part in rel.parts):

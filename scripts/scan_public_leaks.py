@@ -3,6 +3,7 @@
 from pathlib import Path
 import os
 import re
+import subprocess
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,7 +31,16 @@ def path_problems(rel):
         result.append('environment file')
     if p.suffix.lower() in FORBIDDEN_SUFFIXES:
         result.append('private distribution or sensitive file type')
+    if any(part in {'.git', '__pycache__', '.pytest_cache'} for part in p.parts):
+        result.append('runtime metadata or cache must not be published')
     return result
+
+
+def tracked_paths(root):
+    if not (root / '.git').exists():
+        return ()
+    result = subprocess.run(['git', 'ls-files', '-z'], cwd=root, capture_output=True, check=True)
+    return tuple(p for p in result.stdout.decode('utf-8').split('\0') if p)
 
 
 def scan_text(text):
@@ -45,6 +55,9 @@ def scan_text(text):
 def scan(root):
     findings = []
     count = 0
+    # Ignored caches may remain locally, but force-added cache payloads must fail.
+    for rel in tracked_paths(root):
+        findings.extend((rel, 0, label) for label in path_problems(rel))
     for directory, dirs, names in os.walk(root, followlinks=False):
         base = Path(directory)
         for name in list(dirs):

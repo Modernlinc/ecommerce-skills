@@ -83,6 +83,9 @@ class CatalogTests(unittest.TestCase):
     def test_normal_public_paths_are_allowed(self):
         self.assertEqual(leaks.path_problems('skills/google-ads/examples/output.md'), [])
 
+    def test_force_added_cache_payloads_are_not_public_content(self):
+        self.assertTrue(leaks.path_problems('__pycache__/payload.txt'))
+
 
 if __name__ == '__main__':
     unittest.main()
