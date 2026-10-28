@@ -57,3 +57,5 @@ git diff --check
 ## 官方依据
 
 仓库首页按用途、价值、体验和支持入口组织：[GitHub README说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)。公开查看及fork机制与授权区别依据：[GitHub授权说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。这不构成法律意见或对平台未来规则的保证。
+
+CI使用[官方checkout](https://github.com/actions/checkout)和[官方setup-python](https://github.com/actions/setup-python)的v7具体提交，已只读核对标签身份，固定SHA而非跟随可移动标签。权限为contents: read，checkout不持久化凭证，没有部署或生产Secrets配置。托管CI尚未实际运行。
