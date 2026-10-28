@@ -1,26 +1,31 @@
 # ModernLinc Ecommerce AI Skills
 
-**把零散商品事实，整理成能检查、能交接的完整工作稿。**
+**面向跨境电商团队的 AI 工作流与交付标准。**
 
-这是 ModernLinc 十八项跨境电商 AI Skill 的公开产品目录与原创合成演示。你可以先看一次任务需要什么材料、得到怎样的完整结果，再判断是否适合自己的工作。
+ModernLinc 将广告准备、商品内容、数据核算和业务协作组织为十八项独立 Skill。本产品目录展示每项的适用任务、材料要求、成果形式与使用条件，配合完整合成案例，方便团队评估并选择所需能力。
 
-> 版本：`0.1.0-public-demo` · 18 项公开演示 · 36 份合成输入/输出 · 2026-10-28
->
-> 这是公开展示版。完整付费 Skill 的方法正文、私有参考、运行模块和内部评估材料单独维护与交付，不在本仓库中。
+[English](README_EN.md) · [产品目录](docs/skill-catalog.md) · [使用指南](docs/getting-started.md) · [交付与授权](docs/faq.md)
 
-[English](README_EN.md) · [快速体验](docs/getting-started.md) · [完整目录](docs/skill-catalog.md) · [版本与购买前核对](docs/faq.md)
+## 产品概览
 
-## 从一个真实工作问题开始
+|工作方向|主要内容|
+|---|---|
+|广告与内容|广告结构和文案准备、创意脚本、渠道内容与达人 brief|
+|店铺与商品|商品页完整稿、搜索内容、商品资料与目录一致性核对|
+|经营与协作|文档变更、客服回复、报价沟通及专业材料交接|
+|研究与核算|候选比较、品牌简报、五表数据口径与范围贡献核算|
 
-- 商品改价了，商品卡、FAQ和协作简报怎样一起改完整？看 [Codex 电商执行](skills/codex-ecommerce/examples/output.md)。
-- 商品资料都有了，怎样写出完整页面而不是一份注意事项？看 [Shopify](skills/shopify-store/examples/output.md)。
-- 退款、费用和广告归因混在一起，哪些数能算、哪些要撤回？看 [数据核算](skills/ecommerce-analytics/examples/output.md)。
-- 想准备广告，怎样把结构、文案、素材和页面放在一份可讨论的稿里？看 [Meta / Facebook](skills/meta-facebook-ads/examples/output.md)。
-- 对客回复或工厂报价，怎样说清已知条件而不越权承诺？看 [客服](skills/customer-support/examples/output.md) 与 [B2B](skills/b2b-quotation/examples/output.md)。
+每项 Skill 都围绕具体任务组织：说明输入条件，交出完整工作稿，列明核对事项，并给出下一步交接。涉及价格、规格或证据变化的案例，同时展示受影响内容的更新方式。
 
-这些示例展示具体工作形态，不是客户业绩、平台执行回执或购买后的效果保证。
+## 应用场景
 
-## 18 项目录
+- **广告准备**：将商品事实、素材资源、广告文字和页面承接整理为可审阅方案。[查看案例](skills/meta-facebook-ads/examples/output.md)
+- **商品页编辑**：将规格、选项、价格和履约条件组织为完整页面文字。[查看案例](skills/shopify-store/examples/output.md)
+- **多文档更新**：条件变化后同步商品卡、FAQ和协作简报，保留有效内容。[查看案例](skills/codex-ecommerce/examples/output.md)
+- **数据核对**：区分订单、退款、成本与广告归因口径，明确缺失证据对结果的影响。[查看案例](skills/ecommerce-analytics/examples/output.md)
+- **业务交接**：准备有依据的[客服回复](skills/customer-support/examples/output.md)与[非绑定报价](skills/b2b-quotation/examples/output.md)，将待确认事项交给责任方。
+
+## 十八项 Skill
 
 | # | Skill | 主要任务 | 合成演示 |
 |---|---|---|---|
@@ -43,39 +48,33 @@
 | 17 | [跨境经营后台](skills/ecommerce-backoffice/SKILL.md) | 把同笔交易的订单、结算和费用证据核对清楚 | [输入](skills/ecommerce-backoffice/examples/input.md) · [输出](skills/ecommerce-backoffice/examples/output.md) |
 | 18 | [外贸 B2B 报价与样品沟通](skills/b2b-quotation/SKILL.md) | 分开商业报价、样品费用和未确认条件 | [输入](skills/b2b-quotation/examples/input.md) · [输出](skills/b2b-quotation/examples/output.md) |
 
-Google Ads 与 Google SEO 在这里分别列为两个产品入口，便于按任务选择。
 
-## 怎样体验
+Google Ads 与 Google SEO 分别提供产品入口，便于按任务选择。
 
-1. 选一项，读公开 `SKILL.md` 的用途和限制。
-2. 将对应 `examples/input.md` 与公开卡片交给你使用的 AI 工具，请它仅依给定合成事实完成任务。
-3. 保存自己的第一版输出，再打开 `examples/output.md` 比较完整性、事实和未知项。
-4. 判断结果能否进入你的下一步工作；需要真实执行时，另外核实权限、工具、材料与责任人。
+## 使用方式
 
-无需安装任何包即可阅读或手工试阅。若工具能加载标准 Skill 目录，可以试阅单项公开演示；本仓库没有跨工具安装器，也没有证明所有客户端兼容。将文件上传到聊天中不等于安装完整付费产品。
+1. 选择对应 Skill，阅读任务、输入、输出和使用条件。
+2. 打开合成输入资料，与该项公开卡片一并交给所用 AI 工具。
+3. 核对完整结果中的事实、数量、未知项和交接事项，并参照案例输出评估任务匹配度。
 
-## 公开版与完整交付
+公开资料可直接阅读。完整产品的安装方式、支持环境和必要依赖，随具体交付版本说明。
 
-|内容|本仓库|完整付费交付|
-|---|---|---|
-|用途、输入输出、边界|18项公开可读|按所购版本提供|
-|原创合成案例|每项一组输入/输出|具体案例依交付清单|
-|完整方法、私有参考、必要运行模块|不包含|以购买前确认的文件清单为准|
-|真实账号操作、代运营、经营效果|未执行、未证明|也须另行确认具体服务范围，不自动包含|
-|许可、价格、更新期限、售后|见当前说明|下单前逐项约定，不默认永久更新或不限人数|
+## 版本与交付
 
-购买入口尚未开放。本页不收款，也不放未经确认的联系链接。先用公开示例判断任务匹配，再索取具体版本、环境和交付清单。
+本仓库提供公开产品说明与原创合成案例；完整方法、配套参考和必要运行模块按所选产品与版本独立交付。下单前应明确产品组合、文件清单、许可范围、支持环境、价格、更新期限与服务条款。
 
-## 证据与安全
+当前公开资料版本：`0.1.0-public-demo`。商业交付与联系入口以正式公布的信息为准。
 
-所有案例均为新编合成材料，未使用客户账户、订单或广告数据。案例中的价格、数量与商品名都是演示设定，不是销售报价。
+## 使用条件与隐私
 
-当前没有公开截图，不用示意图冒充真实后台。未提供可公开核验的学习分钟数、Token 消耗或业务效果数字，因此本版不使用这些宣传数字。
+案例使用合成资料，用于说明工作方式和成果形式。公开资料不包含客户资料、账户凭证、个人网站或个人联系方式。示例中的价格与数量为题设，不能作为真实报价或经营效果证据。
 
-[证据政策](docs/demo-evidence-policy.md) · [公开与私有边界](docs/public-private-boundary.md) · [安全报告](SECURITY.md)
+本版适用于给定材料下的离线准备与审阅。真实账户操作、平台发布及资金动作须另行确认实施条件与权限；当前平台规则在实施当天核验。
 
-## 版本与授权
+[案例与证据说明](docs/demo-evidence-policy.md) · [资料范围](docs/public-private-boundary.md) · [安全指引](SECURITY.md)
 
-`public-demo` 仅表示公开展示版本。公开可读不等于完整商业实现开源。当前采用根目录 [LICENSE](LICENSE) 的 All Rights Reserved 告知，保留适用法律及 GitHub 服务条款已给予的权利，包括 GitHub 的查看与 fork 机制。
+## 授权
 
-[授权说明](docs/licensing.md) · [变更记录](CHANGELOG.md) · [贡献指引](CONTRIBUTING.md) · [本版发布范围核对](PUBLICATION_AUDIT.md)
+© 2026 ModernLinc. All rights reserved. 公开资料提供有限内部评估许可，完整产品按独立许可交付。
+
+[LICENSE](LICENSE) · [授权说明](docs/licensing.md) · [变更记录](CHANGELOG.md) · [维护指引](CONTRIBUTING.md)

@@ -1,14 +1,23 @@
 # ModernLinc Ecommerce AI Skills
 
-**Turn scattered product facts into complete, reviewable work drafts.**
+**AI workflows and deliverable standards for ecommerce teams.**
 
-This is the public catalog and synthetic demonstration repository for eighteen ModernLinc ecommerce AI Skills. Inspect the required inputs, a worked output and the limits before deciding whether a task fits your workflow.
+ModernLinc organizes advertising preparation, product content, data reconciliation and business handoffs into eighteen task-focused Skills. This public catalog presents each Skill's purpose, inputs, deliverables and conditions of use, supported by complete synthetic examples.
 
-Version: `0.1.0-public-demo` · Date: 2026-10-28 · [中文](README.md)
+[中文](README.md) · [Product catalog](docs/skill-catalog.md) · [Getting started](docs/getting-started.md) · [Delivery and licensing](docs/faq.md)
 
-The repository contains public descriptions and newly authored synthetic demonstrations. Full paid Skill implementations, private references, runtime modules and internal evaluations are maintained and delivered separately. This is a public-viewable showcase, not a release of the complete commercial product.
+## Product overview
 
-## Explore the catalog
+| Workstream | Typical deliverables |
+|---|---|
+| Advertising and content | Advertising drafts, creative scripts, channel copy and creator briefs |
+| Store and product content | Complete product-page copy, search content and catalog consistency reviews |
+| Operations and collaboration | Document updates, support drafts, quotation emails and evidence handoffs |
+| Research and analytics | Candidate comparisons, brand briefs and scoped five-table calculations |
+
+Each Skill specifies the required inputs, a complete work product, review points and the next handoff. Selected examples also show how a change in price, specification or supporting evidence affects the output.
+
+## Eighteen Skills
 
 | Skill | Demonstration |
 |---|---|
@@ -31,41 +40,33 @@ The repository contains public descriptions and newly authored synthetic demonst
 | [Ecommerce Backoffice Review](skills/ecommerce-backoffice/SKILL.md) | [Synthetic input](skills/ecommerce-backoffice/examples/input.md) / [worked output](skills/ecommerce-backoffice/examples/output.md) |
 | [B2B Quotation and Sample Communication](skills/b2b-quotation/SKILL.md) | [Synthetic input](skills/b2b-quotation/examples/input.md) / [worked output](skills/b2b-quotation/examples/output.md) |
 
-The individual demonstration cards and most worked examples are in Chinese, with English customer-facing copy where useful. This English README is an overview, not a claim that the entire repository is translated.
 
-## Try one task
+Individual cards and most examples are in Chinese, with English customer-facing copy where appropriate.
 
-1. Read the chosen public `SKILL.md`, including its limitations.
-2. Give that card and `examples/input.md` to your AI tool. Request a complete response using only the supplied synthetic facts.
-3. Save the first answer before consulting `examples/output.md`. Compare factual accuracy, completeness and treatment of unknowns; wording can differ.
-4. Decide whether the result supports your next work step. Obtain separate permissions and implementation checks for live systems.
+## Using the public examples
 
-Reading requires no installation. A client that supports Skill folders may be used for a single public-demo trial; there is no universal installer or cross-client compatibility guarantee. Uploading these documents into a chat does not install the complete paid product.
+1. Select a Skill and read its task, required inputs and conditions of use.
+2. Provide its public card and synthetic input to your AI tool.
+3. Review the completed result for facts, quantities, unknowns and handoff items, then compare it with the worked example.
 
-## What the examples establish
+The public documents can be read directly. Installation, supported environments and dependencies for the complete product are specified with the selected delivery version.
 
-Examples illustrate advertising preparation, product-page writing, document changes, scoped calculations, content briefs and business handoffs. They are not real customer results or proof of API execution, advertising spend, store updates, media production, marketplace compliance, revenue or ROI.
+## Version and commercial delivery
 
-All inputs are synthetic. Prices and quantities are demonstration assumptions, not commercial offers. No public screenshots are included. No unsupported learning-duration, token-consumption or business-performance claims are published.
+Public documentation version: `0.1.0-public-demo`.
 
-## Commercial delivery
+This repository contains product descriptions and original synthetic examples. Complete methods, supporting references and required runtime modules are delivered separately according to the selected product and version. A commercial delivery should identify its file list, licence, supported environment, price, update term and service conditions. Contact and purchase channels will be announced separately.
 
-The full paid product is outside this repository. A purchase should identify the selected Skills, exact version and files, permitted use, supported environment, third-party costs, update term, support and refund terms. A payment or contact channel has not been opened here. No perpetual-update or unlimited-seat promise is implied.
+## Conditions of use and privacy
 
-## Repository checks
+Examples illustrate the work process and output format. Customer data, account credentials, personal websites and personal contact details are outside the published content. Example amounts are scenario assumptions, not commercial quotations or evidence of business performance.
 
-Python 3.10+ with the standard library is sufficient for the repository checks:
+The public material covers offline preparation and review of supplied information. Live account operations, platform publication and financial actions require separate implementation checks and permissions. Current platform rules must be verified when used.
 
-```bash
-python3 scripts/validate_structure.py
-python3 scripts/scan_public_leaks.py
-python3 -m unittest discover -s tests -v
-```
+[Evidence policy](docs/demo-evidence-policy.md) · [Content scope](docs/public-private-boundary.md) · [Security](SECURITY.md)
 
-These checks cover structure, local links and detectable publication hazards. They do not certify professional advice, live execution or commercial outcomes. GitHub Actions runs the same checks after a push; local success does not imply a hosted CI run has occurred.
+## Licence
 
-## License and policies
+© 2026 ModernLinc. All rights reserved. The public materials include a limited internal-evaluation permission. The complete product is governed by its separate licence.
 
-Copyright © 2026 ModernLinc. All rights reserved. See [LICENSE](LICENSE), [licensing](docs/licensing.md), [public/private boundary](docs/public-private-boundary.md), [evidence policy](docs/demo-evidence-policy.md), [security](SECURITY.md) and [publication audit](PUBLICATION_AUDIT.md).
-
-The notice preserves rights granted by applicable law and GitHub's Terms of Service, including GitHub's public viewing and forking mechanisms. Public visibility does not make the complete paid implementation open source.
+[LICENSE](LICENSE) · [Licensing](docs/licensing.md) · [Changelog](CHANGELOG.md) · [Maintenance](CONTRIBUTING.md)

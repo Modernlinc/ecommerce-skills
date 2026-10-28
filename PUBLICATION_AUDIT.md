@@ -1,14 +1,12 @@
-# Public Publication Audit
+# 公开资料版本核对
 
-版本：`0.1.0-public-demo`。日期：2026-10-28。
+版本：`0.1.0-public-demo` · 日期：2026-10-28 · 维护：ModernLinc
 
-## 范围与文件
+## 发布范围
 
-- 97个公开候选文件（排除Git元数据和Python缓存）。
-- 18张公开SKILL.md；18份合成input和18份合成output；18份截图索引。
-- 截图/图片数量：0；所有索引为NO_PUBLIC_SCREENSHOT_YET。
-- 中英文首页、6份docs、通用合成资料、授权、安全、贡献、CI和本地检查文件均在清单中。
-- 目录和全部本地Markdown链接由结构检查限定在仓库内。新增文件须同时加入具名允许清单，避免随手夹带分发物。
+97个公开文件：18项产品卡片、18组合成输入/输出、18份截图索引，以及中英文首页、目录、使用与授权说明和维护工具。当前未收录公开截图；截图索引保留对应状态。
+
+本仓库不包含完整商业实现、私有参考、客户资料、账户凭证、个人网站或个人联系方式。案例为原创合成资料，使用边界见[证据说明](docs/demo-evidence-policy.md)。
 
 ## 18张卡片
 
@@ -31,31 +29,29 @@
 17. [经营后台](skills/ecommerce-backoffice/SKILL.md)
 18. [B2B](skills/b2b-quotation/SKILL.md)
 
-## 本地核对
+## 维护检查
 
-复核命令：
+- 十八项目录、必备文件和本地链接检查。
+- 公开文件允许清单及常见敏感内容扫描。
+- 17项结构与发布安全回归用例。
+- Git差异格式检查与只读GitHub Actions。
+
+当前提交的实际检查结果以GitHub checks为准。检查范围是公开文档结构、链接和可检测的发布风险，不构成所有客户端安装兼容、专业业务或经营效果认证。标准Skill工具校验未执行（缺少其PyYAML依赖），该限制保留于本版核对范围。
+
+维护命令：
 
 ```bash
 python3 scripts/validate_structure.py
 python3 scripts/scan_public_leaks.py
 python3 -m unittest discover -s tests -v
-git diff --check
 ```
 
-本地结构与链接检查通过；发布内容扫描97文件通过；17项回归测试通过。扫描器只输出路径、行号和类型，不回显疑似凭证值。回归用例覆盖漏字段、重复字段、危险YAML、链接出界、凭证形态、私有路径、禁入文件和强制加入Git的缓存载荷，不创建真实凭证。文件通过这些检查不代表专业方法或经营效果通过独立终验。
+## 隐私与外部链接
 
-标准Skill quick_validate工具因当前环境缺少PyYAML未能运行；未安装依赖，也未把自建结构检查冒称标准工具通过。版本与展示信息放入metadata，保留name和description，避免报告草案中的自定义顶层字段影响标准入口结构。
+产品资料不嵌入个人网站、个人社交链接或真实联系邮箱。演示链接使用保留的example.invalid域名，不连接真实业务。公开文档中的外部说明链接仅用于引用GitHub官方授权资料或官方维护组件。
 
-安全扫描和文件允许清单不能证明绝对无泄漏；本次额外按来源与文件清单复核：案例是新编文字，没有复制完整付费SKILL、运行模块、私有参考、内部测试答案、客户数据、课程正文或历史私有截图。未发现实际凭证、内部绝对路径或成品分发包。未将模型名称、处理数量或本地通过冒称专业/真人验收。
+## 授权与发布
 
-## 发布状态
+本版采用[LICENSE](LICENSE)的All Rights Reserved告知，包含有限内部评估许可。完整产品按独立许可交付。公开仓库的查看与fork机制依GitHub服务条款及适用法律处理，见[授权说明](docs/licensing.md)。
 
-本文件描述可审的公开候选范围，本身不构成远程上传、托管CI、PR、merge或Release的成功回执。实际远程分支、PR与检查状态以GitHub对应对象为准；这些发布过程不写进产品能力。PR保留人工审阅，不自动merge或创建Release。
-
-完整付费产品继续单独交付。本版All Rights Reserved包含有限内部试阅许可，不把公开展示误称完整产品开源。未收录第三方媒体，因此无需替未提供的素材猜测分发权限。
-
-## 官方依据
-
-仓库首页按用途、价值、体验和支持入口组织：[GitHub README说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)。公开查看及fork机制与授权区别依据：[GitHub授权说明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。这不构成法律意见或对平台未来规则的保证。
-
-CI使用[官方checkout](https://github.com/actions/checkout)和[官方setup-python](https://github.com/actions/setup-python)的v7具体提交，已只读核对标签身份，固定SHA而非跟随可移动标签。权限为contents: read，checkout不持久化凭证，没有部署或生产Secrets配置。托管CI是否运行及其结论，以当前commit对应的GitHub checks为准。
+GitHub Actions使用固定提交的[官方checkout](https://github.com/actions/checkout)和[官方setup-python](https://github.com/actions/setup-python)，权限为contents: read，没有部署或生产Secrets配置。分支合并与Release由维护方另行决定。
