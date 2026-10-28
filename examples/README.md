@@ -1,7 +1,7 @@
-# 原创合成演示
+# 原创合成试阅
 
-[返回首页](../README.md) · [18项输入/输出](../docs/skill-catalog.md)
+[首页](../README.md) · [十八项单文件试阅入口](../docs/skill-catalog.md)
 
-每项Skill的examples目录是一组独立合成任务。先看input，保存首答后再看output。输出是人工编写的参考工作稿，不是模型独立测试结果，不要求逐字相同。
+每项Skill的examples/demo.md可独立交给AI，内含全部题设和应交成果；input.md保留独立输入，output.md是保存首答后使用的编辑对照。参考输出不作为模型独立试验或真实业务记录。
 
-[通用商品事实示例](synthetic-product-brief.md)与[委托示例](synthetic-ecommerce-task.md)帮助理解输入方式；每项具体题设以自己的input为准，不能将不同案例的价格和规格自动合并。
+本目录的[通用商品事实示例](synthetic-product-brief.md)和[委托示例](synthetic-ecommerce-task.md)只解释资料形态。具体任务必须用自己的题设；不能把通用示例的价格和规格自动拼入其它任务。

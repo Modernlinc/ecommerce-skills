@@ -4,7 +4,7 @@ description: "对齐候选、报价、交付及内容使用权。仅用于公开
 metadata:
   display_name_zh: "海外达人合作"
   display_name_en: "Influencer Collaboration Research"
-  version: 0.1.0-public-demo
+  version: 0.1.1-public-demo
   status: public-demo
   distribution: public-demo-only
 ---
@@ -27,12 +27,11 @@ metadata:
 
 ## 演示步骤
 
-1. 读取本项[合成输入](examples/input.md)，先确认任务和已给事实。
-2. 分清用户目标、明确事实及未知；缺失事实保持未知。
-3. 只在本页公开范围内组织工作稿；不加载付费方法或私有材料。
-4. 交出完整请求结果，引用输入中能支持它的事实。
-5. 标出限制、待补信息与尚未执行的动作；请求超出范围时停在文字交接。
-6. 完成首答后再阅读[示例输出](examples/output.md)比较；参考答案不代表唯一正确表达或独立盲测。
+1. 打开[单文件试阅](examples/demo.md)，将该文件整体复制或上传给能读取Markdown的AI助手；本页无需再复制。
+2. 按文件里的任务处理合成输入，不登录、不安装依赖，也不读取参考输出代答。
+3. 保存自己的完整结果，按试阅文件的交付清单与逐项核对点检查。
+4. 再看[编辑参考输出](examples/output.md)比较事实、交付形式和未知项处理；不要求逐字相同。
+5. 若缺输入，指出具体缺项并停在文字交接。参考输出不是AI独立运行或完整商业Skill验收的证明。
 
 ## 示例输入
 
@@ -42,9 +41,9 @@ metadata:
 
 [打开完整合成输出](examples/output.md)
 
-## 可公开截图路径
+## 演示材料
 
-[公开截图索引](assets/screenshots/README.md)；当前没有可公开截图。不以占位图伪装真实后台。
+本例提供[单文件试阅](examples/demo.md)、[完整输入](examples/input.md)与[编辑参考输出](examples/output.md)。演示介质为文字；[媒体材料说明](assets/screenshots/README.md)列明本版不含平台截图或成片。
 
 ## 限制说明
 
@@ -54,5 +53,5 @@ metadata:
 
 ## 版本
 
-Public Demo Version: `0.1.0-public-demo`。编写日期：2026-10-28。
+Public Demo Version: `0.1.1-public-demo`。编写日期：2026-10-28。
 只对应本公开资料；完整商业版本单独维护与交付，不因本页而获得完整产品使用授权。
