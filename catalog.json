@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "version": "0.1.1-public-demo",
+  "distribution": "public-demo-only",
+  "maintainer": "ModernLinc",
+  "evidence_type": "authored-synthetic-reference",
+  "delivery": "Markdown catalog, self-contained exercises and reference outputs; five synthetic CSVs for the analytics example. Complete paid implementations are excluded.",
+  "skills": [
+    {
+      "id": "01",
+      "slug": "meta-facebook-ads",
+      "name_zh": "Facebook / Meta 广告",
+      "name_en": "Meta / Facebook Ads",
+      "summary": "把商品事实、素材资源和页面承诺组织成投放前工作稿",
+      "input_requirements": [
+        "商品规格/价格/套装数量",
+        "页面现稿、履约未知项",
+        "可拍素材和禁止主张"
+      ],
+      "deliverables": [
+        "广告层级讨论草案",
+        "两条完整英文广告文字",
+        "两个素材brief、页面补件和未执行项"
+      ],
+      "reader_checks": [
+        "两条广告均交齐正文、标题、描述和行动句。",
+        "商品数量、价格与履约表述逐项对应输入。",
+        "素材建议与可用资源一致，预算与测量未知不补造。"
+      ],
+      "files": {
+        "card": "skills/meta-facebook-ads/SKILL.md",
+        "exercise": "skills/meta-facebook-ads/examples/demo.md",
+        "input": "skills/meta-facebook-ads/examples/input.md",
+        "reference_output": "skills/meta-facebook-ads/examples/output.md",
+        "media_note": "skills/meta-facebook-ads/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "02",
+      "slug": "google-ads",
+      "name_zh": "Google Ads",
+      "name_en": "Google Ads",
+      "summary": "根据已给查询形成 Search-first 广告及承接草稿",
+      "input_requirements": [
+        "商品、尺寸与夹装结构",
+        "四个给定查询",
+        "页面内容与兼容缺口"
+      ],
+      "deliverables": [
+        "四查询逐项处置表",
+        "八条headline及两条description文字候选",
+        "页面承接草稿与实施待核项"
+      ],
+      "reader_checks": [
+        "四个查询都有处置理由，不虚构搜索量。",
+        "广告资产逐条可复制，保留缺失的兼容条件。",
+        "字符计数仅作编辑检查，不等于平台接纳。"
+      ],
+      "files": {
+        "card": "skills/google-ads/SKILL.md",
+        "exercise": "skills/google-ads/examples/demo.md",
+        "input": "skills/google-ads/examples/input.md",
+        "reference_output": "skills/google-ads/examples/output.md",
+        "media_note": "skills/google-ads/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "03",
+      "slug": "codex-ecommerce",
+      "name_zh": "Codex 电商执行",
+      "name_en": "Codex Ecommerce Execution",
+      "summary": "在条件改变时同步多份电商文档的完整稿",
+      "input_requirements": [
+        "三份完整原稿",
+        "明确价格变更",
+        "保持不变的规格与限制"
+      ],
+      "deliverables": [
+        "商品卡完整新版",
+        "FAQ完整新版",
+        "协作简报完整新版及同步位置表"
+      ],
+      "reader_checks": [
+        "三份新版全文交齐，不只是修改建议。",
+        "价格变更在三处同步，尺寸、颜色和兼容限制保留。",
+        "文字改稿与实际文件保存、线上改价分开陈述。"
+      ],
+      "files": {
+        "card": "skills/codex-ecommerce/SKILL.md",
+        "exercise": "skills/codex-ecommerce/examples/demo.md",
+        "input": "skills/codex-ecommerce/examples/input.md",
+        "reference_output": "skills/codex-ecommerce/examples/output.md",
+        "media_note": "skills/codex-ecommerce/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "04",
+      "slug": "shopify-store",
+      "name_zh": "Shopify 独立站",
+      "name_en": "Shopify Store Operations",
+      "summary": "将商品事实整理为可交编辑的完整商品页",
+      "input_requirements": [
+        "尺寸、颜色、价格和单件数量",
+        "现货与出库准备时间",
+        "有问题的原首屏和未知事实"
+      ],
+      "deliverables": [
+        "英文商品页首屏与选项文字",
+        "详情、出库/运输区和FAQ",
+        "中文编辑交接与待补项"
+      ],
+      "reader_checks": [
+        "首屏、详情、选项与FAQ都交齐。",
+        "出库准备和运输到达分别表述。",
+        "不增加未给材质、测试或额外配件交易条件。"
+      ],
+      "files": {
+        "card": "skills/shopify-store/SKILL.md",
+        "exercise": "skills/shopify-store/examples/demo.md",
+        "input": "skills/shopify-store/examples/input.md",
+        "reference_output": "skills/shopify-store/examples/output.md",
+        "media_note": "skills/shopify-store/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "05",
+      "slug": "google-seo",
+      "name_zh": "Google SEO",
+      "name_en": "Google SEO",
+      "summary": "按页面任务组织商品内容和待核信息",
+      "input_requirements": [
+        "页面购买决策任务",
+        "A5/页数/点阵/封面与价格",
+        "未给的纸张和认证证据"
+      ],
+      "deliverables": [
+        "title与meta description",
+        "完整页面正文与FAQ",
+        "内容补证和编辑下一步"
+      ],
+      "reader_checks": [
+        "标题、摘要、正文与FAQ对应同一商品。",
+        "页数不改写成纸张张数，不虚构认证和钢笔适配。",
+        "不编站内链接或承诺排名。"
+      ],
+      "files": {
+        "card": "skills/google-seo/SKILL.md",
+        "exercise": "skills/google-seo/examples/demo.md",
+        "input": "skills/google-seo/examples/input.md",
+        "reference_output": "skills/google-seo/examples/output.md",
+        "media_note": "skills/google-seo/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "06",
+      "slug": "tiktok-content",
+      "name_zh": "TikTok 内容与达人",
+      "name_en": "TikTok Content and Creator Briefs",
+      "summary": "从商品事实形成短视频文字 brief",
+      "input_requirements": [
+        "商品结构、尺寸和价格",
+        "约15秒目标",
+        "自有样品拍法与音乐限制"
+      ],
+      "deliverables": [
+        "内容角度和四段镜头计划",
+        "完整英文口播",
+        "制作交接与购买前补问"
+      ],
+      "reader_checks": [
+        "镜头、屏幕字和口播对应同一事实。",
+        "15秒属于计划，不能称已口读验收或已成片。",
+        "音乐权利和未给的防水/容量主张有边界。"
+      ],
+      "files": {
+        "card": "skills/tiktok-content/SKILL.md",
+        "exercise": "skills/tiktok-content/examples/demo.md",
+        "input": "skills/tiktok-content/examples/input.md",
+        "reference_output": "skills/tiktok-content/examples/output.md",
+        "media_note": "skills/tiktok-content/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "07",
+      "slug": "social-content",
+      "name_zh": "Social 跨平台内容",
+      "name_en": "Social Cross-Platform Content",
+      "summary": "让同一商品在给定渠道拥有不同表达",
+      "input_requirements": [
+        "同一商品规格、价格和兼容未知",
+        "Instagram/LinkedIn两个指定渠道",
+        "各渠道目标与禁止效率承诺"
+      ],
+      "deliverables": [
+        "Instagram完整英文稿和素材brief",
+        "LinkedIn完整英文稿和素材brief",
+        "跨稿事实一致性说明"
+      ],
+      "reader_checks": [
+        "两个渠道各有完整稿、行动句和配图任务。",
+        "表达各有重点，价格规格无跨稿漂移。",
+        "不声称发布、排期或互动增长。"
+      ],
+      "files": {
+        "card": "skills/social-content/SKILL.md",
+        "exercise": "skills/social-content/examples/demo.md",
+        "input": "skills/social-content/examples/input.md",
+        "reference_output": "skills/social-content/examples/output.md",
+        "media_note": "skills/social-content/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "08",
+      "slug": "reddit-research",
+      "name_zh": "Reddit 社区研究",
+      "name_en": "Reddit Community Research",
+      "summary": "从给定讨论材料提取需求并判断参与边界",
+      "input_requirements": [
+        "四条明确虚构的讨论摘要",
+        "给定社区规则",
+        "无品牌测量回应任务"
+      ],
+      "deliverables": [
+        "逐项需求/异议与不可推断项",
+        "完整英文无品牌回应",
+        "参与建议和未执行状态"
+      ],
+      "reader_checks": [
+        "四条讨论都有对应观察，不能推成市场规模。",
+        "回应只回答测量问题，不插入品牌或推广链接。",
+        "有规则和人工确认条件，未称已经发帖。"
+      ],
+      "files": {
+        "card": "skills/reddit-research/SKILL.md",
+        "exercise": "skills/reddit-research/examples/demo.md",
+        "input": "skills/reddit-research/examples/input.md",
+        "reference_output": "skills/reddit-research/examples/output.md",
+        "media_note": "skills/reddit-research/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "09",
+      "slug": "pinterest-commerce",
+      "name_zh": "Pinterest 内容与目录",
+      "name_en": "Pinterest Content and Catalog Mapping",
+      "summary": "把 Pin 表达与商品身份逐项对应",
+      "input_requirements": [
+        "两个SKU的颜色、单件数、价格和演示链接",
+        "两个Pin现稿与图片描述",
+        "不访问链接/上传的要求"
+      ],
+      "deliverables": [
+        "逐Pin问题与更正表",
+        "两条完整英文Pin文字和素材brief",
+        "逐SKU完整演示链接与未执行项"
+      ],
+      "reader_checks": [
+        "两SKU、图片颜色、数量和完整链接一一对应。",
+        "品牌、尺寸等未给事实不添加。",
+        "演示链接为不可用作购物的保留域名。"
+      ],
+      "files": {
+        "card": "skills/pinterest-commerce/SKILL.md",
+        "exercise": "skills/pinterest-commerce/examples/demo.md",
+        "input": "skills/pinterest-commerce/examples/input.md",
+        "reference_output": "skills/pinterest-commerce/examples/output.md",
+        "media_note": "skills/pinterest-commerce/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "10",
+      "slug": "amazon-us",
+      "name_zh": "Amazon 美国站",
+      "name_en": "Amazon US Offline Review",
+      "summary": "核对给定美国站商品材料并准备有限文字草案",
+      "input_requirements": [
+        "两个SKU的套装数量与尺寸",
+        "旧稿的错误主张",
+        "材质/测试/配送证据缺口"
+      ],
+      "deliverables": [
+        "每SKU一个title、三条bullet及短描述",
+        "两SKU错误撤回说明",
+        "当前政策和材料补证交接"
+      ],
+      "reader_checks": [
+        "两个SKU各自的三类文字完整，数量没有混写。",
+        "不从其他案例借入品牌或产品事实。",
+        "不作政策通过、后台提交或送达保证。"
+      ],
+      "files": {
+        "card": "skills/amazon-us/SKILL.md",
+        "exercise": "skills/amazon-us/examples/demo.md",
+        "input": "skills/amazon-us/examples/input.md",
+        "reference_output": "skills/amazon-us/examples/output.md",
+        "media_note": "skills/amazon-us/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "11",
+      "slug": "ad-creative",
+      "name_zh": "广告素材文字策划",
+      "name_en": "Ad Creative Planning",
+      "summary": "把可证明卖点写成完整脚本和逐镜brief",
+      "input_requirements": [
+        "商品固定结构、尺寸、颜色和价格",
+        "自有样品与拍摄资源",
+        "15秒目标和不可用测试/音乐"
+      ],
+      "deliverables": [
+        "方向选择和完整英文旁白",
+        "四段逐镜表及依据",
+        "资源不足替代拍法与制作检查项"
+      ],
+      "reader_checks": [
+        "旁白、镜头和屏幕文字各有对应事实。",
+        "替代拍法不依赖未获许可的素材。",
+        "计划时长与实际成片验收分开。"
+      ],
+      "files": {
+        "card": "skills/ad-creative/SKILL.md",
+        "exercise": "skills/ad-creative/examples/demo.md",
+        "input": "skills/ad-creative/examples/input.md",
+        "reference_output": "skills/ad-creative/examples/output.md",
+        "media_note": "skills/ad-creative/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "12",
+      "slug": "ecommerce-analytics",
+      "name_zh": "广告与电商数据核算",
+      "name_en": "Ecommerce and Advertising Analytics",
+      "summary": "在明确五表口径下展示贡献核算与缺证影响",
+      "input_requirements": [
+        "五份合成CSV或本页相同数据块",
+        "USD/日期/订单关联与费用口径",
+        "支付费用证据撤回情景"
+      ],
+      "deliverables": [
+        "四项核算的逐步算式与结果",
+        "平台归因和订单口径说明",
+        "费用撤回后的保留/撤回结果"
+      ],
+      "reader_checks": [
+        "订单关联与当日广告汇总不混成同一口径。",
+        "用给定数据逐步核算，缺失费用不按零。",
+        "CSV与题设一致；未声称生成工作簿或执行商业核算器。"
+      ],
+      "files": {
+        "card": "skills/ecommerce-analytics/SKILL.md",
+        "exercise": "skills/ecommerce-analytics/examples/demo.md",
+        "input": "skills/ecommerce-analytics/examples/input.md",
+        "reference_output": "skills/ecommerce-analytics/examples/output.md",
+        "media_note": "skills/ecommerce-analytics/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "13",
+      "slug": "customer-support",
+      "name_zh": "客服与私信",
+      "name_en": "Customer Support Drafting",
+      "summary": "依据给定状态准备回复与内部交接",
+      "input_requirements": [
+        "单事项物流时间线",
+        "顾客原问题",
+        "退款政策和当前无发送/退款权限"
+      ],
+      "deliverables": [
+        "完整英文回复草稿",
+        "中文时间线与补证/人工待办",
+        "发送、退款、取消和交接状态"
+      ],
+      "reader_checks": [
+        "英文对客草稿不夹入内部演示注释。",
+        "不把运输中改写为丢件或保证送达。",
+        "未发送、未退款、未实际接手状态清楚。"
+      ],
+      "files": {
+        "card": "skills/customer-support/SKILL.md",
+        "exercise": "skills/customer-support/examples/demo.md",
+        "input": "skills/customer-support/examples/input.md",
+        "reference_output": "skills/customer-support/examples/output.md",
+        "media_note": "skills/customer-support/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "14",
+      "slug": "brand-brief",
+      "name_zh": "品牌简报研究",
+      "name_en": "Brand Brief Research",
+      "summary": "比较表达方向并形成有取舍的简报",
+      "input_requirements": [
+        "商品事实和两种表达方向",
+        "可用样品与缺少的测试/研究",
+        "双口袋证据撤回情景"
+      ],
+      "deliverables": [
+        "两方向证据比较与条件选择",
+        "完整英文首屏V1",
+        "撤证后完整V2及下一验证"
+      ],
+      "reader_checks": [
+        "两方向取舍有输入依据。",
+        "撤证后V2同步移除对应主张。",
+        "没有消费者研究却不声称定位已验证。"
+      ],
+      "files": {
+        "card": "skills/brand-brief/SKILL.md",
+        "exercise": "skills/brand-brief/examples/demo.md",
+        "input": "skills/brand-brief/examples/input.md",
+        "reference_output": "skills/brand-brief/examples/output.md",
+        "media_note": "skills/brand-brief/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "15",
+      "slug": "product-selection",
+      "name_zh": "选品研究",
+      "name_en": "Product Selection Research",
+      "summary": "在给定候选、MOQ和预算下做条件比较",
+      "input_requirements": [
+        "三个候选的MOQ和单价",
+        "总预算、储备与货值上限",
+        "运税、样品和需求未知项"
+      ],
+      "deliverables": [
+        "三候选最低货值比较表",
+        "有条件的样品证据补充顺序",
+        "目标改变后的判断及下一补件"
+      ],
+      "reader_checks": [
+        "MOQ乘单价、货值上限和储备口径清楚。",
+        "首批货值与样品采购费用分别处理。",
+        "未知运税不按零，不把研究排序写成采购批准。"
+      ],
+      "files": {
+        "card": "skills/product-selection/SKILL.md",
+        "exercise": "skills/product-selection/examples/demo.md",
+        "input": "skills/product-selection/examples/input.md",
+        "reference_output": "skills/product-selection/examples/output.md",
+        "media_note": "skills/product-selection/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "16",
+      "slug": "influencer-collaboration",
+      "name_zh": "海外达人合作",
+      "name_en": "Influencer Collaboration Research",
+      "summary": "对齐候选、报价、交付及内容使用权",
+      "input_requirements": [
+        "本案例独立给出的产品事实与样品条件",
+        "两个合成候选报价/交付/修改和使用权",
+        "预算、用途及运费未知"
+      ],
+      "deliverables": [
+        "候选权利/报价比较",
+        "条件成本和待确认许可",
+        "给B的完整英文内部brief"
+      ],
+      "reader_checks": [
+        "brief所有产品事实均能在本项输入找到。",
+        "报价与含运费总预算分开。",
+        "30天商品页用途与付费广告权不混写，不称已外联或签约。"
+      ],
+      "files": {
+        "card": "skills/influencer-collaboration/SKILL.md",
+        "exercise": "skills/influencer-collaboration/examples/demo.md",
+        "input": "skills/influencer-collaboration/examples/input.md",
+        "reference_output": "skills/influencer-collaboration/examples/output.md",
+        "media_note": "skills/influencer-collaboration/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "17",
+      "slug": "ecommerce-backoffice",
+      "name_zh": "跨境经营后台",
+      "name_en": "Ecommerce Backoffice Review",
+      "summary": "把同笔交易的订单、结算和费用证据核对清楚",
+      "input_requirements": [
+        "同笔订单收款/退款",
+        "具名结算来源和物流摘要",
+        "结算来源被发现属于其他交易的情景"
+      ],
+      "deliverables": [
+        "金额与证据对应表",
+        "来源撤回后的逐项更新",
+        "专业交接补件清单"
+      ],
+      "reader_checks": [
+        "算术一致与结算真实性分开。",
+        "来源错交易时撤回对应支付费和入账结论。",
+        "保留原订单可支持的金额，不计算未知成本下净利润。"
+      ],
+      "files": {
+        "card": "skills/ecommerce-backoffice/SKILL.md",
+        "exercise": "skills/ecommerce-backoffice/examples/demo.md",
+        "input": "skills/ecommerce-backoffice/examples/input.md",
+        "reference_output": "skills/ecommerce-backoffice/examples/output.md",
+        "media_note": "skills/ecommerce-backoffice/assets/screenshots/README.md"
+      }
+    },
+    {
+      "id": "18",
+      "slug": "b2b-quotation",
+      "name_zh": "外贸 B2B 报价与样品沟通",
+      "name_en": "B2B Quotation and Sample Communication",
+      "summary": "分开商业报价、样品费用和未确认条件",
+      "input_requirements": [
+        "300件需求与两件样品请求",
+        "待批单价线索/样品价",
+        "规格、未知物流税费和交期"
+      ],
+      "deliverables": [
+        "批量非绑定报价表",
+        "独立样品费用表",
+        "完整英文回复、补问与审批交接"
+      ],
+      "reader_checks": [
+        "批量货值和样品费各算各的。",
+        "价格线索、正式批准和运输总价区分清楚。",
+        "不替工厂保证产能、交期或已发邮件。"
+      ],
+      "files": {
+        "card": "skills/b2b-quotation/SKILL.md",
+        "exercise": "skills/b2b-quotation/examples/demo.md",
+        "input": "skills/b2b-quotation/examples/input.md",
+        "reference_output": "skills/b2b-quotation/examples/output.md",
+        "media_note": "skills/b2b-quotation/assets/screenshots/README.md"
+      }
+    }
+  ]
+}
