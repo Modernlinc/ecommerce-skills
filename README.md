@@ -8,7 +8,15 @@ ModernLinc 将广告准备、商品内容、数据核算和业务协作组织为
 
 ## 先试一项
 
-[打开“改一次价格，交三份完整稿”](skills/codex-ecommerce/examples/demo.md) → 将这一个Markdown文件整体复制或上传给AI → 保存回答 → [与参考工作稿比较](skills/codex-ecommerce/examples/output.md)。题设和委托要求都在文件内，无需补真实资料、登录或安装依赖。
+先从[三个小任务的试阅入口](docs/try.md)选择：
+
+|眼前的工作|直接打开题设|会看到什么|
+|---|---|---|
+|改价后同步多份文稿|[一次改价，三份完整稿](skills/codex-ecommerce/examples/demo.md)|商品卡、FAQ与协作简报的完整新版|
+|准备商品广告|[两条广告与素材交接](skills/meta-facebook-ads/examples/demo.md)|广告文字、素材brief及页面待办|
+|整理商品页|[从商品事实到完整页面](skills/shopify-store/examples/demo.md)|首屏、选项、详情、出库说明和FAQ|
+
+选择一份Markdown → 复制全文或保存后交给AI → 自查成果 → 再看编辑参考。[试阅入口](docs/try.md)有原始文件链接和可复制的委托，不用先下载整个文件夹。
 
 当前提供的是**十八项公开产品介绍与文字试阅**，不是完整付费产品安装库。每项均有独立输入、明确应交成果和编辑参考输出；数据案例另有[五份CSV](skills/ecommerce-analytics/examples/data/README.md)。详细题设和核对以中文为主，业务文案按任务采用英文。
 

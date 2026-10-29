@@ -39,6 +39,7 @@ REQUIRED = (
     'docs/updates-and-feedback.md',
     '.github/ISSUE_TEMPLATE/01-product-question.md',
     '.github/ISSUE_TEMPLATE/02-documentation.md',
+    'docs/try.md', '.github/ISSUE_TEMPLATE/03-trial-feedback.md',
 )
 CSV_FIELDS = {
     'orders.csv': ('order_id', 'currency', 'gross_usd'),

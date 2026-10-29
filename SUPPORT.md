@@ -7,7 +7,7 @@
 先查看[使用指南](docs/getting-started.md)、[常见问题](docs/faq.md)和[兼容范围](docs/compatibility.md)。仍需帮助时，在[仓库Issues](https://github.com/Modernlinc/ecommerce-skills/issues)新建问题，可按下面的格式填写：
 
 ```text
-类型：文档问题 / 试阅缺项 / 产品评估询问
+类型：文档问题 / 试阅缺项 / 产品评估询问 / 试用反馈
 公开版本：0.1.1-public-demo
 涉及文件或Skill：
 我想完成的任务：
@@ -17,6 +17,8 @@
 ```
 
 一次集中描述一个问题。AI回答可附不含隐私的短摘录；不要贴内部思考过程、客户资料、账单、凭证、付费包或合同。不同模型的措辞差异本身不等于资料缺陷。产品适配询问只需描述任务、材料类型和准备使用的工具。资料版本及反馈如何进入维护，见[更新与反馈](docs/updates-and-feedback.md)。
+
+试完一项或卡在某一步时，也可使用“Trial feedback / 试用反馈”模板，区分尚未开始、已发任务和已收到输出。阅读、保存公开题设无需业务登录；发Issue需要GitHub账号。
 
 ## 产品评估与商业支持
 
