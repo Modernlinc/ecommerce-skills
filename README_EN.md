@@ -8,7 +8,9 @@ ModernLinc organizes advertising preparation, product content, data reconciliati
 
 ## Try one complete exercise
 
-[Open the single-file price-update exercise](skills/codex-ecommerce/examples/demo.md), provide that Markdown file to an AI assistant, save its response, and then [compare it with the authored reference](skills/codex-ecommerce/examples/output.md). All scenario inputs and requested deliverables are included. No business login or dependency installation is needed.
+Start with one of [three small task previews (中文)](docs/try.md): [update a price across three documents](skills/codex-ecommerce/examples/demo.md), [prepare two ads and a creative handoff](skills/meta-facebook-ads/examples/demo.md), or [draft a complete product page](skills/shopify-store/examples/demo.md).
+
+Copy or save that single Markdown exercise, give it to your AI assistant, keep the response, then check it against the requested deliverables before viewing the authored reference. The trial guide includes raw-file links and a ready-to-copy request. No repository installation or business-account access is needed; you use your own AI tool under its terms.
 
 This is a **public product catalog and text-evaluation package**, not the complete paid Skill library. Each item includes a self-contained exercise, separate input and authored reference output. The analytics example also provides [five synthetic CSVs](skills/ecommerce-analytics/examples/data/README.md). Detailed exercises and checks are primarily Chinese, with English business copy where requested.
 
