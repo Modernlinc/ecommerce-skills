@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "id": "SELECTION-PRACTICAL-20261020-PKG-01",
+  "date": "2026-10-20",
+  "status": "PACKAGING_CANDIDATE_AWAITING_CONTROLLER_CHECK",
+  "entry": "00_开始使用.md",
+  "tutorial": "01_完整教学示范.md",
+  "skill_entry": "原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md",
+  "source_scope": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/source-scope.md",
+  "total_files_including_manifest": 12,
+  "payload_count": 11,
+  "payload_bytes": 74613,
+  "inventory_scope": "All current package files except this CURRENT_MANIFEST.json. Paths are relative to this package root.",
+  "self_hash_policy": "This manifest excludes its own size and hash from payload_count, payload_bytes and files; it is not a quality verdict.",
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 5479,
+      "sha256": "6b48b2771244218b7eb54578f76cf37cd9b27c329ff6db7d42a774e1aa694ff3"
+    },
+    {
+      "path": "01_完整教学示范.md",
+      "bytes": 9026,
+      "sha256": "6b40114aef543ca1df1fb5cc9b0cb08924814917ff2c843b764d0d9643c6b3dc"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/knowledge/official-verification/OFFICIAL_FACT_RECHECK_2026-09-05.md",
+      "bytes": 1448,
+      "sha256": "110ae0d8443d3091bcd678e3ae55188503e3c698e0879b971e8d6cf87d7f8c06"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/claim-admission-and-maturity.md",
+      "bytes": 6799,
+      "sha256": "ee8a199ab518940e5754f27a3a07bdf76235a712839b7d6994ebc584bc6bf060"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/decision-workflow.md",
+      "bytes": 12097,
+      "sha256": "b8de4032be6a39d9044be07eb11b4875806a4c184ff09fde8bca76987c638176"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/evidence-schema.md",
+      "bytes": 5362,
+      "sha256": "c6b0e47c4c3e3ab68405fe684a27039a99f5cf903bcddb9ebea18394bf9a75bd"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/platform-adapters.md",
+      "bytes": 3624,
+      "sha256": "c73cbde874813dd54890b2694b767568fa2762457da43bb3952a902cf7b5d4ea"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/replenishment-and-supplier-evidence.md",
+      "bytes": 4783,
+      "sha256": "9e754c0691a19e503b310e4c32f647de2722fb253683a34c440d05414307b2e9"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/source-scope.md",
+      "bytes": 5156,
+      "sha256": "d0bdf1e732f5818d61116041f9dcd7919b4ab8a32c4dab6ad8abb5253b0334c9"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/templates.md",
+      "bytes": 4463,
+      "sha256": "11da6ddde131d4e7293e927966c1807db3896c22a07e2a4678b7d736813de356"
+    },
+    {
+      "path": "原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md",
+      "bytes": 16376,
+      "sha256": "6e1292e34e35866a0063efb30fd20d3a568879b8a8928572a0db5be8f8b68e5c"
+    }
+  ],
+  "parent": {
+    "id": "SELECTION-PRELAUNCH-W1-20261019-01",
+    "manifest_sha256": "d762cb6e858bc961b8f0cec9aa4491511a27f46b723e6da7a683db6af5167c22"
+  },
+  "changes": {
+    "unchanged_payloads": 7,
+    "navigation_and_identity_only": 3,
+    "new_source_scope": 1,
+    "reconstructed_manifest": 1,
+    "parent_members_not_copied": 11,
+    "source_originals_deleted": false
+  },
+  "maturity": {
+    "method_scope": "既有条件性、有限离线选品研究；包装不增加方法或业务成熟度。",
+    "old_teaching_publication_dates_unknown": 156,
+    "formal_course_method_basis": 0,
+    "unlearned_exceptions_retained": 28,
+    "source_constraints_reference": "原版方法包/payload/研究方法/已验研究包/product-selection-research/references/source-scope.md",
+    "historical_official_verification_date": "2026-09-05",
+    "new_business_validation": false,
+    "new_independent_qa": false
+  },
+  "release_status": {
+    "controller_verdict": null,
+    "formal_adoption": false,
+    "knowledge_sync": false,
+    "installed": false,
+    "published": false,
+    "scope": "These flags apply only to this new package, not to the historical parent or other versions."
+  }
+}

@@ -1,0 +1,833 @@
+{
+  "schema_version": 1,
+  "package_name": "tiktok-operations",
+  "package_version": "1.0.0-rc.3+demo.20261012.1+s3.1",
+  "stage": "S3-TEXT-CONTINUATION-CANDIDATE",
+  "status": "S3_CANDIDATE_FROZEN_PENDING_USE",
+  "freeze_kind": "s3_scoped_candidate",
+  "whole_scope_readiness": "awaiting_normal_task_and_natural_followup",
+  "whole_package_complete": false,
+  "formal_admission": false,
+  "current_facts_reverified": false,
+  "independent_final_qa": "not_started_for_S3",
+  "prepared_on": "2026-10-14",
+  "payload_count": 46,
+  "hashed_payload_count": 45,
+  "scope": "46 inner files plus 3 outer files, same parent layout; two business-section revisions and necessary identity metadata only. S3 business runs are zero; historical examples and QA are not S3 tests.",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 5950,
+      "sha256": "ad33f35c423256ca7e8587f643ac9be192cb5bc7b21de8dd65e087fda82de592"
+    },
+    {
+      "path": "COMPATIBILITY.json",
+      "bytes": 2970,
+      "sha256": "67821a2d9c29c08d696c4afe98235d4e6a8b6288bd08b7baeba8ba95c81ae726"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2698,
+      "sha256": "27e60da274a02598b9db3ca70f9b424983ab2a33bf7d1f791ecfb46f0e930f4c"
+    },
+    {
+      "path": "RIGHTS.json",
+      "bytes": 66786,
+      "sha256": "713341f431694d0593f7ac8dd88e6164dd168ba29759f5c7e5863f9a4c6bb3be"
+    },
+    {
+      "path": "METHOD.md",
+      "bytes": 16759,
+      "sha256": "3c257e9934a73bc5449e119c3c30d8f2568b99b5a17401f66710f51034978d99"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1599,
+      "sha256": "762051d22e2e038d51ea2229059ebd235751d9fbf7e119f47fe14062afe2df10"
+    },
+    {
+      "path": "USAGE.md",
+      "bytes": 9087,
+      "sha256": "64e0392638d75f8498764b4a6c4e564a2a7fc8581ad272074b2c7a8d427fbe6b"
+    },
+    {
+      "path": "VERSION.json",
+      "bytes": 47660,
+      "sha256": "7cec96a60f7723ea06051feeb8d8c84bef481e299a8f3f78a980ced31c35da8f"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+    },
+    {
+      "path": "examples/brief-fusion/INPUT.md",
+      "bytes": 3175,
+      "sha256": "51ec2e7560f663766111ff84e33f367708a6017dcef72e3553a9dd79dfa8413e"
+    },
+    {
+      "path": "examples/brief-fusion/OUTPUT.md",
+      "bytes": 5811,
+      "sha256": "090f02e2908727df580de9fbc7b8c6519f806f068816f643d64cc38bb4e6337a"
+    },
+    {
+      "path": "examples/creator/INPUT.md",
+      "bytes": 7320,
+      "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+    },
+    {
+      "path": "examples/creator/OUTPUT.md",
+      "bytes": 23943,
+      "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+    },
+    {
+      "path": "examples/demo-evidence/INPUT.md",
+      "bytes": 3005,
+      "sha256": "82f9ae7f6f2fd2174a549306516ef35ad0bccc1dd88e2e85f7e4a08ecfbce3ef"
+    },
+    {
+      "path": "examples/demo-evidence/OUTPUT.md",
+      "bytes": 6938,
+      "sha256": "c2b809f0c0255116b1d369ff93eab4d3bd0550dd8f8e9e2cb17bcb3a207c49f9"
+    },
+    {
+      "path": "examples/live/INPUT.md",
+      "bytes": 11873,
+      "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+    },
+    {
+      "path": "examples/live/OUTPUT.md",
+      "bytes": 26079,
+      "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+    },
+    {
+      "path": "examples/organic-shop/INPUT.md",
+      "bytes": 7000,
+      "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+    },
+    {
+      "path": "examples/organic-shop/OUTPUT.md",
+      "bytes": 21454,
+      "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+    },
+    {
+      "path": "examples/product-content/INPUT.md",
+      "bytes": 7057,
+      "sha256": "44b67301d244b3944db31c9d86588f81e4cdd499625296431a7c1707c46491be"
+    },
+    {
+      "path": "examples/product-content/OUTPUT.md",
+      "bytes": 16291,
+      "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+    },
+    {
+      "path": "examples/product-gmv-max/INPUT.md",
+      "bytes": 6505,
+      "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+    },
+    {
+      "path": "examples/product-gmv-max/OUTPUT.md",
+      "bytes": 19727,
+      "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+    },
+    {
+      "path": "examples/website-ads/INPUT.md",
+      "bytes": 7935,
+      "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+    },
+    {
+      "path": "examples/website-ads/OUTPUT.md",
+      "bytes": 23460,
+      "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+    },
+    {
+      "path": "provenance/creator-code-conditions.md",
+      "bytes": 1330,
+      "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+    },
+    {
+      "path": "provenance/limits.md",
+      "bytes": 11257,
+      "sha256": "a5b4a0a5dac6bcf4c37992b6a363574f2dc417744670148aa7521e6779efc10b"
+    },
+    {
+      "path": "provenance/method-source-map.json",
+      "bytes": 30687,
+      "sha256": "be36612ffe9f4fb1c7171ed97d559b5d6960d9c15ddd49a57dc08e1c11588a5d"
+    },
+    {
+      "path": "provenance/official-facts.md",
+      "bytes": 3180,
+      "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf"
+    },
+    {
+      "path": "provenance/round-three-source-fusion.md",
+      "bytes": 3778,
+      "sha256": "3e27b80b857f57a55e8f3aba99ef6c1bb42d88e809d504d2fa7035c97944f6b8"
+    },
+    {
+      "path": "provenance/round-two-source-fusion.md",
+      "bytes": 6357,
+      "sha256": "ae27e3698bad406544a420b04c360f14cc56a868bbc4675655ae437500ebff89"
+    },
+    {
+      "path": "provenance/us-registration-source-index.md",
+      "bytes": 2388,
+      "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f"
+    },
+    {
+      "path": "references/ads-delivery-and-diagnostics.md",
+      "bytes": 6975,
+      "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+    },
+    {
+      "path": "references/ads-measurement-and-experiments.md",
+      "bytes": 18676,
+      "sha256": "aa9959856f1eae7e94a024f1a821b881de2c8b05f37f997539d314c806f750e9"
+    },
+    {
+      "path": "references/beginner-first-route-and-glossary.md",
+      "bytes": 11581,
+      "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+    },
+    {
+      "path": "references/business-center-and-asset-governance.md",
+      "bytes": 4998,
+      "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+    },
+    {
+      "path": "references/compliance-and-approval-gates.md",
+      "bytes": 3974,
+      "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+    },
+    {
+      "path": "references/content-operating-system.md",
+      "bytes": 19702,
+      "sha256": "68d54f701b9c33e597be4651a4067e10c8b24aee79308da0ae573d4a9b2df518"
+    },
+    {
+      "path": "references/creator-collaboration-objects.md",
+      "bytes": 7030,
+      "sha256": "da6401a0f22596ef20544e1a9f334d4923fc2644e7c451a3581dd6a62bccc9d6"
+    },
+    {
+      "path": "references/evidence-and-practitioner-method-admission.md",
+      "bytes": 8743,
+      "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+    },
+    {
+      "path": "references/live-operations-and-analysis.md",
+      "bytes": 5617,
+      "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+    },
+    {
+      "path": "references/organic-account-and-content-growth.md",
+      "bytes": 7580,
+      "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95"
+    },
+    {
+      "path": "references/shop-creator-and-live.md",
+      "bytes": 12705,
+      "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396"
+    },
+    {
+      "path": "references/shop-merchandising-and-health.md",
+      "bytes": 9459,
+      "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec"
+    },
+    {
+      "path": "references/source-learning-and-evidence.md",
+      "bytes": 699,
+      "sha256": "36ae220022339a88bc186ae6a6f6e335a24d99d25d24cdb3f7cf174ff549c5be"
+    }
+  ],
+  "self_binding": {
+    "path": "MANIFEST.json",
+    "self_hash_excluded": true,
+    "external_binding": "../../../../CANDIDATE_MANIFEST.json binds all49 candidate files, including this inner manifest. The external manifest and IMPLEMENTATION_RECEIPT.md are outside this payload; no ZIP is created."
+  },
+  "current_inheritance": {
+    "baseline_inner": 46,
+    "inner_byte_reuse": 39,
+    "inner_changed": 7,
+    "inner_new": 0,
+    "outer_changed": 2,
+    "outer_companion_reused": true,
+    "historical_example_files_reused": 16
+  },
+  "current_uncompleted": [
+    "normal_task_and_natural_followup_not_run",
+    "S3_independent_final_QA_and_local_acceptance_not_received",
+    "S4_formal_entry_and_necessary_knowledge_alignment_pending",
+    "T01_T13_original_unverified_scope_held",
+    "F01_FH01_source_dates_rights_real_effects_and_compatibility_exceptions_retained"
+  ],
+  "inherited_evidence": "limited prior B6 two-turn journey and one risk handoff; 56 arithmetic and259 formal deposit are historical occurred evidence, not executions on this new combination",
+  "candidate_release_authorized": false,
+  "dependencies": {
+    "private_runtime_dependencies": false,
+    "network_required_for_offline_draft": false,
+    "external_links": "historical source citations; not accessed during preparation; current official verification required when applicable"
+  },
+  "source_and_rights": "RIGHTS.json and provenance/limits.md retain historical grants, held sources and unread boundaries; no original private corpus shipped",
+  "packaging_overlay": {
+    "id": "TIKTOK-486-20260912",
+    "source_manifest_sha256": "6264375d32dd1555bbdae5fc62d02bfc3906b5a01da589f4ef25ab3ed9733c3b",
+    "private_workflow_replaced_by_exclusion_notice": true,
+    "outer_entry": "../先读我.md",
+    "formal_qa": "not_performed"
+  },
+  "historical_pre_maintenance_fields_20261010": {
+    "package_version": "1.0.0-rc.3+brief.20261010.1",
+    "stage": "ROUND-TWO-BRIEF-CANDIDATE",
+    "status": "round_two_frozen_candidate_not_final_qa",
+    "freeze_kind": "round_two_brief_candidate",
+    "whole_scope_readiness": "awaiting_independent_final_qa_for_declared_offline_scope",
+    "independent_final_qa": "not_invited_not_performed",
+    "scope": "42-file Sep14 mother retained as 32 byte-identical files and10 bounded updates; add3 portable brief evidence/example files. Inner43 files; entire candidate45. Formal working content reference supplies only already-recorded brief and music increments; no full-domain or live-operation claim.",
+    "current_inheritance": {
+      "mother_inner_files": 40,
+      "inner_byte_reuse": 32,
+      "inner_changed": 8,
+      "inner_new": 3,
+      "outer_entry_updates": 2,
+      "historical_examples_byte_reuse": 12
+    },
+    "current_uncompleted": [
+      "independent_final_QA",
+      "complete_T01_T13_delivery_evidence_not_established",
+      "full_autonomous_weekly_report_outside_current_validated_scope",
+      "current_market_account_and_business_facts",
+      "buyer_terms_and_release_gates"
+    ],
+    "round_two": {
+      "id": "TIKTOK_R2_BRIEF_CANDIDATE_20261010_01",
+      "mother": "2026-09-14 42-file limited offline delivery",
+      "inherited_method_scope": "T01-T13 retained with original limitations",
+      "method_ids": [
+        "TT-R2-BRIEF-20261010",
+        "TT-MUSIC-CANDIDATE-20260922"
+      ],
+      "adoption_state": "project_trial",
+      "formal_policy": false,
+      "source_summary": "provenance/round-two-source-fusion.md",
+      "input": "examples/brief-fusion/INPUT.md",
+      "producer_output": "examples/brief-fusion/OUTPUT.md",
+      "producer_observation": "one_synthetic_working_method_application_not_independent_or_new_container_validation",
+      "formal_dual_deposit": "TIKTOK_BRIEF_DUAL_DEPOSIT_RECEIVED_20261010_01",
+      "independent_final_qa": "not_invited_not_performed",
+      "historical_fields_note": "Existing baseline, examples, inheritance, packaging_overlay and prior approval records refer to their named historical versions, not a new-container pass."
+    },
+    "self_binding": {
+      "path": "MANIFEST.json",
+      "self_hash_excluded": true,
+      "external_binding": "The sibling ASSEMBLY_AND_FREEZE_RECEIPT.json outside the45-file payload binds the final manifest and every payload file; receipt is not self-hashed."
+    }
+  },
+  "current_delivery_ref": "VERSION.json#/current_delivery",
+  "historical_r2_current_state_20261010": {
+    "package_version": "1.0.0-rc.3+brief.20261010.2",
+    "stage": "BOUNDED-LOCAL-DELIVERY",
+    "status": "maintenance_delta_awaiting_controller_retest_and_local_acceptance",
+    "freeze_kind": "bounded_local_delivery_maintenance",
+    "whole_scope_readiness": "maintenance_delta_awaiting_controller_retest_and_local_acceptance",
+    "independent_final_qa": "reviewed_basis_pass_with_exceptions_current_delta_pending",
+    "prepared_on": "2026-10-10",
+    "payload_count": 43,
+    "hashed_payload_count": 42,
+    "scope": "Inner43 files: 10 bounded status/metadata maintenance changes and33 byte-identical files versus the reviewed Oct10 candidate. Whole delivery46: inner43, two maintained Chinese entries and one byte-identical Sep22 file-delivery companion. Professional methods and examples unchanged except one non-method music status pointer. No full-domain or live-operation claim.",
+    "current_delivery_ref": "VERSION.json#/current_delivery",
+    "self_binding": {
+      "path": "MANIFEST.json",
+      "self_hash_excluded": true,
+      "external_binding": "The external DELIVERY_RECEIPT.json beside the46-file payload records the final manifest, all46 payload identities and ZIP/extraction readback; receipt is not self-hashed."
+    },
+    "current_inheritance": {
+      "mother_inner_files": 43,
+      "inner_byte_reuse": 33,
+      "inner_changed": 10,
+      "inner_new": 0,
+      "outer_entry_updates": 2,
+      "outer_new_companion": 1,
+      "historical_examples_byte_reuse": 12,
+      "brief_example_files_byte_reuse": 2
+    },
+    "current_uncompleted": [
+      "maintenance_delta_controller_retest_and_local_acceptance",
+      "complete_T01_T13_delivery_evidence_not_established",
+      "full_autonomous_weekly_report_outside_current_validated_scope",
+      "current_market_account_and_business_facts",
+      "buyer_terms_and_release_gates"
+    ],
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "bytes": 4589,
+        "sha256": "b597ca64e0c17321f7df02ee85f88e229a7081f4b9d84bcd57bcf63d19e96e1d"
+      },
+      {
+        "path": "COMPATIBILITY.json",
+        "bytes": 2304,
+        "sha256": "024aefd43e0c4643d00e2f308691f8e896007e8aedc0ac48ae2ef61fcb48c9c9"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1387,
+        "sha256": "3493b95a70b42d02cac13c4a193c5ac143b66d249fdc08d955cb5203b395159c"
+      },
+      {
+        "path": "RIGHTS.json",
+        "bytes": 52643,
+        "sha256": "2fd7578f0fb0cf727be47d8e18bdfa55da3ca787284d44954643f0df158b5891"
+      },
+      {
+        "path": "METHOD.md",
+        "bytes": 14840,
+        "sha256": "69851d9dde8beeba6d35bf919528203071c1686650fcf2dec972e6678535e128"
+      },
+      {
+        "path": "SUPPORT.md",
+        "bytes": 1599,
+        "sha256": "762051d22e2e038d51ea2229059ebd235751d9fbf7e119f47fe14062afe2df10"
+      },
+      {
+        "path": "USAGE.md",
+        "bytes": 7546,
+        "sha256": "4fc2296f9ab16d452992a4bb6766491f4c3aca222a553fa2fa968e3ca240f810"
+      },
+      {
+        "path": "VERSION.json",
+        "bytes": 38203,
+        "sha256": "f4ad41251a6ebd25c7d6b92da01f811c3557b1b5643e8cc2a0fd1cfad71b9ade"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "bytes": 352,
+        "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+      },
+      {
+        "path": "examples/brief-fusion/INPUT.md",
+        "bytes": 3175,
+        "sha256": "51ec2e7560f663766111ff84e33f367708a6017dcef72e3553a9dd79dfa8413e"
+      },
+      {
+        "path": "examples/brief-fusion/OUTPUT.md",
+        "bytes": 5811,
+        "sha256": "090f02e2908727df580de9fbc7b8c6519f806f068816f643d64cc38bb4e6337a"
+      },
+      {
+        "path": "examples/creator/INPUT.md",
+        "bytes": 7320,
+        "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+      },
+      {
+        "path": "examples/creator/OUTPUT.md",
+        "bytes": 23943,
+        "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+      },
+      {
+        "path": "examples/live/INPUT.md",
+        "bytes": 11873,
+        "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+      },
+      {
+        "path": "examples/live/OUTPUT.md",
+        "bytes": 26079,
+        "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+      },
+      {
+        "path": "examples/organic-shop/INPUT.md",
+        "bytes": 7000,
+        "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+      },
+      {
+        "path": "examples/organic-shop/OUTPUT.md",
+        "bytes": 21454,
+        "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+      },
+      {
+        "path": "examples/product-content/INPUT.md",
+        "bytes": 7057,
+        "sha256": "44b67301d244b3944db31c9d86588f81e4cdd499625296431a7c1707c46491be"
+      },
+      {
+        "path": "examples/product-content/OUTPUT.md",
+        "bytes": 16291,
+        "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+      },
+      {
+        "path": "examples/product-gmv-max/INPUT.md",
+        "bytes": 6505,
+        "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+      },
+      {
+        "path": "examples/product-gmv-max/OUTPUT.md",
+        "bytes": 19727,
+        "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+      },
+      {
+        "path": "examples/website-ads/INPUT.md",
+        "bytes": 7935,
+        "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+      },
+      {
+        "path": "examples/website-ads/OUTPUT.md",
+        "bytes": 23460,
+        "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+      },
+      {
+        "path": "provenance/creator-code-conditions.md",
+        "bytes": 1330,
+        "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+      },
+      {
+        "path": "provenance/limits.md",
+        "bytes": 9987,
+        "sha256": "f7de431ab496296f8dca46477bf4ed0a06aa30d3332c0fec96fbefb6ce716676"
+      },
+      {
+        "path": "provenance/method-source-map.json",
+        "bytes": 29467,
+        "sha256": "fd5eadd4297d6dd47fd39c661ffeb8a145e6a6720ab2de3314b8214cf5e3af33"
+      },
+      {
+        "path": "provenance/official-facts.md",
+        "bytes": 3180,
+        "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf"
+      },
+      {
+        "path": "provenance/round-two-source-fusion.md",
+        "bytes": 6357,
+        "sha256": "ae27e3698bad406544a420b04c360f14cc56a868bbc4675655ae437500ebff89"
+      },
+      {
+        "path": "provenance/us-registration-source-index.md",
+        "bytes": 2388,
+        "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f"
+      },
+      {
+        "path": "references/ads-delivery-and-diagnostics.md",
+        "bytes": 6975,
+        "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+      },
+      {
+        "path": "references/ads-measurement-and-experiments.md",
+        "bytes": 18676,
+        "sha256": "aa9959856f1eae7e94a024f1a821b881de2c8b05f37f997539d314c806f750e9"
+      },
+      {
+        "path": "references/beginner-first-route-and-glossary.md",
+        "bytes": 11581,
+        "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+      },
+      {
+        "path": "references/business-center-and-asset-governance.md",
+        "bytes": 4998,
+        "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+      },
+      {
+        "path": "references/compliance-and-approval-gates.md",
+        "bytes": 3974,
+        "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+      },
+      {
+        "path": "references/content-operating-system.md",
+        "bytes": 17995,
+        "sha256": "15e320ec22da69282cb95d7f2e1cef698506a7916a744da652d2b986dbb087b6"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "bytes": 7030,
+        "sha256": "da6401a0f22596ef20544e1a9f334d4923fc2644e7c451a3581dd6a62bccc9d6"
+      },
+      {
+        "path": "references/evidence-and-practitioner-method-admission.md",
+        "bytes": 8743,
+        "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+      },
+      {
+        "path": "references/live-operations-and-analysis.md",
+        "bytes": 5617,
+        "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "bytes": 7580,
+        "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95"
+      },
+      {
+        "path": "references/shop-creator-and-live.md",
+        "bytes": 12705,
+        "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "bytes": 9459,
+        "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec"
+      },
+      {
+        "path": "references/source-learning-and-evidence.md",
+        "bytes": 699,
+        "sha256": "36ae220022339a88bc186ae6a6f6e335a24d99d25d24cdb3f7cf174ff549c5be"
+      }
+    ]
+  },
+  "historical_parent_current_fields_20261012": {
+    "package_version": "1.0.0-rc.3+demo.20261012.1",
+    "stage": "ROUND-THREE-TEXT-CANDIDATE",
+    "status": "R3_CANDIDATE_AWAITING_DUAL_DEPOSIT_AND_FINAL_QA",
+    "freeze_kind": "scoped_candidate_pending_complete_freeze",
+    "whole_scope_readiness": "R3_CANDIDATE_AWAITING_DUAL_DEPOSIT_AND_FINAL_QA",
+    "independent_final_qa": "not_started_for_this_round",
+    "prepared_on": "2026-10-12",
+    "scope": "46 inner files and 3 outer files; current example is one known-context overlay use, not independent or integrated-package behavior.",
+    "files": [
+      {
+        "path": "CHANGELOG.md",
+        "bytes": 5212,
+        "sha256": "2baf950a6a571a340f8f2cca9777dfb61cb5e8edd42ee323e6f2d17a83adeb35"
+      },
+      {
+        "path": "COMPATIBILITY.json",
+        "bytes": 2970,
+        "sha256": "67821a2d9c29c08d696c4afe98235d4e6a8b6288bd08b7baeba8ba95c81ae726"
+      },
+      {
+        "path": "README.md",
+        "bytes": 1787,
+        "sha256": "2dabb161ce4e94bc4b359aeacb44baaa34f64ccdf0249a2f2d279718c9dfcc49"
+      },
+      {
+        "path": "RIGHTS.json",
+        "bytes": 66786,
+        "sha256": "713341f431694d0593f7ac8dd88e6164dd168ba29759f5c7e5863f9a4c6bb3be"
+      },
+      {
+        "path": "METHOD.md",
+        "bytes": 14974,
+        "sha256": "046f3cc904847f3b3919ddb10250d8cbbf150aa7e7b86e831a32e14e787850ad"
+      },
+      {
+        "path": "SUPPORT.md",
+        "bytes": 1599,
+        "sha256": "762051d22e2e038d51ea2229059ebd235751d9fbf7e119f47fe14062afe2df10"
+      },
+      {
+        "path": "USAGE.md",
+        "bytes": 8176,
+        "sha256": "f7a7980d15c693872a33cfc34e80427b400e2204c348075eed513fbf3ecfd82e"
+      },
+      {
+        "path": "VERSION.json",
+        "bytes": 42648,
+        "sha256": "ccd60ba5c99b314b8422e5a699597a62315cca9c5cd004a853f27b771a0ac7c2"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "bytes": 352,
+        "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+      },
+      {
+        "path": "examples/brief-fusion/INPUT.md",
+        "bytes": 3175,
+        "sha256": "51ec2e7560f663766111ff84e33f367708a6017dcef72e3553a9dd79dfa8413e"
+      },
+      {
+        "path": "examples/brief-fusion/OUTPUT.md",
+        "bytes": 5811,
+        "sha256": "090f02e2908727df580de9fbc7b8c6519f806f068816f643d64cc38bb4e6337a"
+      },
+      {
+        "path": "examples/creator/INPUT.md",
+        "bytes": 7320,
+        "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+      },
+      {
+        "path": "examples/creator/OUTPUT.md",
+        "bytes": 23943,
+        "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+      },
+      {
+        "path": "examples/demo-evidence/INPUT.md",
+        "bytes": 3005,
+        "sha256": "82f9ae7f6f2fd2174a549306516ef35ad0bccc1dd88e2e85f7e4a08ecfbce3ef"
+      },
+      {
+        "path": "examples/demo-evidence/OUTPUT.md",
+        "bytes": 6938,
+        "sha256": "c2b809f0c0255116b1d369ff93eab4d3bd0550dd8f8e9e2cb17bcb3a207c49f9"
+      },
+      {
+        "path": "examples/live/INPUT.md",
+        "bytes": 11873,
+        "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+      },
+      {
+        "path": "examples/live/OUTPUT.md",
+        "bytes": 26079,
+        "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+      },
+      {
+        "path": "examples/organic-shop/INPUT.md",
+        "bytes": 7000,
+        "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+      },
+      {
+        "path": "examples/organic-shop/OUTPUT.md",
+        "bytes": 21454,
+        "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+      },
+      {
+        "path": "examples/product-content/INPUT.md",
+        "bytes": 7057,
+        "sha256": "44b67301d244b3944db31c9d86588f81e4cdd499625296431a7c1707c46491be"
+      },
+      {
+        "path": "examples/product-content/OUTPUT.md",
+        "bytes": 16291,
+        "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+      },
+      {
+        "path": "examples/product-gmv-max/INPUT.md",
+        "bytes": 6505,
+        "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+      },
+      {
+        "path": "examples/product-gmv-max/OUTPUT.md",
+        "bytes": 19727,
+        "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+      },
+      {
+        "path": "examples/website-ads/INPUT.md",
+        "bytes": 7935,
+        "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+      },
+      {
+        "path": "examples/website-ads/OUTPUT.md",
+        "bytes": 23460,
+        "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+      },
+      {
+        "path": "provenance/creator-code-conditions.md",
+        "bytes": 1330,
+        "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+      },
+      {
+        "path": "provenance/limits.md",
+        "bytes": 11257,
+        "sha256": "a5b4a0a5dac6bcf4c37992b6a363574f2dc417744670148aa7521e6779efc10b"
+      },
+      {
+        "path": "provenance/method-source-map.json",
+        "bytes": 30687,
+        "sha256": "be36612ffe9f4fb1c7171ed97d559b5d6960d9c15ddd49a57dc08e1c11588a5d"
+      },
+      {
+        "path": "provenance/official-facts.md",
+        "bytes": 3180,
+        "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf"
+      },
+      {
+        "path": "provenance/round-three-source-fusion.md",
+        "bytes": 3778,
+        "sha256": "3e27b80b857f57a55e8f3aba99ef6c1bb42d88e809d504d2fa7035c97944f6b8"
+      },
+      {
+        "path": "provenance/round-two-source-fusion.md",
+        "bytes": 6357,
+        "sha256": "ae27e3698bad406544a420b04c360f14cc56a868bbc4675655ae437500ebff89"
+      },
+      {
+        "path": "provenance/us-registration-source-index.md",
+        "bytes": 2388,
+        "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f"
+      },
+      {
+        "path": "references/ads-delivery-and-diagnostics.md",
+        "bytes": 6975,
+        "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+      },
+      {
+        "path": "references/ads-measurement-and-experiments.md",
+        "bytes": 18676,
+        "sha256": "aa9959856f1eae7e94a024f1a821b881de2c8b05f37f997539d314c806f750e9"
+      },
+      {
+        "path": "references/beginner-first-route-and-glossary.md",
+        "bytes": 11581,
+        "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+      },
+      {
+        "path": "references/business-center-and-asset-governance.md",
+        "bytes": 4998,
+        "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+      },
+      {
+        "path": "references/compliance-and-approval-gates.md",
+        "bytes": 3974,
+        "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+      },
+      {
+        "path": "references/content-operating-system.md",
+        "bytes": 19450,
+        "sha256": "f75976b5136394e38c3b0afcfa9ea5259177699cd30a4facb88ef425b5c5ac79"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "bytes": 7030,
+        "sha256": "da6401a0f22596ef20544e1a9f334d4923fc2644e7c451a3581dd6a62bccc9d6"
+      },
+      {
+        "path": "references/evidence-and-practitioner-method-admission.md",
+        "bytes": 8743,
+        "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+      },
+      {
+        "path": "references/live-operations-and-analysis.md",
+        "bytes": 5617,
+        "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "bytes": 7580,
+        "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95"
+      },
+      {
+        "path": "references/shop-creator-and-live.md",
+        "bytes": 12705,
+        "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "bytes": 9459,
+        "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec"
+      },
+      {
+        "path": "references/source-learning-and-evidence.md",
+        "bytes": 699,
+        "sha256": "36ae220022339a88bc186ae6a6f6e335a24d99d25d24cdb3f7cf174ff549c5be"
+      }
+    ],
+    "self_binding": {
+      "path": "MANIFEST.json",
+      "self_hash_excluded": true,
+      "external_binding": "An external preparation receipt binds all49 final actual files including this manifest; no ZIP or acceptance is implied."
+    },
+    "current_inheritance": {
+      "baseline_inner": 43,
+      "inner_byte_reuse": 32,
+      "inner_changed": 11,
+      "inner_new": 3,
+      "outer_changed": 2,
+      "outer_companion_reused": 1,
+      "historical_example_files_reused": 14
+    },
+    "current_uncompleted": [
+      "Current same-topic knowledge write/actual receipt",
+      "Complete freeze with actual package identity",
+      "Explicit QA invitation and independent professional/novice reports",
+      "Current scoped controller decision",
+      "Final local delivery and actual acceptance"
+    ]
+  }
+}

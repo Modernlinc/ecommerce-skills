@@ -19,4 +19,4 @@ Before choosing an under-desk tray, I would measure the desk thickness at the in
 
 ## 对照入口
 
-版本：`0.1.1-public-demo` · [先做单文件试阅](demo.md) · [核对题设](input.md) · [功能卡片](../SKILL.md)
+版本：`1.0.0` · [先做单文件试阅](demo.md) · [核对题设](input.md) · [功能卡片](../SKILL.md)

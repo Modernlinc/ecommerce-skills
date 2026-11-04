@@ -1,0 +1,58 @@
+{
+  "version": "0.1.0-rc3",
+  "required_host": "Agent capable of reading UTF-8 local Markdown, CSV and JSON",
+  "model_requested": "gpt-6-astra",
+  "thinking_requested": "high",
+  "model_actual": "unknown",
+  "runtime_for_calculator": {
+    "python_tested": "3.14.5",
+    "libraries": [
+      "decimal",
+      "json",
+      "argparse",
+      "re",
+      "sys",
+      "datetime"
+    ],
+    "third_party": [],
+    "missing_behavior": "mark machine arithmetic unavailable; transparent manual scoped arithmetic may be labeled as such; creative unaffected"
+  },
+  "network_default": false,
+  "private_paths_required": false,
+  "platform_module_bundled": false,
+  "platform_evidence": {
+    "needed_for": "specific current platform configuration/policy/attribution conclusions",
+    "common_tasks_work_without": "complete own-domain briefs, copy, shots, permission impact, descriptive reports",
+    "missing_behavior": "return concrete professional handoff and HOLD specialized conclusions"
+  },
+  "auto_install": false,
+  "other_models_validated": false,
+  "validation_provenance": {
+    "calculator": "historical rc1 execution; byte-identical; not rerun in rc2",
+    "examples": "six files inherited, not rerun",
+    "new_preparation_contract": "producer semantic/structural checks only; no independent behavior validation",
+    "channel_template": "60 scope review plus 239 same-producer synthetic use; no independent novice; OBS-01/02 unresolved"
+  },
+  "integration_revision": "SOC-S3-DECISION-CONTINUATION-20261014-01",
+  "integration_preparation_model": {
+    "requested": "gpt-6-astra",
+    "thinking": "medium",
+    "actual_backend": "unknown"
+  },
+  "channel_template_runtime": {
+    "path": "templates/CHANNEL_PLAN.md",
+    "requires_python": false,
+    "requires_platform_module": false,
+    "requires_private_research": false,
+    "scope": "text-only given-channel fact and creative handoff; specialized current conclusions need their evidence"
+  },
+  "model_setting_scope": "Existing requested/actual model fields, integration_preparation_model and validation_provenance retain historical requests/evidence; none attests current candidate behavior or runtime.",
+  "parent_integration_revision": "integration-20260909-01",
+  "current_candidate_identity": {
+    "id": "SOC-S3-DECISION-CONTINUATION-20261014-01",
+    "authorization": "SOCIAL-S3-REV-20261014-01",
+    "parent_revision": "r3-semantic-fidelity-20261012-01",
+    "validation": "static_checks_only_business_use_not_run",
+    "dependency_changes": "none; calculator and six examples retained byte-for-byte, not rerun"
+  }
+}

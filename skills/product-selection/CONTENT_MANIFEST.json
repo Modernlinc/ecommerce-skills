@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3682,
+      "sha256": "5b8f0a2ee2f2fc3a016f13eee30e0556749ea5af97880686268e686f63d82c82"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 324,
+      "sha256": "bd450f6e91c4d4c1d3575af66d8ee00c65bcb9f0379e8f759009b1841d50f051"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 2069,
+      "sha256": "8b08241c7c1d46e6f40f3ddcdd6ff7345762ec3d166d5ccb55be21ec1b82408c"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 725,
+      "sha256": "44250c510c2007680d332e793022989e61f22b0cee0823c4bb7a845522b837f4"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1203,
+      "sha256": "fdda5e0bc56e70fbdae11ce9157e3330082751dd7dc4300fb73b80c875086b5d"
+    },
+    {
+      "path": "references/library/00_开始使用.md",
+      "bytes": 5483,
+      "sha256": "373fbf1f44be720c6a06a27dd56ec9a2eb36e7bfe9909f489dc3a44ef3558e87"
+    },
+    {
+      "path": "references/library/01_完整教学示范.md",
+      "bytes": 9027,
+      "sha256": "bba2690aac0073b17f9e977282feb5ef55552de2322b5e50a0557c671d37cb56"
+    },
+    {
+      "path": "references/library/CURRENT_MANIFEST.json",
+      "bytes": 4592,
+      "sha256": "50931b9591d99ff91069226578711ce25eb4d3100ab06fec9ef348431d7e8fb6"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md",
+      "bytes": 16113,
+      "sha256": "a5727f8db3aae542d72c561c5ac33e4c4b3d0ec02fd7865cd612304c8e587478"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/knowledge/official-verification/OFFICIAL_FACT_RECHECK_2026-09-05.md",
+      "bytes": 1448,
+      "sha256": "110ae0d8443d3091bcd678e3ae55188503e3c698e0879b971e8d6cf87d7f8c06"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/claim-admission-and-maturity.md",
+      "bytes": 6799,
+      "sha256": "ee8a199ab518940e5754f27a3a07bdf76235a712839b7d6994ebc584bc6bf060"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/decision-workflow.md",
+      "bytes": 12097,
+      "sha256": "b8de4032be6a39d9044be07eb11b4875806a4c184ff09fde8bca76987c638176"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/evidence-schema.md",
+      "bytes": 5362,
+      "sha256": "c6b0e47c4c3e3ab68405fe684a27039a99f5cf903bcddb9ebea18394bf9a75bd"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/platform-adapters.md",
+      "bytes": 3624,
+      "sha256": "c73cbde874813dd54890b2694b767568fa2762457da43bb3952a902cf7b5d4ea"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/replenishment-and-supplier-evidence.md",
+      "bytes": 4783,
+      "sha256": "9e754c0691a19e503b310e4c32f647de2722fb253683a34c440d05414307b2e9"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/source-scope.md",
+      "bytes": 5156,
+      "sha256": "d0bdf1e732f5818d61116041f9dcd7919b4ab8a32c4dab6ad8abb5253b0334c9"
+    },
+    {
+      "path": "references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/templates.md",
+      "bytes": 4463,
+      "sha256": "11da6ddde131d4e7293e927966c1807db3896c22a07e2a4678b7d736813de356"
+    }
+  ]
+}

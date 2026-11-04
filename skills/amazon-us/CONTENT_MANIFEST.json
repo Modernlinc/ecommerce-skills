@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3689,
+      "sha256": "f7f4f3ad29ea4914809e4bfcf386126523bc3f6110e06bcb9ca27ddf807692a3"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 324,
+      "sha256": "5ca70bdd5dc52b4ac1fd2cd4823fb655044fa37a06e21616de84aaee3fb34b0a"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1933,
+      "sha256": "65321fe2fbaba26fa61452c1f4e378ce165f21d865ff1e812be450f1f25d780e"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 592,
+      "sha256": "2241de6a14fa39824b7751957a505ff5f477366888faa3e9341ad6530544a063"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1397,
+      "sha256": "4632fb1360ba2879371e7bc48dbf532fd50da329b2074e27f32dfd2e0d3c194a"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 3997,
+      "sha256": "72d6708c997a6d1f9697f690203fe92753ed4b2e933fed6a9ec76ba390a08daa"
+    },
+    {
+      "path": "references/library/references/00_从这里开始.md",
+      "bytes": 6299,
+      "sha256": "93beba1b455e453243db929c23822e4278689391df091e5a38c4a0d70e769105"
+    },
+    {
+      "path": "references/library/references/02_范围与来源说明.md",
+      "bytes": 5357,
+      "sha256": "6aa8040010714827a92015b0bba84109623cdb1f0158d6a6855eb59070664240"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 8699,
+      "sha256": "35512547a03581042ff9cf436d201d4d32961e8a5df023cd50eee4f830f56e22"
+    },
+    {
+      "path": "references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 1687,
+      "sha256": "2de6fed37b2cb23fd762df5b0d82a907a68787751e2617031e56d9270ba490ab"
+    },
+    {
+      "path": "references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/references/VERSION",
+      "bytes": 23,
+      "sha256": "1926bbef10e5916da11d2a447f65e82fb5bad4d548334f6bc1968e170daf25b1"
+    },
+    {
+      "path": "references/library/references/方法__LIMITATIONS.md",
+      "bytes": 4533,
+      "sha256": "a1c20c80039f99eb86077d69018cc58ec7343653574f6281ca3b3dd309a80dc4"
+    },
+    {
+      "path": "references/library/references/方法__METHOD.md",
+      "bytes": 6641,
+      "sha256": "743593c31866674699cf295d40146ef5dfa3c4ca2e7265a28af3c5fae709d681"
+    },
+    {
+      "path": "references/library/references/方法__contracts__INPUT.md",
+      "bytes": 4742,
+      "sha256": "fec363dd32682e7131cb81dd945d254bd3deea4a177e3495f4acd407972496f5"
+    },
+    {
+      "path": "references/library/references/方法__contracts__OUTPUT.md",
+      "bytes": 4003,
+      "sha256": "51b12002976ac737df772949969092b57460816472f1a35530c6ed8850a80e21"
+    },
+    {
+      "path": "references/library/references/方法__provenance__K04_POLICY_EVIDENCE_20261020.md",
+      "bytes": 11935,
+      "sha256": "9c463986d9eb6b65d583c79e41ac51aea51515ac68083c6363f26fc4347d90cf"
+    },
+    {
+      "path": "references/library/references/方法__provenance__RIGHTS.csv",
+      "bytes": 6357,
+      "sha256": "2434a2b80f3a2ead47a3e397293c3855b36b9ab2d9803e741711b387ea015e72"
+    },
+    {
+      "path": "references/library/references/方法__provenance__ROUND_THREE_SOURCE_MAP.md",
+      "bytes": 3831,
+      "sha256": "8eb87f09bfadc205cacb33421589f15e87b238ee25d4685d0078187788d8313e"
+    },
+    {
+      "path": "references/library/references/方法__provenance__ROUND_TWO_SOURCE_MAP.md",
+      "bytes": 5937,
+      "sha256": "26815b76f73d530e2c0d46ec68af7419d488b7a5c3fe3142c1bcdac29a9dbcf0"
+    },
+    {
+      "path": "references/library/references/方法__provenance__SEALEAP_LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "60a7266acaf7af934eb1529f367e069113fd396bb856099e57079253c53d1a09"
+    },
+    {
+      "path": "references/library/references/方法__provenance__SEALEAP_NOTICE.txt",
+      "bytes": 681,
+      "sha256": "70c6fb614de32932444c91a199a71af8ff924fc27766cb55c0c6dbceab9e007f"
+    },
+    {
+      "path": "references/library/references/方法__provenance__SOURCES.csv",
+      "bytes": 26406,
+      "sha256": "6dee6015a0b79e6baaa31d5835d1a896a972b8ddb92f72f01696b433a1635bf3"
+    },
+    {
+      "path": "references/library/references/方法__references__01-product-and-offer.md",
+      "bytes": 5026,
+      "sha256": "492c089a5ee3a34da0c324bffb921f0490bf593a75fb8c0e572a42d4e46e5669"
+    },
+    {
+      "path": "references/library/references/方法__references__02-fulfillment-and-inventory.md",
+      "bytes": 2429,
+      "sha256": "fe52d7016b8982ba5e867e3c8283a277001af84c13c3e005410a5056ee90a3a0"
+    },
+    {
+      "path": "references/library/references/方法__references__03-contribution-and-cash.md",
+      "bytes": 3457,
+      "sha256": "75fa8b004dd5261d0e63873ec0755cea6435b7285e9b93e6ef646c4a30fa0614"
+    },
+    {
+      "path": "references/library/references/方法__references__04-account-and-returns.md",
+      "bytes": 12839,
+      "sha256": "d3e1c1b0ee03b57ea007f8f06ab8bdfdea4e6e1479ded414ba758b58c6c99d42"
+    },
+    {
+      "path": "references/library/references/方法__references__05-sponsored-products.md",
+      "bytes": 7077,
+      "sha256": "104a29a6b19af6cab4ba1ce43df5490005fc4ebe24e2b5e122b6a227b219ae4a"
+    }
+  ]
+}

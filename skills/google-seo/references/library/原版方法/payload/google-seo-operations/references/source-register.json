@@ -1,0 +1,933 @@
+{
+  "schema_version": 1,
+  "domain": "google-seo-operations",
+  "version": "0.1.1-rc.1+owner-rule.20260913",
+  "date_gate": "Official observed applicable claims may be adopted despite unknown first publication, within dated evidence scope. Nonofficial formal positive support requires proven publication on/after 2024-08-01. Missing body/conflict/access stops/permissions remain separate.",
+  "official_evidence": [
+    {
+      "evidence_id": "OFFICIAL-SEO-TECH-001",
+      "url": "https://developers.google.com/search/docs/essentials/technical",
+      "scope": "最低资格与各阶段分离",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "inherited dated official record; not re-fetched this revision",
+        "supported_scope": "最低资格与各阶段分离",
+        "current_status": "dated_scope_reused_use_day_check_required"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-CONTENT-001",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+      "scope": "以用户任务/可见事实而非固定字数",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "inherited dated official record; not re-fetched this revision",
+        "supported_scope": "以用户任务/可见事实而非固定字数",
+        "current_status": "dated_scope_reused_use_day_check_required"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-SPAM-001",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "scope": "原命题的具体垃圾子类型，不外推所有点击行为",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "inherited dated official record; not re-fetched this revision",
+        "supported_scope": "原命题的具体垃圾子类型，不外推所有点击行为",
+        "current_status": "dated_scope_reused_use_day_check_required"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-LOCAL-001",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "scope": "真实业务与Profile资格分开",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "inherited dated official record; not re-fetched this revision",
+        "supported_scope": "真实业务与Profile资格分开",
+        "current_status": "dated_scope_reused_use_day_check_required"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-AI-CONTROL-001",
+      "url": "https://support.google.com/webmasters/answer/16908024?hl=en",
+      "scope": "历史AI control资格与普通索引分开；本轮未重核",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-13",
+        "basis": "independent PROFESSIONAL_0913.md L19–47",
+        "supported_scope": "include/exclude/inherit, parent property, separate from noindex/other Search/training; rollout 2026-08-31 not first publication",
+        "current_status": "bounded_independent_official_observation"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-AI-REPORT-001",
+      "url": "https://support.google.com/webmasters/answer/16984139?hl=en",
+      "scope": "历史AI报告可见性/聚合边界；本轮未重核",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "2026-09-04 success; PROFESSIONAL_0913.md current 500/non-retryable failure",
+        "supported_scope": "historical report fields only; current fields/aggregation/time need actual report evidence, not control-page substitution; missing report not zero exposure",
+        "current_status": "historical_report_scope_current_details_unobserved_access_stopped",
+        "last_attempt": "2026-09-13",
+        "retry": false
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-GSC-001",
+      "url": "https://support.google.com/webmasters/answer/7042828?hl=en",
+      "scope": "页面查询时间范围与报告/业务分层",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-04",
+        "basis": "inherited dated official record; not re-fetched this revision",
+        "supported_scope": "页面查询时间范围与报告/业务分层",
+        "current_status": "dated_scope_reused_use_day_check_required"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-FAQ-001",
+      "url": "https://developers.google.com/search/updates",
+      "scope": "历史FAQ日期记录，不能外推Product支持",
+      "verified_on": "2026-09-04",
+      "first_publication_date": "unknown",
+      "role": "dated_official_evidence_with_bounded_owner_rule_review",
+      "current_run_reverified": false,
+      "rights": "public_link_and_company_paraphrase_only",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "last_successful_observation": "2026-09-13",
+        "basis": "independent PROFESSIONAL_0913.md L189–196",
+        "supported_scope": "FAQ rich results cessation only; no blanket schema deletion or Product qualification",
+        "current_status": "bounded_independent_official_entry",
+        "entry_date": "2026-05-08",
+        "effective_date": "2026-05-07"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-SEO-TITLE-LINK-20260922-01",
+      "url": "https://developers.google.com/search/docs/appearance/title-link",
+      "observed_on": "2026-09-22",
+      "updated_on": "2025-12-10",
+      "first_publication_date": "unknown",
+      "origin": "project_local",
+      "observation": "full_observed_article_body",
+      "scope": "主正文L128–231及许可/日期L234–236；不含导航或外链对象",
+      "locators": [
+        "Best practices L148–149",
+        "How title links are created L155–171",
+        "Common issues L172–228",
+        "Submitting feedback L229–231"
+      ],
+      "official_fact": "多信号生成标题，更新需要重新抓取及处理；不存在固定采用或效果保证",
+      "official_guidance": "可见主标题清楚显著；检查具体页面问题，无已证问题时考虑查询适合性",
+      "company_inference": "按已证且与页面目标相关的问题改稿；四问题只是非穷尽示例；视觉证据缺口仅停相关判断；本地验收与外部处理分开",
+      "limits": "不证明具体站点原因、视觉情况、处理状态、排名效果或国际化实现",
+      "maturity": "understood_method_candidate_awaiting_scoped_review",
+      "candidate_state": "CANDIDATE_WRITTEN_AWAITING_SCOPED_REVIEW",
+      "formal_adoption": false,
+      "implementation_refetched": false,
+      "rights": "public_link_and_company_paraphrase_only"
+    }
+  ],
+  "legacy_pointer_urls": [
+    "https://developers.google.com/search/docs/essentials/technical",
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript",
+    "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+    "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+    "https://support.google.com/webmasters/answer/7440203?hl=en",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+    "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+    "https://developers.google.com/search/docs/advanced/crawling/localized-versions",
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "https://developers.google.com/search/docs/appearance/title-link",
+    "https://developers.google.com/search/docs/appearance/snippet",
+    "https://developers.google.com/search/docs/appearance/google-images",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content",
+    "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+    "https://support.google.com/webmasters/answer/16908024?hl=en",
+    "https://support.google.com/webmasters/answer/16984139?hl=en",
+    "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+    "https://developers.google.com/search/updates",
+    "https://support.google.com/webmasters/answer/6211453?hl=en",
+    "https://developers.google.com/search/docs/essentials/spam-policies",
+    "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+    "https://support.google.com/webmasters/answer/2648487?hl=en",
+    "https://support.google.com/business/answer/7091?hl=en",
+    "https://support.google.com/business/answer/3038177?hl=en",
+    "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+    "https://support.google.com/business/answer/3474122?hl=en",
+    "https://support.google.com/business/answer/7107242?hl=en",
+    "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+    "https://developers.google.com/search/blog/2019/09/making-review-rich-results-more-helpful",
+    "https://www.ftc.gov/business-guidance/advertising-marketing/endorsements-influencers-reviews",
+    "https://support.google.com/webmasters/answer/7042828?hl=en",
+    "https://support.google.com/webmasters/answer/17011364?hl=en",
+    "https://support.google.com/analytics/answer/12195621?hl=en",
+    "https://support.google.com/analytics/answer/13965727?hl=en",
+    "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"
+  ],
+  "legacy_pointer_role": "See dated current-google-facts; URLs alone are not observed body or new support",
+  "knowledge_points": [
+    {
+      "knowledge_point_id": "SEO-KP-TECH-001",
+      "domain": "technical",
+      "company_judgment": "Diagnose discovery, crawl, render and index as separate stages and act on the first evidenced break; sitemap, SSR or inspection requests are not outcome proof.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-TECH-001",
+        "SEO-PKG-MOVE"
+      ],
+      "maturity": "official_current_method_real_project_gap",
+      "next_evidence": "Authorized JavaScript, large-site or migration case.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [
+          "SEO-PKG-MOVE"
+        ],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-CONTENT-001",
+      "domain": "content",
+      "company_judgment": "Content scope follows a real user task, visible evidence, rights and accountable review; no fixed word count, density or AI-volume formula.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-CONTENT-001",
+        "OFFICIAL-SEO-SPAM-001"
+      ],
+      "maturity": "official_current_method_real_project_gap",
+      "next_evidence": "Authorized update, consolidation and decay case.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-LOCAL-001",
+      "domain": "local",
+      "company_judgment": "Business name, storefront or service-area status, address and reviews must reflect the real eligible business; inability to prove truth stops Profile action.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-LOCAL-001",
+        "SEO-PKG-LOCAL"
+      ],
+      "maturity": "official_current_method_real_profile_gap",
+      "next_evidence": "Authorized eligible Profile case with appeal and change evidence.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [
+          "SEO-PKG-LOCAL"
+        ],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-AI-001",
+      "domain": "ai_search_eligibility",
+      "company_judgment": "Normal SEO foundations still apply, but Search generative AI has a separate property-level include, exclude or inherit control that must be checked before GEO advice.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-AI-CONTROL-001"
+      ],
+      "maturity": "official_current_method_account_evidence_gap",
+      "next_evidence": "Authorized parent-child property inheritance case.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "independent_20260913_control_sections",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-AI-MEASUREMENT-001",
+      "domain": "ai_search_measurement",
+      "company_judgment": "Preserve the 2026-09-04 report observation as historical; current 16984139 access failed and stopped on 2026-09-13. Interpret only actually provided report fields/definitions and boundaries; no control-page substitution or visibility-equals-zero inference.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-AI-REPORT-001"
+      ],
+      "maturity": "historical_official_scope_current_report_detail_and_account_gap",
+      "next_evidence": "Authorized report export plus business-result linkage.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "historical_report_only_current_access_stopped",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-MEASUREMENT-001",
+      "domain": "measurement",
+      "company_judgment": "Maintain GSC, GA4 and business outcomes as separate systems with defined time, aggregation, attribution and delay; explain definitions before causality.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-GSC-001"
+      ],
+      "maturity": "official_current_method_first_party_loop_gap",
+      "next_evidence": "Authorized GSC-GA4-business-result reconciliation.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-STRUCTURED-001",
+      "domain": "structured_data",
+      "company_judgment": "Evaluate every type against current Google support, page eligibility, visible content and policy. FAQ no longer has a Google FAQ rich-result growth objective, without implying universal schema deletion.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-FAQ-001",
+        "SEO-PKG-PRODUCT"
+      ],
+      "maturity": "official_current_method_use_day_check_required",
+      "next_evidence": "Use-day check for the requested schema type.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [
+          "SEO-PKG-PRODUCT"
+        ],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "independent_FAQ_entry_and_20260906_Product_subset",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-SOURCE-ADMISSION-001",
+      "domain": "source_governance",
+      "company_judgment": "A batch year is scheduling metadata, not publication proof. Unknown-date nonofficial material is hypothesis/comparison/risk, not formal positive support. Official observed applicable claims follow the 2026-09-13 Owner rule; unknown first publication alone does not block.",
+      "official_evidence_ids": [],
+      "maturity": "reviewed_company_process_awaiting_retest",
+      "next_evidence": "Author/publisher proof for nonofficial positive-support families; observed body and applicability for official claims.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    },
+    {
+      "knowledge_point_id": "SEO-KP-RISK-001",
+      "domain": "spam_and_truth_risk",
+      "company_judgment": "Reject PBN and paid ranking links under link-spam evidence; reject expired-domain, doorway, scaled-content and site-reputation abuse under their named official subclaims; reject machine-generated traffic under that official subclaim. Fake storefront uses the separate Local eligibility evidence. Other click or review manipulation remains a company truth/safety rule or source risk finding unless a specific official policy is cited.",
+      "official_evidence_ids": [
+        "OFFICIAL-SEO-SPAM-001",
+        "OFFICIAL-SEO-LOCAL-001",
+        "SEO-PKG-LOCAL",
+        "SEO-PKG-LINK"
+      ],
+      "official_subclaim_map": {
+        "OFFICIAL-SEO-SPAM-001": [
+          "link_spam",
+          "doorway_abuse",
+          "expired_domain_abuse",
+          "scaled_content_abuse",
+          "site_reputation_policy",
+          "machine_generated_traffic"
+        ],
+        "OFFICIAL-SEO-LOCAL-001": [
+          "business_profile_eligibility",
+          "real_storefront_or_service_area_truth"
+        ]
+      },
+      "company_rule_only_scope": [
+        "human_click_manipulation_not_explicitly_named_on_cited_spam_page",
+        "review_manipulation_outside_the_local_eligibility_page"
+      ],
+      "maturity": "risk_saturated_with_named_official_subclaims",
+      "next_evidence": "Reopen only for a named defensive audit gap.",
+      "course_role": "private course locators not distributed; undated courses only hypothesis/comparison/risk; no new admission",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "new_bounded_evidence_ids": [
+          "SEO-PKG-LOCAL",
+          "SEO-PKG-LINK"
+        ],
+        "official_first_date_only_block_removed": true,
+        "company_final_pass": false,
+        "current_fact_scope": "dated_inherited_and_named_selected_sections_only",
+        "next_evidence": "Use-day facts and authorized case evidence for requested claim; stopped URLs remain stopped."
+      }
+    }
+  ],
+  "new_research": [
+    {
+      "evidence_id": "SEO-PKG-MOVE",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "title": "Site Moves and Migrations",
+      "locator": "mapping/readiness/redirects/monitoring L193–264; updated notice L298",
+      "updated_date": "2026-08-20 UTC",
+      "open": 1,
+      "find": 0,
+      "contribution": "refine普通映射/验证与一致性；不是国际化关系来源。页面两处sitemap处置表述不用于删除旧sitemap指令。",
+      "first_publication_date": "unknown",
+      "observed_on": "2026-09-06",
+      "observation_depth": "selected_sections_observed",
+      "admission": "bounded_official_claim_adopted_under_owner_rule",
+      "formal_adoption": true,
+      "rights": "URL_and_original_short_paraphrase_only",
+      "underlying_http": "unknown",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "observed_on": "2026-09-06",
+        "observation_depth": "selected_sections_observed",
+        "knowledge_point_ids": [
+          "SEO-KP-TECH-001"
+        ],
+        "supported_scope": "ordinary equivalent permanent URL replacement/redirect candidates/canonical and internal-link consistency; not implementation certification",
+        "unsupported_scope": [
+          "international relationships",
+          "cross-domain/large-site full implementation",
+          "old sitemap disposal or fixed retention time"
+        ],
+        "conflict": "sitemap disposal wording unresolved; no deletion/time instruction",
+        "target_method": "ordinary_migration_offline_draft",
+        "adoption_effective_only_after_authorized_execution": true
+      }
+    },
+    {
+      "evidence_id": "SEO-PKG-PRODUCT",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing",
+      "title": "How To Add Merchant Listing Structured Data",
+      "locator": "Product required L1012–1027; Offer required L1099–1115; validation L140–143",
+      "updated_date": "unknown",
+      "open": 1,
+      "find": 1,
+      "contribution": "refine普通Product/Offer必需字段与有条件草稿；变体/复杂价/税运退货内容虽搜索命中但不纳入本批方法。",
+      "first_publication_date": "unknown",
+      "observed_on": "2026-09-06",
+      "observation_depth": "selected_sections_observed",
+      "admission": "bounded_official_claim_adopted_under_owner_rule",
+      "formal_adoption": true,
+      "rights": "URL_and_original_short_paraphrase_only",
+      "underlying_http": "unknown",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "observed_on": "2026-09-06",
+        "observation_depth": "selected_sections_observed",
+        "knowledge_point_ids": [
+          "SEO-KP-STRUCTURED-001"
+        ],
+        "supported_scope": "observed ordinary Product name/image/Offer price-currency subset and validation levels; limited draft from matching facts",
+        "unsupported_scope": [
+          "complete required-field or qualification certification",
+          "variants/complex price/tax/shipping/returns",
+          "unverified image publishability"
+        ],
+        "conflict": "FAQ cannot establish Product eligibility",
+        "target_method": "bounded_product_offer_draft",
+        "adoption_effective_only_after_authorized_execution": true
+      }
+    },
+    {
+      "evidence_id": "SEO-PKG-LOCAL",
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "title": "Guidelines for representing your business on Google",
+      "locator": "virtual office/co-working conditions L173–174; other find hits not adopted",
+      "updated_date": "unknown",
+      "open": 1,
+      "find": 1,
+      "contribution": "refine虚拟办公/共享办公的真实接待条件；不是完整门店资格或所有业务场景审定。",
+      "first_publication_date": "unknown",
+      "observed_on": "2026-09-06",
+      "observation_depth": "selected_sections_observed",
+      "admission": "bounded_official_claim_adopted_under_owner_rule",
+      "formal_adoption": true,
+      "rights": "URL_and_original_short_paraphrase_only",
+      "underlying_http": "unknown",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "observed_on": "2026-09-06",
+        "observation_depth": "selected_sections_observed",
+        "knowledge_point_ids": [
+          "SEO-KP-LOCAL-001",
+          "SEO-KP-RISK-001"
+        ],
+        "supported_scope": "specific mail-only virtual/co-working signage, staffing and reception conditions given all relevant facts",
+        "unsupported_scope": [
+          "all GBP eligibility",
+          "verification/appeals",
+          "LocalBusiness structured-data eligibility"
+        ],
+        "conflict": "missing photo alone does not prove ineligibility",
+        "target_method": "bounded_local_address_review",
+        "adoption_effective_only_after_authorized_execution": true
+      }
+    },
+    {
+      "evidence_id": "SEO-PKG-LINK",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "title": "Qualify your outbound links to Google",
+      "locator": "rel values L127–159",
+      "updated_date": "unknown",
+      "open": 1,
+      "find": 1,
+      "contribution": "refine付费关系链接属性边界；不采外链的法律/收益结论。",
+      "first_publication_date": "unknown",
+      "observed_on": "2026-09-06",
+      "observation_depth": "selected_sections_observed",
+      "admission": "bounded_official_claim_adopted_under_owner_rule",
+      "formal_adoption": true,
+      "rights": "URL_and_original_short_paraphrase_only",
+      "underlying_http": "unknown",
+      "owner_rule_review_20260913": {
+        "reviewed_on": "2026-09-13",
+        "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+        "official_first_publication_unknown_blocks_alone": false,
+        "nonofficial_cutoff": "2024-08-01",
+        "network_actions_this_revision": 0,
+        "account_validation": false,
+        "company_final_pass": false,
+        "observed_on": "2026-09-06",
+        "observation_depth": "selected_sections_observed",
+        "knowledge_point_ids": [
+          "SEO-KP-RISK-001"
+        ],
+        "supported_scope": "paid placement rel=sponsored; nofollow acceptable alternative; substantive outreach with editorial discretion",
+        "unsupported_scope": [
+          "legal compliance",
+          "rights clearance",
+          "ranking or business effects",
+          "send/pay/publish permission"
+        ],
+        "conflict": "attributes do not legitimize manipulation",
+        "target_method": "paid_link_attribute_and_editorial_draft",
+        "adoption_effective_only_after_authorized_execution": true
+      }
+    }
+  ],
+  "international": {
+    "status": "BLOCKED_SOURCE_ACCESS",
+    "source_url": "https://developers.google.com/search/docs/advanced/crawling/localized-versions",
+    "prior_B3_open": 1,
+    "prior_B3_result": "non-retryable safety error; body0/instance0",
+    "this_run_requests": 0,
+    "implementation_file_created": false,
+    "formal_adoption": false,
+    "not_a_duplicate_or_completed_learning": true,
+    "owner_rule_review_20260913": {
+      "first_date_only_block_removed": true,
+      "remaining_block": "actual body insufficient and localized-versions nonretryable access stop",
+      "overview_observed_on": "2026-09-08",
+      "overview_url": "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites",
+      "overview_locator": "article L127–256; focus L127–167/L208–221; updated 2025-12-10 L261",
+      "unsupported": [
+        "HTML alternate self-reference",
+        "return relationships",
+        "one-way omissions and exceptions",
+        "instance correctness"
+      ],
+      "disposition": "input_and_gap_record_only_no_implementation",
+      "retry": false
+    }
+  },
+  "counters": {
+    "open": 4,
+    "find": 3,
+    "total_web_actions": 7,
+    "allowed_max": 8,
+    "search_retry_alternative_date_requests": 0,
+    "underlying_http": "unknown",
+    "full_pages_observed": 0,
+    "selected_sections_observed": 4,
+    "formal_new_rules": 0
+  },
+  "synthetic_source_ids": [
+    "SYN-S01",
+    "SYN-S02",
+    "SYN-S03"
+  ],
+  "limits": [
+    "No source bodies/media copied",
+    "Actual account/Google tests/business effect absent",
+    "Two creator and real-project gaps remain",
+    "Source ledger private audit paths not runtime dependencies"
+  ],
+  "owner_rule_review_20260913": {
+    "reviewed_on": "2026-09-13",
+    "owner_rule": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+    "official_first_publication_unknown_blocks_alone": false,
+    "nonofficial_cutoff": "2024-08-01",
+    "network_actions_this_revision": 0,
+    "account_validation": false,
+    "company_final_pass": false
+  },
+  "counter_scope": "counters retain historical 2026-09-06 actions and then-zero formal_new_rules; this revision has zero network actions and adopts only four existing section observations upon authorized execution.",
+  "title_link_candidate_id": "SEO_TITLE_LINK_CANDIDATE_20260922_01",
+  "title_link_candidate_state": "CANDIDATE_WRITTEN_AWAITING_SCOPED_REVIEW",
+  "content_evidence_revision_20261010": {
+    "version": "0.1.3-rc.1+content-evidence.20261010",
+    "state": "working_draft_not_frozen",
+    "formal_adoption": false,
+    "observed_on": "2026-10-10",
+    "methods": [
+      {
+        "id": "D1",
+        "disposition": "refine",
+        "judgment": "按页面任务与已证缺口判断保留或局部更新",
+        "applies_to": "workflow §4 and §9",
+        "evidence": [
+          "V1",
+          "A1"
+        ],
+        "maturity": "editorial_method_candidate",
+        "next_validation": "one authorized integrated page-editing task and applicable independent review"
+      },
+      {
+        "id": "D2",
+        "disposition": "refine",
+        "judgment": "简化表达时保留事实、对象、条件及必要语境",
+        "applies_to": "workflow §5",
+        "evidence": [
+          "V2",
+          "O1",
+          "O2"
+        ],
+        "maturity": "editorial_method_candidate",
+        "next_validation": "same integrated task; no original-video or outcome guarantee"
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "V1",
+        "url": "https://www.youtube.com/watch?v=o2I3UXbGFNE",
+        "input_origin": "autonomous_discovery",
+        "author": "Crawling Mondays by Aleyda",
+        "publication_date": "2026-08-15T14:12:08Z",
+        "updated_on": null,
+        "observed_on": "2026-10-10",
+        "observation_state": "partial_observed",
+        "observed_scope": "complete returned caption text; original sound and images not observed",
+        "primary_source_disposition": "unlearned_exception",
+        "date_gate": "passed",
+        "formal_adoption": false,
+        "rights": "public URL and company paraphrase only; no raw source distributed",
+        "video_id": "o2I3UXbGFNE",
+        "channel_id": "UCOOJMCKqwalD1HEKAObvMpA",
+        "duration": "PT26M33S",
+        "caption_characters": 24880,
+        "locator": "returned caption chars 2244,2960,8838,13480,18830,20448,22913 (0-based; not timestamps)",
+        "interest_disclosure": "consulting/training creator; Similarweb episode sponsorship",
+        "unknowns": [
+          "original audiovisual alignment/completeness",
+          "independently verified statistics, examples and effects"
+        ],
+        "contribution": "D1: page task and briefing; conditional experience, not universal offsite or bot mechanism"
+      },
+      {
+        "source_id": "V2",
+        "url": "https://www.youtube.com/watch?v=5OccF4g0UKI",
+        "input_origin": "autonomous_discovery",
+        "author": "Ahrefs",
+        "publication_date": "2026-05-13T12:00:09Z",
+        "updated_on": null,
+        "observed_on": "2026-10-10",
+        "observation_state": "partial_observed",
+        "observed_scope": "complete returned caption text; original sound and images not observed",
+        "primary_source_disposition": "unlearned_exception",
+        "date_gate": "passed",
+        "formal_adoption": false,
+        "rights": "public URL and company paraphrase only; no raw source distributed",
+        "video_id": "5OccF4g0UKI",
+        "channel_id": "UCWquNQV8Y0_defMKnGKrFOQ",
+        "duration": "PT8M3S",
+        "caption_characters": 7757,
+        "locator": "returned caption chars 422,880,2727,3652,4411,5949,6423,7162 (0-based; not timestamps)",
+        "interest_disclosure": "Ahrefs product supplier",
+        "unknowns": [
+          "original audiovisual alignment/completeness",
+          "independently verified statistics, examples and effects"
+        ],
+        "contribution": "D2: conditional readability and context checks; correlation/freshness/branding claims not adopted"
+      },
+      {
+        "source_id": "A1",
+        "url": "https://www.aleydasolis.com/en/ai-search/content-prioritization-ai-search/",
+        "input_origin": "autonomous_discovery",
+        "author": "Aleyda Solis",
+        "publication_date": "2026-08-06",
+        "updated_on": null,
+        "observed_on": "2026-10-10",
+        "observation_state": "full_observed",
+        "observed_scope": "main textual body; tables read as text; images/worksheet/external links not opened",
+        "primary_source_disposition": "full_observed",
+        "date_gate": "passed",
+        "formal_adoption": false,
+        "rights": "public URL and company paraphrase only; no raw source distributed",
+        "locator": "L31-512, main article excluding linked worksheet and other works",
+        "contribution": "D1: distinguish page roles; no proprietary scoring weights copied"
+      },
+      {
+        "source_id": "O1",
+        "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?version=published",
+        "input_origin": "autonomous_discovery",
+        "author": "Google Search Central",
+        "publication_date": "unknown",
+        "updated_on": "2026-07-10",
+        "observed_on": "2026-10-10",
+        "observation_state": "full_observed",
+        "observed_scope": "main textual body; linked reports, internationalization and other pages not opened",
+        "primary_source_disposition": "full_observed",
+        "date_gate": "current_official_observed_claim_scope",
+        "formal_adoption": false,
+        "rights": "public URL and company paraphrase only; no raw source distributed",
+        "locator": "L128-204; current technical/content statements L140-180; update L209",
+        "contribution": "D2 Google-specific boundaries; no mandated chunking/length; technical qualifications retained, report fields not covered"
+      },
+      {
+        "source_id": "O2",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+        "input_origin": "autonomous_discovery",
+        "author": "Google Search Central",
+        "publication_date": "unknown",
+        "updated_on": "2026-10-05",
+        "observed_on": "2026-10-10",
+        "observation_state": "full_observed",
+        "observed_scope": "main textual body only; linked rater PDF, other works not opened",
+        "primary_source_disposition": "full_observed",
+        "date_gate": "current_official_observed_claim_scope",
+        "formal_adoption": false,
+        "rights": "public URL and company paraphrase only; no raw source distributed",
+        "locator": "L128-232; content questions L135-177; Who/How/Why L205-232; update L237",
+        "contribution": "D2 authenticity and substantive content boundaries; no fabricated author/experience or date-only improvement"
+      }
+    ],
+    "retained": "existing technical first-breakpoint, title-link, causal and permission rules",
+    "rejected": [
+      "fixed refresh/length/chunking as citation guarantees",
+      "traffic drop proves stale content",
+      "branding guarantees attribution",
+      "vendor statistics or cases as validated effects"
+    ],
+    "current_limits": [
+      "complete original audiovisual not observed",
+      "international four claims unresolved",
+      "current AI report fields not closed",
+      "no behavioral run or independent QA for this revision"
+    ],
+    "last_official_observation": "2026-10-10"
+  },
+  "international_revision_20261010": {
+    "revision_id": "SEO_GEO_G4_OFFICIAL_REFRESH_20261010_01",
+    "source_identity": "international.source_url",
+    "input_origin": "project_local",
+    "refresh_of_existing_registered_source": true,
+    "added_source_identities": 0,
+    "original_url": "https://developers.google.com/search/docs/advanced/crawling/localized-versions",
+    "final_url": "https://developers.google.com/search/docs/specialty/international/localized-versions",
+    "redirect": "tool-reported automatic Google redirect; no alternate lookup",
+    "owner_confirmation": {
+      "date": "2026-10-10",
+      "scope": "one original-URL public read",
+      "consumed": true
+    },
+    "access": {
+      "web_open_calls": 1,
+      "underlying_http_request_count": "unknown",
+      "http_status": "unknown",
+      "additional_source_requests_during_implementation": 0,
+      "external_links_opened": 0
+    },
+    "observed_on": "2026-10-10",
+    "page_updated_on": "2026-09-21 UTC",
+    "first_publication_date": "unknown",
+    "observation_state": "full_observed",
+    "observed_scope": "returned article text L128–340 of 411 lines; no external links, example sites or live implementation",
+    "update_locator": "L344",
+    "license_locator": "L342: body CC BY 4.0; code Apache 2.0; not a package distribution grant",
+    "claims": [
+      {
+        "id": "G4-self-and-html",
+        "contribution": "self-containing version set, absolute URLs and valid HTML head/alternate annotations",
+        "locator": "L149–152; L161–172"
+      },
+      {
+        "id": "G4-return",
+        "contribution": "mutual page references; missing returns can cause affected annotations to be ignored or misinterpreted",
+        "locator": "L154; L326–331"
+      },
+      {
+        "id": "G4-partial",
+        "contribution": "mutual subsets under maintenance constraints; new languages especially link to originating/dominant language",
+        "locator": "L155–156",
+        "limit": "not arbitrary omission or proof whole group fails"
+      },
+      {
+        "id": "G4-example-versus-application",
+        "contribution": "official HTML example observed",
+        "locator": "L175–198",
+        "limit": "no instance execution, site validation or business result"
+      }
+    ],
+    "supporting_locators": {
+      "http": "L199–217",
+      "sitemap": "L218–289; minimum constraints L220–231",
+      "language_region_script": "L290–310",
+      "optional_fallback": "L311–320",
+      "troubleshooting": "L321–339"
+    },
+    "historical_qa_reuse": {
+      "scope": "three previously observed selected Office Hours Q&A units on returns/partial omissions",
+      "new_source_count": 0,
+      "limits": "not full pages/videos; not current full canonical/noindex qualification"
+    },
+    "company_method": {
+      "id": "I1",
+      "disposition": "refine",
+      "path": "references/international-implementation.md",
+      "state": "candidate_written",
+      "formal_adoption": false,
+      "next_validation": "one integrated D1/D2/I1 task with applicable independent professional and novice review"
+    },
+    "evidence_layers": {
+      "rules": "observed_and_understood",
+      "method": "candidate_written",
+      "actual_application": "not_run",
+      "google_adoption": "unobserved",
+      "business_results": "unvalidated",
+      "independent_final_qa": "not_run"
+    },
+    "actual_instance_runs": 0,
+    "formal_adoption": false,
+    "current_override": "This object supersedes legacy international body0/no implementation statements only for current I1 source and method state. Legacy objects and counters remain historical, not current completion claims.",
+    "scope_limits": [
+      "No external code tables or third-party tools observed",
+      "No full canonical/noindex or site eligibility adjudication",
+      "16984139, GeoX333 and other named stops unchanged",
+      "One retry authorization consumed; no further requests authorized"
+    ]
+  }
+}

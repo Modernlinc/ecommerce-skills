@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "status": "candidate_method_not_final_reviewed",
+  "maturity": "method_hypothesis",
+  "formal_adoption": false,
+  "source_contributions": [
+    {
+      "id": "OLD-K04",
+      "path": "evidence:SH-EV-0bd3041f335f48125dfb7f81",
+      "action": "retain/refine",
+      "contribution": "同范围事件、抑制、去重、需求内容及有限实验；明确无K05运行依赖"
+    },
+    {
+      "id": "285",
+      "path": "evidence:SH-EV-6e05557fb8df4c85b4a892e5",
+      "contribution": "版本/未知/接收/授权与执行分别保留"
+    },
+    {
+      "id": "K03",
+      "path": "evidence:SH-EV-071060be136d97e240aedecb",
+      "contribution": "仅核服务身份和快照，不代填更早状态"
+    }
+  ],
+  "C018": {
+    "old_map_path": "evidence:SH-EV-db91b5610521fc50a6dd5754",
+    "old_claim": "复购实验按购买周期分群并先排除撤回同意、未解决售后与重叠触达；效果以同窗净贡献和对照判断。",
+    "new_claim": "按有证据的下一项需求设计内容，购买周期须有商户依据；同范围事件与撤回/服务/测试等候选抑制分开，重叠只一次安排；先内部可证伪审阅，真实效果及经济观察须另有同窗对照与覆盖证据。",
+    "action": "refine_in_v2_only",
+    "old_file_modified": false,
+    "reference": "../references/k04-retention.md",
+    "maturity": "method_hypothesis"
+  },
+  "platform_claims": [
+    {
+      "id": "SC-SHOPIFY-C012",
+      "source": "SC-SHOPIFY-S007",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false,
+      "scope": "历史分群/收件边界，不证明策略或实际发送资格"
+    },
+    {
+      "id": "SC-SHOPIFY-C013",
+      "source": "SH-N-02",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false,
+      "scope": "历史营销资料，不证明完整许可状态机或法律适用"
+    }
+  ],
+  "local_admission_path": "evidence:SH-EV-ea7368f63a2a7bed5081b9bc",
+  "K05": {
+    "runtime_dependency": false,
+    "reference_path": "../references/k05-economics-cash.md",
+    "reason": "K05候选reference已接入；K04内容调用不自动计算或调用，需另有授权与范围证据；历史应用未运行K05"
+  },
+  "validation_status": "producer_application_completed_not_independent",
+  "application_path": "evidence:SH-EV-7ecc120f7de21baf35e8a88e",
+  "real_project_validated": false,
+  "historical_source_hashes": {
+    "SH-EV-86319b05c6f9c3d3f2ee5c04": "d746ca6a39f382d30723ac1e73a59379a9386981d026ad34c24312c24a876ad5",
+    "SH-EV-6e05557fb8df4c85b4a892e5": "e5ac0b6096119a6e002ff0801e73337087024f0b4424d71246b4cbd2a668cc75",
+    "SH-EV-e4243527837b4bfd3c3a8406": "01132945642e7980f2979e8d5abe2a56dea805d2ac6a4a2d61534f09dab169fe",
+    "SH-EV-0bd3041f335f48125dfb7f81": "f6e496193feee10d193f9a4ed007178de49ba6a4f14f5bd27867e6142f8d71e7",
+    "SH-EV-db91b5610521fc50a6dd5754": "366ef6743ef3694d7de3095c9f8b332fcff08cd0c36e125b4351d65ec5881c40",
+    "SH-EV-ea7368f63a2a7bed5081b9bc": "5d78243284ab596054143098cb52b5c8a69805eb1b691dc3497f01ca26391cff",
+    "SH-EV-052af0aa96d6e4a0757f6148": "94c898e2c375411279d01cee9c6d9e468dfa448db244d0cb39fce3580173c27b",
+    "SH-EV-fd14ee2eb884cc4520238908": "ce952e66d67e5ce76a47850657b74602a3b55c3df6b4f1b1828f5346916626c7",
+    "SH-EV-071060be136d97e240aedecb": "6c408e9a598b2098a50a6b29558dbd002a82a61ea7a52d3ae91b1c3097aaf02d",
+    "SH-EV-7b08fea1be7d50fba52fed32": "b3ac665c94bc8f9a7e4e1a6cdd07999947a6707830ba0f76e19dd214f3bd34a9",
+    "SH-EV-dadae30752be4d03e5e7d57c": "bfd0fc5bcdddf7f323001100ca42cd63a7e48520b715d6c8ee34b695bb6d386c"
+  },
+  "audit_projection": {
+    "schema_version": 1,
+    "path_convention": "Relative paths resolve from this JSON directory. evidence:SH-EV-* values identify maintainer-only historical records, not files or URLs, including legacy *_path fields.",
+    "hash_convention": "historical_source_hashes binds prior snapshots. A record adds historical_sha256 only when absent there; unknown stays unknown. Same-package current references do not authenticate old versions.",
+    "scope_and_validation": "Original contribution, source dates, observation and validation limits remain in their original fields. Historical records were not reopened for this projection. IDs/hashes prove neither access nor new validation.",
+    "runtime_required": false
+  },
+  "audit_records": [
+    {
+      "evidence_id": "SH-EV-0bd3041f335f48125dfb7f81",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-6e05557fb8df4c85b4a892e5",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-071060be136d97e240aedecb",
+      "type": "producer_application_record"
+    },
+    {
+      "evidence_id": "SH-EV-db91b5610521fc50a6dd5754",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-ea7368f63a2a7bed5081b9bc",
+      "type": "historical_source_admission_record"
+    },
+    {
+      "evidence_id": "SH-EV-7ecc120f7de21baf35e8a88e",
+      "type": "producer_application_record",
+      "historical_sha256": "unknown"
+    },
+    {
+      "evidence_id": "SH-EV-86319b05c6f9c3d3f2ee5c04",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-e4243527837b4bfd3c3a8406",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-052af0aa96d6e4a0757f6148",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-fd14ee2eb884cc4520238908",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "../references/k03-fulfillment-aftercare.md"
+    },
+    {
+      "evidence_id": "SH-EV-7b08fea1be7d50fba52fed32",
+      "type": "historical_synthetic_input"
+    },
+    {
+      "evidence_id": "SH-EV-dadae30752be4d03e5e7d57c",
+      "type": "historical_company_note"
+    }
+  ],
+  "current_version_evidence": {
+    "record_id": "SH-VR-20260911-K04",
+    "observed_on": "2026-09-11",
+    "date_route": "owner_authorized_current_version_review_for_named_12_pages_only",
+    "first_publication": "unknown",
+    "admission_status": "accepted_scoped_current_version",
+    "formal_adoption": false,
+    "legacy_fields_scope": "Existing platform_claims/blocked_claims and audit hashes retain their historical recording state. This dated observation supplements them; no actual store eligibility or formal adoption is inferred.",
+    "claims": [
+      {
+        "claim_id": "SC-SHOPIFY-C012",
+        "source_id": "SC-SHOPIFY-S007",
+        "url": "https://help.shopify.com/en/manual/customers/customer-segmentation/manage-customer-segments",
+        "fact_summary": "分群随条件自动进出且可重叠；测试订单和已删除订单不参与分群计算。邮件实际收件还需订阅及有效地址，分群人数不等于收件人数。",
+        "section_locator": "L19–32; L114–123",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "refine",
+        "applicability_limit": "仅Shopify分群/邮件语境，不推导公司抑制策略已验证或真实名单可发送。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C013",
+        "source_id": "SH-N-02",
+        "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/customer-contact-information",
+        "fact_summary": "促销应面向同意该店铺营销的顾客；自动区域设置不能替代商家核实适用性和法律责任。",
+        "section_locator": "L17–25; L32–46",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "不是全球法律结论、跨渠道许可或完整同意状态机；未更改配置。"
+      }
+    ],
+    "controller_decision_id": "417",
+    "formal_adoption_scope": "whole_skill_final_adoption"
+  }
+}

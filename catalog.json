@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "version": "0.1.1-public-demo",
-  "distribution": "public-demo-only",
+  "version": "1.0.0",
+  "distribution": "open-source",
   "maintainer": "ModernLinc",
   "evidence_type": "authored-synthetic-reference",
-  "delivery": "Markdown catalog, self-contained exercises and reference outputs; five synthetic CSVs for the analytics example. Complete paid implementations are excluded.",
+  "delivery": "18 self-contained installable Skills with complete methods, templates, scripts where applicable, and synthetic exercises. No payment required.",
   "skills": [
     {
       "id": "01",
@@ -33,7 +33,10 @@
         "input": "skills/meta-facebook-ads/examples/input.md",
         "reference_output": "skills/meta-facebook-ads/examples/output.md",
         "media_note": "skills/meta-facebook-ads/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/meta-facebook-ads/references/library/METHOD.md",
+      "scope": "完整文案/brief、三层计划、资源与测量待办、本地静态UTM；款式或许可变化后更新，不创建账号广告、花费或认证效果。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "02",
@@ -62,7 +65,10 @@
         "input": "skills/google-ads/examples/input.md",
         "reference_output": "skills/google-ads/examples/output.md",
         "media_note": "skills/google-ads/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/google-ads/references/library/原版方法/payload/ads/METHOD.md",
+      "scope": "Search完整稿、查询与商品信息准备、按证据分路的规划和改判；不代表全部广告类型可执行或真实投放通过。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "03",
@@ -91,7 +97,10 @@
         "input": "skills/codex-ecommerce/examples/input.md",
         "reference_output": "skills/codex-ecommerce/examples/output.md",
         "media_note": "skills/codex-ecommerce/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/codex-ecommerce/references/library/METHOD.md",
+      "scope": "按获准原稿/确认材料交完整修订稿、中文修改说明及许可内文件保存回读；不操作店铺。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "04",
@@ -120,7 +129,10 @@
         "input": "skills/shopify-store/examples/input.md",
         "reference_output": "skills/shopify-store/examples/output.md",
         "media_note": "skills/shopify-store/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/METHOD.md",
+      "scope": "页面/集合取舍、服务与购后文字、限定经营解释及条件接续；不操作店铺，不含任意数据一键程序。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "05",
@@ -149,7 +161,10 @@
         "input": "skills/google-seo/examples/input.md",
         "reference_output": "skills/google-seo/examples/output.md",
         "media_note": "skills/google-seo/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/METHOD.md",
+      "scope": "页面选择/完整改稿、技术证据分层及限定I1语言页面关系；不自动改站、收录或保证排名。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "06",
@@ -178,7 +193,10 @@
         "input": "skills/tiktok-content/examples/input.md",
         "reference_output": "skills/tiktok-content/examples/output.md",
         "media_note": "skills/tiktok-content/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/METHOD.md",
+      "scope": "给定商品/Offer形成达人brief、中文完整内部稿及购买前答疑，条件变化后更新；不含真实剪辑、发布或全域Shop/LIVE/广告执行。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "07",
@@ -207,7 +225,10 @@
         "input": "skills/social-content/examples/input.md",
         "reference_output": "skills/social-content/examples/output.md",
         "media_note": "skills/social-content/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/social-content/references/library/原版方法/payload/METHOD.md",
+      "scope": "已选渠道内内容分工、完整稿与资源内条件排期/变化接续；计算分支按需，不含自动发布或全网最优渠道保证。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "08",
@@ -236,7 +257,10 @@
         "input": "skills/reddit-research/examples/input.md",
         "reference_output": "skills/reddit-research/examples/output.md",
         "media_note": "skills/reddit-research/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/reddit-research/references/library/原版方法/payload/METHOD.md",
+      "scope": "需求分析、参与取舍、完整内部稿与规则变化接续；历史ThreadNest广告继续暂停。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "09",
@@ -265,7 +289,10 @@
         "input": "skills/pinterest-commerce/examples/input.md",
         "reference_output": "skills/pinterest-commerce/examples/output.md",
         "media_note": "skills/pinterest-commerce/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/pinterest-commerce/references/library/METHOD.md",
+      "scope": "完整Pin文字/制作brief、逐商品对照与条件接续；不自动解析、发布或证明平台资格。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "10",
@@ -294,7 +321,10 @@
         "input": "skills/amazon-us/examples/input.md",
         "reference_output": "skills/amazon-us/examples/output.md",
         "media_note": "skills/amazon-us/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/amazon-us/references/library/METHOD.md",
+      "scope": "Amazon美国站获准材料的商品文字、履约/贡献/现金核对、AHR/ODR与通知售后分路及完整未发送草案；保留AHR恰100、SAFE-T起算/资格等例外，不操作店铺。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "11",
@@ -323,7 +353,10 @@
         "input": "skills/ad-creative/examples/input.md",
         "reference_output": "skills/ad-creative/examples/output.md",
         "media_note": "skills/ad-creative/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/ad-creative/references/library/METHOD.md",
+      "scope": "创意取舍、完整文案/旁白/逐镜文字与制作交接；不生成或验证真实媒体。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "12",
@@ -352,7 +385,10 @@
         "input": "skills/ecommerce-analytics/examples/input.md",
         "reference_output": "skills/ecommerce-analytics/examples/output.md",
         "media_note": "skills/ecommerce-analytics/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/ecommerce-analytics/references/library/METHOD.md",
+      "scope": "按五表输入合同处理获准新CSV，实际生成17项核算、公式工作簿、诊断和快照，补证后同包重算；限定当前Mac/Codex运行时。",
+      "runtime": "Codex workspace spreadsheet runtime for workbook generation; text readable in other hosts"
     },
     {
       "id": "13",
@@ -381,7 +417,10 @@
         "input": "skills/customer-support/examples/input.md",
         "reference_output": "skills/customer-support/examples/output.md",
         "media_note": "skills/customer-support/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/customer-support/references/library/METHOD.md",
+      "scope": "合格低敏摘要与公开/自有政策生成完整英文回复、中文依据及具体人工问题；新政策/目标变化后完整更新，不实际发送或办理退款。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "14",
@@ -410,7 +449,10 @@
         "input": "skills/brand-brief/examples/input.md",
         "reference_output": "skills/brand-brief/examples/output.md",
         "media_note": "skills/brand-brief/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/brand-brief/references/library/payload/brand-brief-research/METHOD.md",
+      "scope": "用获准产品/对照资料比较价值方向，形成有条件定位、完整简报/首屏和下一验证；不含专业视觉/市场效果证明。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "15",
@@ -439,7 +481,10 @@
         "input": "skills/product-selection/examples/input.md",
         "reference_output": "skills/product-selection/examples/output.md",
         "media_note": "skills/product-selection/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md",
+      "scope": "已有候选取舍、MOQ/资金条件、有限VOC和目标变化重选；不证明市场需求、合规或可采购资格。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "16",
@@ -468,7 +513,10 @@
         "input": "skills/influencer-collaboration/examples/input.md",
         "reference_output": "skills/influencer-collaboration/examples/output.md",
         "media_note": "skills/influencer-collaboration/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/influencer-collaboration/references/library/METHOD.md",
+      "scope": "候选取舍、完整brief、条件成本与用途/延期接续；不含真实外联、签约或媒体验收。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "17",
@@ -497,7 +545,10 @@
         "input": "skills/ecommerce-backoffice/examples/input.md",
         "reference_output": "skills/ecommerce-backoffice/examples/output.md",
         "media_note": "skills/ecommerce-backoffice/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/ecommerce-backoffice/references/library/METHOD.md",
+      "scope": "同一业务获准摘要的费用/数量/状态核对和具体问题包，局部更正后更新；不是会计税务、到账认证或真实业务执行。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     },
     {
       "id": "18",
@@ -526,7 +577,11 @@
         "input": "skills/b2b-quotation/examples/input.md",
         "reference_output": "skills/b2b-quotation/examples/output.md",
         "media_note": "skills/b2b-quotation/assets/screenshots/README.md"
-      }
+      },
+      "method_entry": "skills/b2b-quotation/references/library/METHOD.md",
+      "scope": "合格非敏感单商品的商业/样品分行报价、范围交接和完整邮件；价格撤回或有限意见变化后更新，不作工程/量产批准或外发。",
+      "runtime": "Agent with local file reading; optional scripts require Python 3 or Node.js as documented"
     }
-  ]
+  ],
+  "license": "MIT"
 }

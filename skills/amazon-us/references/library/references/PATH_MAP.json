@@ -1,0 +1,25 @@
+{
+  "说明": "历史源路径到本平台候选文件名；原MANIFEST仅供追溯，不代表本副本字节身份",
+  "mapping": {
+    "VERSION": "VERSION",
+    "MANIFEST.json": "MANIFEST.json",
+    "00_从这里开始.md": "00_从这里开始.md",
+    "02_范围与来源说明.md": "02_范围与来源说明.md",
+    "方法/LIMITATIONS.md": "方法__LIMITATIONS.md",
+    "方法/METHOD.md": "方法__METHOD.md",
+    "方法/references/04-account-and-returns.md": "方法__references__04-account-and-returns.md",
+    "方法/references/02-fulfillment-and-inventory.md": "方法__references__02-fulfillment-and-inventory.md",
+    "方法/references/03-contribution-and-cash.md": "方法__references__03-contribution-and-cash.md",
+    "方法/references/05-sponsored-products.md": "方法__references__05-sponsored-products.md",
+    "方法/references/01-product-and-offer.md": "方法__references__01-product-and-offer.md",
+    "方法/contracts/INPUT.md": "方法__contracts__INPUT.md",
+    "方法/contracts/OUTPUT.md": "方法__contracts__OUTPUT.md",
+    "方法/provenance/K04_POLICY_EVIDENCE_20261020.md": "方法__provenance__K04_POLICY_EVIDENCE_20261020.md",
+    "方法/provenance/SEALEAP_NOTICE.txt": "方法__provenance__SEALEAP_NOTICE.txt",
+    "方法/provenance/ROUND_THREE_SOURCE_MAP.md": "方法__provenance__ROUND_THREE_SOURCE_MAP.md",
+    "方法/provenance/SEALEAP_LICENSE.txt": "方法__provenance__SEALEAP_LICENSE.txt",
+    "方法/provenance/ROUND_TWO_SOURCE_MAP.md": "方法__provenance__ROUND_TWO_SOURCE_MAP.md",
+    "方法/provenance/RIGHTS.csv": "方法__provenance__RIGHTS.csv",
+    "方法/provenance/SOURCES.csv": "方法__provenance__SOURCES.csv"
+  }
+}

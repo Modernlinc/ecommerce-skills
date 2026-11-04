@@ -1,0 +1,12 @@
+{
+  "说明": "历史源路径到本平台候选文件名；原MANIFEST仅供追溯，不代表本副本字节身份",
+  "mapping": {
+    "01_询盘到报价与样品交接_完整示范.md": "01_询盘到报价与样品交接_完整示范.md",
+    "00_开始使用.md": "00_开始使用.md",
+    "source-and-limits.md": "source-and-limits.md",
+    "METHOD.md": "METHOD.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "input-output-contract.md": "input-output-contract.md",
+    "output-template.json": "output-template.json"
+  }
+}

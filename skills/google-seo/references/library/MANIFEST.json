@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "candidate_id": "GSEO-PRACTICAL-20261020-P1",
+  "version": "2026.10.20-p1.1",
+  "status": "PACKAGING_CANDIDATE_AWAITING_STATIC_REVIEW",
+  "date": "2026-10-20",
+  "entrypoint": "00_从这里开始.md",
+  "core_skill": "原版方法/payload/google-seo-operations/METHOD.md",
+  "parent_delivery": "S4-google_seo-20261014-01-final.1",
+  "member_count_including_manifest": 24,
+  "self_indexed": false,
+  "manifest_rule": "Covers the current usage-only selection except this manifest; historical parent records are not runtime dependencies.",
+  "core_semantic_changes": 0,
+  "independent_usage_validated": false,
+  "formally_adopted": false,
+  "public_release": false,
+  "pure_public_distribution": false,
+  "obsidian_writeback": "not_written_scope_restricted",
+  "files": [
+    {
+      "path": "00_从这里开始.md",
+      "bytes": 4145,
+      "sha256": "b371971a1923d165bc0d468cfd382afbbcf8fc80988723658e233a6b39a7de10",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "01_页面选择与完整改稿教学.md",
+      "bytes": 8874,
+      "sha256": "12febab22ac6544bbc2d057462773e2f64480a10245c1256c7f34c34dc0d9aa2",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "02_重复与索引疑问教学.md",
+      "bytes": 7325,
+      "sha256": "6094885f04ecf8b8faf032d8b2b0b373f47c99405fce880d327fd407082e9ba8",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "03_能力与来源.md",
+      "bytes": 5073,
+      "sha256": "629a0fda3d7e7c9f99f387175d35ef8bee6ea230db292749dabe28c814d120be",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/QUICKSTART.zh-CN.md",
+      "bytes": 1133,
+      "sha256": "a2e918607c8f23591105f656e5ec2a3704401a6b3c018f2603621d9f1a81de98",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/RIGHTS.csv",
+      "bytes": 5286,
+      "sha256": "6c5c4985fc095ae8f8537c7fdd66543ec9b323858830fd3a37de71eba6a10b4c",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/METHOD.md",
+      "bytes": 8892,
+      "sha256": "1575908f924d43759f7237b43e43d0ea9dd43ffd1fad5d8323677622e5df3b3d",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/SUPPORT.zh-CN.md",
+      "bytes": 1071,
+      "sha256": "42177f570f4b00ce4d9b30a910ef128cc8a8df48faec1adafbfd00058d4180ac",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/USER_GUIDE.zh-CN.md",
+      "bytes": 3830,
+      "sha256": "1e68c6f8c9b108e845abf334407e40ef028f3d3402b59257a7f56f4bd66608e0",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "52a56a7a59fd57328543758fded6206e2805772fd406259de8bf06312e0d8b47",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/examples/capability-portfolio.md",
+      "bytes": 16391,
+      "sha256": "d35b5a22d7367e49200ce91e65893dd41a4ada7fe0538ed70c2318de7143970a",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/examples/page-review.md",
+      "bytes": 15537,
+      "sha256": "d1037bc49bf0ac01e4ccaa5970442bf67fc141b84b39fb9dcf6cc77d77b9175d",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/examples/rendering-review.md",
+      "bytes": 9261,
+      "sha256": "30bb7b5bda4c00e7ddbd04e563db1409dfa718280596d2575678d08244069c12",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/current-google-facts.md",
+      "bytes": 15792,
+      "sha256": "16ee5738d78638a68d86a6a9e2fe7d0b28a88654675096f4749471f08ea97318",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/evidence-and-safety.md",
+      "bytes": 4704,
+      "sha256": "15915e45e0d33082969c1f68a20897a856507810f5c60f2848816512670bb534",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/international-implementation.md",
+      "bytes": 2950,
+      "sha256": "ea59739f6fcab517982903cc8f8ff851794404ef91ff7dd5181efd93970dcb75",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/lifecycle-and-structured-data.md",
+      "bytes": 2642,
+      "sha256": "77abdcc74f61b9d7cf5be825cc06227aa18458d3672deff4eec86fa06125c3f4",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/local-and-editorial-authority.md",
+      "bytes": 1738,
+      "sha256": "1df522acde2b57ff15cba2c0acda217c1ea995e4f0d9693698be59a31b24a584",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/round-three-sources.md",
+      "bytes": 2229,
+      "sha256": "577e196864721bbd5f3d2e6484958f17de27b8818715a4f7375ced732b7f942a",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/seo-ads-handoff.md",
+      "bytes": 3572,
+      "sha256": "d548912912030bca2260fc5c29e90d4cd56001fc197fcea443f98360db051591",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/source-register.json",
+      "bytes": 46532,
+      "sha256": "48457351cec83dc562bf05e87c13e0846463d5443095404537194bf7e127dcc0",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/google-seo-operations/references/workflow-and-templates.md",
+      "bytes": 20772,
+      "sha256": "2a5d758464f8819620ca8cba6a73d5bc8cff75e70bb1b6e57f2d1e405805e611",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    }
+  ],
+  "parent_candidate_id": "GSEO-PRELAUNCH-20261019-W1-R1",
+  "teaching_errata": 0,
+  "source_member_count": 36,
+  "selected_parent_files": [
+    "00_从这里开始.md",
+    "01_页面选择与完整改稿教学.md",
+    "02_重复与索引疑问教学.md",
+    "03_能力与来源.md",
+    "MANIFEST.json",
+    "原版方法/payload/google-seo-operations/QUICKSTART.zh-CN.md",
+    "原版方法/payload/google-seo-operations/RIGHTS.csv",
+    "原版方法/payload/google-seo-operations/METHOD.md",
+    "原版方法/payload/google-seo-operations/SUPPORT.zh-CN.md",
+    "原版方法/payload/google-seo-operations/USER_GUIDE.zh-CN.md",
+    "原版方法/payload/google-seo-operations/agents/openai.yaml",
+    "原版方法/payload/google-seo-operations/examples/capability-portfolio.md",
+    "原版方法/payload/google-seo-operations/examples/page-review.md",
+    "原版方法/payload/google-seo-operations/examples/rendering-review.md",
+    "原版方法/payload/google-seo-operations/references/LICENSE-SeaLeap.txt",
+    "原版方法/payload/google-seo-operations/references/current-google-facts.md",
+    "原版方法/payload/google-seo-operations/references/evidence-and-safety.md",
+    "原版方法/payload/google-seo-operations/references/international-implementation.md",
+    "原版方法/payload/google-seo-operations/references/lifecycle-and-structured-data.md",
+    "原版方法/payload/google-seo-operations/references/local-and-editorial-authority.md",
+    "原版方法/payload/google-seo-operations/references/round-three-sources.md",
+    "原版方法/payload/google-seo-operations/references/seo-ads-handoff.md",
+    "原版方法/payload/google-seo-operations/references/source-register.json",
+    "原版方法/payload/google-seo-operations/references/workflow-and-templates.md"
+  ],
+  "omitted_parent_files": [
+    "原版方法/00_当前使用与范围.md",
+    "原版方法/MANIFEST.json",
+    "原版方法/payload/FILES.json",
+    "原版方法/payload/SHA256SUMS.txt",
+    "原版方法/payload/google-seo-operations/PACKAGE.json",
+    "原版方法/payload/google-seo-operations/KNOWLEDGE_DELTA.zh-CN.md",
+    "原版方法/payload/google-seo-operations/CHANGELOG.md",
+    "原版方法/payload/google-seo-operations/先读我.md",
+    "原版方法/payload/google-seo-operations/本轮版本与限制.md",
+    "原版方法/payload/google-seo-operations/00-标题差异候选范围.md",
+    "原版方法/payload/google-seo-operations/00-第二轮内容方法候选范围.md",
+    "原版方法/payload/google-seo-operations/00-第三轮融合候选范围.md"
+  ],
+  "byte_exact_inherited_files": 12,
+  "navigation_metadata_modified_files": 12,
+  "new_teaching_files": 0,
+  "content_selection": "usage_only",
+  "inherited_errata": "R1 P01 teaching split retained; not a new change in this packaging."
+}

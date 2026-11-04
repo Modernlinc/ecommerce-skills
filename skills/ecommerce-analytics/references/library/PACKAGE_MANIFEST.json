@@ -1,0 +1,64 @@
+{
+  "version": "data-practical-v1.0.1",
+  "parent_version": "data-practical-v1.0.1",
+  "parent_manifest_sha256": "367e96509839a53cb3e3f32d9ce0a8798a73a0eeed6c8671bf1c9926e3c76b31",
+  "packaging_revision": "open-source-1.0.0",
+  "scope": "offline-input-contract-v1",
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 4027,
+      "sha256": "7c27d0fb6bf77ecaa49d68fa3d0b866663849d63c9344d0ebb207b4672b795c4"
+    },
+    {
+      "path": "METHOD.md",
+      "bytes": 2641,
+      "sha256": "d934caaf9f57829fdc7728ac927e9b5bbc3192e692e4e386f211e358ef80cf19"
+    },
+    {
+      "path": "references/input-contract-v1.md",
+      "bytes": 8975,
+      "sha256": "6106667f8208f9b64bcf8199449646142a4b71f0b13be98eb481f73e8fbb4291"
+    },
+    {
+      "path": "references/method-sources-and-limits.md",
+      "bytes": 5090,
+      "sha256": "6a21bf6416326897e211312f5bca99c9c1b70c78857bb062c9d1ed073acb1c49"
+    },
+    {
+      "path": "scripts/reconcile_v1.mjs",
+      "bytes": 83020,
+      "sha256": "369918c8df0d6ea8de5f3d33d0a487220b47fb16a398264520754730cb204d83"
+    },
+    {
+      "path": "templates/INPUT_CONTRACT.json",
+      "bytes": 769,
+      "sha256": "23fafc937ad9357ecf97e7643d748609777909cb7699e01cc228fcaaa3930388"
+    },
+    {
+      "path": "templates/ad_daily.csv",
+      "bytes": 90,
+      "sha256": "3a418c6cb628195120cae934ec7ad27ab5f2da93d247e8f908f93627844b326d"
+    },
+    {
+      "path": "templates/order_costs.csv",
+      "bytes": 70,
+      "sha256": "08d285f5d0b1be73f93cd0a83af78d5cb6f29b5371110841c62dcecbecb7cf0b"
+    },
+    {
+      "path": "templates/order_lines.csv",
+      "bytes": 182,
+      "sha256": "59f644a282de07cc6280d777a98cb7fac7a5e0b1407040c37fd3f8a96de92cdf"
+    },
+    {
+      "path": "templates/refund_events.csv",
+      "bytes": 130,
+      "sha256": "dfa3d43a4aec4e74e58bb7b26b154007001004274d592b8d5ac56ead076afc7d"
+    },
+    {
+      "path": "templates/web_events.csv",
+      "bytes": 98,
+      "sha256": "1c304221e7e02f726756f983f15b165ab91dc1eaf6fe268b74de6ba6235a9c30"
+    }
+  ]
+}

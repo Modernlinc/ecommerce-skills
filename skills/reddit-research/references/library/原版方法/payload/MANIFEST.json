@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "version": "REDDIT-S3-CONTINUATION-20261014-01",
+  "self_hash_excluded": true,
+  "whole_package_complete": false,
+  "files": [
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 2315,
+      "sha256": "a629be81232ca0f99ce831b0fb55b9ee1c5493fdd36f27276010a47bbe3bf4eb",
+      "relative_dependencies": [
+        "METHOD.md",
+        "VERSION.json",
+        "templates/BRIEF.md"
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 2002,
+      "sha256": "1aca024cdff1a27b775526f437d9ea4ddc5982055e679c706938e1407a19896b",
+      "relative_dependencies": [
+        "MANIFEST.json",
+        "QUICKSTART.md",
+        "RIGHTS.md",
+        "METHOD.md",
+        "SUPPORT.md",
+        "VERSION.json",
+        "references/10-video-article-fusion.md",
+        "references/EVIDENCE_LIMITS.md",
+        "templates/BRIEF.md",
+        "templates/REPORT.md"
+      ]
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 1564,
+      "sha256": "8ecf4acb16044788e3aefa6b551938bed891f5553b708e07f13b977d7efa8ff3",
+      "relative_dependencies": [
+        "references/SOURCES.csv"
+      ]
+    },
+    {
+      "path": "METHOD.md",
+      "bytes": 4363,
+      "sha256": "850700d2e7b0eb7c748a0218d7251c7200008c5243163f11d30c9c2290bb0a0f",
+      "relative_dependencies": [
+        "MANIFEST.json",
+        "QUICKSTART.md",
+        "README.md",
+        "VERSION.json",
+        "references/01-intake-permissions.md",
+        "references/02-voc.md",
+        "references/03-community.md",
+        "references/04-ads-dpa.md",
+        "references/05-events-funnel.md",
+        "references/06-evidence-maintenance.md",
+        "references/07-economics-boundary.md",
+        "references/08-community-map-handoff.md",
+        "references/09-approved-reading-notes.md",
+        "references/10-video-article-fusion.md",
+        "references/EVIDENCE_LIMITS.md",
+        "references/SOURCES.csv",
+        "templates/BRIEF.md",
+        "templates/REPORT.md"
+      ]
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1393,
+      "sha256": "c16d80467ad2ede8b5a7d7227dfb5174f9c5e1c96be9363d96f943d21c108bed",
+      "relative_dependencies": [
+        "VERSION.json",
+        "references/06-evidence-maintenance.md",
+        "references/10-video-article-fusion.md"
+      ]
+    },
+    {
+      "path": "VERSION.json",
+      "bytes": 2157,
+      "sha256": "6b8b24fcc0e484ce1d15428f541aa9da15106a4fae596622c5d008850dd90b7f",
+      "relative_dependencies": []
+    },
+    {
+      "path": "references/01-intake-permissions.md",
+      "bytes": 2174,
+      "sha256": "e1614d1c3bc3ec4899b82b6d07328a53efeefd34ad9e04bb82dab2a55c27596f",
+      "relative_dependencies": [
+        "../RIGHTS.md",
+        "SOURCES.csv"
+      ]
+    },
+    {
+      "path": "references/02-voc.md",
+      "bytes": 2395,
+      "sha256": "5ada40891123b6844c050f0679edff99a2d017003ac9b034d9e78d6ec8a32bd1",
+      "relative_dependencies": [
+        "01-intake-permissions.md",
+        "EVIDENCE_LIMITS.md"
+      ]
+    },
+    {
+      "path": "references/03-community.md",
+      "bytes": 5805,
+      "sha256": "175722bbac1cd50b2dc17ad730b1fde2b67f39711aad7a4f1c7c9aead5b717de",
+      "relative_dependencies": [
+        "../VERSION.json",
+        "10-video-article-fusion.md",
+        "EVIDENCE_LIMITS.md"
+      ]
+    },
+    {
+      "path": "references/04-ads-dpa.md",
+      "bytes": 4757,
+      "sha256": "88db2f2ac00362a05b1ad0c81b4452c1d6deceff782394dd2b2766cb4a64620d",
+      "relative_dependencies": [
+        "01-intake-permissions.md",
+        "05-events-funnel.md",
+        "10-video-article-fusion.md",
+        "EVIDENCE_LIMITS.md"
+      ]
+    },
+    {
+      "path": "references/05-events-funnel.md",
+      "bytes": 3394,
+      "sha256": "3e0e7af511ff40176e469de8f94124c093fc2b865837ca69ecfeff41c619b12a",
+      "relative_dependencies": [
+        "06-evidence-maintenance.md",
+        "07-economics-boundary.md",
+        "EVIDENCE_LIMITS.md"
+      ]
+    },
+    {
+      "path": "references/06-evidence-maintenance.md",
+      "bytes": 2477,
+      "sha256": "6b6868f7f73c033c86062a8e3428a206b8d36ee9e9c19a89a9efd3e051d2ec77",
+      "relative_dependencies": [
+        "../MANIFEST.json",
+        "../SUPPORT.md",
+        "SOURCES.csv"
+      ]
+    },
+    {
+      "path": "references/07-economics-boundary.md",
+      "bytes": 1469,
+      "sha256": "4edc22107b7db2016cdc4d31be68fd8f36ad6c786727ddacb3042227032dd973",
+      "relative_dependencies": []
+    },
+    {
+      "path": "references/08-community-map-handoff.md",
+      "bytes": 11551,
+      "sha256": "fc9bd41078a79259736055e32c5c5b269736cfc003dff96f1ae529b99a271523",
+      "relative_dependencies": [
+        "../VERSION.json",
+        "03-community.md",
+        "04-ads-dpa.md",
+        "10-video-article-fusion.md"
+      ]
+    },
+    {
+      "path": "references/09-approved-reading-notes.md",
+      "bytes": 4186,
+      "sha256": "541d034cb8461fb4339874f9804cd986176c0b42800b75d91a0692cf88da713c",
+      "relative_dependencies": []
+    },
+    {
+      "path": "references/10-video-article-fusion.md",
+      "bytes": 5178,
+      "sha256": "0c7e1cb82f08dc8fb591d2e6b70dcf90763e7e51f24b2debf9277d3b72af26b7",
+      "relative_dependencies": [
+        "03-community.md",
+        "04-ads-dpa.md",
+        "08-community-map-handoff.md"
+      ]
+    },
+    {
+      "path": "references/EVIDENCE_LIMITS.md",
+      "bytes": 4458,
+      "sha256": "a893e79a6be9faa46f52e5d6cc58ae295b1eb75fee73d5d31ccd064d5ee8b800",
+      "relative_dependencies": [
+        "../VERSION.json",
+        "10-video-article-fusion.md"
+      ]
+    },
+    {
+      "path": "references/SOURCES.csv",
+      "bytes": 9185,
+      "sha256": "3d314f9d81c8154412c91a3c0a6584e9231bc2f8f4e8119ecc9093566f5fbbdc",
+      "relative_dependencies": []
+    },
+    {
+      "path": "templates/BRIEF.md",
+      "bytes": 2177,
+      "sha256": "919d8f491ed0c7789927d0d6126cf38bab91c27ad9731377a8d02ea6d34e6935",
+      "relative_dependencies": []
+    },
+    {
+      "path": "templates/REPORT.md",
+      "bytes": 2562,
+      "sha256": "66bfb9c92527b78a716653f4c653720b9a9a26e46b885c8bb6fc3b83ac7ee50e",
+      "relative_dependencies": []
+    }
+  ],
+  "base_version": "reddit-text-fusion-20261010-candidate",
+  "authorization_id": "REDDIT-S3-REV-20261014-01"
+}

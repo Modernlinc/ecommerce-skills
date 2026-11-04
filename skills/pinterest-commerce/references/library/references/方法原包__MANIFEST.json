@@ -1,0 +1,114 @@
+{
+  "id": "S4-pinterest-20261014-01",
+  "files": [
+    {
+      "path": "payload/pinterest-operations/DISTRIBUTION_STATUS.md",
+      "bytes": 1584,
+      "sha256": "b96ca0d9cc526f437f7074a154349dfa1daa6a6da462788f0e8618c7db62ebdd"
+    },
+    {
+      "path": "payload/pinterest-operations/MAINTENANCE.md",
+      "bytes": 1124,
+      "sha256": "f203a9b5f957734f17ce5141bfdd534983050c9d2566aee4e3159686794bcd26"
+    },
+    {
+      "path": "payload/pinterest-operations/README.md",
+      "bytes": 2286,
+      "sha256": "80febf09b658d9535bfa20be5e4b6b57751e2dee9748cda5e73e68fad195de2f"
+    },
+    {
+      "path": "payload/pinterest-operations/METHOD.md",
+      "bytes": 4734,
+      "sha256": "1ccd3232dcf20bb3ca4e05edbebeb3ebe86c0672945f8f8bff430c1053809971"
+    },
+    {
+      "path": "payload/pinterest-operations/manifest.json",
+      "bytes": 3682,
+      "sha256": "f19cf4a18003b2e33382eca4b94b1ef92de6e1981fdfd60fe611182ff5df7d51"
+    },
+    {
+      "path": "payload/pinterest-operations/references/capabilities.md",
+      "bytes": 3197,
+      "sha256": "378aaff693da42e4d83293e707d41ba6b75b3c291ef97d8a42aadb46c6f882f4"
+    },
+    {
+      "path": "payload/pinterest-operations/references/catalog-review.md",
+      "bytes": 2720,
+      "sha256": "22c1f7d4a6c445907d64c6643f1f112fae773cd8d1f600034f86e175e00a5406"
+    },
+    {
+      "path": "payload/pinterest-operations/references/events-and-measurement.md",
+      "bytes": 4776,
+      "sha256": "f2aec69ae9b4f1422a9003d6e8a198d10d87ec3a7b7b241bd08adc1d2bc6b6d3"
+    },
+    {
+      "path": "payload/pinterest-operations/references/export-contract.md",
+      "bytes": 13438,
+      "sha256": "e5a89070885b5a3f2f4ba36b0afc287579f3144d9fde76818729dd880a4ccdc8"
+    },
+    {
+      "path": "payload/pinterest-operations/references/facts-and-evidence.md",
+      "bytes": 7852,
+      "sha256": "52d4e78b272751fe10ac80d476a9475e1da8a43076de5fefbab76281f517803e"
+    },
+    {
+      "path": "payload/pinterest-operations/references/intake-and-output.md",
+      "bytes": 3590,
+      "sha256": "46f17ded9830758c37dde0e045914dbccab1bfc0d6675b19cd894e658980739d"
+    },
+    {
+      "path": "payload/pinterest-operations/references/natural-content.md",
+      "bytes": 4750,
+      "sha256": "e56d6e3bbad0461510c6839fdbcda0d0e896c0fa734b04dc196d7336ad9c2e01"
+    },
+    {
+      "path": "payload/pinterest-operations/references/report-date-basis-evidence.md",
+      "bytes": 1935,
+      "sha256": "3f8d528478ea5320c05cc021b2706f772e6d06d32358a35a8e24dbd6900be08b"
+    },
+    {
+      "path": "payload/pinterest-operations/references/review-and-recovery.md",
+      "bytes": 3395,
+      "sha256": "2e65bc9ae35707c7d8babde7a35c727b2b8d290d723d65b97f3dd434968902af"
+    },
+    {
+      "path": "payload/pinterest-operations/references/rights-and-boundaries.md",
+      "bytes": 1766,
+      "sha256": "12e9b2f804de17f19b939aa5dab463ece78257f77b66ba0f06e17b6b8eb3804e"
+    },
+    {
+      "path": "payload/pinterest-operations/references/round-two-evidence.md",
+      "bytes": 4498,
+      "sha256": "b899ce3cfe52352640f48af89dbeeb37da4082deca3ac467f3fa409f7a773a9e"
+    },
+    {
+      "path": "payload/pinterest-operations/references/shopping-ads-plan.md",
+      "bytes": 2628,
+      "sha256": "774a9a4f10e8b8100bd0ba95bf7259088f006dc9b3beed0e340f8c8ae44f22f1"
+    },
+    {
+      "path": "payload/pinterest-operations/references/sources.csv",
+      "bytes": 15342,
+      "sha256": "9974698fd828b0f3d4d8c23a94b6d39f0fb6db887540955bb49b9ddba75e2fd1"
+    },
+    {
+      "path": "payload/先读我.md",
+      "bytes": 3599,
+      "sha256": "53135c28d3da89291f8bc2221f14fa0b5e177d724885f78ff689aac1702fffc6"
+    },
+    {
+      "path": "payload/可编辑成果委托.md",
+      "bytes": 4498,
+      "sha256": "226e63f9d24786b81780cb7e6349e59ad4eef152350e181df340aac1408a7aef"
+    },
+    {
+      "path": "00_当前使用与范围.md",
+      "bytes": 3047,
+      "sha256": "bccd54bfb842131f15f66eb833644b8d6e9ade4047dca69a20e44baf2a0ae69d"
+    }
+  ],
+  "original_payload_preserved": true,
+  "review_status": "PRIOR_NAMED_SCOPE_REUSED",
+  "global_installation": false,
+  "self_excluded": "MANIFEST.json"
+}

@@ -1,0 +1,90 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3644,
+      "sha256": "77398405bb869ab810a745b33bfc3b50b73a8a0d7d0a4754c9b1c681f632b235"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 330,
+      "sha256": "73b27f88176d9710386ada429dadef1090ccb2bc5961787cc6dbaa18c088d43b"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1908,
+      "sha256": "c78044366a504afcc223ebf667108aad2ceaa49febfbd487fea6786efe221cc6"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 615,
+      "sha256": "20eced257851f3267f61ad937dd9828c203487770a5d9a6e916bc1dd9be3a6ca"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1122,
+      "sha256": "98a8bfa5b02e05bf22ec90a83a7f347dcf02980ee445c579e8db1d05842d58ed"
+    },
+    {
+      "path": "references/library/00_当前使用与范围.md",
+      "bytes": 4641,
+      "sha256": "b1d3bca1c5e710ff57f36d101878f64c724301e3ca96240fa3166ba20f9a6486"
+    },
+    {
+      "path": "references/library/01_留序示范_从方向比较到完整首屏.md",
+      "bytes": 7777,
+      "sha256": "f3c00c1dac1be2e51704ef5842f74e9fa6c7c4af02487e705fcc4c01b66092c5"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 1968,
+      "sha256": "28f1bf0b4639948d4dde6e974a12c0c0b85c037900133d4bb68f4d2595137331"
+    },
+    {
+      "path": "references/library/payload/00_开始使用.md",
+      "bytes": 1586,
+      "sha256": "a592637e45f21f936efbce85a62a9316841754cfc8a05154f2c18dc407d70a8b"
+    },
+    {
+      "path": "references/library/payload/brand-brief-research/METHOD.md",
+      "bytes": 4401,
+      "sha256": "2eba09385efcab8da44cb3def666905e6764c796cbd3c6c11992e961b5e78621"
+    },
+    {
+      "path": "references/library/payload/brand-brief-research/README.md",
+      "bytes": 3953,
+      "sha256": "a7e1ca9f3e8158a81ba04b362059fd0c4901dd58611edcad2840b8f53118e5de"
+    },
+    {
+      "path": "references/library/payload/brand-brief-research/references/KNOWN_LIMITATIONS.md",
+      "bytes": 4078,
+      "sha256": "b57d059be1441543a852d5c6c00b1586955af446b74dda97887746e1f2f42a63"
+    },
+    {
+      "path": "references/library/payload/brand-brief-research/references/SOURCE_AND_LIMITS.md",
+      "bytes": 11576,
+      "sha256": "5ad8a3bcddbc79c6103e6c65c30d1652c8379e2d53f29056839b0447e17e50dd"
+    },
+    {
+      "path": "references/library/payload/brand-brief-research/templates/BRIEF_CONTRACT.md",
+      "bytes": 10400,
+      "sha256": "f2a3533fee5ace0f58a809f74b04a62e71d669c5e021132532d213a06a7c58f7"
+    }
+  ]
+}

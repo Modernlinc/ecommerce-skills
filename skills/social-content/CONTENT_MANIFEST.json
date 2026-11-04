@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3695,
+      "sha256": "477eae5fc4af5b3d9ccdc2855c39f827b0e99bfd4b9979957fe1741a38c0e302"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 341,
+      "sha256": "0e38426f3eaedba8934ca88d29532a492bdd74e1daefe35306b3fcb3a2f4ad60"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1888,
+      "sha256": "d9456f60210c951d9711c179ad3a6706f028fc70bca4f995a6748539a0242f0d"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 549,
+      "sha256": "450255670b46a616652f624d6667b4ab7b8716aaef3bbfecdd3649e5df9751b3"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1386,
+      "sha256": "b271f12f83fa165c38ac42f9dacffb1e71a0263f4462b936fc129065d8ffdcaa"
+    },
+    {
+      "path": "references/library/00_开始使用.md",
+      "bytes": 5494,
+      "sha256": "4fd95fad9716d7aafbaa434482cbccd12e9c6103de9d60904d1810dbffe49fc0"
+    },
+    {
+      "path": "references/library/00_本地文件使用入口.md",
+      "bytes": 2066,
+      "sha256": "4a5ef05320fc8647caf2d1032b123823cf5e140169d8e52248dae470a50f31c7"
+    },
+    {
+      "path": "references/library/01_完整教学_分工改稿与条件排期.md",
+      "bytes": 15047,
+      "sha256": "6723b4c9b2f3e5877fb5cea1795c1e9eaf9c918b2b8a3d920e32cfacdb9d7076"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 7101,
+      "sha256": "c159e74a7b1066e608e22e73771d57ec985c914cf6628f3cc3b1614d2acded1e"
+    },
+    {
+      "path": "references/library/历史示例/01_原始委托.md",
+      "bytes": 1763,
+      "sha256": "e1122061366296a5f1e8d2b5cfd2341218c815319334f2bc392ef3709a1ec984"
+    },
+    {
+      "path": "references/library/历史示例/02_原始首答.md",
+      "bytes": 9862,
+      "sha256": "b0a1834ff5a0ca093dfb180055a7fee9fcbcf23b04260de5f28fdbaaf2bc5a56"
+    },
+    {
+      "path": "references/library/历史示例/03_原始跟进.md",
+      "bytes": 332,
+      "sha256": "6da869be475e4f6f5a22d64e183c5006668721b75fa955e0d9cd67d2200a2a06"
+    },
+    {
+      "path": "references/library/历史示例/04_原始跟进成果.md",
+      "bytes": 9016,
+      "sha256": "8016863d5fe0757268c636cb62b10809f887d77944ea353ea0cacac84d47e50f"
+    },
+    {
+      "path": "references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3280,
+      "sha256": "c6c423b4de00236ccd44f3699277ed9002ee09b054b306fa0562536a2e060ef3"
+    },
+    {
+      "path": "references/library/原版方法/MANIFEST.json",
+      "bytes": 5138,
+      "sha256": "46c2a3e017b40ae0a1f3b56f4a83524b1fd0c277942b83d0d48a59793f89b7c8"
+    },
+    {
+      "path": "references/library/原版方法/payload/CHANGELOG.md",
+      "bytes": 2904,
+      "sha256": "9dc51ab60664bf1199710ee497e7712ba8af8587f7b5059070edd25c02910818"
+    },
+    {
+      "path": "references/library/原版方法/payload/DEPENDENCIES.json",
+      "bytes": 2590,
+      "sha256": "c1515ccb287be4205fc9c059351318d31550706215fe7d3b445ec3b9a05bf0ae"
+    },
+    {
+      "path": "references/library/原版方法/payload/LICENSE_DECISION.md",
+      "bytes": 1403,
+      "sha256": "79d689b2cb472f7f3c631caac8a724c86bda1b5d362d24458016027a9b2a710c"
+    },
+    {
+      "path": "references/library/原版方法/payload/MANIFEST.sha256",
+      "bytes": 2429,
+      "sha256": "2e1caed66ab6e653d4e684ccc8ef6e0869cdf9e8b9fd96cd5c37bbae92f492b8"
+    },
+    {
+      "path": "references/library/原版方法/payload/METHOD.md",
+      "bytes": 5152,
+      "sha256": "b6b499c50cca31dd06311f179b11015873096156dd562d303070087ddb205ce2"
+    },
+    {
+      "path": "references/library/原版方法/payload/README.md",
+      "bytes": 5509,
+      "sha256": "d6a53b22ed27f997aeb34170bcb97ab009cdef18cbeddd62d9a652f427c02a80"
+    },
+    {
+      "path": "references/library/原版方法/payload/RIGHTS.csv",
+      "bytes": 7100,
+      "sha256": "e991025e3c2102e58c084df642d8d268d13bad9b2ddbeb61432ca99bae9a9fa2"
+    },
+    {
+      "path": "references/library/原版方法/payload/SOURCE_MAP.csv",
+      "bytes": 15290,
+      "sha256": "27fd5b3a84ffde7760953c0688c260d944cc34a1c025a07e6e8220a103b8bc92"
+    },
+    {
+      "path": "references/library/原版方法/payload/SUPPORT.md",
+      "bytes": 779,
+      "sha256": "be62aa772ac0ce1fab7cb2e8dc363848715d6b1b8827f5dd1a3c2f159864359d"
+    },
+    {
+      "path": "references/library/原版方法/payload/VERSION.json",
+      "bytes": 10748,
+      "sha256": "4aec1bb7cce6e09c84f5e5eb7bcda002c70bb9a12ceb693990ee3afc1b49718b"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/foldbox/INPUT.md",
+      "bytes": 4517,
+      "sha256": "a892087172aa7eb0fcd46333f85e5204a26712894ac0f7758d95525216e85856"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/foldbox/OUTPUT.md",
+      "bytes": 13099,
+      "sha256": "f545463abf2a5eaae5e12ecad5d928cb5a779080377b433e460fc27258ace679"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/missing-economics/INPUT.md",
+      "bytes": 3958,
+      "sha256": "5845c295812e247b1a9d2f2921aac9ac9c42fbf89d8d60b9a3cf6d6e78bf8b8d"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/missing-economics/OUTPUT.md",
+      "bytes": 8425,
+      "sha256": "b0a9dea4d1e3fe67e09f60f7452b10bb19ad3be4ce8efa8bd41d01e4ae12c47e"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/operating-review/INPUT.md",
+      "bytes": 9373,
+      "sha256": "19a98b65a3e3c82a10848a95bcd3c988c9b9efb31471918be5ca21181586e248"
+    },
+    {
+      "path": "references/library/原版方法/payload/examples/operating-review/OUTPUT.md",
+      "bytes": 10754,
+      "sha256": "c8e09d33cab7e087b69bce47ecddfc3632abb13cfbc64ce06c2790bee181f3ea"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/creative-brief.md",
+      "bytes": 3584,
+      "sha256": "6281eb1d2fdb6f8b88d79c1a7589dd7c9681426c5de26ed4a89f8799b3be4cd4"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/evidence-and-scope.md",
+      "bytes": 10359,
+      "sha256": "c6da5d5dad53ae0dab60ec1fb99ba004e115c5612fd8d48e10b749fc2da57d25"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/experiment-and-review.md",
+      "bytes": 12678,
+      "sha256": "633620e61eed3b92ea1cf41c30de92884908829b7fa5559b12bf3772f1bc03a0"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/failure-and-unknown.md",
+      "bytes": 1184,
+      "sha256": "0a62125962a429b66083f979ef7595164454b6bd4caa2a121756f037cb2fbe93"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/offer-economics-cash.md",
+      "bytes": 3556,
+      "sha256": "5a889eca923f1bb54a507f87a58a9b04211f52d57b1b342e14fd94fb6bd3e369"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/platform-handoff.md",
+      "bytes": 1213,
+      "sha256": "d6823adaba894de501d2e42f48bfb5028851ea8af110e3d1e970cbc716be4b07"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/rights-lifecycle.md",
+      "bytes": 1474,
+      "sha256": "4b13dc3990b40f5ef90ad5aaa5c8e40dec19da0c9cd2f2fe0ef7056d2a1e215a"
+    },
+    {
+      "path": "references/library/原版方法/payload/scripts/calculate.py",
+      "bytes": 7755,
+      "sha256": "fb66620f0ffd379a07e4cdfa50b6d9f58e429717eca0e0e1787a139f670b2ab8"
+    },
+    {
+      "path": "references/library/原版方法/payload/templates/CHANNEL_PLAN.md",
+      "bytes": 26941,
+      "sha256": "32d7f92249ce0a46f2fde2e3179e4b8686e0b88f226859cb73fe58d5f75fbbe3"
+    },
+    {
+      "path": "references/library/原版方法/payload/templates/INTAKE.md",
+      "bytes": 2606,
+      "sha256": "58eaeccd6c45e4c44fdea20d00fc82e67332fc34c6c1cea5532232530f4da830"
+    },
+    {
+      "path": "references/library/原版方法/payload/templates/REPORT.md",
+      "bytes": 2964,
+      "sha256": "9e90f0bc27de25e253664229309395f4989f21bff433606e76f7bebbc72b3c4c"
+    },
+    {
+      "path": "references/library/原版方法/payload/先读我.md",
+      "bytes": 2406,
+      "sha256": "e5d56c7da1747a50cb9ab947d81d4b4c2ffcc7cfc2a44f70f94eb6ddb252f6bd"
+    }
+  ]
+}

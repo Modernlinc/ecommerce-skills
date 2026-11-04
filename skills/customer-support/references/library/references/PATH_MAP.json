@@ -1,0 +1,29 @@
+{
+  "说明": "原素材路径到平台候选文件名；历史清单不是本副本哈希",
+  "mapping": {
+    "00_R1入口.md": "00_R1入口.md",
+    "C07_PORTABLE_ENTRY.md": "C07_PORTABLE_ENTRY.md",
+    "ASSEMBLY_RECEIPT.json": "ASSEMBLY_RECEIPT.json",
+    "C07_PATCH_MANIFEST.json": "C07_PATCH_MANIFEST.json",
+    "base/support/00_开始使用.md": "base__support__00_开始使用.md",
+    "base/support/01_取消请求教学.md": "base__support__01_取消请求教学.md",
+    "base/support/MANIFEST.json": "base__support__MANIFEST.json",
+    "base/support/教学材料/B_明确已交承运商.json": "base__support__教学材料__B_明确已交承运商.json",
+    "base/support/教学材料/A_明确未交承运商.json": "base__support__教学材料__A_明确未交承运商.json",
+    "base/support/原版方法/MANIFEST.json": "base__support__原版方法__MANIFEST.json",
+    "base/support/原版方法/00_当前使用与范围.md": "base__support__原版方法__00_当前使用与范围.md",
+    "base/support/教学成果/B_已交后选项内部稿.json": "base__support__教学成果__B_已交后选项内部稿.json",
+    "base/support/教学成果/A_取消评估内部稿.json": "base__support__教学成果__A_取消评估内部稿.json",
+    "base/support/原版方法/payload/VERSION.json": "base__support__原版方法__payload__VERSION.json",
+    "base/support/原版方法/payload/README_中文.md": "base__support__原版方法__payload__README_中文.md",
+    "base/support/原版方法/payload/METHOD.md": "base__support__原版方法__payload__METHOD.md",
+    "base/support/原版方法/payload/DEPENDENCIES_AND_RIGHTS.md": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+    "base/support/原版方法/payload/references/source-map.md": "base__support__原版方法__payload__references__source-map.md",
+    "base/support/原版方法/payload/references/current-platform-policy.md": "base__support__原版方法__payload__references__current-platform-policy.md",
+    "base/support/原版方法/payload/references/decision-and-stop-rules.md": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+    "base/support/原版方法/payload/references/input-output-contract.md": "base__support__原版方法__payload__references__input-output-contract.md",
+    "base/support/原版方法/payload/knowledge/客服私信处理与人工升级.md": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+    "base/support/原版方法/payload/templates/handoff-record.json": "base__support__原版方法__payload__templates__handoff-record.json",
+    "base/support/原版方法/payload/templates/knowledge-feedback.md": "base__support__原版方法__payload__templates__knowledge-feedback.md"
+  }
+}

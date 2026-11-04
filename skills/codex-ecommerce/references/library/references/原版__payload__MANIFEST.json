@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "name": "codex-commerce-execution",
+  "version": "0.5.0-s3-candidate.1",
+  "date": "2026-10-14",
+  "status": "candidate_pending_usage_review",
+  "purpose": "授权商品/页面资料审阅、完整可编辑修订与获准本地文件保存回读",
+  "entry": "METHOD.md",
+  "user_guide": "使用说明.md",
+  "files": [
+    {
+      "path": "METHOD.md",
+      "bytes": 3105,
+      "sha256": "c2fa6e743e37570e0fa552e0a8d727c1e542cdae0a94bbe356dfa03bb8943add"
+    },
+    {
+      "path": "使用说明.md",
+      "bytes": 5687,
+      "sha256": "dfb003736922ef197b08cc21a969cb038c78933c343bad22032c514a51ab35ce"
+    },
+    {
+      "path": "references/workflow.md",
+      "bytes": 8468,
+      "sha256": "2c7752a76eff5ec66494e53ade51f5082ec09cd886a95c3c4a0d0a0ec4ede096"
+    },
+    {
+      "path": "references/sources.md",
+      "bytes": 8013,
+      "sha256": "f60b0fdb91586e464bf884c25161fb23bfaf5283f4d510b44547b35e965ea767"
+    }
+  ],
+  "integrity_scope": "其余4件内容身份；本清单不对自身取哈希，完整冻结身份由交付记录另记",
+  "support": {
+    "target": "Codex desktop local session with Chinese reasoning and native file tools",
+    "application_version": "unknown",
+    "cross_host_compatibility": "not_verified",
+    "external_dependencies": [],
+    "behavior_validation": "not_run_for_s3_candidate"
+  },
+  "delivery": {
+    "expected": [
+      "REVISED.md",
+      "CHANGES.md"
+    ],
+    "without_write_permission": "complete_copyable_contents_only",
+    "platform_write_operations": "out_of_scope"
+  },
+  "independent_qa": {
+    "decision": "NOT_REVIEWED",
+    "reviewed_version": null,
+    "scope": "S3新增接续规则尚待使用验证及总控审定；旧独立裁决仅见parent_evidence"
+  },
+  "formal_adoption": false,
+  "real_project_validation": false,
+  "internal_use": "candidate_review_only",
+  "exceptions": [
+    {
+      "id": "E1",
+      "boundary": "真实阶段截图未取得，仅影响可视化证明",
+      "owner": "原制作方补证，总控复核",
+      "reopen_when": "已有安全真实界面时记录当前阶段，不补造过去"
+    },
+    {
+      "id": "E2",
+      "boundary": "具体应用版本unknown；自动发现/安装与跨宿主兼容未验证",
+      "owner": "原制作方补证，总控复核",
+      "reopen_when": "明确新宿主需求或加载失败时作最小验证"
+    },
+    {
+      "id": "E3",
+      "boundary": "未证明真实客户效果、稳定提效或经营收益",
+      "owner": "原制作方在未来获准项目留证，总控复核",
+      "reopen_when": "另获授权的真实项目可补脱敏证据；核心错误应重开"
+    }
+  ],
+  "parent_evidence": {
+    "version": "0.5.0-r2",
+    "manifest_sha256": "3592d7bdad7e508d43a9ab533512983a65a0243b7258e93a02ffd801a5c9a8ad",
+    "reusable_scope": "未改的授权资料修订、完整双稿及获准新建/全文回读",
+    "behavior_boundary": "旧第二阶段仅保存许可变化；不证明新增业务事实或目标变化后的接续",
+    "independent_qa": {
+      "decision": "PASS_WITH_EXCEPTIONS",
+      "decision_id": "CODEX-SKILL-SCOPED-FINAL-20261010-01",
+      "reviewed_version": "0.5.0-r2-candidate.1",
+      "reviewed_manifest_sha256": "2e31a603ffe7e89f4a737e46ec75dea57cc32d3d66afaeacf0567c1b6c43cee5",
+      "scope": "授权可读商品/页面资料完整修订、双稿交付与明确许可下本地新建/全文回读",
+      "derivation": "仅版本、状态与已发生证据关联；核心方法不变，交付副本及ZIP实收另记"
+    }
+  },
+  "revision": {
+    "authorization_id": "CODEX-S3-REV-20261014-01",
+    "method_delta": "workflow §2接续段、§3范围解释与CHANGES第1项",
+    "new_rule_maturity": "method_hypothesis",
+    "new_business_usage": "not_run",
+    "formal_entry_sync": "pending_S4",
+    "knowledge_sync": "pending_S4"
+  }
+}

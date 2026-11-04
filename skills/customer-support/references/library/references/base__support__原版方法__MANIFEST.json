@@ -1,0 +1,79 @@
+{
+  "id": "SUPPORT-PRACTICAL-V1-20261020-01-METHOD",
+  "version": "0.4.0-practical-v1-candidate-01",
+  "status": "CANDIDATE_AWAITING_INDEPENDENT_CHECK",
+  "parent": {
+    "candidate_id": "SUPPORT-PRELAUNCH-20261019-W1-R1",
+    "historical_inner_manifest_sha256": "3ed5e55df36efb13d3ad6db9e0b2c10aa79aa42237a8f3493aaa37955300fd22",
+    "scope": "Historical parent identity only; current members are listed below."
+  },
+  "files": [
+    {
+      "path": "00_当前使用与范围.md",
+      "bytes": 1999,
+      "sha256": "f283bd263e100f7bbf94b75a213069321028123dab98bafeefc50bbb0beb8928"
+    },
+    {
+      "path": "payload/DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1890,
+      "sha256": "20436d867b92f2e5543642c4a5b86a96fa38899eebcc87affb74a5a5fae45880"
+    },
+    {
+      "path": "payload/README_中文.md",
+      "bytes": 5378,
+      "sha256": "a5753a574b49eab1ec54cef05165c36a009bfdccb4f3a318ff4ef3773a47fbfb"
+    },
+    {
+      "path": "payload/METHOD.md",
+      "bytes": 5798,
+      "sha256": "209d79773c6661cfb1a2c88ebe70f609e7cc5ad6ca563f67dd3ceffa30b20917"
+    },
+    {
+      "path": "payload/VERSION.json",
+      "bytes": 7596,
+      "sha256": "ccfc4fb2bc73f9bf3bb6afc13c51e2317ecc4081651308f728e63672859323a5"
+    },
+    {
+      "path": "payload/knowledge/客服私信处理与人工升级.md",
+      "bytes": 3602,
+      "sha256": "e88603093cd2f23682885687f5ac5793cde17c54291f106e2945b568cabc2b7f"
+    },
+    {
+      "path": "payload/references/current-platform-policy.md",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc"
+    },
+    {
+      "path": "payload/references/decision-and-stop-rules.md",
+      "bytes": 9621,
+      "sha256": "19de6eb0edbff4d2eb02db0f1b72299ca6b4c7cded45179b31b5d42bdfc55b6a"
+    },
+    {
+      "path": "payload/references/input-output-contract.md",
+      "bytes": 12820,
+      "sha256": "62dc19890b5553193dce779a6bcb4b613a324d17144e85180d09f308022e83b9"
+    },
+    {
+      "path": "payload/references/source-map.md",
+      "bytes": 10445,
+      "sha256": "47f34b5d4baa482cb633360d7ad23014305f3998431d901e794f25ab0d28dc71"
+    },
+    {
+      "path": "payload/templates/handoff-record.json",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501"
+    },
+    {
+      "path": "payload/templates/knowledge-feedback.md",
+      "bytes": 888,
+      "sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9"
+    }
+  ],
+  "members_excluding_self": 12,
+  "expected_files_including_self": 13,
+  "self_excluded": "MANIFEST.json",
+  "original_payload_preserved": false,
+  "global_installation": false,
+  "formal_adoption": false,
+  "public_release": false
+}

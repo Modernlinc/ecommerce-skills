@@ -1,4 +1,4 @@
-# Credentials, private data and commercial distributions
+# Credentials, private data and generated archives
 .env
 .env.*
 *.pem

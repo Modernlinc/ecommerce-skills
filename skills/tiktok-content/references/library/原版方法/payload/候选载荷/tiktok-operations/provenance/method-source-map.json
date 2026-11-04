@@ -1,0 +1,594 @@
+{
+  "schema_version": 1,
+  "scope": "Company-authored portable method summaries; internal raw-source replay is not shipped.",
+  "source_record_basis": {
+    "internal_method_map_sha256": "884def92a6bd48f019cbb287f28c443adb4fb46e6d261613abeac3be2897a61a",
+    "historical_claim_ids": "C001-C018 retained as navigation IDs via previously reviewed foundation mapping, not new adoption or independent sources.",
+    "current_official_verification": "not_performed",
+    "source_dates": "Use dated source conditions in official-facts.md; missing original publication remains unknown"
+  },
+  "methods": [
+    {
+      "id": "T01",
+      "company_method_summary": "按市场/主体/商品/目的地核资格，缺当前证据停止上线。",
+      "runtime_references": [
+        "../references/shop-creator-and-live.md",
+        "../references/compliance-and-approval-gates.md"
+      ],
+      "historical_claim_navigation": [
+        "C001",
+        "C002"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "bounded_US_source_observation_inherited_but_held; preparation_structure_only; T01_incomplete",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Admitted market/branch/actor evidence, date admission and unresolved U1/U2/U3 applicability; no actual qualification conclusion.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "preparation_structure": {
+        "type": "company_existing_evidence_and_permission_gate_refinement",
+        "runtime_reference": "../references/shop-creator-and-live.md",
+        "held_source_index": "us-registration-source-index.md",
+        "formal_admission": false,
+        "source_ids": [
+          "TK-T01-26-A",
+          "TK-T01-26-B"
+        ],
+        "unresolved": [
+          "U1",
+          "U2",
+          "U3"
+        ],
+        "source_specific_qualification_adopted": false,
+        "rc2_behavior_validation": "not_performed"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "市场/主体/品类资格核证结构",
+        "evidence": "既有设计与来源观察复用；U1—U3及两页准入仍held",
+        "limits": "不出真实可售资格结论；完整市场档案未齐",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T02",
+      "company_method_summary": "包含物、证明、价格与费用一致后选一个主路线，不编爆品分数。",
+      "runtime_references": [
+        "../references/shop-creator-and-live.md",
+        "../references/content-operating-system.md",
+        "../references/shop-merchandising-and-health.md"
+      ],
+      "historical_claim_navigation": [
+        "C013",
+        "C016"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Portable usage/rights and independent QA still needed; full promotion/Shop coverage not inferred.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "F1_historical_output",
+          "next_evidence": "Portable usage/rights and independent QA still needed"
+        },
+        "examples": [
+          {
+            "input": "../examples/product-content/INPUT.md",
+            "output": "../examples/product-content/OUTPUT.md"
+          },
+          {
+            "input": "../examples/organic-shop/INPUT.md",
+            "output": "../examples/organic-shop/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_assembly_refinement": {
+        "kind": "existing_company_method_handoff_refinement",
+        "admission": "bounded_design_acceptance_not_formal_QA",
+        "behavior_validation": "not_performed",
+        "new_sources": 0,
+        "current_official_verification": "not_performed",
+        "locator": "../references/shop-merchandising-and-health.md#product-to-listing-draft-handoff"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "商品/Offer、主路线与Listing文字",
+        "evidence": "正式S4＋既有两轮产品交接的限定证据",
+        "limits": "不代表促销/Shop全链或本新组合已验证",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T03",
+      "company_method_summary": "需求→内容角色/系列→反馈与周复盘；流量不代订单。",
+      "runtime_references": [
+        "../references/organic-account-and-content-growth.md"
+      ],
+      "historical_claim_navigation": [],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Full account method/behavior coverage and independent review still needed; inherited organic-Shop example is not new validation.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "complete_account_output_pending",
+          "next_evidence": "complete_account_output_pending"
+        },
+        "examples": [
+          {
+            "input": "../examples/organic-shop/INPUT.md",
+            "output": "../examples/organic-shop/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_assembly_refinement": {
+        "kind": "existing_company_method_handoff_refinement",
+        "admission": "bounded_design_acceptance_not_formal_QA",
+        "behavior_validation": "not_performed",
+        "new_sources": 0,
+        "current_official_verification": "not_performed",
+        "locator": "../references/organic-account-and-content-growth.md#t03-handoff-binding"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "需求、series/episode到内容交接",
+        "evidence": "正式S2指针＋两轮旅程相关部分",
+        "limits": "完整自主账号周报未运行",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T04",
+      "company_method_summary": "从可证明主张形成完整brief/脚本/检查，不制作媒体。",
+      "runtime_references": [
+        "../references/content-operating-system.md",
+        "../references/beginner-first-route-and-glossary.md"
+      ],
+      "historical_claim_navigation": [
+        "C012",
+        "C013",
+        "C016"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "F1_historical_output",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Portable usage/rights and independent QA still needed",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "current_assembly_refinement": {
+        "kind": "existing_company_method_handoff_refinement",
+        "admission": "bounded_design_acceptance_not_formal_QA",
+        "behavior_validation": "not_performed",
+        "new_sources": 0,
+        "current_official_verification": "not_performed",
+        "locator": "../references/content-operating-system.md#shared-handoff-contract"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "实际brief、脚本与证明/CTA一致性",
+        "evidence": "正式S1共享交接＋两轮实际文字产物",
+        "limits": "不生成媒体，不证明外部可复制稿已合规",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T05",
+      "company_method_summary": "达人匹配、费用/样品、自然/付费权利、验收和退出分别核。",
+      "runtime_references": [
+        "../references/creator-collaboration-objects.md"
+      ],
+      "historical_claim_navigation": [
+        "C008",
+        "C009",
+        "C014",
+        "C018"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Full creator-chain behavior and independent review still needed; inherited creator example does not prove actual delivery or rights.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "B_narrow_historical_delta_not_full_creator_output",
+          "next_evidence": "B_narrow_historical_delta_not_full_creator_output"
+        },
+        "examples": [
+          {
+            "input": "../examples/creator/INPUT.md",
+            "output": "../examples/creator/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_assembly_refinement": {
+        "kind": "existing_company_method_handoff_refinement",
+        "admission": "bounded_design_acceptance_not_formal_QA",
+        "behavior_validation": "not_performed",
+        "new_sources": 0,
+        "current_official_verification": "not_performed",
+        "locator": "../references/creator-collaboration-objects.md#t05-handoff-binding"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "合作对象、逐用途权利与退回",
+        "evidence": "正式S3＋两轮交接＋单风险观察",
+        "limits": "不证明真实交付、许可或停用；历史B条件保留",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T06",
+      "company_method_summary": "商品发现与健康/申诉分开；缺规则通知不判违规。",
+      "runtime_references": [
+        "../references/shop-merchandising-and-health.md"
+      ],
+      "historical_claim_navigation": [],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Specific market rules/notifications and full Shop coverage still missing; inherited synthetic example is not policy verification.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "specific_market_and_complete_output_pending",
+          "next_evidence": "specific_market_and_complete_output_pending"
+        },
+        "examples": [
+          {
+            "input": "../examples/organic-shop/INPUT.md",
+            "output": "../examples/organic-shop/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_assembly_refinement": {
+        "kind": "existing_company_method_handoff_refinement",
+        "admission": "bounded_design_acceptance_not_formal_QA",
+        "behavior_validation": "not_performed",
+        "new_sources": 0,
+        "current_official_verification": "not_performed",
+        "locator": "../references/shop-merchandising-and-health.md#product-to-listing-draft-handoff"
+      },
+      "current_preparation_evidence": {
+        "method_scope": "Listing首断点/健康与缺证区分",
+        "evidence": "正式S4＋两轮相关变化",
+        "limits": "当日通知、规则、期限与健康恢复未证",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T07",
+      "company_method_summary": "用事件运行单与时间日志连结准备、现场、服务、退款和复盘。",
+      "runtime_references": [
+        "../references/live-operations-and-analysis.md"
+      ],
+      "historical_claim_navigation": [
+        "C014"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "synthetic_producer_example_only",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "synthetic_producer_example_only",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "current_preparation_evidence": {
+        "method_scope": "LIVE运行单/日志/复盘方法",
+        "evidence": "227设计复用与历史合成例",
+        "limits": "无新完整LIVE经营行为或真实开播",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T08",
+      "company_method_summary": "ordinary Ads按目标/目的地/三层对象与事件证据诊断。",
+      "runtime_references": [
+        "../references/ads-delivery-and-diagnostics.md",
+        "../references/ads-measurement-and-experiments.md"
+      ],
+      "historical_claim_navigation": [
+        "C001",
+        "C002",
+        "C011"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Full branch/behavior coverage and actual-account/API evidence still missing; website example inheritance is not admission.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "complete_website_ads_output_pending",
+          "next_evidence": "complete_website_ads_output_pending"
+        },
+        "examples": [
+          {
+            "input": "../examples/website-ads/INPUT.md",
+            "output": "../examples/website-ads/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_preparation_evidence": {
+        "method_scope": "ordinary Ads/网站测量/Manual/Smart+/Spark/Search",
+        "evidence": "228/229设计复用；235相关风险交接",
+        "limits": "不证明全部分路、账户/API、去重或当前功能",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T09",
+      "company_method_summary": "Product选品与非LIVE可比基线；归因/贡献/因果分开。",
+      "runtime_references": [
+        "../references/ads-measurement-and-experiments.md"
+      ],
+      "historical_claim_navigation": [
+        "C003",
+        "C017"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Exact order algorithm remains unknown; inherited Product example is synthetic, not real or rc2 behavior validation.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "complete_output_pending_exact_order_algorithm_unknown",
+          "next_evidence": "complete_output_pending_exact_order_algorithm_unknown"
+        },
+        "examples": [
+          {
+            "input": "../examples/product-gmv-max/INPUT.md",
+            "output": "../examples/product-gmv-max/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_preparation_evidence": {
+        "method_scope": "Product选品/非LIVE基线/三层归因",
+        "evidence": "229设计与历史例复用",
+        "limits": "精确逐单算法、真实归属及效果未知",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T10",
+      "company_method_summary": "LIVE与相邻对象分开读状态，不从退出事件推自动恢复。",
+      "runtime_references": [
+        "../references/live-operations-and-analysis.md",
+        "../references/ads-measurement-and-experiments.md"
+      ],
+      "historical_claim_navigation": [
+        "C004",
+        "C005",
+        "C006"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "primary_conditions_unverified_synthetic_states_only",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "primary_conditions_unverified_synthetic_states_only",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "current_preparation_evidence": {
+        "method_scope": "LIVE GMV Max及邻接生命周期",
+        "evidence": "229设计＋235受提示状态交接",
+        "limits": "当前primary/linked、自动暂停或恢复未核",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T11",
+      "company_method_summary": "同群同窗净额、成熟度和适用成本齐全才谈贡献；单号不等于送达。",
+      "runtime_references": [
+        "../references/shop-creator-and-live.md",
+        "../references/beginner-first-route-and-glossary.md"
+      ],
+      "historical_claim_navigation": [
+        "C010",
+        "C015"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Market clocks/fees still missing; F2A remains deferred; synthetic arithmetic is not full contribution or real results.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "synthetic_arithmetic_only_market_clock_fees_missing_F2A_deferred",
+          "next_evidence": "synthetic_arithmetic_only_market_clock_fees_missing_F2A_deferred"
+        },
+        "examples": [
+          {
+            "input": "../examples/product-content/INPUT.md",
+            "output": "../examples/product-content/OUTPUT.md"
+          },
+          {
+            "input": "../examples/live/INPUT.md",
+            "output": "../examples/live/OUTPUT.md"
+          },
+          {
+            "input": "../examples/website-ads/INPUT.md",
+            "output": "../examples/website-ads/OUTPUT.md"
+          },
+          {
+            "input": "../examples/product-gmv-max/INPUT.md",
+            "output": "../examples/product-gmv-max/OUTPUT.md"
+          },
+          {
+            "input": "../examples/organic-shop/INPUT.md",
+            "output": "../examples/organic-shop/OUTPUT.md"
+          },
+          {
+            "input": "../examples/creator/INPUT.md",
+            "output": "../examples/creator/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_preparation_evidence": {
+        "method_scope": "履约、退款成熟与全部成本的经济边界",
+        "evidence": "56限定合成算术按234复用，不重算",
+        "limits": "不是完整贡献利润/ROI/因果；完整交易周报未运行",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T12",
+      "company_method_summary": "区分方向性、受污染与可支持因果的比较；安全停止优先。",
+      "runtime_references": [
+        "../references/ads-measurement-and-experiments.md",
+        "../references/evidence-and-practitioner-method-admission.md"
+      ],
+      "historical_claim_navigation": [],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "no_real_effect_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "no_real_effect_validation",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "current_preparation_evidence": {
+        "method_scope": "实验可比性/污染/停止条件",
+        "evidence": "229设计与历史合成例复用",
+        "limits": "无真实因果或收益证明，不补造统计结论",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T13",
+      "company_method_summary": "按对象与任务分权，入离场核直接/继承/应用/财务残留。",
+      "runtime_references": [
+        "../references/business-center-and-asset-governance.md"
+      ],
+      "historical_claim_navigation": [
+        "C005"
+      ],
+      "source_contribution": "Existing company method structure; any underlying official fact remains subject to current market/version checks. Company-derived sources are not independent corroboration.",
+      "maturity": "historical_internal_offline_method; this candidate not independently admitted",
+      "delivery_state": "historical_synthetic_examples_inherited; no_rc2_behavior_or_full_route_validation",
+      "conflict_disposition": "retain existing boundaries; research candidates and source date exceptions not promoted",
+      "next_evidence": "Full asset-chain and real permissions evidence remain incomplete; inherited appendices do not prove actual revocation.",
+      "public_source_entry": "official-facts.md",
+      "limits": "limits.md",
+      "inherited_example_bookkeeping": {
+        "previous_stage_bookkeeping": {
+          "delivery_state": "synthetic_live_asset_appendix_only",
+          "next_evidence": "synthetic_live_asset_appendix_only"
+        },
+        "examples": [
+          {
+            "input": "../examples/live/INPUT.md",
+            "output": "../examples/live/OUTPUT.md"
+          },
+          {
+            "input": "../examples/website-ads/INPUT.md",
+            "output": "../examples/website-ads/OUTPUT.md"
+          }
+        ],
+        "inheritance": "byte_identical_historical_synthetic_only",
+        "rc2_behavior_validation": "not_performed",
+        "coverage": "Only the scope already present in the inherited example; no full-route admission.",
+        "substantive_gaps_preserved": true
+      },
+      "current_preparation_evidence": {
+        "method_scope": "资产/最小权限/残留和退出",
+        "evidence": "229设计＋235一项受提示风险交接",
+        "limits": "非完整权限安全审计，不证明真实全撤权",
+        "new_combination_behavior": "not_run",
+        "formal_admission": false
+      }
+    },
+    {
+      "id": "T04-DEMO-20261012",
+      "company_method_summary": "在既有完整脚本中核对演示条件、包含/另购配件、实际过程与播放时长，单次观察不泛化；只退回缺证承诺。",
+      "runtime_references": [
+        "../references/content-operating-system.md"
+      ],
+      "source_contribution": "SeaLeap short-video-tests M synthesis is a prompt for fields; current US official text bounds misleading effects, not field efficacy. Y03/Y05 and other two packages have reasoned no_update_needed.",
+      "maturity": "method_hypothesis; formal_policy=false",
+      "evidence": "one_known_context_overlay_producer_task; clean_baseline_behavior=not_run; not_independent_QA",
+      "public_source_entry": "round-three-source-fusion.md#tt-r3-demo-20261012",
+      "next_evidence": "actual dual-deposit, complete frozen candidate and independent professional/novice review",
+      "limits": "limits.md"
+    }
+  ],
+  "current_assembly_status": {
+    "$ref": "../VERSION.json#/current_delivery",
+    "note": "Resolve the sole current-delivery node for identity/counts, reviewed-basis QA, source depth and scoped official verification. The former value is preserved in historical_20260909_current_assembly_status; methods and historical_b6_current_assembly_status are unchanged."
+  },
+  "historical_b6_current_assembly_status": {
+    "behavior_validation": "not_performed",
+    "new_sources": 0,
+    "current_official_verification": "not_performed",
+    "historical_fields_preserved": "Existing delivery_state, maturity, source_contribution, next_evidence and inherited example records retain historical scope; bounded design acceptance is not business or final QA admission."
+  },
+  "historical_20260909_current_assembly_status": {
+    "kind": "scope_limited_offline_candidate",
+    "current_boundary": "limits.md",
+    "formal_reference_sync": "existing_259_verified_fact",
+    "behavior_validation": "not_run_on_new_combination",
+    "inherited_observations": "one_two_turn_product_journey_and_one_prompted_risk_handoff_on_prior_B6",
+    "economics": "56_scoped_reuse_only",
+    "new_sources": 0,
+    "current_official_verification": "not_performed",
+    "full_T01_T13_admission": false,
+    "historical_fields_preserved": "delivery_state/maturity/next_evidence and prior refinement behavior fields retain their historical stage; current_preparation_evidence specifies current usable evidence, not new maturity or platform verification"
+  },
+  "round_three_scope": {
+    "source_record": "TIKTOK_R3_SEALEAP_SOURCE_20261012_01",
+    "current_identity": "../VERSION.json#/current_delivery",
+    "T01_T13_denominator": 13,
+    "new_independent_source_consensus": false,
+    "whole_platform_facts_refreshed": false
+  }
+}

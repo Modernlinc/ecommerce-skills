@@ -1,8 +1,8 @@
 # 十八项 Skill：材料与成果目录
 
-[产品首页](../README.md) · [开始试阅](getting-started.md) · [环境与兼容范围](compatibility.md) · [评估与商业交付](evaluation-and-delivery.md)
+[产品首页](../README.md) · [开始练习](getting-started.md) · [环境与兼容范围](compatibility.md) · [评估与商业交付](evaluation-and-delivery.md)
 
-公开版本：`0.1.1-public-demo`。每项有功能卡、完整题设、单文件试阅和编辑参考输出。下面的清单描述当前公开案例，不能替代完整商业产品的交付清单。案例均独立，不从其它案例借商品信息。
+公开版本：`1.0.0`。每项有功能卡、完整题设、单文件练习和编辑参考输出。下面的清单描述快速练习；每项入口还链接完整方法与必要依赖。案例均独立，不从其它案例借商品信息。
 
 ## 01 Facebook / Meta 广告
 
@@ -20,7 +20,7 @@
 - 商品数量、价格与履约表述逐项对应输入。
 - 素材建议与可用资源一致，预算与测量未知不补造。
 
-[单文件试阅](../skills/meta-facebook-ads/examples/demo.md) · [功能卡](../skills/meta-facebook-ads/SKILL.md) · [独立输入](../skills/meta-facebook-ads/examples/input.md) · [编辑参考输出](../skills/meta-facebook-ads/examples/output.md)
+[单文件练习](../skills/meta-facebook-ads/examples/demo.md) · [功能卡](../skills/meta-facebook-ads/SKILL.md) · [独立输入](../skills/meta-facebook-ads/examples/input.md) · [编辑参考输出](../skills/meta-facebook-ads/examples/output.md)
 
 ## 02 Google Ads
 
@@ -38,7 +38,7 @@
 - 广告资产逐条可复制，保留缺失的兼容条件。
 - 字符计数仅作编辑检查，不等于平台接纳。
 
-[单文件试阅](../skills/google-ads/examples/demo.md) · [功能卡](../skills/google-ads/SKILL.md) · [独立输入](../skills/google-ads/examples/input.md) · [编辑参考输出](../skills/google-ads/examples/output.md)
+[单文件练习](../skills/google-ads/examples/demo.md) · [功能卡](../skills/google-ads/SKILL.md) · [独立输入](../skills/google-ads/examples/input.md) · [编辑参考输出](../skills/google-ads/examples/output.md)
 
 ## 03 Codex 电商执行
 
@@ -56,7 +56,7 @@
 - 价格变更在三处同步，尺寸、颜色和兼容限制保留。
 - 文字改稿与实际文件保存、线上改价分开陈述。
 
-[单文件试阅](../skills/codex-ecommerce/examples/demo.md) · [功能卡](../skills/codex-ecommerce/SKILL.md) · [独立输入](../skills/codex-ecommerce/examples/input.md) · [编辑参考输出](../skills/codex-ecommerce/examples/output.md)
+[单文件练习](../skills/codex-ecommerce/examples/demo.md) · [功能卡](../skills/codex-ecommerce/SKILL.md) · [独立输入](../skills/codex-ecommerce/examples/input.md) · [编辑参考输出](../skills/codex-ecommerce/examples/output.md)
 
 ## 04 Shopify 独立站
 
@@ -74,7 +74,7 @@
 - 出库准备和运输到达分别表述。
 - 不增加未给材质、测试或额外配件交易条件。
 
-[单文件试阅](../skills/shopify-store/examples/demo.md) · [功能卡](../skills/shopify-store/SKILL.md) · [独立输入](../skills/shopify-store/examples/input.md) · [编辑参考输出](../skills/shopify-store/examples/output.md)
+[单文件练习](../skills/shopify-store/examples/demo.md) · [功能卡](../skills/shopify-store/SKILL.md) · [独立输入](../skills/shopify-store/examples/input.md) · [编辑参考输出](../skills/shopify-store/examples/output.md)
 
 ## 05 Google SEO
 
@@ -92,7 +92,7 @@
 - 页数不改写成纸张张数，不虚构认证和钢笔适配。
 - 不编站内链接或承诺排名。
 
-[单文件试阅](../skills/google-seo/examples/demo.md) · [功能卡](../skills/google-seo/SKILL.md) · [独立输入](../skills/google-seo/examples/input.md) · [编辑参考输出](../skills/google-seo/examples/output.md)
+[单文件练习](../skills/google-seo/examples/demo.md) · [功能卡](../skills/google-seo/SKILL.md) · [独立输入](../skills/google-seo/examples/input.md) · [编辑参考输出](../skills/google-seo/examples/output.md)
 
 ## 06 TikTok 内容与达人
 
@@ -110,7 +110,7 @@
 - 15秒属于计划，不能称已口读验收或已成片。
 - 音乐权利和未给的防水/容量主张有边界。
 
-[单文件试阅](../skills/tiktok-content/examples/demo.md) · [功能卡](../skills/tiktok-content/SKILL.md) · [独立输入](../skills/tiktok-content/examples/input.md) · [编辑参考输出](../skills/tiktok-content/examples/output.md)
+[单文件练习](../skills/tiktok-content/examples/demo.md) · [功能卡](../skills/tiktok-content/SKILL.md) · [独立输入](../skills/tiktok-content/examples/input.md) · [编辑参考输出](../skills/tiktok-content/examples/output.md)
 
 ## 07 Social 跨平台内容
 
@@ -128,7 +128,7 @@
 - 表达各有重点，价格规格无跨稿漂移。
 - 不声称发布、排期或互动增长。
 
-[单文件试阅](../skills/social-content/examples/demo.md) · [功能卡](../skills/social-content/SKILL.md) · [独立输入](../skills/social-content/examples/input.md) · [编辑参考输出](../skills/social-content/examples/output.md)
+[单文件练习](../skills/social-content/examples/demo.md) · [功能卡](../skills/social-content/SKILL.md) · [独立输入](../skills/social-content/examples/input.md) · [编辑参考输出](../skills/social-content/examples/output.md)
 
 ## 08 Reddit 社区研究
 
@@ -146,7 +146,7 @@
 - 回应只回答测量问题，不插入品牌或推广链接。
 - 有规则和人工确认条件，未称已经发帖。
 
-[单文件试阅](../skills/reddit-research/examples/demo.md) · [功能卡](../skills/reddit-research/SKILL.md) · [独立输入](../skills/reddit-research/examples/input.md) · [编辑参考输出](../skills/reddit-research/examples/output.md)
+[单文件练习](../skills/reddit-research/examples/demo.md) · [功能卡](../skills/reddit-research/SKILL.md) · [独立输入](../skills/reddit-research/examples/input.md) · [编辑参考输出](../skills/reddit-research/examples/output.md)
 
 ## 09 Pinterest 内容与目录
 
@@ -164,7 +164,7 @@
 - 品牌、尺寸等未给事实不添加。
 - 演示链接为不可用作购物的保留域名。
 
-[单文件试阅](../skills/pinterest-commerce/examples/demo.md) · [功能卡](../skills/pinterest-commerce/SKILL.md) · [独立输入](../skills/pinterest-commerce/examples/input.md) · [编辑参考输出](../skills/pinterest-commerce/examples/output.md)
+[单文件练习](../skills/pinterest-commerce/examples/demo.md) · [功能卡](../skills/pinterest-commerce/SKILL.md) · [独立输入](../skills/pinterest-commerce/examples/input.md) · [编辑参考输出](../skills/pinterest-commerce/examples/output.md)
 
 ## 10 Amazon 美国站
 
@@ -182,7 +182,7 @@
 - 不从其他案例借入品牌或产品事实。
 - 不作政策通过、后台提交或送达保证。
 
-[单文件试阅](../skills/amazon-us/examples/demo.md) · [功能卡](../skills/amazon-us/SKILL.md) · [独立输入](../skills/amazon-us/examples/input.md) · [编辑参考输出](../skills/amazon-us/examples/output.md)
+[单文件练习](../skills/amazon-us/examples/demo.md) · [功能卡](../skills/amazon-us/SKILL.md) · [独立输入](../skills/amazon-us/examples/input.md) · [编辑参考输出](../skills/amazon-us/examples/output.md)
 
 ## 11 广告素材文字策划
 
@@ -200,7 +200,7 @@
 - 替代拍法不依赖未获许可的素材。
 - 计划时长与实际成片验收分开。
 
-[单文件试阅](../skills/ad-creative/examples/demo.md) · [功能卡](../skills/ad-creative/SKILL.md) · [独立输入](../skills/ad-creative/examples/input.md) · [编辑参考输出](../skills/ad-creative/examples/output.md)
+[单文件练习](../skills/ad-creative/examples/demo.md) · [功能卡](../skills/ad-creative/SKILL.md) · [独立输入](../skills/ad-creative/examples/input.md) · [编辑参考输出](../skills/ad-creative/examples/output.md)
 
 ## 12 广告与电商数据核算
 
@@ -218,7 +218,7 @@
 - 用给定数据逐步核算，缺失费用不按零。
 - CSV与题设一致；未声称生成工作簿或执行商业核算器。
 
-[单文件试阅](../skills/ecommerce-analytics/examples/demo.md) · [功能卡](../skills/ecommerce-analytics/SKILL.md) · [独立输入](../skills/ecommerce-analytics/examples/input.md) · [编辑参考输出](../skills/ecommerce-analytics/examples/output.md)
+[单文件练习](../skills/ecommerce-analytics/examples/demo.md) · [功能卡](../skills/ecommerce-analytics/SKILL.md) · [独立输入](../skills/ecommerce-analytics/examples/input.md) · [编辑参考输出](../skills/ecommerce-analytics/examples/output.md)
 
 ## 13 客服与私信
 
@@ -236,7 +236,7 @@
 - 不把运输中改写为丢件或保证送达。
 - 未发送、未退款、未实际接手状态清楚。
 
-[单文件试阅](../skills/customer-support/examples/demo.md) · [功能卡](../skills/customer-support/SKILL.md) · [独立输入](../skills/customer-support/examples/input.md) · [编辑参考输出](../skills/customer-support/examples/output.md)
+[单文件练习](../skills/customer-support/examples/demo.md) · [功能卡](../skills/customer-support/SKILL.md) · [独立输入](../skills/customer-support/examples/input.md) · [编辑参考输出](../skills/customer-support/examples/output.md)
 
 ## 14 品牌简报研究
 
@@ -254,7 +254,7 @@
 - 撤证后V2同步移除对应主张。
 - 没有消费者研究却不声称定位已验证。
 
-[单文件试阅](../skills/brand-brief/examples/demo.md) · [功能卡](../skills/brand-brief/SKILL.md) · [独立输入](../skills/brand-brief/examples/input.md) · [编辑参考输出](../skills/brand-brief/examples/output.md)
+[单文件练习](../skills/brand-brief/examples/demo.md) · [功能卡](../skills/brand-brief/SKILL.md) · [独立输入](../skills/brand-brief/examples/input.md) · [编辑参考输出](../skills/brand-brief/examples/output.md)
 
 ## 15 选品研究
 
@@ -272,7 +272,7 @@
 - 首批货值与样品采购费用分别处理。
 - 未知运税不按零，不把研究排序写成采购批准。
 
-[单文件试阅](../skills/product-selection/examples/demo.md) · [功能卡](../skills/product-selection/SKILL.md) · [独立输入](../skills/product-selection/examples/input.md) · [编辑参考输出](../skills/product-selection/examples/output.md)
+[单文件练习](../skills/product-selection/examples/demo.md) · [功能卡](../skills/product-selection/SKILL.md) · [独立输入](../skills/product-selection/examples/input.md) · [编辑参考输出](../skills/product-selection/examples/output.md)
 
 ## 16 海外达人合作
 
@@ -290,7 +290,7 @@
 - 报价与含运费总预算分开。
 - 30天商品页用途与付费广告权不混写，不称已外联或签约。
 
-[单文件试阅](../skills/influencer-collaboration/examples/demo.md) · [功能卡](../skills/influencer-collaboration/SKILL.md) · [独立输入](../skills/influencer-collaboration/examples/input.md) · [编辑参考输出](../skills/influencer-collaboration/examples/output.md)
+[单文件练习](../skills/influencer-collaboration/examples/demo.md) · [功能卡](../skills/influencer-collaboration/SKILL.md) · [独立输入](../skills/influencer-collaboration/examples/input.md) · [编辑参考输出](../skills/influencer-collaboration/examples/output.md)
 
 ## 17 跨境经营后台
 
@@ -308,7 +308,7 @@
 - 来源错交易时撤回对应支付费和入账结论。
 - 保留原订单可支持的金额，不计算未知成本下净利润。
 
-[单文件试阅](../skills/ecommerce-backoffice/examples/demo.md) · [功能卡](../skills/ecommerce-backoffice/SKILL.md) · [独立输入](../skills/ecommerce-backoffice/examples/input.md) · [编辑参考输出](../skills/ecommerce-backoffice/examples/output.md)
+[单文件练习](../skills/ecommerce-backoffice/examples/demo.md) · [功能卡](../skills/ecommerce-backoffice/SKILL.md) · [独立输入](../skills/ecommerce-backoffice/examples/input.md) · [编辑参考输出](../skills/ecommerce-backoffice/examples/output.md)
 
 ## 18 外贸 B2B 报价与样品沟通
 
@@ -326,8 +326,8 @@
 - 价格线索、正式批准和运输总价区分清楚。
 - 不替工厂保证产能、交期或已发邮件。
 
-[单文件试阅](../skills/b2b-quotation/examples/demo.md) · [功能卡](../skills/b2b-quotation/SKILL.md) · [独立输入](../skills/b2b-quotation/examples/input.md) · [编辑参考输出](../skills/b2b-quotation/examples/output.md)
+[单文件练习](../skills/b2b-quotation/examples/demo.md) · [功能卡](../skills/b2b-quotation/SKILL.md) · [独立输入](../skills/b2b-quotation/examples/input.md) · [编辑参考输出](../skills/b2b-quotation/examples/output.md)
 
 ## 商业产品评估
 
-公开案例用于比较任务与成果形态。完整产品的文件、安装、更新、支持和许可按[交付确认清单](evaluation-and-delivery.md)逐项核定，不能从本目录推定全部客户端或真实业务已适配。
+完整方法与依赖已包含在各 Skill 目录；请按[安装指南](getting-started.md)使用，并核对[兼容条件](compatibility.md)。

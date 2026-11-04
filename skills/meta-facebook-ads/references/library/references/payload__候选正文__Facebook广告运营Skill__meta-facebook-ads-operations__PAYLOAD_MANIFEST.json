@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "name": "meta-facebook-ads-operations",
+  "version": "FB-PRACTICAL-V1-20261020-01",
+  "stage": "candidate",
+  "quality_status": "NOT_REVIEWED",
+  "hash_algorithm": "SHA-256",
+  "scope": "33 core files; candidate producer integrity only, not independent quality/admission/execution",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2760,
+      "sha256": "c6d5d174c0129476871d1138f5bd0b87e6b55c2765df8b555a586aea95c333a1"
+    },
+    {
+      "path": "PACKAGE.json",
+      "bytes": 3794,
+      "sha256": "5a619a82be166afb0e5816c357d4926b41e398dfbdab18d2cfa449b09a03b5e5"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "bytes": 2232,
+      "sha256": "958092412609293b4626cb3bc07e53860875b3b4eed56386c2c3825a51ec3364"
+    },
+    {
+      "path": "METHOD.md",
+      "bytes": 16615,
+      "sha256": "01cc1d447884b11d29cdefacfd9d08fe7fd705f33f559ca11ade17ffb038fe90"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 961,
+      "sha256": "fa753729f7e0ea5e95255a67995e639fbd868da26b754bf971e17a8dae8d5c02"
+    },
+    {
+      "path": "USER_GUIDE.md",
+      "bytes": 8014,
+      "sha256": "5a861f1e7e18605eb8a3c8016cc41738799bcae653c5f51a4127efa5e57603d5"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 413,
+      "sha256": "cce68a73cf37efb4d016013d93aa7b150a9a96deb7903ff66595f48fbd2b9e6d"
+    },
+    {
+      "path": "examples/f1/HISTORICAL_OUTPUT.md",
+      "bytes": 10914,
+      "sha256": "810c4087642bc3f329b6193722733447df41cd18c0d16401be132e6b55e36fbc"
+    },
+    {
+      "path": "examples/f1/INPUT.md",
+      "bytes": 5209,
+      "sha256": "2a2325eb16e5339fd66287ff8d235f9c10dc870a0654f62699a30fa52943847f"
+    },
+    {
+      "path": "examples/f3/INPUT.md",
+      "bytes": 4423,
+      "sha256": "93b5ed41f3a478a4f5daedcc64f50cc30fec4793babde275d88d5b2926711444"
+    },
+    {
+      "path": "examples/f3/OUTPUT.md",
+      "bytes": 7516,
+      "sha256": "79a0db2543eec58a07acabbc860beba8104408bebf5fb7ead00034c816bd9395"
+    },
+    {
+      "path": "examples/f4/INPUT.md",
+      "bytes": 4905,
+      "sha256": "5cead36e563828551c22eaa1899143d2fe5940a61de72e8267c425a5140c6baa"
+    },
+    {
+      "path": "examples/f4/OUTPUT.md",
+      "bytes": 7482,
+      "sha256": "df551a6fdb7a7d59753f20d4a185f13f11e8d18b807bf27ea9c479af1895c92f"
+    },
+    {
+      "path": "knowledge/2026-10-08-research-to-bounded-brief.md",
+      "bytes": 6994,
+      "sha256": "9e50d26850921e23ad4b764e62cae317b2a50f33091c9302ef12b79224b05bba"
+    },
+    {
+      "path": "knowledge/2026-10-19-first-round-and-utm-walkthrough.md",
+      "bytes": 12070,
+      "sha256": "aff11b082e658fcce3cd8baa4d5c03418bf67735aa8eb6d93db5c2b1c581f064"
+    },
+    {
+      "path": "provenance/INTEGRATION_DELTA.md",
+      "bytes": 6235,
+      "sha256": "39585ae3ef0358416b2bb5fc26e2650f4c1dcca1cb98fab28e06e0d1171bfaf9"
+    },
+    {
+      "path": "provenance/INTERNAL_METHODS.md",
+      "bytes": 2901,
+      "sha256": "3339565d1e564b6014f564e2b1fe6674ba80e470be6b6a67f6d264a298b4c8e3"
+    },
+    {
+      "path": "provenance/LIMITATIONS.md",
+      "bytes": 4450,
+      "sha256": "f7a62bb6c7b994df5155f193c13a46c610afc45da52386bdd0bf3b59ea8b114d"
+    },
+    {
+      "path": "provenance/PRACTICAL_V1_20261020_SOURCE_NOTES.md",
+      "bytes": 4180,
+      "sha256": "cfdbbdf86cb0dbcabd7955800538340b9b41dc1fe405bfff8c77bc7b23a12c91"
+    },
+    {
+      "path": "provenance/PRELAUNCH_20261019_SOURCE_NOTES.md",
+      "bytes": 3149,
+      "sha256": "5ca08254407a7cdf6834d928d34f4020f4f5cf28b81dddd053d5d7c90de00291"
+    },
+    {
+      "path": "provenance/RIGHTS.md",
+      "bytes": 3314,
+      "sha256": "583120336586d3d3e37dd19356ff4fbbfba2ab5862fe2832b53608e5a2809e0f"
+    },
+    {
+      "path": "provenance/SOURCE_NOTES.md",
+      "bytes": 10338,
+      "sha256": "db73be228fddc6742dd8a83eb06c26574cd02694d15e5767e545e913f2c2a9db"
+    },
+    {
+      "path": "references/business-math-and-unit-economics.md",
+      "bytes": 10536,
+      "sha256": "42b7c1c5f94b49a23579a7d214b3952b62be6245c12f7b5cc201c95dade098ab"
+    },
+    {
+      "path": "references/commerce-completion-workflows.md",
+      "bytes": 7355,
+      "sha256": "883551c34f68dcce76690543270340f006db56a65e27c03016ede7c6f9466363"
+    },
+    {
+      "path": "references/course-distilled-operating-playbooks.md",
+      "bytes": 18237,
+      "sha256": "ff3cf5a020c59b989315ea435c0a8ab62a81b109f4efcb25385beedbf48da63d"
+    },
+    {
+      "path": "references/measurement-attribution-and-events.md",
+      "bytes": 7000,
+      "sha256": "21012dadaecca9e448aeaf1c47f5fa6270cfc4811daa9933e015c6e93f9b4cd2"
+    },
+    {
+      "path": "references/meta-ad-structure-and-draft.md",
+      "bytes": 16839,
+      "sha256": "f937efdafe7848b813764f582f572c65b547a4825f423d295cd0d4cdd2826bae"
+    },
+    {
+      "path": "references/permissions-and-live-gates.md",
+      "bytes": 5883,
+      "sha256": "c05bf976e0834b0963e670eb975464fcf6eb991682e7c36d3d9adef3ee86b1ed"
+    },
+    {
+      "path": "references/stage-audience-resource-playbook.md",
+      "bytes": 16618,
+      "sha256": "32b096ca629f3cb926470a0b9d55dd59a0b853d66dd0256aaad846a2006e260b"
+    },
+    {
+      "path": "references/testing-diagnosis-and-stop.md",
+      "bytes": 8726,
+      "sha256": "7c42bfdabc3b98e77d7e8e78224b04b8fb63b159fd7c858ad01250de669dd46a"
+    },
+    {
+      "path": "references/tracking-parameters-and-url-checks.md",
+      "bytes": 12366,
+      "sha256": "7a4851b0b24364ed02a6fa22b39d6dd4fb332c4607d28b1bf0245a97d50205b7"
+    },
+    {
+      "path": "tools/static_utm.mjs",
+      "bytes": 11454,
+      "sha256": "760998b7d5863507625c94c2b033c8e0e580c33963a78a683226775746cdd91e"
+    },
+    {
+      "path": "tools/verify_integrity.py",
+      "bytes": 4822,
+      "sha256": "28efa9a3936fa8a0ce15939a5e5f8fb25c5376f7a75bd943bbc1d49e5149ab64"
+    }
+  ],
+  "candidate_identity": "FB-PRACTICAL-V1-20261020-01",
+  "final_qa_status": "NOT_FINAL_QA",
+  "publication_status": "NOT_PUBLISHED",
+  "order_id": "FB-PRACTICAL-V1-20261020-01",
+  "parent_id": "FB-PRELAUNCH-20261019-W1-F01-R1"
+}

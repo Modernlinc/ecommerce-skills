@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "host": {
+    "family": "Codex desktop",
+    "version": "unknown",
+    "version_reason": "No host-version telemetry inspected; do not infer a supported version range.",
+    "installation_performed": false
+  },
+  "model": {
+    "requested": "gpt-6-astra",
+    "requested_reasoning": "xhigh",
+    "actual": "unknown_not_independently_verified",
+    "actual_reasoning": "unknown_not_independently_verified",
+    "guaranteed_other_models": false
+  },
+  "required_capabilities": [
+    "Read UTF-8 Markdown and JSON from the provided directory",
+    "Resolve local relative file references on demand",
+    "Generate complete Chinese text with evidence/unknown/stop distinctions"
+  ],
+  "optional_capabilities": [
+    {
+      "capability": "Current official web-source verification",
+      "used_in_this_build": false,
+      "when_missing": "No current-rule approval; preserve missing evidence and unrelated safe offline draft"
+    }
+  ],
+  "not_required": [
+    "Python or evaluator",
+    "ASR/OCR/media tools",
+    "private historical corpus",
+    "private company vault or Obsidian installation",
+    "global Skill installation",
+    "other-domain Skills",
+    "account API/connectors"
+  ],
+  "execution_evidence": "One known-context producer text task on readonly complete baseline plus two-file overlay in Codex desktop; no clean baseline, independent novice, real media, install or cross-host run.",
+  "package_manager_dependencies": [],
+  "lockfile": "not_required",
+  "failure_behavior": "Missing file or capability: identify precise missing input, retain unknowns, stop dependent work; no hidden downloads or installs.",
+  "support_status": "candidate_only_no_cross_host_guarantee",
+  "previous_stage_execution_evidence": "Current producer reads candidate and writes an offline synthetic example in the same known context; not a clean-room or independent novice compatibility test.",
+  "current_candidate_behavior_validation": "overlay_task_once_integrated_package_not_run",
+  "previous_b6_execution_evidence": "This isolated candidate records only actual assembly and static checks. Six historical synthetic pairs are inherited unchanged; no candidate business case, clean-room novice run or installation was performed.",
+  "historical_r2_current_state_20261010": {
+    "execution_evidence": "This new combination has no new business/host run. Prior B6 had one two-turn synthetic product handoff and one prompted risk handoff; inherited evidence is limited, not strict blind testing, full novice entry or complete tool audit. Existing static checks do not certify all hosts.",
+    "current_candidate_behavior_validation": "not_run_on_this_combination",
+    "support_status": "candidate_only_unverified_portability_beyond_observed_host",
+    "model": {
+      "requested": "gpt-6-astra",
+      "requested_reasoning": "medium",
+      "actual": "unknown",
+      "actual_reasoning": "unknown",
+      "guaranteed_other_models": false
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "modernlinc.local-file-package.v1",
+  "id": "MODERNLINC-REDDIT-LOCAL-20261020-01",
+  "date": "2026-10-20",
+  "entry": "00_本地文件使用入口.md",
+  "method": "原版方法/payload/METHOD.md",
+  "parent_source": "2026-10-19-prelaunch-01/reddit-r1",
+  "parent_manifest_sha256": "e4f5766452161fd546ddbc0782c0db36f37f990d9ef0e18f5d74eaed81da05fe",
+  "method_semantic_changes": false,
+  "status": "FROZEN_AWAITING_PACKAGING_REVIEW",
+  "formal_adoption": false,
+  "public_release": false,
+  "commercial_terms": "not_set",
+  "files": [
+    {
+      "path": "00_本地文件使用入口.md",
+      "bytes": 1785,
+      "sha256": "c114c99c7897d3f2c2c7cecca9ac66ba51a0013767bbad8e227518e6035e9ff3"
+    },
+    {
+      "path": "00_开始使用.md",
+      "bytes": 5520,
+      "sha256": "c70c4b477d338565a9a4aaf1bc177377696ed0db88ec5be0defa195013d2a3dd"
+    },
+    {
+      "path": "01_完整教学示范.md",
+      "bytes": 8532,
+      "sha256": "10d64cf6a3360df6aa12706848c143c0dae5e41c1fb968aa6d668bd5444bb519"
+    },
+    {
+      "path": "原版方法/00_当前使用与范围.md",
+      "bytes": 3150,
+      "sha256": "4903eced3c800a438e7920ff0381f1a3bd495a8c13376e871bda568d86832759"
+    },
+    {
+      "path": "原版方法/MANIFEST.json",
+      "bytes": 3855,
+      "sha256": "6b8f9286e27e50fa036e07cac59ea32652c8a29bdbfd24b55f8c5092ea237c88"
+    },
+    {
+      "path": "原版方法/payload/MANIFEST.json",
+      "bytes": 6210,
+      "sha256": "f9faed758a9662d921956dca8aa859f49009072e90741435c59e74c5837570d2"
+    },
+    {
+      "path": "原版方法/payload/QUICKSTART.md",
+      "bytes": 2315,
+      "sha256": "a629be81232ca0f99ce831b0fb55b9ee1c5493fdd36f27276010a47bbe3bf4eb"
+    },
+    {
+      "path": "原版方法/payload/README.md",
+      "bytes": 2002,
+      "sha256": "1aca024cdff1a27b775526f437d9ea4ddc5982055e679c706938e1407a19896b"
+    },
+    {
+      "path": "原版方法/payload/RIGHTS.md",
+      "bytes": 1564,
+      "sha256": "8ecf4acb16044788e3aefa6b551938bed891f5553b708e07f13b977d7efa8ff3"
+    },
+    {
+      "path": "原版方法/payload/METHOD.md",
+      "bytes": 4363,
+      "sha256": "850700d2e7b0eb7c748a0218d7251c7200008c5243163f11d30c9c2290bb0a0f"
+    },
+    {
+      "path": "原版方法/payload/SUPPORT.md",
+      "bytes": 1393,
+      "sha256": "c16d80467ad2ede8b5a7d7227dfb5174f9c5e1c96be9363d96f943d21c108bed"
+    },
+    {
+      "path": "原版方法/payload/VERSION.json",
+      "bytes": 2157,
+      "sha256": "6b8b24fcc0e484ce1d15428f541aa9da15106a4fae596622c5d008850dd90b7f"
+    },
+    {
+      "path": "原版方法/payload/references/01-intake-permissions.md",
+      "bytes": 2174,
+      "sha256": "e1614d1c3bc3ec4899b82b6d07328a53efeefd34ad9e04bb82dab2a55c27596f"
+    },
+    {
+      "path": "原版方法/payload/references/02-voc.md",
+      "bytes": 2395,
+      "sha256": "5ada40891123b6844c050f0679edff99a2d017003ac9b034d9e78d6ec8a32bd1"
+    },
+    {
+      "path": "原版方法/payload/references/03-community.md",
+      "bytes": 5805,
+      "sha256": "175722bbac1cd50b2dc17ad730b1fde2b67f39711aad7a4f1c7c9aead5b717de"
+    },
+    {
+      "path": "原版方法/payload/references/04-ads-dpa.md",
+      "bytes": 4757,
+      "sha256": "88db2f2ac00362a05b1ad0c81b4452c1d6deceff782394dd2b2766cb4a64620d"
+    },
+    {
+      "path": "原版方法/payload/references/05-events-funnel.md",
+      "bytes": 3394,
+      "sha256": "3e0e7af511ff40176e469de8f94124c093fc2b865837ca69ecfeff41c619b12a"
+    },
+    {
+      "path": "原版方法/payload/references/06-evidence-maintenance.md",
+      "bytes": 2477,
+      "sha256": "6b6868f7f73c033c86062a8e3428a206b8d36ee9e9c19a89a9efd3e051d2ec77"
+    },
+    {
+      "path": "原版方法/payload/references/07-economics-boundary.md",
+      "bytes": 1469,
+      "sha256": "4edc22107b7db2016cdc4d31be68fd8f36ad6c786727ddacb3042227032dd973"
+    },
+    {
+      "path": "原版方法/payload/references/08-community-map-handoff.md",
+      "bytes": 11551,
+      "sha256": "fc9bd41078a79259736055e32c5c5b269736cfc003dff96f1ae529b99a271523"
+    },
+    {
+      "path": "原版方法/payload/references/09-approved-reading-notes.md",
+      "bytes": 4186,
+      "sha256": "541d034cb8461fb4339874f9804cd986176c0b42800b75d91a0692cf88da713c"
+    },
+    {
+      "path": "原版方法/payload/references/10-video-article-fusion.md",
+      "bytes": 5178,
+      "sha256": "0c7e1cb82f08dc8fb591d2e6b70dcf90763e7e51f24b2debf9277d3b72af26b7"
+    },
+    {
+      "path": "原版方法/payload/references/EVIDENCE_LIMITS.md",
+      "bytes": 4458,
+      "sha256": "a893e79a6be9faa46f52e5d6cc58ae295b1eb75fee73d5d31ccd064d5ee8b800"
+    },
+    {
+      "path": "原版方法/payload/references/SOURCES.csv",
+      "bytes": 9185,
+      "sha256": "3d314f9d81c8154412c91a3c0a6584e9231bc2f8f4e8119ecc9093566f5fbbdc"
+    },
+    {
+      "path": "原版方法/payload/templates/BRIEF.md",
+      "bytes": 2177,
+      "sha256": "919d8f491ed0c7789927d0d6126cf38bab91c27ad9731377a8d02ea6d34e6935"
+    },
+    {
+      "path": "原版方法/payload/templates/REPORT.md",
+      "bytes": 2562,
+      "sha256": "66bfb9c92527b78a716653f4c653720b9a9a26e46b885c8bb6fc3b83ac7ee50e"
+    }
+  ],
+  "self_excluded": "MANIFEST.json"
+}

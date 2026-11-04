@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "note": "Original archive identities for provenance; installed files are checked by CONTENT_MANIFEST.json. Packaging does not assert a new business-quality or all-host certification.",
+  "skills": [
+    {
+      "skill": "meta-facebook-ads",
+      "source_archive_sha256": "4392878034c25418f4368641ba62716f687cd8c8c91f9ce0b6bc7c03e9d50ecc",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 55,
+      "method_entry": "skills/meta-facebook-ads/references/library/METHOD.md"
+    },
+    {
+      "skill": "google-ads",
+      "source_archive_sha256": "5e03c64c4310e9ceb0df5c1459af4d426f3fc464b501b17af9e1fa73be3ee6c4",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 23,
+      "method_entry": "skills/google-ads/references/library/原版方法/payload/ads/METHOD.md"
+    },
+    {
+      "skill": "codex-ecommerce",
+      "source_archive_sha256": "cbedd8fc84ee23c75700b3bcf3fcf258cfe2162b6753f5d68968cf5597bd249d",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 14,
+      "method_entry": "skills/codex-ecommerce/references/library/METHOD.md"
+    },
+    {
+      "skill": "shopify-store",
+      "source_archive_sha256": "9810db1b23ba29111dd3cceeb5aec59d48a483385ba54b5f29a5d10c6a4a3c3a",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 38,
+      "method_entry": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/METHOD.md"
+    },
+    {
+      "skill": "google-seo",
+      "source_archive_sha256": "26d053f4affaedebf72a0af1faf75093ba808f77e2830ac092b1a213f64f5acc",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 24,
+      "method_entry": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/METHOD.md"
+    },
+    {
+      "skill": "tiktok-content",
+      "source_archive_sha256": "674d462b9a21af8b7ffdad516601f26d9b787c8e5d792ef2ebee33e59d11286c",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 54,
+      "method_entry": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/METHOD.md"
+    },
+    {
+      "skill": "social-content",
+      "source_archive_sha256": "4a97a81950e44f96f88fab32c4381f2cab61318bc7eda30beca358ee6825aa33",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 38,
+      "method_entry": "skills/social-content/references/library/原版方法/payload/METHOD.md"
+    },
+    {
+      "skill": "reddit-research",
+      "source_archive_sha256": "dd554cb742d492d6bf53aec3ebfaa4ccbe05161b1ebd411892953a4666a1ca57",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 27,
+      "method_entry": "skills/reddit-research/references/library/原版方法/payload/METHOD.md"
+    },
+    {
+      "skill": "pinterest-commerce",
+      "source_archive_sha256": "5fbdaeafda5595e3555679cbaabcc3f1caa3cda041baaf2624e8519f41f0eaff",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 31,
+      "method_entry": "skills/pinterest-commerce/references/library/METHOD.md"
+    },
+    {
+      "skill": "amazon-us",
+      "source_archive_sha256": "a38c7c7e27ece1e994d02b5183ff8e6e45fdea3812f56b0862f27b48bf4c38fa",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 24,
+      "method_entry": "skills/amazon-us/references/library/METHOD.md"
+    },
+    {
+      "skill": "ad-creative",
+      "source_archive_sha256": "445c165fb3f851ac3145d042132e4a868f591960fd6d9028b3704f33c46c2baf",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 19,
+      "method_entry": "skills/ad-creative/references/library/METHOD.md"
+    },
+    {
+      "skill": "ecommerce-analytics",
+      "source_archive_sha256": "6b4080276e2386fbcaf5aa3cc80723276236857ffa20a24c0af02b6123375130",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 12,
+      "method_entry": "skills/ecommerce-analytics/references/library/METHOD.md"
+    },
+    {
+      "skill": "customer-support",
+      "source_archive_sha256": "ec741a297d54a007c5c2725ac2941508cbdb36893b680f212b2e10bb35562089",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 26,
+      "method_entry": "skills/customer-support/references/library/METHOD.md"
+    },
+    {
+      "skill": "brand-brief",
+      "source_archive_sha256": "ed48c3a81f804ccca6e1d659358315ffa04c98de5544ba88a09d8bead86dfc57",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 9,
+      "method_entry": "skills/brand-brief/references/library/payload/brand-brief-research/METHOD.md"
+    },
+    {
+      "skill": "product-selection",
+      "source_archive_sha256": "65854895ff2ec2bf37fbfe37b42e2ad5dd2e83d97137e0b6a7a82582bc43431b",
+      "source_kind": "complete-delivery-baseline",
+      "imported_files": 12,
+      "method_entry": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md"
+    },
+    {
+      "skill": "influencer-collaboration",
+      "source_archive_sha256": "ff069042b4ad84932045a49b4f611f319fd30ebc629644022e8fdb4aeb82078e",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 10,
+      "method_entry": "skills/influencer-collaboration/references/library/METHOD.md"
+    },
+    {
+      "skill": "ecommerce-backoffice",
+      "source_archive_sha256": "9e9deb22f5ce930e1caba6aba2e58c273bce77923dafc1142fcd8e91f2e24c07",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 15,
+      "method_entry": "skills/ecommerce-backoffice/references/library/METHOD.md"
+    },
+    {
+      "skill": "b2b-quotation",
+      "source_archive_sha256": "e77c135f0f7bd25a0a2284e7f1b44a65679fb2c6113bdc33598cd0ef2f101cc9",
+      "source_kind": "accepted-platform-adaptation",
+      "imported_files": 11,
+      "method_entry": "skills/b2b-quotation/references/library/METHOD.md"
+    }
+  ]
+}

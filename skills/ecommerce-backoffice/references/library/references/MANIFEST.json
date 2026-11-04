@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "candidate_id": "backoffice-practical-v1-20261020-c1",
+  "title": "业务摘要核对与异常交接｜实用版V1",
+  "created_on": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "status": "CANDIDATE_NOT_INDEPENDENTLY_ACCEPTED",
+  "entry": "00_开始使用.md",
+  "method_entry": "backoffice-evidence-handoff/METHOD.md",
+  "declared_use": "同笔业务获准非敏感摘要的材料核对、有限算术、异常优先核查和完整内部交接；实际业务摘要可用，受限原件与脱敏件仍须读取前对象级确认。",
+  "exclusions": [
+    "专业会计税务合同审查",
+    "敏感原件自动读取",
+    "付款退款库存物流签署申报等执行",
+    "真实客户效果保证",
+    "正式采用、安装或公开发布"
+  ],
+  "authorization_id": "BACKOFFICE-PRACTICAL-V1-20261020-EXEC-01",
+  "lineage": {
+    "parent_id": "2026-10-19-prelaunch-01/backoffice",
+    "parent_manifest_sha256": "a23a6d1b10905e80593ca7f109317a426863940e0d9bdf707319cf6ff25b4a24",
+    "parent_core_sha256": "cf2057be2109fdfa661113096109b993beea3811bd97e0b56fddd8a70cae0b53",
+    "parent_preserved": true
+  },
+  "integrity": {
+    "member_count_including_manifest": 11,
+    "hashed_payload_file_count": 10,
+    "payload_bytes": 75964,
+    "hash_algorithm": "SHA-256",
+    "self_hash_policy": "本清单不含自身哈希以避免循环；冻结回执在包外固定全部11件。"
+  },
+  "unchanged_files": [
+    "backoffice-evidence-handoff/assets/output-template.json",
+    "教学示范/INPUT_R1.md",
+    "教学示范/OUTPUT_R1.md",
+    "教学示范/INPUT_R2.md",
+    "教学示范/OUTPUT_R2.md"
+  ],
+  "evidence_boundary": "教学示范是沿用父版的旧合成实际记录。V1新准入的制作方实际验证另存授权工作窗口，不改旧答且不冒充独立终验。包内导航不依赖外部验证记录。",
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 3902,
+      "sha256": "1fdc77fd7d3536df706484d4d233c9a9c52b4c561f2b6c99dbdc42f119659e09"
+    },
+    {
+      "path": "01_完整教学示范.md",
+      "bytes": 7332,
+      "sha256": "d9c6f7924f3b86a0e0fbce124bcde5261fa160704afd0fccbfd5dd6788cc098d"
+    },
+    {
+      "path": "backoffice-evidence-handoff/METHOD.md",
+      "bytes": 2477,
+      "sha256": "3fb6297219b63acbeb30d7082d26aa099c6e03f07e0133658684a2bcab85597e"
+    },
+    {
+      "path": "backoffice-evidence-handoff/assets/output-template.json",
+      "bytes": 5628,
+      "sha256": "58f07a31251809aa64d85d1e2bdf302e999ebd15f7526d637de44a5125c8e608"
+    },
+    {
+      "path": "backoffice-evidence-handoff/references/material-review.md",
+      "bytes": 14020,
+      "sha256": "343f8b71ee685e9cf63a1f52a1f111917a2e97799b7e829d31b6697861dbe050"
+    },
+    {
+      "path": "backoffice-evidence-handoff/references/sources-and-boundaries.md",
+      "bytes": 11427,
+      "sha256": "34ffc4a055871a63a15dd75834d3e368dd3d4b66bbd9802695569a1ff09bc9c1"
+    },
+    {
+      "path": "教学示范/INPUT_R1.md",
+      "bytes": 1792,
+      "sha256": "09826d7d8f501982b212bf8743e2e6f6ca4790e7f01b96d9736ae0bba27842e9"
+    },
+    {
+      "path": "教学示范/INPUT_R2.md",
+      "bytes": 220,
+      "sha256": "2b02ff28d7e0b274a4519d41b8ec9b87c7a2818e3013e04c6d8268811626b16e"
+    },
+    {
+      "path": "教学示范/OUTPUT_R1.md",
+      "bytes": 13719,
+      "sha256": "9ce8141b133c8524ed88e94d9f0ec204e4e713f38a489edb7e39a0d48c4a658c"
+    },
+    {
+      "path": "教学示范/OUTPUT_R2.md",
+      "bytes": 15447,
+      "sha256": "1835101b16495b420b285b5ae71641a3973d5a68581c1bb9a95a8204fb76dde8"
+    }
+  ]
+}

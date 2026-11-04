@@ -1,0 +1,16 @@
+{
+  "说明": "历史源路径到本平台候选文件名；原MANIFEST仅供追溯，不代表本副本字节身份",
+  "mapping": {
+    "00_开始使用.md": "00_开始使用.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "01_完整教学示范.md": "01_完整教学示范.md",
+    "教学示范/OUTPUT_R2.md": "教学示范__OUTPUT_R2.md",
+    "教学示范/INPUT_R1.md": "教学示范__INPUT_R1.md",
+    "教学示范/INPUT_R2.md": "教学示范__INPUT_R2.md",
+    "教学示范/OUTPUT_R1.md": "教学示范__OUTPUT_R1.md",
+    "backoffice-evidence-handoff/METHOD.md": "backoffice-evidence-handoff__METHOD.md",
+    "backoffice-evidence-handoff/references/material-review.md": "backoffice-evidence-handoff__references__material-review.md",
+    "backoffice-evidence-handoff/references/sources-and-boundaries.md": "backoffice-evidence-handoff__references__sources-and-boundaries.md",
+    "backoffice-evidence-handoff/assets/output-template.json": "backoffice-evidence-handoff__assets__output-template.json"
+  }
+}

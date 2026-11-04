@@ -1,80 +1,59 @@
-# ModernLinc Ecommerce AI Skills
+# ModernLinc Ecommerce Skills
 
-**AI workflows and deliverable standards for ecommerce teams.**
+18 open-source AI Skills for ecommerce: advertising preparation, product pages, content planning, research, customer support, reconciliation and business handoffs.
 
-ModernLinc organizes advertising preparation, product content, data reconciliation and business handoffs into eighteen task-focused Skills. This public catalog presents each Skill's purpose, inputs, deliverables and conditions of use, supported by complete synthetic examples.
+**Free to download, use, modify and contribute under the MIT License.** Complete methods, required references, templates and synthetic examples are included. No purchase or author contact is required.
 
-[中文](README.md) · [Product catalog](docs/skill-catalog.md) · [Getting started](docs/getting-started.md) · [Delivery](docs/evaluation-and-delivery.md) · [Help](SUPPORT.md) · [Updates and feedback (中文)](docs/updates-and-feedback.md)
+[中文](README.md) · [Catalog](docs/skill-catalog.md) · [Installation](docs/getting-started.md) · [Compatibility](docs/compatibility.md) · [Contributing](CONTRIBUTING.md)
 
-## Try one complete exercise
+## Install in Codex
 
-Start with one of [three small task previews (中文)](docs/try.md): [update a price across three documents](skills/codex-ecommerce/examples/demo.md), [prepare two ads and a creative handoff](skills/meta-facebook-ads/examples/demo.md), or [draft a complete product page](skills/shopify-store/examples/demo.md).
+Requires Git and Python 3.10+. This installer copies files only; it never overwrites an existing Skill or runs its scripts.
 
-Copy or save that single Markdown exercise, give it to your AI assistant, keep the response, then check it against the requested deliverables before viewing the authored reference. The trial guide includes raw-file links and a ready-to-copy request. No repository installation or business-account access is needed; you use your own AI tool under its terms.
+```bash
+git clone https://github.com/Modernlinc/ecommerce-skills.git
+cd ecommerce-skills
+python3 scripts/install.py --dest "$HOME/.agents/skills" --dry-run
+python3 scripts/install.py --dest "$HOME/.agents/skills"
+```
 
-This is a **public product catalog and text-evaluation package**, not the complete paid Skill library. Each item includes a self-contained exercise, separate input and authored reference output. The analytics example also provides [five synthetic CSVs](skills/ecommerce-analytics/examples/data/README.md). Detailed exercises and checks are primarily Chinese, with English business copy where requested.
+Add `--skill meta-facebook-ads` to install only one item. Repeat `--skill` for several. Codex normally discovers new Skills automatically; restart if they do not appear. You may also ask its built-in `$skill-installer` to install a particular `skills/<slug>` directory from this repository.
 
-## Product overview
+## Use
 
-| Workstream | Typical deliverables |
+Ask: `Use $meta-facebook-ads with its examples/input.md. Read the included methods, produce complete ad copy and creative briefs, and list unknowns. Do not look at the reference output or launch ads.`
+
+Then compare your result with `examples/output.md`. Examples are authored synthetic references, not recorded model runs or promises of business performance. You can supply your own authorized inputs instead. Detailed methods are primarily Chinese, with English business copy where appropriate.
+
+| Skill | 可以完成什么 |
 |---|---|
-| Advertising and content | Advertising drafts, creative scripts, channel copy and creator briefs |
-| Store and product content | Complete product-page copy, search content and catalog consistency reviews |
-| Operations and collaboration | Document updates, support drafts, quotation emails and evidence handoffs |
-| Research and analytics | Candidate comparisons, brand briefs and scoped five-table calculations |
+| [Facebook / Meta 广告](skills/meta-facebook-ads/SKILL.md) | 把商品事实、素材资源和页面承诺组织成投放前工作稿 |
+| [Google Ads](skills/google-ads/SKILL.md) | 根据已给查询形成 Search-first 广告及承接草稿 |
+| [Codex 电商执行](skills/codex-ecommerce/SKILL.md) | 在条件改变时同步多份电商文档的完整稿 |
+| [Shopify 独立站](skills/shopify-store/SKILL.md) | 将商品事实整理为可交编辑的完整商品页 |
+| [Google SEO](skills/google-seo/SKILL.md) | 按页面任务组织商品内容和待核信息 |
+| [TikTok 内容与达人](skills/tiktok-content/SKILL.md) | 从商品事实形成短视频文字 brief |
+| [Social 跨平台内容](skills/social-content/SKILL.md) | 让同一商品在给定渠道拥有不同表达 |
+| [Reddit 社区研究](skills/reddit-research/SKILL.md) | 从给定讨论材料提取需求并判断参与边界 |
+| [Pinterest 内容与目录](skills/pinterest-commerce/SKILL.md) | 把 Pin 表达与商品身份逐项对应 |
+| [Amazon 美国站](skills/amazon-us/SKILL.md) | 核对给定美国站商品材料并准备有限文字草案 |
+| [广告素材文字策划](skills/ad-creative/SKILL.md) | 把可证明卖点写成完整脚本和逐镜brief |
+| [广告与电商数据核算](skills/ecommerce-analytics/SKILL.md) | 在明确五表口径下展示贡献核算与缺证影响 |
+| [客服与私信](skills/customer-support/SKILL.md) | 依据给定状态准备回复与内部交接 |
+| [品牌简报研究](skills/brand-brief/SKILL.md) | 比较表达方向并形成有取舍的简报 |
+| [选品研究](skills/product-selection/SKILL.md) | 在给定候选、MOQ和预算下做条件比较 |
+| [海外达人合作](skills/influencer-collaboration/SKILL.md) | 对齐候选、报价、交付及内容使用权 |
+| [跨境经营后台](skills/ecommerce-backoffice/SKILL.md) | 把同笔交易的订单、结算和费用证据核对清楚 |
+| [外贸 B2B 报价与样品沟通](skills/b2b-quotation/SKILL.md) | 分开商业报价、样品费用和未确认条件 |
 
-Each Skill specifies the required inputs, a complete work product, review points and the next handoff. Selected examples also show how a change in price, specification or supporting evidence affects the output.
+## Requirements and limits
 
-## Eighteen Skills
+Each Skill folder is self-contained. AI tools need local file reading and support for SKILL.md discovery, or manual loading of the files. Downloading does not automatically install a Skill in every AI application. Ordinary chat tools can read the files but may not run local scripts.
 
-| Skill | Demonstration |
-|---|---|
-| [Meta / Facebook Ads](skills/meta-facebook-ads/SKILL.md) | [Single-file exercise](skills/meta-facebook-ads/examples/demo.md) / [input](skills/meta-facebook-ads/examples/input.md) / [worked output](skills/meta-facebook-ads/examples/output.md) |
-| [Google Ads](skills/google-ads/SKILL.md) | [Single-file exercise](skills/google-ads/examples/demo.md) / [input](skills/google-ads/examples/input.md) / [worked output](skills/google-ads/examples/output.md) |
-| [Codex Ecommerce Execution](skills/codex-ecommerce/SKILL.md) | [Single-file exercise](skills/codex-ecommerce/examples/demo.md) / [input](skills/codex-ecommerce/examples/input.md) / [worked output](skills/codex-ecommerce/examples/output.md) |
-| [Shopify Store Operations](skills/shopify-store/SKILL.md) | [Single-file exercise](skills/shopify-store/examples/demo.md) / [input](skills/shopify-store/examples/input.md) / [worked output](skills/shopify-store/examples/output.md) |
-| [Google SEO](skills/google-seo/SKILL.md) | [Single-file exercise](skills/google-seo/examples/demo.md) / [input](skills/google-seo/examples/input.md) / [worked output](skills/google-seo/examples/output.md) |
-| [TikTok Content and Creator Briefs](skills/tiktok-content/SKILL.md) | [Single-file exercise](skills/tiktok-content/examples/demo.md) / [input](skills/tiktok-content/examples/input.md) / [worked output](skills/tiktok-content/examples/output.md) |
-| [Social Cross-Platform Content](skills/social-content/SKILL.md) | [Single-file exercise](skills/social-content/examples/demo.md) / [input](skills/social-content/examples/input.md) / [worked output](skills/social-content/examples/output.md) |
-| [Reddit Community Research](skills/reddit-research/SKILL.md) | [Single-file exercise](skills/reddit-research/examples/demo.md) / [input](skills/reddit-research/examples/input.md) / [worked output](skills/reddit-research/examples/output.md) |
-| [Pinterest Content and Catalog Mapping](skills/pinterest-commerce/SKILL.md) | [Single-file exercise](skills/pinterest-commerce/examples/demo.md) / [input](skills/pinterest-commerce/examples/input.md) / [worked output](skills/pinterest-commerce/examples/output.md) |
-| [Amazon US Offline Review](skills/amazon-us/SKILL.md) | [Single-file exercise](skills/amazon-us/examples/demo.md) / [input](skills/amazon-us/examples/input.md) / [worked output](skills/amazon-us/examples/output.md) |
-| [Ad Creative Planning](skills/ad-creative/SKILL.md) | [Single-file exercise](skills/ad-creative/examples/demo.md) / [input](skills/ad-creative/examples/input.md) / [worked output](skills/ad-creative/examples/output.md) |
-| [Ecommerce and Advertising Analytics](skills/ecommerce-analytics/SKILL.md) | [Single-file exercise](skills/ecommerce-analytics/examples/demo.md) / [input](skills/ecommerce-analytics/examples/input.md) / [worked output](skills/ecommerce-analytics/examples/output.md) |
-| [Customer Support Drafting](skills/customer-support/SKILL.md) | [Single-file exercise](skills/customer-support/examples/demo.md) / [input](skills/customer-support/examples/input.md) / [worked output](skills/customer-support/examples/output.md) |
-| [Brand Brief Research](skills/brand-brief/SKILL.md) | [Single-file exercise](skills/brand-brief/examples/demo.md) / [input](skills/brand-brief/examples/input.md) / [worked output](skills/brand-brief/examples/output.md) |
-| [Product Selection Research](skills/product-selection/SKILL.md) | [Single-file exercise](skills/product-selection/examples/demo.md) / [input](skills/product-selection/examples/input.md) / [worked output](skills/product-selection/examples/output.md) |
-| [Influencer Collaboration Research](skills/influencer-collaboration/SKILL.md) | [Single-file exercise](skills/influencer-collaboration/examples/demo.md) / [input](skills/influencer-collaboration/examples/input.md) / [worked output](skills/influencer-collaboration/examples/output.md) |
-| [Ecommerce Backoffice Review](skills/ecommerce-backoffice/SKILL.md) | [Single-file exercise](skills/ecommerce-backoffice/examples/demo.md) / [input](skills/ecommerce-backoffice/examples/input.md) / [worked output](skills/ecommerce-backoffice/examples/output.md) |
-| [B2B Quotation and Sample Communication](skills/b2b-quotation/SKILL.md) | [Single-file exercise](skills/b2b-quotation/examples/demo.md) / [input](skills/b2b-quotation/examples/input.md) / [worked output](skills/b2b-quotation/examples/output.md) |
+The analytics workbook generator requires a compatible Codex spreadsheet runtime supplied by `load_workspace_dependencies`; installation does not provide that runtime. Other scripts require their documented Python or Node.js environment. Skills do not authorize live account actions, advertising spend, payments or publishing.
 
+## Contribute and update
 
-Individual cards and most examples are in Chinese, with English customer-facing copy where appropriate.
+Fork, report reproducible issues or submit a focused PR. Include a synthetic input, actual output and the expected correction; preserve source attribution. See [CONTRIBUTING](CONTRIBUTING.md) and [updates](docs/updates-and-feedback.md). No customer data or credentials.
 
-## Using the public examples
-
-1. Select a Skill and read its task, required inputs and conditions of use.
-2. Provide its single-file exercise to your AI tool; it contains all scenario inputs and the deliverable checklist. Do not supply the reference output as the answer.
-3. Review the completed result for facts, quantities, unknowns and handoff items, then compare it with the worked example.
-
-The reference output is editor-authored, not a record of an independent AI run. See [getting started](docs/getting-started.md) and [compatibility scope](docs/compatibility.md) for details. Complete-product installation and runtime support are confirmed separately for each delivery version.
-
-## Version and commercial delivery
-
-Maintained by ModernLinc. Public documentation version: `0.1.1-public-demo`.
-
-This repository contains product descriptions and original synthetic examples. Complete methods, supporting references and required runtime modules are delivered separately according to the selected product and version. A commercial delivery should identify its file list, licence, supported environment, price, update term and service conditions. Use [repository Issues](https://github.com/Modernlinc/ecommerce-skills/issues) for non-sensitive evaluation questions. Self-service checkout and fixed pricing are not currently offered here; consult the [delivery checklist](docs/evaluation-and-delivery.md) before any commercial agreement. Public updates do not automatically update paid installations.
-
-## Conditions of use and privacy
-
-Examples illustrate the work process and output format. Customer data, account credentials, personal websites and personal contact details are outside the published content. Example amounts are scenario assumptions, not commercial quotations or evidence of business performance.
-
-The public material covers offline preparation and review of supplied information. Live account operations, platform publication and financial actions require separate implementation checks and permissions. Current platform rules must be verified when used.
-
-[Evidence policy](docs/demo-evidence-policy.md) · [Content scope](docs/public-private-boundary.md) · [Security](SECURITY.md)
-
-## Licence
-
-© 2026 ModernLinc. All rights reserved. The public materials include a limited internal-evaluation permission. The complete product is governed by its separate licence.
-
-[LICENSE](LICENSE) · [Licensing](docs/licensing.md) · [Changelog](CHANGELOG.md) · [Maintenance](CONTRIBUTING.md)
+[MIT License](LICENSE) · [Third-party notices](NOTICE.md) · [Security](SECURITY.md)

@@ -1,0 +1,3075 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    "meta-facebook-ads",
+    "google-ads",
+    "codex-ecommerce",
+    "shopify-store",
+    "google-seo",
+    "tiktok-content",
+    "social-content",
+    "reddit-research",
+    "pinterest-commerce",
+    "amazon-us",
+    "ad-creative",
+    "ecommerce-analytics",
+    "customer-support",
+    "brand-brief",
+    "product-selection",
+    "influencer-collaboration",
+    "ecommerce-backoffice",
+    "b2b-quotation"
+  ],
+  "files": [
+    {
+      "path": "skills/meta-facebook-ads/CONTENT_MANIFEST.json",
+      "bytes": 15045,
+      "sha256": "3861e93625cf8d27f9a981b09b70b99dac03ce44221bf3741cd774f347100e62"
+    },
+    {
+      "path": "skills/meta-facebook-ads/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/meta-facebook-ads/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/meta-facebook-ads/SKILL.md",
+      "bytes": 3700,
+      "sha256": "503fe2c3acebf4795b52cd32a3d882ad71f8e0758a9663ba3385f37939d3f401"
+    },
+    {
+      "path": "skills/meta-facebook-ads/agents/openai.yaml",
+      "bytes": 344,
+      "sha256": "02ddc40950b032816104fb514d603cd0bc135f43f137b746f54ca8c158ce461a"
+    },
+    {
+      "path": "skills/meta-facebook-ads/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/meta-facebook-ads/examples/demo.md",
+      "bytes": 2195,
+      "sha256": "7bce6270617f797e94ef4fa8a0f0188e6e6842faa5c789c4ce03e19fc8a49dc4"
+    },
+    {
+      "path": "skills/meta-facebook-ads/examples/input.md",
+      "bytes": 821,
+      "sha256": "c12a42f90e9a8969dd229f3aa4fff64227878578e5618d382ecc872670e9004b"
+    },
+    {
+      "path": "skills/meta-facebook-ads/examples/output.md",
+      "bytes": 1754,
+      "sha256": "27385c16124a4f96d54d5521d90593e0c2f69a83593476e0069e474b3aee8ba0"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/METHOD.md",
+      "bytes": 692,
+      "sha256": "bd3383127c3f0bec760f0a7b0010f2834a83b36365280505cbd24bcd45b5ffb2"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/00_P01入口.md",
+      "bytes": 1217,
+      "sha256": "83abbd34738f185fe1be1510ff38f8e2bae7a9305756fbc49ad3b060d0401d1c"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/00_R1入口.md",
+      "bytes": 1178,
+      "sha256": "103ea33aa83f2662a8d5fd91d57acb63b3157c115c81af327bdc7d90899f0859"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/00_当前使用与范围.md",
+      "bytes": 3275,
+      "sha256": "507ff785d87f39134a4e68aba298d45d8828ac708a51f7a93fddf825384c3a04"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/ASSEMBLY_MANIFEST.json",
+      "bytes": 31369,
+      "sha256": "b33159a6513917db0b73e3de05164006fb9643e4d8032048914829f934250b21"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/MANIFEST.json",
+      "bytes": 11508,
+      "sha256": "bf5b3c3170b0c9ee16471f67859831f7abad537dd1245db97eaa177e57835ba8"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/P01_MANIFEST.json",
+      "bytes": 19807,
+      "sha256": "8828b05729dbfd3af0e8e72607dee79b8508aba73ca7dca8c2fda9230d5bf97e"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/PATH_MAP.json",
+      "bytes": 9962,
+      "sha256": "928fdf9fa5141af41b9b2929275f5202ee5a1190b1ab54ba2eabedd7632bffab"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__00-先读本交付.md",
+      "bytes": 3138,
+      "sha256": "8aaff2d7775d9f11bc02135348c0a0ec42c9f1e32097dd335145a107aff51af8"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__DELIVERY_MANIFEST.json",
+      "bytes": 10308,
+      "sha256": "91a0d0c418fd46a803f0a8a173b50b45749db48ec5cf28800c623f2c7ea78ead"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__DELIVERY_STATUS.json",
+      "bytes": 2357,
+      "sha256": "68ee34139503889af50387047ef72f4a53c3523cd842aff5b596542a3cb93469"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__SHA256SUMS.txt",
+      "bytes": 7089,
+      "sha256": "a36a1070c00e33ecd7b85d11b0bb0ccb6f3b735940dfb6a3b87c9bd64530019c"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__00-先读我.md",
+      "bytes": 2250,
+      "sha256": "436bbaacd24719df19a085c62a14b94c377ae02fc639105848b0f8e197b9a32b"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__00-限定验收摘要.md",
+      "bytes": 6871,
+      "sha256": "3c3920ebc4d7276a7d8812755392c887904fd32832ac0ce0b8c83fd4b63ac0b4"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__01-安装与使用.md",
+      "bytes": 4382,
+      "sha256": "960a5ad8347b8d1c03ff891b07c9e6aa57bc0399000408e9aaceb17b3b2aa2c3"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__02-验收范围与已知限制.md",
+      "bytes": 5312,
+      "sha256": "5e74a6e591ca4a3cbb8f9700b1fd2b1d43a60bd942cdbde35fd5a42fd876016a"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__03-版本与支持边界草案.md",
+      "bytes": 6061,
+      "sha256": "dfceb831e7eff8fcef44ba31bb2090bffc714a571568a592f1fcf266953a015c"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__DELIVERY_MANIFEST.json",
+      "bytes": 8456,
+      "sha256": "a9eeb5955178e65d6a1d632ee2f12fae1027fb3cfcaa62da6bf563cdaebac721"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__SHA256SUMS.txt",
+      "bytes": 5067,
+      "sha256": "c1ceca34ef1129e7eb7ee86821d6c6d7d0fc8416e0ad46b44b1743b436922148"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__CHANGELOG.md",
+      "bytes": 2888,
+      "sha256": "f639b2dcd56fcec1baab6b23155771e36e8d0b673705ffbc1cf439a52bc3948c"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__DELIVERY_MANIFEST.json",
+      "bytes": 6528,
+      "sha256": "ca496a52e5031a4b139f52e49e3a644974d11fa1a106bd42fd0923431d4c19d5"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__METHOD.md",
+      "bytes": 19213,
+      "sha256": "1c446dfccf932c0348315e3cc0d3830c68b8c1af6af899a5901b79b7a130cfb0"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__PACKAGE.json",
+      "bytes": 4681,
+      "sha256": "37d64f57b116f3f597800ead0266e0dbf6cde91a01d9924c7446fb292f475eb3"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__PAYLOAD_MANIFEST.json",
+      "bytes": 6016,
+      "sha256": "9d6a03794917ffd8b31c6bbb41fb60c382f0ca3cf5c946162b894b296e8edab3"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__QUICKSTART.md",
+      "bytes": 3070,
+      "sha256": "bed172b9698772118c47f11625adf0126bb93e068c4eec26e0dc86a6fd7eaf21"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__SUPPORT.md",
+      "bytes": 961,
+      "sha256": "fa753729f7e0ea5e95255a67995e639fbd868da26b754bf971e17a8dae8d5c02"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__USER_GUIDE.md",
+      "bytes": 11447,
+      "sha256": "892dda90527431a64e3800b2e4be8d8f47756a4d39123affc6d753beee7e2cfb"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__admission__STATUS.json",
+      "bytes": 2622,
+      "sha256": "3cf644e854714812431afb442c4427813819de06504e02a66ff769f2757cbd9c"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__agents__openai.yaml",
+      "bytes": 413,
+      "sha256": "cce68a73cf37efb4d016013d93aa7b150a9a96deb7903ff66595f48fbd2b9e6d"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f1__HISTORICAL_OUTPUT.md",
+      "bytes": 10914,
+      "sha256": "810c4087642bc3f329b6193722733447df41cd18c0d16401be132e6b55e36fbc"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f1__INPUT.md",
+      "bytes": 5209,
+      "sha256": "2a2325eb16e5339fd66287ff8d235f9c10dc870a0654f62699a30fa52943847f"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f3__INPUT.md",
+      "bytes": 4423,
+      "sha256": "93b5ed41f3a478a4f5daedcc64f50cc30fec4793babde275d88d5b2926711444"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f3__OUTPUT.md",
+      "bytes": 7516,
+      "sha256": "79a0db2543eec58a07acabbc860beba8104408bebf5fb7ead00034c816bd9395"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f4__INPUT.md",
+      "bytes": 4905,
+      "sha256": "5cead36e563828551c22eaa1899143d2fe5940a61de72e8267c425a5140c6baa"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f4__OUTPUT.md",
+      "bytes": 7482,
+      "sha256": "df551a6fdb7a7d59753f20d4a185f13f11e8d18b807bf27ea9c479af1895c92f"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__knowledge__2026-10-08-research-to-bounded-brief.md",
+      "bytes": 7072,
+      "sha256": "fff5390693f88208c9ddc86b8a8740c414948e4ded9fe19d21b7c176729675f3"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__knowledge__2026-10-19-first-round-and-utm-walkthrough.md",
+      "bytes": 12304,
+      "sha256": "1bcc38e1b17de8c4ee6afc892fc6568222aa47ddc74731eedf64c0999bad0b15"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__INTEGRATION_DELTA.md",
+      "bytes": 7017,
+      "sha256": "dae7d4e4e9a8f56c38101a9089f9b82475be142a2c40e25dcfe22b2d3f21b7d1"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__INTERNAL_METHODS.md",
+      "bytes": 2979,
+      "sha256": "a29edabce4645e649b6089617c0da6d135bc346702e592840f710ec9dba5bbb3"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__LIMITATIONS.md",
+      "bytes": 4877,
+      "sha256": "b792e590908b16b97a10ddeaaacfff39d949213606943b5b41599f34791323d5"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__PRACTICAL_V1_20261020_SOURCE_NOTES.md",
+      "bytes": 4180,
+      "sha256": "cfdbbdf86cb0dbcabd7955800538340b9b41dc1fe405bfff8c77bc7b23a12c91"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__PRELAUNCH_20261019_SOURCE_NOTES.md",
+      "bytes": 3154,
+      "sha256": "0197f0a4a31fd40ef023cde18ef4f6f5502809754742f6be711afb5a73e0c55d"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__RIGHTS.md",
+      "bytes": 3558,
+      "sha256": "98960ee5448ff06cd3a7e6da7cf133bb7a1d8d00f5d307d811bce1e8476bb62a"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__SOURCE_NOTES.md",
+      "bytes": 10844,
+      "sha256": "e307f1b33f392e872815aac95a65c71475f3cffcc4b398ca6dccd754c23228e5"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__business-math-and-unit-economics.md",
+      "bytes": 10628,
+      "sha256": "8fbf8758d9c25aa3275422f4dc9f0819d6dbb253ff5c5cc7fb84fd858d7e57cf"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__commerce-completion-workflows.md",
+      "bytes": 8922,
+      "sha256": "c9777c98d8ec7f5ea8a837296a5595a00c3ff5ac489573450bf8bf22e894bef0"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__course-distilled-operating-playbooks.md",
+      "bytes": 19101,
+      "sha256": "a536e8e50ccedbb01b52bc30e0bced4ada7e0ba4ad647c28da61888e5aa92d0f"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__measurement-attribution-and-events.md",
+      "bytes": 7432,
+      "sha256": "5aed3319e4a96e8b169ae48a4b73e72e62037764605dccf85812212a3e52004a"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__meta-ad-structure-and-draft.md",
+      "bytes": 17455,
+      "sha256": "4a83827d8c6cb36c40e2eabfd38e1102dba062d1d6b2e3302cb9c071cef391f6"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__permissions-and-live-gates.md",
+      "bytes": 7037,
+      "sha256": "bdd92147501bb5f05065ec40705b9e2456a1f631321bda285c3a89f66492f675"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__stage-audience-resource-playbook.md",
+      "bytes": 17156,
+      "sha256": "cc1337e5a58d6121d35461cf8325e02c88225f8b2be653cceaac31eb36fa2bac"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__testing-diagnosis-and-stop.md",
+      "bytes": 9066,
+      "sha256": "9d494d51c93e622aede96f21e3fd861004943c723a86567077bf8d1219396b6b"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__tracking-parameters-and-url-checks.md",
+      "bytes": 12810,
+      "sha256": "4a4b95660967a813db8bc4f656c1c6aaf012f64b58a75f8bec28832de49144b6"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__tools__static_utm.mjs",
+      "bytes": 11454,
+      "sha256": "760998b7d5863507625c94c2b033c8e0e580c33963a78a683226775746cdd91e"
+    },
+    {
+      "path": "skills/meta-facebook-ads/references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__tools__verify_integrity.py",
+      "bytes": 4822,
+      "sha256": "28efa9a3936fa8a0ce15939a5e5f8fb25c5376f7a75bd943bbc1d49e5149ab64"
+    },
+    {
+      "path": "skills/google-ads/CONTENT_MANIFEST.json",
+      "bytes": 5882,
+      "sha256": "e4276908f7bd3b129acbf22b4f28d7b535f67c48088345c9d7152f5f35209d9f"
+    },
+    {
+      "path": "skills/google-ads/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/google-ads/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/google-ads/SKILL.md",
+      "bytes": 3623,
+      "sha256": "fd68892c479bcad8cee13014586a40f96a0e102b72ff7976264407c7e620650d"
+    },
+    {
+      "path": "skills/google-ads/agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "f53981e76c55c48bafa0273431cd346e68f030b7ce6b325a75a688b37214ba64"
+    },
+    {
+      "path": "skills/google-ads/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/google-ads/examples/demo.md",
+      "bytes": 1993,
+      "sha256": "b8de2723b966261aa6764d09ada1a717e56ab262826a89ebd1c8325ce7da429f"
+    },
+    {
+      "path": "skills/google-ads/examples/input.md",
+      "bytes": 641,
+      "sha256": "b69142e9873e81f9e0e21e33daf2b7e174ae34f1d05b26045a796e95d22982ab"
+    },
+    {
+      "path": "skills/google-ads/examples/output.md",
+      "bytes": 1974,
+      "sha256": "c6391ee86d205c49eeb9435a1dddd3fe2ace3967d16222180027eed8c3298800"
+    },
+    {
+      "path": "skills/google-ads/references/library/00_从这里开始.md",
+      "bytes": 3992,
+      "sha256": "c3c26db09b94ff2a6417d6b9ac19753d246d3c0c0abbf0cb81622184b999c209"
+    },
+    {
+      "path": "skills/google-ads/references/library/01_Search完整教学示范.md",
+      "bytes": 12467,
+      "sha256": "0842b9480a3c31ce30a1b8f6a49533a58341282d1a2d609d1daff52ed93b91f6"
+    },
+    {
+      "path": "skills/google-ads/references/library/02_能力与来源.md",
+      "bytes": 5175,
+      "sha256": "b92d7a44f4f6b01bb5b203f1e91b323bdf3df1aab01cd84c5ad9d08a6f16dc5f"
+    },
+    {
+      "path": "skills/google-ads/references/library/MANIFEST.json",
+      "bytes": 8239,
+      "sha256": "99bb0c6c3324593c4c00ff01289eee0368aacd233305192f697bc3edc2886fd4"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/METHOD.md",
+      "bytes": 8583,
+      "sha256": "67baf5aa4470b6cbcbca47eea1b059c251aaf1811dda8ff09cb94d8a22c439b1"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/QUICKSTART.zh-CN.md",
+      "bytes": 1349,
+      "sha256": "51076c17efca5cb57ca2241a5a27e59d8e8262f704d6e2a41b0b5f0238c50f33"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/RIGHTS.csv",
+      "bytes": 5530,
+      "sha256": "e6df42886a32755c97fb02945798e0e0eaa86bfb8d99cb33ce8a1bf137c5aec7"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/SUPPORT.zh-CN.md",
+      "bytes": 741,
+      "sha256": "4fba27bc20b50429372e8286540ddb2adb720502504bb76869dd280b78ab39ba"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/USER_GUIDE.zh-CN.md",
+      "bytes": 4505,
+      "sha256": "a1f9267053ff1cdb0032a7fc18e79b510fa0656103f643a716565a0d8236c1e6"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/agents/openai.yaml",
+      "bytes": 263,
+      "sha256": "4b68e94de7b34e3dab6837c03bc8448856909d23a9457d505043086349df1a88"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/examples/capability-portfolio.md",
+      "bytes": 19398,
+      "sha256": "b1759e6daa97eb788c7fd055d98476e6582d291f2d5f47156cabb7503b94ce65"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/examples/merchant-review.md",
+      "bytes": 10089,
+      "sha256": "634e592cab2513b7f564a46e434dd480e5c8fdbb18e4629026b9cbd9234722de"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/examples/merchant-variant-repair.json",
+      "bytes": 4986,
+      "sha256": "fe3cad0fc7fb3f84838faa4d691b98e311967cef24101e15a6e8e028033ee44b"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/examples/search-review.md",
+      "bytes": 17001,
+      "sha256": "b04f460e451db733ddad1d06a4aaffc75aa2d1c24955fa21e7e108cf12b983a6"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/channel-choice-and-demand-gen.md",
+      "bytes": 7954,
+      "sha256": "fd7a995929bced690dff39ba1f2c7015fd53110e605ec5a5cd0d2dbf18a96532"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/current-platform-gates.md",
+      "bytes": 17710,
+      "sha256": "056513ea9173a8ade6529dea856d2bf07d2159105a037f71d951d20f261b6fae"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/evidence-and-safety.md",
+      "bytes": 5847,
+      "sha256": "0f117343d7647134f0166d57f7ba86f34601f976ec7d10b92b12221ea2dbc57e"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/round-three-sources.md",
+      "bytes": 3594,
+      "sha256": "59188a08f408b00d6cadfdfb606f1bbcb27126ae5715b814dadc790d7f892e9c"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/source-register.json",
+      "bytes": 88019,
+      "sha256": "426b1ce59873342cd2e82c9f90edbf6a4c0a3c9c97433968b73a880e43d70b40"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/video-asset-sources-450.json",
+      "bytes": 7536,
+      "sha256": "a4bf3a7d9a5599ef379c4be6b900b1ed664d432902c8278813afdbeeab850af7"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/video-measurement-and-review.md",
+      "bytes": 12732,
+      "sha256": "77e3421094befd80a9b11e0f926e7ddcf4f9911f0308944b5b84ff787e51469d"
+    },
+    {
+      "path": "skills/google-ads/references/library/原版方法/payload/ads/references/workflow-and-templates.md",
+      "bytes": 36471,
+      "sha256": "6158bc2c7a75d177d2223aedd223d464989827ebbec71848069be6cda418b62a"
+    },
+    {
+      "path": "skills/codex-ecommerce/CONTENT_MANIFEST.json",
+      "bytes": 3924,
+      "sha256": "34864a86480255c81692f120ea094fcdc327ca4195025bba44b19d6c1cb0408a"
+    },
+    {
+      "path": "skills/codex-ecommerce/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/codex-ecommerce/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/codex-ecommerce/SKILL.md",
+      "bytes": 3569,
+      "sha256": "14ffcdffb9845c3daa63b25c9a3e862549331e8d2b5b08fa1fdb8372ceeeea0a"
+    },
+    {
+      "path": "skills/codex-ecommerce/agents/openai.yaml",
+      "bytes": 334,
+      "sha256": "eb905e601fa80b28f041ac6554fd573262253f471163d829180ee42b67785744"
+    },
+    {
+      "path": "skills/codex-ecommerce/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/codex-ecommerce/examples/demo.md",
+      "bytes": 2032,
+      "sha256": "140e8a93e80476e2884e387c8602da7bda8cd4f5455824dde962cde86c587fe9"
+    },
+    {
+      "path": "skills/codex-ecommerce/examples/input.md",
+      "bytes": 688,
+      "sha256": "c51104a66d6bf79fc6ae91e34c429b64520d564545ac31a7edd4f7457ee393c0"
+    },
+    {
+      "path": "skills/codex-ecommerce/examples/output.md",
+      "bytes": 917,
+      "sha256": "9c8b48c5b972e42816ae21fab68e77b0a72a0e70045cfd043e95a28f37305326"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/METHOD.md",
+      "bytes": 1317,
+      "sha256": "f45abc61a77380201d04ec00708eef83fb8127dead6b6e1a644f3039d2ec7dea"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/00_从这里开始.md",
+      "bytes": 5500,
+      "sha256": "856740ee5e7146b556ae382719798a0f924c6f5357e934814219126419fdea73"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/01_完整改稿与撤价接续示范.md",
+      "bytes": 15276,
+      "sha256": "902439268539628bdb61ac086ced8b9c3450871bc1f2a9916d985fd87802c784"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/MANIFEST.json",
+      "bytes": 1953,
+      "sha256": "f395784e71bdf2c68e654826308bef029aefc7742aade5f05e8a3923fe92a233"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/PATH_MAP.json",
+      "bytes": 837,
+      "sha256": "54d18269c8a013682d43e8900e555ef6027e89d22b9a280c241e98f15f5f99eb"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__00_当前使用与范围.md",
+      "bytes": 3021,
+      "sha256": "38967054239d1345a4217869cfade5368a24df3b36a76e7d81333f0973a34127"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__MANIFEST.json",
+      "bytes": 1162,
+      "sha256": "dafd4c125faedd172c7d3f2c69d48e122e84e897affbbc01aebb13670222db75"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__payload__MANIFEST.json",
+      "bytes": 3867,
+      "sha256": "4451e73ffe0d379679c7c4cc6d644616f67611eaadea4f8d39434b4d9527ef8f"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__payload__METHOD.md",
+      "bytes": 2773,
+      "sha256": "e60d7b0f30a5282e93c67f606199b785197626acab26a5b3e94d29284d280d7a"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__payload__references__sources.md",
+      "bytes": 8013,
+      "sha256": "f60b0fdb91586e464bf884c25161fb23bfaf5283f4d510b44547b35e965ea767"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__payload__references__workflow.md",
+      "bytes": 8468,
+      "sha256": "2c7752a76eff5ec66494e53ade51f5082ec09cd886a95c3c4a0d0a0ec4ede096"
+    },
+    {
+      "path": "skills/codex-ecommerce/references/library/references/原版__payload__使用说明.md",
+      "bytes": 5777,
+      "sha256": "8f180bf34b311dbfd5b7ebdc13890fcec1b9c99924d58fede47ae3032f1d7ac9"
+    },
+    {
+      "path": "skills/shopify-store/CONTENT_MANIFEST.json",
+      "bytes": 9387,
+      "sha256": "e3857affb80aad60de0aa5e8f481f0bfcfa05d9b405d00fdbd51c75dc740129a"
+    },
+    {
+      "path": "skills/shopify-store/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/shopify-store/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/shopify-store/SKILL.md",
+      "bytes": 3670,
+      "sha256": "8082d70b071dd5051a77883ebd84e93ebba6966c1608ecbbb280b300e866305e"
+    },
+    {
+      "path": "skills/shopify-store/agents/openai.yaml",
+      "bytes": 330,
+      "sha256": "695cc93c27c47492419e99b0a14dab8e355dba0c13834757bf0f5a219c22354f"
+    },
+    {
+      "path": "skills/shopify-store/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/shopify-store/examples/demo.md",
+      "bytes": 1965,
+      "sha256": "d84980f30d7649ba67317b479a4ee0d7e9d6b9f79d88db16cf17d0c8db2e3daa"
+    },
+    {
+      "path": "skills/shopify-store/examples/input.md",
+      "bytes": 642,
+      "sha256": "a8e52de172766dad0e91ee5ee6289ac7b3094e50caacc8a758e63e17dabc9848"
+    },
+    {
+      "path": "skills/shopify-store/examples/output.md",
+      "bytes": 1407,
+      "sha256": "ffee21fdc82b05112f7437ee742bbd3b5cd7b22c50fc008034602afbba6d9a44"
+    },
+    {
+      "path": "skills/shopify-store/references/library/00_当前使用与范围.md",
+      "bytes": 5226,
+      "sha256": "130be4fd04826418f799645659c9cd6df9f5f05b15b664d89a2b4eed1b372a43"
+    },
+    {
+      "path": "skills/shopify-store/references/library/00_本地文件使用入口.md",
+      "bytes": 2044,
+      "sha256": "561ec954344b34562da2f5f34ef90104b2294163eeea6ece1e16fc61dee906e7"
+    },
+    {
+      "path": "skills/shopify-store/references/library/MANIFEST.json",
+      "bytes": 7956,
+      "sha256": "38158b1894029b5d3cece7efdd34649af0d6ce11b9a95887d2737a0e786ee803"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/METHOD.md",
+      "bytes": 7282,
+      "sha256": "a9055b9c6e7ea70518a21197f1e8527999e4c7addf684c2c1a84f5dee598dc7a"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/references/k01-readiness.md",
+      "bytes": 7309,
+      "sha256": "1ef39f8a594e58fc13d0325fb9d7531344e392933e40b34dd45929b1f3d3a823"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/references/k02-product-page.md",
+      "bytes": 17592,
+      "sha256": "482dfeee810d0bb89034d897a0e693281768a2db0d9053744d37f1da41ca8c68"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/references/k03-fulfillment-aftercare.md",
+      "bytes": 4975,
+      "sha256": "69a5a772d7f540fc5ee2c90a76a4914b91d8e19bc11f012d7c27c461954cc37a"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/references/k04-retention.md",
+      "bytes": 4899,
+      "sha256": "f4c4f2859be9a488c722a655a07e2d0fb97364be11af824058c542cceaae1559"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/references/k05-economics-cash.md",
+      "bytes": 8779,
+      "sha256": "2729175c5d2e1ec1a6c270ca2e237f3c01eafe1b643db0c406736f2c5a711e84"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/sources/k01-evidence.json",
+      "bytes": 11931,
+      "sha256": "eac0b0ef38ee209fd649c5d44b91e0c2e9ac0fdc1a7155a921e2f71247898a49"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/sources/k02-evidence.json",
+      "bytes": 33641,
+      "sha256": "297acbd32cf0e938082ddee71b76c078fdc59d6fb967a08990c1fae300050445"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/sources/k03-evidence.json",
+      "bytes": 8432,
+      "sha256": "d2edfc903c02c0deddd57c6d4c6f9b77afda9c5d52c28674d0476aef9939c041"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/sources/k04-evidence.json",
+      "bytes": 7906,
+      "sha256": "77b2c89413dfe32d05d7510d94ed8d596ae0c849d7edfcf77118ff1440410fb5"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/sources/k05-evidence.json",
+      "bytes": 8649,
+      "sha256": "7360a3a3ef73ee7906bd147cc7e088752923ed5323503bc3f5c7f8b6f81584d9"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/中文使用说明.md",
+      "bytes": 7071,
+      "sha256": "dc785408aeb52cb8b8f2e843eb85ec9c3681d6309dfde8d9a7517fe15e4f1fd8"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/交付身份与限制.md",
+      "bytes": 4487,
+      "sha256": "1d3afab530f98de44b73ca5fc724a063ae0ca70c2d25ddc2f1e2513851911f29"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/shopify-dtc-review-candidate/当前状态与来源导航.md",
+      "bytes": 6153,
+      "sha256": "ab8c5f6dad0cf8b0e2426c7af06358e9e5bbdf3f07b72d4d13d21e16ee8a1009"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/开始使用.md",
+      "bytes": 10110,
+      "sha256": "b8a7868153c240b7bac53e0327453e490978ab7bc96c5f5c1ddb536a89669e03"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/01_合成报告输入节选.md",
+      "bytes": 12026,
+      "sha256": "fbf97fe63a190364e59e8e4e0707d27a22e2b0ab53e091af47d6b30137e1e083"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/02_历史汇整结果节选.md",
+      "bytes": 4354,
+      "sha256": "6b9bf22984593327ba07021ba8e47fb1e5849cfbdddf4dd2372cff2a6626f551"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/03_页面取舍与供货变化教学.md",
+      "bytes": 8909,
+      "sha256": "64b94a5c7db4ceb2552745bda35ab422f0af5f96a1724aa2d4c32e58bb2c0d06"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/INPUT.md",
+      "bytes": 1978,
+      "sha256": "859f5c7ed5eaaec43dfa6de4b173fb74052bd7c5ecdf02709d909ea0e98e5f09"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/INPUT_MANIFEST.json",
+      "bytes": 5649,
+      "sha256": "f78049254c125cadf68b289c87c0fd12e3854fc9b438705c2ef048207fab054e"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/NEW_FIRST_OUTPUT.md",
+      "bytes": 4533,
+      "sha256": "d585c63073eef4d2773c30621d4d8f7bff32bf04ac9d12aa4d256bbf6eaa7d97"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/config/settings_data.json",
+      "bytes": 131,
+      "sha256": "659354817c78bc4704de02a86e9184e562eb53ccfb78c7dedb0cbdaffab0f6ac"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/config/settings_schema.json",
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/sections/product-info.liquid",
+      "bytes": 80,
+      "sha256": "e295215bcd8d88e1d4ac17636842bae5576909af42edd1d7478b4f6e86d826c8"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/snippets/legacy-note.liquid",
+      "bytes": 29,
+      "sha256": "85c4b3f166463aee0a32b618dd1ddf21a80d6928367ad21a8b0a66b63c412a23"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/templates/index.json",
+      "bytes": 159,
+      "sha256": "0a7491813d59ddeb76ea30a4b47047406d809f74023e846c52e9bfe0410995d2"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/templates/product.json",
+      "bytes": 309,
+      "sha256": "909a285c286712e068a4c68f58cf0f16ba4d97484f866dd08bfedd1108bbe0a0"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/clean/templates/promo.json",
+      "bytes": 36,
+      "sha256": "3d1dfe9ec137c66e9f1557bcbe0f50b6ae56869b914e13a8b3458bbb728b285c"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/config/settings_data.json",
+      "bytes": 187,
+      "sha256": "3eb24f98a3c8678ecb1ae7010195027d305eeb4832293607f3652ab43244cf1f"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/config/settings_schema.json",
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/sections/product-info.liquid",
+      "bytes": 80,
+      "sha256": "c035dbc8c7072ae688cd1d731a55611fe28b50fee7dda412bcf6ebd2b856bf0b"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/sections/unused-note.liquid",
+      "bytes": 43,
+      "sha256": "2ac0c8d993aa5ec76b09ddab1120fcf226bcd5083f59ce4b0d93dc3559aa92d2"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/templates/index.json",
+      "bytes": 95,
+      "sha256": "ec6a06d31f3a787f45150381f38eace89033dd095e9dbe4313b781d219d1fc32"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/templates/product.json",
+      "bytes": 308,
+      "sha256": "99796deb1593b2235b8c051709d0e1e8bc86983ab6a13fdadda76754c22747b6"
+    },
+    {
+      "path": "skills/shopify-store/references/library/payload/示例/主题差异审阅/fixtures/reviewed/templates/promo.json",
+      "bytes": 15,
+      "sha256": "743495ab514cbb4cdc6bf67d4a7065b6ebf19c839c32062c348e2522d18ec4bd"
+    },
+    {
+      "path": "skills/google-seo/CONTENT_MANIFEST.json",
+      "bytes": 6411,
+      "sha256": "4ac2c2fdcf63039d5e4fd1b9f05d337de9fce4700f50882f350208062ee6e66a"
+    },
+    {
+      "path": "skills/google-seo/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/google-seo/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/google-seo/SKILL.md",
+      "bytes": 3578,
+      "sha256": "2b51bbc9773084f07f35f07739fc52559076926a89e1dc717612ec4d7accc0f3"
+    },
+    {
+      "path": "skills/google-seo/agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "0308989b94ea4fff34bd2e29a48cb4199ab56fb66a6b25e4863a13ef35e69908"
+    },
+    {
+      "path": "skills/google-seo/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/google-seo/examples/demo.md",
+      "bytes": 1885,
+      "sha256": "1b0cd22e64eef766e1dbedcde9e99f341ed36c40d36f6bdb17bd77d1e78b44bb"
+    },
+    {
+      "path": "skills/google-seo/examples/input.md",
+      "bytes": 579,
+      "sha256": "c6854816f0e5b26f6993f04013254bf47e7d3dc1737f62c0bde0656dc3e4b66b"
+    },
+    {
+      "path": "skills/google-seo/examples/output.md",
+      "bytes": 1443,
+      "sha256": "94ac968ce3f12eb9f5fe01dce650d69e4fc94d62a2b44b5fdd87e1dfbd82c59e"
+    },
+    {
+      "path": "skills/google-seo/references/library/00_从这里开始.md",
+      "bytes": 4146,
+      "sha256": "897d8fafcfe16598e46513eedfec3ee6716445f4a086bec0287cc3daff12c326"
+    },
+    {
+      "path": "skills/google-seo/references/library/01_页面选择与完整改稿教学.md",
+      "bytes": 8874,
+      "sha256": "12febab22ac6544bbc2d057462773e2f64480a10245c1256c7f34c34dc0d9aa2"
+    },
+    {
+      "path": "skills/google-seo/references/library/02_重复与索引疑问教学.md",
+      "bytes": 7325,
+      "sha256": "6094885f04ecf8b8faf032d8b2b0b373f47c99405fce880d327fd407082e9ba8"
+    },
+    {
+      "path": "skills/google-seo/references/library/03_能力与来源.md",
+      "bytes": 5073,
+      "sha256": "629a0fda3d7e7c9f99f387175d35ef8bee6ea230db292749dabe28c814d120be"
+    },
+    {
+      "path": "skills/google-seo/references/library/MANIFEST.json",
+      "bytes": 9483,
+      "sha256": "a7fadfcbf07a3849b4ea6f0a488615a233ec26c7c5115873f6a6deb2d2a9bc75"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/METHOD.md",
+      "bytes": 8337,
+      "sha256": "6e268ce046f72a1874da86089ebc2931ccce83c9af60f2f9d9812e87a642481e"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/QUICKSTART.zh-CN.md",
+      "bytes": 1134,
+      "sha256": "59ef1a6ae692a661d4da20a454eca314e0b43d553421d30f7f0acb933777d14a"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/RIGHTS.csv",
+      "bytes": 5287,
+      "sha256": "366bcbd13c21371fb8ec6abe10fbc085cd2abf6a45c15e34105fff8484036976"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/SUPPORT.zh-CN.md",
+      "bytes": 1071,
+      "sha256": "42177f570f4b00ce4d9b30a910ef128cc8a8df48faec1adafbfd00058d4180ac"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/USER_GUIDE.zh-CN.md",
+      "bytes": 3836,
+      "sha256": "1726392842c7e257593733fef3cebfdd17d91dbf534a498eebb22b2eb40ec27e"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "52a56a7a59fd57328543758fded6206e2805772fd406259de8bf06312e0d8b47"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/examples/capability-portfolio.md",
+      "bytes": 16391,
+      "sha256": "d35b5a22d7367e49200ce91e65893dd41a4ada7fe0538ed70c2318de7143970a"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/examples/page-review.md",
+      "bytes": 15537,
+      "sha256": "d1037bc49bf0ac01e4ccaa5970442bf67fc141b84b39fb9dcf6cc77d77b9175d"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/examples/rendering-review.md",
+      "bytes": 9266,
+      "sha256": "14233833aac7833fba63c57f0d0129fe13641e68282183c5f4861d4fcfef9f47"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/current-google-facts.md",
+      "bytes": 15792,
+      "sha256": "16ee5738d78638a68d86a6a9e2fe7d0b28a88654675096f4749471f08ea97318"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/evidence-and-safety.md",
+      "bytes": 4704,
+      "sha256": "15915e45e0d33082969c1f68a20897a856507810f5c60f2848816512670bb534"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/international-implementation.md",
+      "bytes": 2950,
+      "sha256": "ea59739f6fcab517982903cc8f8ff851794404ef91ff7dd5181efd93970dcb75"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/lifecycle-and-structured-data.md",
+      "bytes": 2642,
+      "sha256": "77abdcc74f61b9d7cf5be825cc06227aa18458d3672deff4eec86fa06125c3f4"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/local-and-editorial-authority.md",
+      "bytes": 1738,
+      "sha256": "1df522acde2b57ff15cba2c0acda217c1ea995e4f0d9693698be59a31b24a584"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/round-three-sources.md",
+      "bytes": 2229,
+      "sha256": "577e196864721bbd5f3d2e6484958f17de27b8818715a4f7375ced732b7f942a"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/seo-ads-handoff.md",
+      "bytes": 3572,
+      "sha256": "d548912912030bca2260fc5c29e90d4cd56001fc197fcea443f98360db051591"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/source-register.json",
+      "bytes": 46532,
+      "sha256": "48457351cec83dc562bf05e87c13e0846463d5443095404537194bf7e127dcc0"
+    },
+    {
+      "path": "skills/google-seo/references/library/原版方法/payload/google-seo-operations/references/workflow-and-templates.md",
+      "bytes": 20772,
+      "sha256": "2a5d758464f8819620ca8cba6a73d5bc8cff75e70bb1b6e57f2d1e405805e611"
+    },
+    {
+      "path": "skills/tiktok-content/CONTENT_MANIFEST.json",
+      "bytes": 13611,
+      "sha256": "734da5ea179ef9533fcacd606f8f04e1a6efd6293d31aa13e0116ae76a80ae03"
+    },
+    {
+      "path": "skills/tiktok-content/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/tiktok-content/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/tiktok-content/SKILL.md",
+      "bytes": 3677,
+      "sha256": "2c653537c77b25beaff6919a6066e19a13b9f466a706290613b868e39a4d42a8"
+    },
+    {
+      "path": "skills/tiktok-content/agents/openai.yaml",
+      "bytes": 341,
+      "sha256": "543523222fafa4451468779117af9fbb0d6133b147767409b235417e1007caf7"
+    },
+    {
+      "path": "skills/tiktok-content/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/tiktok-content/examples/demo.md",
+      "bytes": 1855,
+      "sha256": "5efb27d84118c701f70c47489ef5d405a6aefbafb228d74e04783a13378d0ab0"
+    },
+    {
+      "path": "skills/tiktok-content/examples/input.md",
+      "bytes": 525,
+      "sha256": "6f21a2378c13eb97bbef455e05c83abded2da91d5645917e1217ae88e01d31bd"
+    },
+    {
+      "path": "skills/tiktok-content/examples/output.md",
+      "bytes": 1130,
+      "sha256": "641dde6098d30f428e3fe32e217a2fee376528035356c06d6cb271beb748dd0a"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/00_开始使用.md",
+      "bytes": 5469,
+      "sha256": "afcc797d75aaa97dd26f4e83f2e474771513740cd4c2e35a27c7c644c1eaa1a8"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/01_完整教学示范.md",
+      "bytes": 13821,
+      "sha256": "b72edd442475f3c372298d41743cc6cf204f6ab2a6febcd0072df10be08b742c"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/MANIFEST.json",
+      "bytes": 14212,
+      "sha256": "8adfed1723db4e7308f6d22f79a57d34f0e66191940598aba9a629f7023a1920"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3286,
+      "sha256": "7fe5cb7c0108eaf7c68b7579c1f5dac8732ee42cdc286b34d1acd7028652d827"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/MANIFEST.json",
+      "bytes": 10403,
+      "sha256": "df4a97fa363313c27a49cf0bbb055ca57bab24f0951b10eb94399902f3e95e91"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/CHANGELOG.md",
+      "bytes": 5950,
+      "sha256": "ad33f35c423256ca7e8587f643ac9be192cb5bc7b21de8dd65e087fda82de592"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/COMPATIBILITY.json",
+      "bytes": 2970,
+      "sha256": "67821a2d9c29c08d696c4afe98235d4e6a8b6288bd08b7baeba8ba95c81ae726"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/MANIFEST.json",
+      "bytes": 31328,
+      "sha256": "761e545ac2e3666b4b2fffd6a3cfe10e629a5b36881b207d4af0cbc9a5ca65bc"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/METHOD.md",
+      "bytes": 16140,
+      "sha256": "5d46099bb217d44570a1a2213f9965ff93091cd8ad1540259bc71d7968a9bfb6"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/README.md",
+      "bytes": 2700,
+      "sha256": "4f13caeee59f7da5a20eac1626cefb212aad73d4c4748d11967778b9684ff784"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/RIGHTS.json",
+      "bytes": 66791,
+      "sha256": "ae32d25ec7dce37b2f0224aed992fe55d59f61d4e4f849d5c66de99bbfc389ef"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/SUPPORT.md",
+      "bytes": 1599,
+      "sha256": "762051d22e2e038d51ea2229059ebd235751d9fbf7e119f47fe14062afe2df10"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/USAGE.md",
+      "bytes": 9089,
+      "sha256": "a70aee6ab083207abe63f5f872545111faafd70d945eb031d42198fec5eb4824"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/VERSION.json",
+      "bytes": 47504,
+      "sha256": "d1365028805d92b2ac58bc7f4d7e7043d17af7687b10ec793d630c2fd4ccd919"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/brief-fusion/INPUT.md",
+      "bytes": 3175,
+      "sha256": "51ec2e7560f663766111ff84e33f367708a6017dcef72e3553a9dd79dfa8413e"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/brief-fusion/OUTPUT.md",
+      "bytes": 5811,
+      "sha256": "090f02e2908727df580de9fbc7b8c6519f806f068816f643d64cc38bb4e6337a"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/creator/INPUT.md",
+      "bytes": 7320,
+      "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/creator/OUTPUT.md",
+      "bytes": 23943,
+      "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/demo-evidence/INPUT.md",
+      "bytes": 3005,
+      "sha256": "82f9ae7f6f2fd2174a549306516ef35ad0bccc1dd88e2e85f7e4a08ecfbce3ef"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/demo-evidence/OUTPUT.md",
+      "bytes": 6938,
+      "sha256": "c2b809f0c0255116b1d369ff93eab4d3bd0550dd8f8e9e2cb17bcb3a207c49f9"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/live/INPUT.md",
+      "bytes": 11873,
+      "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/live/OUTPUT.md",
+      "bytes": 26079,
+      "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/organic-shop/INPUT.md",
+      "bytes": 7000,
+      "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/organic-shop/OUTPUT.md",
+      "bytes": 21454,
+      "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-content/INPUT.md",
+      "bytes": 7062,
+      "sha256": "fea7f7ca248b589b2e3084035e93a92c5f4d93562129cc0aaac7689456feb71a"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-content/OUTPUT.md",
+      "bytes": 16291,
+      "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-gmv-max/INPUT.md",
+      "bytes": 6505,
+      "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-gmv-max/OUTPUT.md",
+      "bytes": 19727,
+      "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/website-ads/INPUT.md",
+      "bytes": 7935,
+      "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/examples/website-ads/OUTPUT.md",
+      "bytes": 23460,
+      "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/creator-code-conditions.md",
+      "bytes": 1330,
+      "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/limits.md",
+      "bytes": 11258,
+      "sha256": "3da6c04f336bc3faf1ed3bbc52091d8dfc861be94a372dfd06f376af39b88644"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/method-source-map.json",
+      "bytes": 30687,
+      "sha256": "be36612ffe9f4fb1c7171ed97d559b5d6960d9c15ddd49a57dc08e1c11588a5d"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/official-facts.md",
+      "bytes": 3180,
+      "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/round-three-source-fusion.md",
+      "bytes": 3778,
+      "sha256": "3e27b80b857f57a55e8f3aba99ef6c1bb42d88e809d504d2fa7035c97944f6b8"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/round-two-source-fusion.md",
+      "bytes": 6357,
+      "sha256": "ae27e3698bad406544a420b04c360f14cc56a868bbc4675655ae437500ebff89"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/us-registration-source-index.md",
+      "bytes": 2388,
+      "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/ads-delivery-and-diagnostics.md",
+      "bytes": 6975,
+      "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/ads-measurement-and-experiments.md",
+      "bytes": 20623,
+      "sha256": "e865531392d541ddc36ccd3d28f649043c0043a8c7811bafa475ec6caf4b0ab4"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/beginner-first-route-and-glossary.md",
+      "bytes": 11581,
+      "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/business-center-and-asset-governance.md",
+      "bytes": 4998,
+      "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/compliance-and-approval-gates.md",
+      "bytes": 3974,
+      "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/content-operating-system.md",
+      "bytes": 19703,
+      "sha256": "6b52648594d1763129685e98fa923193445816d8fdfe2b4b82302f2cf94319e0"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/creator-collaboration-objects.md",
+      "bytes": 7030,
+      "sha256": "da6401a0f22596ef20544e1a9f334d4923fc2644e7c451a3581dd6a62bccc9d6"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/evidence-and-practitioner-method-admission.md",
+      "bytes": 8743,
+      "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/live-operations-and-analysis.md",
+      "bytes": 5617,
+      "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/organic-account-and-content-growth.md",
+      "bytes": 7580,
+      "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/shop-creator-and-live.md",
+      "bytes": 12705,
+      "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/shop-merchandising-and-health.md",
+      "bytes": 9459,
+      "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/tiktok-operations/references/source-learning-and-evidence.md",
+      "bytes": 699,
+      "sha256": "36ae220022339a88bc186ae6a6f6e335a24d99d25d24cdb3f7cf174ff549c5be"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/候选载荷/先读我.md",
+      "bytes": 2064,
+      "sha256": "5db61b9b525022693890e2fd5e8567d4964039e6433d8974def17c247d331faa"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/先读我.md",
+      "bytes": 6964,
+      "sha256": "cdb905f7f8eac20838e48c0d56b336fa96294bc715216a38949ae3ac296339e3"
+    },
+    {
+      "path": "skills/tiktok-content/references/library/原版方法/payload/文件交付委托.md",
+      "bytes": 2938,
+      "sha256": "26743a9b990e24edec65f6fc410a55298847b40e6bfb4db7f65df6bce4347c81"
+    },
+    {
+      "path": "skills/social-content/CONTENT_MANIFEST.json",
+      "bytes": 8623,
+      "sha256": "50d14f979bd91d320dd84b5a42dad32deeadaec0bd29d614231d5de1d2ea2316"
+    },
+    {
+      "path": "skills/social-content/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/social-content/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/social-content/SKILL.md",
+      "bytes": 3695,
+      "sha256": "477eae5fc4af5b3d9ccdc2855c39f827b0e99bfd4b9979957fe1741a38c0e302"
+    },
+    {
+      "path": "skills/social-content/agents/openai.yaml",
+      "bytes": 341,
+      "sha256": "0e38426f3eaedba8934ca88d29532a492bdd74e1daefe35306b3fcb3a2f4ad60"
+    },
+    {
+      "path": "skills/social-content/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/social-content/examples/demo.md",
+      "bytes": 1888,
+      "sha256": "d9456f60210c951d9711c179ad3a6706f028fc70bca4f995a6748539a0242f0d"
+    },
+    {
+      "path": "skills/social-content/examples/input.md",
+      "bytes": 549,
+      "sha256": "450255670b46a616652f624d6667b4ab7b8716aaef3bbfecdd3649e5df9751b3"
+    },
+    {
+      "path": "skills/social-content/examples/output.md",
+      "bytes": 1386,
+      "sha256": "b271f12f83fa165c38ac42f9dacffb1e71a0263f4462b936fc129065d8ffdcaa"
+    },
+    {
+      "path": "skills/social-content/references/library/00_开始使用.md",
+      "bytes": 5494,
+      "sha256": "4fd95fad9716d7aafbaa434482cbccd12e9c6103de9d60904d1810dbffe49fc0"
+    },
+    {
+      "path": "skills/social-content/references/library/00_本地文件使用入口.md",
+      "bytes": 2066,
+      "sha256": "4a5ef05320fc8647caf2d1032b123823cf5e140169d8e52248dae470a50f31c7"
+    },
+    {
+      "path": "skills/social-content/references/library/01_完整教学_分工改稿与条件排期.md",
+      "bytes": 15047,
+      "sha256": "6723b4c9b2f3e5877fb5cea1795c1e9eaf9c918b2b8a3d920e32cfacdb9d7076"
+    },
+    {
+      "path": "skills/social-content/references/library/MANIFEST.json",
+      "bytes": 7101,
+      "sha256": "c159e74a7b1066e608e22e73771d57ec985c914cf6628f3cc3b1614d2acded1e"
+    },
+    {
+      "path": "skills/social-content/references/library/历史示例/01_原始委托.md",
+      "bytes": 1763,
+      "sha256": "e1122061366296a5f1e8d2b5cfd2341218c815319334f2bc392ef3709a1ec984"
+    },
+    {
+      "path": "skills/social-content/references/library/历史示例/02_原始首答.md",
+      "bytes": 9862,
+      "sha256": "b0a1834ff5a0ca093dfb180055a7fee9fcbcf23b04260de5f28fdbaaf2bc5a56"
+    },
+    {
+      "path": "skills/social-content/references/library/历史示例/03_原始跟进.md",
+      "bytes": 332,
+      "sha256": "6da869be475e4f6f5a22d64e183c5006668721b75fa955e0d9cd67d2200a2a06"
+    },
+    {
+      "path": "skills/social-content/references/library/历史示例/04_原始跟进成果.md",
+      "bytes": 9016,
+      "sha256": "8016863d5fe0757268c636cb62b10809f887d77944ea353ea0cacac84d47e50f"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3280,
+      "sha256": "c6c423b4de00236ccd44f3699277ed9002ee09b054b306fa0562536a2e060ef3"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/MANIFEST.json",
+      "bytes": 5138,
+      "sha256": "46c2a3e017b40ae0a1f3b56f4a83524b1fd0c277942b83d0d48a59793f89b7c8"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/CHANGELOG.md",
+      "bytes": 2904,
+      "sha256": "9dc51ab60664bf1199710ee497e7712ba8af8587f7b5059070edd25c02910818"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/DEPENDENCIES.json",
+      "bytes": 2590,
+      "sha256": "c1515ccb287be4205fc9c059351318d31550706215fe7d3b445ec3b9a05bf0ae"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/LICENSE_DECISION.md",
+      "bytes": 1403,
+      "sha256": "79d689b2cb472f7f3c631caac8a724c86bda1b5d362d24458016027a9b2a710c"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/MANIFEST.sha256",
+      "bytes": 2429,
+      "sha256": "2e1caed66ab6e653d4e684ccc8ef6e0869cdf9e8b9fd96cd5c37bbae92f492b8"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/METHOD.md",
+      "bytes": 5152,
+      "sha256": "b6b499c50cca31dd06311f179b11015873096156dd562d303070087ddb205ce2"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/README.md",
+      "bytes": 5509,
+      "sha256": "d6a53b22ed27f997aeb34170bcb97ab009cdef18cbeddd62d9a652f427c02a80"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/RIGHTS.csv",
+      "bytes": 7100,
+      "sha256": "e991025e3c2102e58c084df642d8d268d13bad9b2ddbeb61432ca99bae9a9fa2"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/SOURCE_MAP.csv",
+      "bytes": 15290,
+      "sha256": "27fd5b3a84ffde7760953c0688c260d944cc34a1c025a07e6e8220a103b8bc92"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/SUPPORT.md",
+      "bytes": 779,
+      "sha256": "be62aa772ac0ce1fab7cb2e8dc363848715d6b1b8827f5dd1a3c2f159864359d"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/VERSION.json",
+      "bytes": 10748,
+      "sha256": "4aec1bb7cce6e09c84f5e5eb7bcda002c70bb9a12ceb693990ee3afc1b49718b"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/foldbox/INPUT.md",
+      "bytes": 4517,
+      "sha256": "a892087172aa7eb0fcd46333f85e5204a26712894ac0f7758d95525216e85856"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/foldbox/OUTPUT.md",
+      "bytes": 13099,
+      "sha256": "f545463abf2a5eaae5e12ecad5d928cb5a779080377b433e460fc27258ace679"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/missing-economics/INPUT.md",
+      "bytes": 3958,
+      "sha256": "5845c295812e247b1a9d2f2921aac9ac9c42fbf89d8d60b9a3cf6d6e78bf8b8d"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/missing-economics/OUTPUT.md",
+      "bytes": 8425,
+      "sha256": "b0a9dea4d1e3fe67e09f60f7452b10bb19ad3be4ce8efa8bd41d01e4ae12c47e"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/operating-review/INPUT.md",
+      "bytes": 9373,
+      "sha256": "19a98b65a3e3c82a10848a95bcd3c988c9b9efb31471918be5ca21181586e248"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/examples/operating-review/OUTPUT.md",
+      "bytes": 10754,
+      "sha256": "c8e09d33cab7e087b69bce47ecddfc3632abb13cfbc64ce06c2790bee181f3ea"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/creative-brief.md",
+      "bytes": 3584,
+      "sha256": "6281eb1d2fdb6f8b88d79c1a7589dd7c9681426c5de26ed4a89f8799b3be4cd4"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/evidence-and-scope.md",
+      "bytes": 10359,
+      "sha256": "c6da5d5dad53ae0dab60ec1fb99ba004e115c5612fd8d48e10b749fc2da57d25"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/experiment-and-review.md",
+      "bytes": 12678,
+      "sha256": "633620e61eed3b92ea1cf41c30de92884908829b7fa5559b12bf3772f1bc03a0"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/failure-and-unknown.md",
+      "bytes": 1184,
+      "sha256": "0a62125962a429b66083f979ef7595164454b6bd4caa2a121756f037cb2fbe93"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/offer-economics-cash.md",
+      "bytes": 3556,
+      "sha256": "5a889eca923f1bb54a507f87a58a9b04211f52d57b1b342e14fd94fb6bd3e369"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/platform-handoff.md",
+      "bytes": 1213,
+      "sha256": "d6823adaba894de501d2e42f48bfb5028851ea8af110e3d1e970cbc716be4b07"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/references/rights-lifecycle.md",
+      "bytes": 1474,
+      "sha256": "4b13dc3990b40f5ef90ad5aaa5c8e40dec19da0c9cd2f2fe0ef7056d2a1e215a"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/scripts/calculate.py",
+      "bytes": 7755,
+      "sha256": "fb66620f0ffd379a07e4cdfa50b6d9f58e429717eca0e0e1787a139f670b2ab8"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/templates/CHANNEL_PLAN.md",
+      "bytes": 26941,
+      "sha256": "32d7f92249ce0a46f2fde2e3179e4b8686e0b88f226859cb73fe58d5f75fbbe3"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/templates/INTAKE.md",
+      "bytes": 2606,
+      "sha256": "58eaeccd6c45e4c44fdea20d00fc82e67332fc34c6c1cea5532232530f4da830"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/templates/REPORT.md",
+      "bytes": 2964,
+      "sha256": "9e90f0bc27de25e253664229309395f4989f21bff433606e76f7bebbc72b3c4c"
+    },
+    {
+      "path": "skills/social-content/references/library/原版方法/payload/先读我.md",
+      "bytes": 2406,
+      "sha256": "e5d56c7da1747a50cb9ab947d81d4b4c2ffcc7cfc2a44f70f94eb6ddb252f6bd"
+    },
+    {
+      "path": "skills/reddit-research/CONTENT_MANIFEST.json",
+      "bytes": 6474,
+      "sha256": "8ad6c9053025f3c491f96704b95b7c4ea040d1e2c0a3b31ad1f446e3366db66f"
+    },
+    {
+      "path": "skills/reddit-research/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/reddit-research/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/reddit-research/SKILL.md",
+      "bytes": 3609,
+      "sha256": "a391d748713919d06784217f06b7c3547a07ed3bf840035ba0756b6634f2940b"
+    },
+    {
+      "path": "skills/reddit-research/agents/openai.yaml",
+      "bytes": 336,
+      "sha256": "78264d0cbdd330a8a22fca9cec875d1123baeab781691297a51988f343ceb518"
+    },
+    {
+      "path": "skills/reddit-research/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/reddit-research/examples/demo.md",
+      "bytes": 2007,
+      "sha256": "bd87fceeb46e86356b95f79bb9774f920f661fb1576ce6fc90fb7451a3cfbdbf"
+    },
+    {
+      "path": "skills/reddit-research/examples/input.md",
+      "bytes": 652,
+      "sha256": "03555ebe02486b436b9503765335a6519b665f740c8bbd80a27490ade1ef13ed"
+    },
+    {
+      "path": "skills/reddit-research/examples/output.md",
+      "bytes": 1226,
+      "sha256": "604062fc322f6ef2e0a8483ab5a416177a09e9cc4a2dd08e763d43816a4ec22b"
+    },
+    {
+      "path": "skills/reddit-research/references/library/00_开始使用.md",
+      "bytes": 5522,
+      "sha256": "9aba3df141a7c1893f5a04df9772cbe4ad4229edf267ae95e80aaf93fcf52a48"
+    },
+    {
+      "path": "skills/reddit-research/references/library/00_本地文件使用入口.md",
+      "bytes": 1786,
+      "sha256": "808933efd1078a70568b882385da982785e6414e79fe97275ee211b6bd734670"
+    },
+    {
+      "path": "skills/reddit-research/references/library/01_完整教学示范.md",
+      "bytes": 8532,
+      "sha256": "10d64cf6a3360df6aa12706848c143c0dae5e41c1fb968aa6d668bd5444bb519"
+    },
+    {
+      "path": "skills/reddit-research/references/library/MANIFEST.json",
+      "bytes": 5164,
+      "sha256": "9b551930cf76e07d1290cc0f06d5f57f7b8480afe7c4b482145dfc6fab2449dd"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3151,
+      "sha256": "f9b9f6e5f22adc2482c8ebbfe5d0cda1d3a5e8524db267672b73f0a9f59d329f"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/MANIFEST.json",
+      "bytes": 3856,
+      "sha256": "ccd78c5f731021b252c27b46d12fe5320919ab7965503713d64ead3a30fd5ac8"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/MANIFEST.json",
+      "bytes": 6213,
+      "sha256": "5e05f5cb2bd3ae945f9e942293f452410e96abc725f19c2f447d56daff6540df"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/METHOD.md",
+      "bytes": 4112,
+      "sha256": "66742ecb1ee210f521f92d64dd1a0770c0ada01c6feca7b9d63acb24a6a591e6"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/QUICKSTART.md",
+      "bytes": 2317,
+      "sha256": "50c68d6933b246efeddda9d3fb6efd4ce50e6abadd79937ad6c0c291747bae9a"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/README.md",
+      "bytes": 2003,
+      "sha256": "189acc1213bfb172b875235e6b3e3d8c76e12e26fff8fd3ee5beeb5efae2ce67"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/RIGHTS.md",
+      "bytes": 1564,
+      "sha256": "8ecf4acb16044788e3aefa6b551938bed891f5553b708e07f13b977d7efa8ff3"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/SUPPORT.md",
+      "bytes": 1398,
+      "sha256": "aab94b28c6b9381c0e2330de64178e5974f590b553a9d9c0c9c8013c51f2e4e2"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/VERSION.json",
+      "bytes": 2157,
+      "sha256": "6b8b24fcc0e484ce1d15428f541aa9da15106a4fae596622c5d008850dd90b7f"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/01-intake-permissions.md",
+      "bytes": 2174,
+      "sha256": "e1614d1c3bc3ec4899b82b6d07328a53efeefd34ad9e04bb82dab2a55c27596f"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/02-voc.md",
+      "bytes": 2395,
+      "sha256": "5ada40891123b6844c050f0679edff99a2d017003ac9b034d9e78d6ec8a32bd1"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/03-community.md",
+      "bytes": 5805,
+      "sha256": "175722bbac1cd50b2dc17ad730b1fde2b67f39711aad7a4f1c7c9aead5b717de"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/04-ads-dpa.md",
+      "bytes": 4757,
+      "sha256": "88db2f2ac00362a05b1ad0c81b4452c1d6deceff782394dd2b2766cb4a64620d"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/05-events-funnel.md",
+      "bytes": 3394,
+      "sha256": "3e0e7af511ff40176e469de8f94124c093fc2b865837ca69ecfeff41c619b12a"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/06-evidence-maintenance.md",
+      "bytes": 2477,
+      "sha256": "6b6868f7f73c033c86062a8e3428a206b8d36ee9e9c19a89a9efd3e051d2ec77"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/07-economics-boundary.md",
+      "bytes": 1469,
+      "sha256": "4edc22107b7db2016cdc4d31be68fd8f36ad6c786727ddacb3042227032dd973"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/08-community-map-handoff.md",
+      "bytes": 11551,
+      "sha256": "fc9bd41078a79259736055e32c5c5b269736cfc003dff96f1ae529b99a271523"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/09-approved-reading-notes.md",
+      "bytes": 4186,
+      "sha256": "541d034cb8461fb4339874f9804cd986176c0b42800b75d91a0692cf88da713c"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/10-video-article-fusion.md",
+      "bytes": 5178,
+      "sha256": "0c7e1cb82f08dc8fb591d2e6b70dcf90763e7e51f24b2debf9277d3b72af26b7"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/EVIDENCE_LIMITS.md",
+      "bytes": 4458,
+      "sha256": "a893e79a6be9faa46f52e5d6cc58ae295b1eb75fee73d5d31ccd064d5ee8b800"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/references/SOURCES.csv",
+      "bytes": 9185,
+      "sha256": "3d314f9d81c8154412c91a3c0a6584e9231bc2f8f4e8119ecc9093566f5fbbdc"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/templates/BRIEF.md",
+      "bytes": 2177,
+      "sha256": "919d8f491ed0c7789927d0d6126cf38bab91c27ad9731377a8d02ea6d34e6935"
+    },
+    {
+      "path": "skills/reddit-research/references/library/原版方法/payload/templates/REPORT.md",
+      "bytes": 2562,
+      "sha256": "66bfb9c92527b78a716653f4c653720b9a9a26e46b885c8bb6fc3b83ac7ee50e"
+    },
+    {
+      "path": "skills/pinterest-commerce/CONTENT_MANIFEST.json",
+      "bytes": 8014,
+      "sha256": "647a2a18727d1957635ebfc037e736cf5b05c3dbb61fd763b63331a0b7d475a1"
+    },
+    {
+      "path": "skills/pinterest-commerce/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/pinterest-commerce/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/pinterest-commerce/SKILL.md",
+      "bytes": 3647,
+      "sha256": "2e47e6bd0d47e8af71841237895351f12b7e5b0f2c68cb5aa968decca666ea47"
+    },
+    {
+      "path": "skills/pinterest-commerce/agents/openai.yaml",
+      "bytes": 351,
+      "sha256": "8b9cbd20fe1d69665fe704f7923cbc75285228b438588d227434fbcce6362569"
+    },
+    {
+      "path": "skills/pinterest-commerce/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/pinterest-commerce/examples/demo.md",
+      "bytes": 1970,
+      "sha256": "0f5217ff5d4b4233c34e67ed0de80f82312073fb1c50a6c4bb84eda6b6c83920"
+    },
+    {
+      "path": "skills/pinterest-commerce/examples/input.md",
+      "bytes": 623,
+      "sha256": "b58596151a38b8a0834970018448422ca78d192ab2190f9d7dc4fbb30a0f29a9"
+    },
+    {
+      "path": "skills/pinterest-commerce/examples/output.md",
+      "bytes": 1178,
+      "sha256": "81322efcf448c018144ae32ffe5354fb2971ef7a41c6c0d4a793c84b06802d7d"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/METHOD.md",
+      "bytes": 835,
+      "sha256": "9b006c7cdcac985c669071c04e3aaa8036b4126b5f307d7151dd69bfc93517f7"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/00_开始使用.md",
+      "bytes": 4993,
+      "sha256": "1ff2bc2f589367e1d38927430887810c11916765228cc7d5916cba064355e9a3"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/00_本地文件使用入口.md",
+      "bytes": 1870,
+      "sha256": "5ad632845e33d93d1caa7b0867e49c11c651e769e4196798c463f7572c7ae9b7"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/01_教学示范_两款托盘到Pin与目录.md",
+      "bytes": 14416,
+      "sha256": "7028a11d95221153186ab2b62bd5123823fbed99b5cb758ed3635a596ae3c385"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/02_版本与使用范围.md",
+      "bytes": 3132,
+      "sha256": "8dbbb43a664c485ebf3eeb14d908604b9d4573b3c44d88d776b94ca5f16fdb7e"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/MANIFEST.json",
+      "bytes": 5619,
+      "sha256": "0c1e233f179bcdb9a65d95668b8c2c04a74fdecd7758f58df3ac14ac96ba44c6"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/PATH_MAP.json",
+      "bytes": 3546,
+      "sha256": "99ef89b12d06064c028642246ec2ea1215bd4a8d9132657b58fe6f0cb4e6902b"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__00_当前使用与范围.md",
+      "bytes": 3093,
+      "sha256": "04201cdfe86862f1c1f9df9e9e145142aa5e28458866ce509e4ca272a4b8557b"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__MANIFEST.json",
+      "bytes": 4118,
+      "sha256": "c5a5d603def0b2b9cd3347e91e8761194babf368e1a0402f375298473ae2b96c"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__DISTRIBUTION_STATUS.md",
+      "bytes": 1674,
+      "sha256": "5001c4ac1a2194cbd224eab636932329c5cb4465770f08996a714d1d204ec21a"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__MAINTENANCE.md",
+      "bytes": 1124,
+      "sha256": "f203a9b5f957734f17ce5141bfdd534983050c9d2566aee4e3159686794bcd26"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__METHOD.md",
+      "bytes": 5191,
+      "sha256": "a30a71f265d0bc21e67e1808a7cd38123a2daaebcdcfd0506825e4b067256f2e"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__README.md",
+      "bytes": 2672,
+      "sha256": "cbfe057a71bfc3b48da4fa1ec41a61ce7cf554b67a56a49aaf398cfe95785375"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__manifest.json",
+      "bytes": 4507,
+      "sha256": "61978b9964ba62c7d4b44e3ae7d12b145a1dd33a610a4cf65ba9ee7af30280fc"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__capabilities.md",
+      "bytes": 3425,
+      "sha256": "2ef2691c8762faf9f4b9ca79416e9ae1a48189db754b8f502d317cac494836a3"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__catalog-review.md",
+      "bytes": 2834,
+      "sha256": "90c73b953ff8e538c05e0edab3e7729c21210c525eedd96c427a63c7677887b9"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__events-and-measurement.md",
+      "bytes": 4932,
+      "sha256": "be4f4d46a090d89582eac685f07e15c4c3e7ec45adf4c70a2e60d7887b22387d"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__export-contract.md",
+      "bytes": 13609,
+      "sha256": "cc1e01cd2deadaa70e312b3cceee8025ff7935d3f4c5b1db1a77b522d7d0e102"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__facts-and-evidence.md",
+      "bytes": 7966,
+      "sha256": "e3ec9504123c7d5b8452d646d0d35da484bb76e6e0a34ceeb97a8e9e1c7d5a7d"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__intake-and-output.md",
+      "bytes": 3647,
+      "sha256": "a7fb6899644741dd880829e16c25474bfd94269e6c1542fbc80f40ebbc04e2e4"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__natural-content.md",
+      "bytes": 4864,
+      "sha256": "98f8e6d3ceb13f30b946609ff75bacac5a7a7465a41da4e308ee2f69c2593bed"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__report-date-basis-evidence.md",
+      "bytes": 1935,
+      "sha256": "3f8d528478ea5320c05cc021b2706f772e6d06d32358a35a8e24dbd6900be08b"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__review-and-recovery.md",
+      "bytes": 3437,
+      "sha256": "cfa68ef2c1907ae0a47efdb70a5ff52bdc74b76d78c4d8c1fa422051165a2436"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__rights-and-boundaries.md",
+      "bytes": 1808,
+      "sha256": "58b90dfda07db8609b277bf806a6ccf833689b7e0bc528754f7bfbdc78a64ade"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__round-two-evidence.md",
+      "bytes": 4612,
+      "sha256": "d2a604c452934862a645cc03612816f21323dfc846de95eb60bb606590c29041"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__shopping-ads-plan.md",
+      "bytes": 2742,
+      "sha256": "93ded131b80e373e366dc89fa98949b608b50ec4ba4eef0bac4c7c447c47cd36"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__pinterest-operations__references__sources.csv",
+      "bytes": 15309,
+      "sha256": "262c1188245be151021c60d1ef8ef12e8f4a962c169e1d7e26e801b28e674b72"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__先读我.md",
+      "bytes": 3747,
+      "sha256": "ae937fd3c4a3a1b0c31bd9c8ba442b27703bce4209e59e26b686517b4d74e449"
+    },
+    {
+      "path": "skills/pinterest-commerce/references/library/references/方法原包__payload__可编辑成果委托.md",
+      "bytes": 4619,
+      "sha256": "5c9be90ecac2de5fa1b3e01980d09321e1788c86bbd698993c02d261633338f5"
+    },
+    {
+      "path": "skills/amazon-us/CONTENT_MANIFEST.json",
+      "bytes": 5948,
+      "sha256": "b6e54ca2118575d857a663a8e2e22b946ba040127b51bfb201624c35ed0138ab"
+    },
+    {
+      "path": "skills/amazon-us/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/amazon-us/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/amazon-us/SKILL.md",
+      "bytes": 3689,
+      "sha256": "f7f4f3ad29ea4914809e4bfcf386126523bc3f6110e06bcb9ca27ddf807692a3"
+    },
+    {
+      "path": "skills/amazon-us/agents/openai.yaml",
+      "bytes": 324,
+      "sha256": "5ca70bdd5dc52b4ac1fd2cd4823fb655044fa37a06e21616de84aaee3fb34b0a"
+    },
+    {
+      "path": "skills/amazon-us/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/amazon-us/examples/demo.md",
+      "bytes": 1933,
+      "sha256": "65321fe2fbaba26fa61452c1f4e378ce165f21d865ff1e812be450f1f25d780e"
+    },
+    {
+      "path": "skills/amazon-us/examples/input.md",
+      "bytes": 592,
+      "sha256": "2241de6a14fa39824b7751957a505ff5f477366888faa3e9341ad6530544a063"
+    },
+    {
+      "path": "skills/amazon-us/examples/output.md",
+      "bytes": 1397,
+      "sha256": "4632fb1360ba2879371e7bc48dbf532fd50da329b2074e27f32dfd2e0d3c194a"
+    },
+    {
+      "path": "skills/amazon-us/references/library/METHOD.md",
+      "bytes": 3997,
+      "sha256": "72d6708c997a6d1f9697f690203fe92753ed4b2e933fed6a9ec76ba390a08daa"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/00_从这里开始.md",
+      "bytes": 6299,
+      "sha256": "93beba1b455e453243db929c23822e4278689391df091e5a38c4a0d70e769105"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/02_范围与来源说明.md",
+      "bytes": 5357,
+      "sha256": "6aa8040010714827a92015b0bba84109623cdb1f0158d6a6855eb59070664240"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/MANIFEST.json",
+      "bytes": 8699,
+      "sha256": "35512547a03581042ff9cf436d201d4d32961e8a5df023cd50eee4f830f56e22"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/PATH_MAP.json",
+      "bytes": 1687,
+      "sha256": "2de6fed37b2cb23fd762df5b0d82a907a68787751e2617031e56d9270ba490ab"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/VERSION",
+      "bytes": 23,
+      "sha256": "1926bbef10e5916da11d2a447f65e82fb5bad4d548334f6bc1968e170daf25b1"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__LIMITATIONS.md",
+      "bytes": 4533,
+      "sha256": "a1c20c80039f99eb86077d69018cc58ec7343653574f6281ca3b3dd309a80dc4"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__METHOD.md",
+      "bytes": 6641,
+      "sha256": "743593c31866674699cf295d40146ef5dfa3c4ca2e7265a28af3c5fae709d681"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__contracts__INPUT.md",
+      "bytes": 4742,
+      "sha256": "fec363dd32682e7131cb81dd945d254bd3deea4a177e3495f4acd407972496f5"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__contracts__OUTPUT.md",
+      "bytes": 4003,
+      "sha256": "51b12002976ac737df772949969092b57460816472f1a35530c6ed8850a80e21"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__K04_POLICY_EVIDENCE_20261020.md",
+      "bytes": 11935,
+      "sha256": "9c463986d9eb6b65d583c79e41ac51aea51515ac68083c6363f26fc4347d90cf"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__RIGHTS.csv",
+      "bytes": 6357,
+      "sha256": "2434a2b80f3a2ead47a3e397293c3855b36b9ab2d9803e741711b387ea015e72"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__ROUND_THREE_SOURCE_MAP.md",
+      "bytes": 3831,
+      "sha256": "8eb87f09bfadc205cacb33421589f15e87b238ee25d4685d0078187788d8313e"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__ROUND_TWO_SOURCE_MAP.md",
+      "bytes": 5937,
+      "sha256": "26815b76f73d530e2c0d46ec68af7419d488b7a5c3fe3142c1bcdac29a9dbcf0"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__SEALEAP_LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "60a7266acaf7af934eb1529f367e069113fd396bb856099e57079253c53d1a09"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__SEALEAP_NOTICE.txt",
+      "bytes": 681,
+      "sha256": "70c6fb614de32932444c91a199a71af8ff924fc27766cb55c0c6dbceab9e007f"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__provenance__SOURCES.csv",
+      "bytes": 26406,
+      "sha256": "6dee6015a0b79e6baaa31d5835d1a896a972b8ddb92f72f01696b433a1635bf3"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__references__01-product-and-offer.md",
+      "bytes": 5026,
+      "sha256": "492c089a5ee3a34da0c324bffb921f0490bf593a75fb8c0e572a42d4e46e5669"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__references__02-fulfillment-and-inventory.md",
+      "bytes": 2429,
+      "sha256": "fe52d7016b8982ba5e867e3c8283a277001af84c13c3e005410a5056ee90a3a0"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__references__03-contribution-and-cash.md",
+      "bytes": 3457,
+      "sha256": "75fa8b004dd5261d0e63873ec0755cea6435b7285e9b93e6ef646c4a30fa0614"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__references__04-account-and-returns.md",
+      "bytes": 12839,
+      "sha256": "d3e1c1b0ee03b57ea007f8f06ab8bdfdea4e6e1479ded414ba758b58c6c99d42"
+    },
+    {
+      "path": "skills/amazon-us/references/library/references/方法__references__05-sponsored-products.md",
+      "bytes": 7077,
+      "sha256": "104a29a6b19af6cab4ba1ce43df5490005fc4ebe24e2b5e122b6a227b219ae4a"
+    },
+    {
+      "path": "skills/ad-creative/CONTENT_MANIFEST.json",
+      "bytes": 4828,
+      "sha256": "8a5c5b4301d07e54e3729299f25f54e7b5bbc909f91c309bbd6c1e2e7c62d2f8"
+    },
+    {
+      "path": "skills/ad-creative/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/ad-creative/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/ad-creative/SKILL.md",
+      "bytes": 3613,
+      "sha256": "17ad64ab5e9809e1efcbce31c253c6e3741f177ed6624efa05b8d59444ca9827"
+    },
+    {
+      "path": "skills/ad-creative/agents/openai.yaml",
+      "bytes": 342,
+      "sha256": "ad4d424c2476e8204cae2cad3b811b9abbc3613a3eed8950d326d902837cc351"
+    },
+    {
+      "path": "skills/ad-creative/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/ad-creative/examples/demo.md",
+      "bytes": 1917,
+      "sha256": "cd48490fe6f8db47a1eace916141f4f8c6ff735d36535f1ee59aa72d2107862e"
+    },
+    {
+      "path": "skills/ad-creative/examples/input.md",
+      "bytes": 591,
+      "sha256": "1ec72c6436bd5c9e4384eb6894932e07c14406d727aa730c6188ac4d077156fb"
+    },
+    {
+      "path": "skills/ad-creative/examples/output.md",
+      "bytes": 1290,
+      "sha256": "497c6ef6b93bd866d3aa419f8b2deef9fef994a169ddebda275cef9787b68ad0"
+    },
+    {
+      "path": "skills/ad-creative/references/library/GUIDE.md",
+      "bytes": 10292,
+      "sha256": "3c2b84cdb86571421d0e69f724b251f70cd5a98d58cb95e39eed390bd7ae27c2"
+    },
+    {
+      "path": "skills/ad-creative/references/library/MEDIA_GUIDE.md",
+      "bytes": 3415,
+      "sha256": "64ac95295020b0e365fcb327175edffb40f58459010569aee2b37f7fc5c14d2b"
+    },
+    {
+      "path": "skills/ad-creative/references/library/METHOD.md",
+      "bytes": 11418,
+      "sha256": "2da10249ee90acd9e29b8b5d9ed6755540d2c5352b54ed180b647039d36ba042"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/00_开始使用.md",
+      "bytes": 4430,
+      "sha256": "86a0b553b07b1cd0a28f0035b4360550458c4a41f6091c5a108c109401816084"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/01_教学导读_从用途到撤证改稿.md",
+      "bytes": 7588,
+      "sha256": "d2b14499c8c7c399e8ad228d2468761730289a8898e3c02c1892b711be10753f"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/MANIFEST.json",
+      "bytes": 2289,
+      "sha256": "cf71a5942979fb2887fd7f38a2c207c7b26a511db2c8d44312fe9905c56c0633"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/PATH_MAP.json",
+      "bytes": 870,
+      "sha256": "edae35d6759a54b8379f7cf72d37d5cf6ca5248a2513a9def6bb48468cec426e"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/原版方法__00_当前使用与范围.md",
+      "bytes": 3052,
+      "sha256": "df9a78bcc2237d1e547b02845f2392191d87d5b5b7b8241fb2656271c5a73f40"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/原版方法__MANIFEST.json",
+      "bytes": 832,
+      "sha256": "042d0826c90843f9183682295bc934e60bde21412131b503edda38cd491fb5da"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/原版方法__payload__GUIDE.md",
+      "bytes": 10292,
+      "sha256": "3c2b84cdb86571421d0e69f724b251f70cd5a98d58cb95e39eed390bd7ae27c2"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/原版方法__payload__MEDIA_GUIDE.md",
+      "bytes": 2798,
+      "sha256": "23f9b809c10092b7a5f9caa216d9ce19ebf22d6e97c13d991e1a0333ef22a681"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/原版方法__payload__METHOD.md",
+      "bytes": 10268,
+      "sha256": "354bbd2fd7a4c09ea70f6f54aeb3f969cfb3fc5bb238181d2be97ef3cc6c5bfa"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/示例__01_原始委托.md",
+      "bytes": 2483,
+      "sha256": "ce0eff1b1618f58fdffb5fc4059e58f4a0e78622320439ad88fc75712f8538c8"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/示例__02_原始首答.md",
+      "bytes": 9659,
+      "sha256": "1beb1d5cff4138c630826dfbf700edf41680cb3584d83fc8a6fe176f12acb738"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/示例__03_原始跟进输入.md",
+      "bytes": 186,
+      "sha256": "cc172d1c4c19802c48daab72b0321fcc715409467beb8efe3318383884b287e0"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/示例__04_原始跟进成果.md",
+      "bytes": 7180,
+      "sha256": "309c6c3a1449cacb27ea7352a3dc3cb51ecae392ccc2b394520f37bff900f394"
+    },
+    {
+      "path": "skills/ad-creative/references/library/references/随包回执.md",
+      "bytes": 4156,
+      "sha256": "f36af41ce1bbcb5858515128c7175cfb398b8287de1f07ae9ac5949a9dd03f68"
+    },
+    {
+      "path": "skills/ecommerce-analytics/CONTENT_MANIFEST.json",
+      "bytes": 4312,
+      "sha256": "ae6362be2ad13439e3a0a7e0c334bc7b5b3d3607bda8e302c66cb3d4899eb452"
+    },
+    {
+      "path": "skills/ecommerce-analytics/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/ecommerce-analytics/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/ecommerce-analytics/SKILL.md",
+      "bytes": 4081,
+      "sha256": "9e529fedde365983c6842034ea3add6694ce3a0fb4c1d139d53469a785b0d8db"
+    },
+    {
+      "path": "skills/ecommerce-analytics/agents/openai.yaml",
+      "bytes": 356,
+      "sha256": "86511009899593d18c37dd2b64eafc826caa813d91b94da16814b37d14964edc"
+    },
+    {
+      "path": "skills/ecommerce-analytics/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/README.md",
+      "bytes": 1220,
+      "sha256": "b7cc77913d3426c705da15eba98688f1b6602b3078cb02ac1b03118ac4507184"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/ads.csv",
+      "bytes": 64,
+      "sha256": "7786b84a2336309b0d362f0f105407357e508edfa8138b4793c801d44e92f0f1"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/fees.csv",
+      "bytes": 35,
+      "sha256": "809add086cff42bee264c04fc3d5a379087fecf05cbae6b70f7e7d11aedf6874"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/items.csv",
+      "bytes": 29,
+      "sha256": "9eadbf4fb2f361d02fd04df830d4e2962280f57734b5b6a562b3ea7332524f14"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/orders.csv",
+      "bytes": 44,
+      "sha256": "4328d5707b8214b299269a37d210ffac9633c7304bac1cd8ddab5cda216476bc"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/data/refunds.csv",
+      "bytes": 31,
+      "sha256": "e8a9ec10d520f2f5edd0fcf698b868d3875a83ad6ee12c3d6af4e99053c964df"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/demo.md",
+      "bytes": 2846,
+      "sha256": "f103257184c1735d3631ed8be38d764a04af0c1c92cc81a38cb05f67c3d9b0d6"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/input.md",
+      "bytes": 1455,
+      "sha256": "bcb45158ba2ab0f050a7342ab8065f165dbd5b8e41293c4f0d28d91f3dfe5200"
+    },
+    {
+      "path": "skills/ecommerce-analytics/examples/output.md",
+      "bytes": 1173,
+      "sha256": "8773c05246a95f02f0cafa524fcecd0d536ad549a62c59ae60f42f67f3fb4f4b"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/00_开始使用.md",
+      "bytes": 4027,
+      "sha256": "7c27d0fb6bf77ecaa49d68fa3d0b866663849d63c9344d0ebb207b4672b795c4"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/METHOD.md",
+      "bytes": 2641,
+      "sha256": "d934caaf9f57829fdc7728ac927e9b5bbc3192e692e4e386f211e358ef80cf19"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/PACKAGE_MANIFEST.json",
+      "bytes": 2034,
+      "sha256": "48c1c7ca90e184bdc014c0374e810c13e659fd335c2ee3fb0ca301e4de9c1b49"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/references/input-contract-v1.md",
+      "bytes": 8975,
+      "sha256": "6106667f8208f9b64bcf8199449646142a4b71f0b13be98eb481f73e8fbb4291"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/references/method-sources-and-limits.md",
+      "bytes": 5090,
+      "sha256": "6a21bf6416326897e211312f5bca99c9c1b70c78857bb062c9d1ed073acb1c49"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/scripts/reconcile_v1.mjs",
+      "bytes": 83020,
+      "sha256": "369918c8df0d6ea8de5f3d33d0a487220b47fb16a398264520754730cb204d83"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/INPUT_CONTRACT.json",
+      "bytes": 769,
+      "sha256": "23fafc937ad9357ecf97e7643d748609777909cb7699e01cc228fcaaa3930388"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/ad_daily.csv",
+      "bytes": 90,
+      "sha256": "3a418c6cb628195120cae934ec7ad27ab5f2da93d247e8f908f93627844b326d"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/order_costs.csv",
+      "bytes": 70,
+      "sha256": "08d285f5d0b1be73f93cd0a83af78d5cb6f29b5371110841c62dcecbecb7cf0b"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/order_lines.csv",
+      "bytes": 182,
+      "sha256": "59f644a282de07cc6280d777a98cb7fac7a5e0b1407040c37fd3f8a96de92cdf"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/refund_events.csv",
+      "bytes": 130,
+      "sha256": "dfa3d43a4aec4e74e58bb7b26b154007001004274d592b8d5ac56ead076afc7d"
+    },
+    {
+      "path": "skills/ecommerce-analytics/references/library/templates/web_events.csv",
+      "bytes": 98,
+      "sha256": "1c304221e7e02f726756f983f15b165ab91dc1eaf6fe268b74de6ba6235a9c30"
+    },
+    {
+      "path": "skills/customer-support/CONTENT_MANIFEST.json",
+      "bytes": 6778,
+      "sha256": "ffdfd9a5829a6457e53d64b7e764cbee474eea3aa202c6164960d8617f427c0a"
+    },
+    {
+      "path": "skills/customer-support/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/customer-support/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/customer-support/SKILL.md",
+      "bytes": 3639,
+      "sha256": "c208b43ca05dd3f92a5a1bd0791791560ba3873fda9ec6342a017eb60cc1da23"
+    },
+    {
+      "path": "skills/customer-support/agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "da9c81b6856e64e864ba570b6ac7086f40ae9581623c5bb55a1ea280411d9cba"
+    },
+    {
+      "path": "skills/customer-support/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/customer-support/examples/demo.md",
+      "bytes": 1943,
+      "sha256": "38eac629c0f0b3c30f8ff89b25285611e791ae9b1a993fdc78edb59f2a924dba"
+    },
+    {
+      "path": "skills/customer-support/examples/input.md",
+      "bytes": 613,
+      "sha256": "b3adeff61cb1e6b425a2b441935117a41355eb21c8fea25ad2f467c3f3a86035"
+    },
+    {
+      "path": "skills/customer-support/examples/output.md",
+      "bytes": 1127,
+      "sha256": "d98e59172d6025bf955c3556ca977700130a5b1e5b26ee9fa79ff00745fa66ec"
+    },
+    {
+      "path": "skills/customer-support/references/library/METHOD.md",
+      "bytes": 588,
+      "sha256": "ed76ff156d877eab5bd3f8e400dc8e9fb38d16b8d982f8ce1434a9c0418ee02d"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/00_R1入口.md",
+      "bytes": 1347,
+      "sha256": "70e3b4ebc3d2fa8b2f4e1e85b353b2f3e7dc8a83ecd67a9a23d399e134f20b18"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/ASSEMBLY_RECEIPT.json",
+      "bytes": 39003,
+      "sha256": "e9ff6f11df5b2e8f3aa3b6e1c965898d640b916d62cd14acc4bfa6f84a3d4666"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/C07_PATCH_MANIFEST.json",
+      "bytes": 23882,
+      "sha256": "e2bf44656dd04e61f0c25b0819567e01a7fb4e0dc9345f71e20384ceb0c8ac67"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/C07_PORTABLE_ENTRY.md",
+      "bytes": 8025,
+      "sha256": "6ef95bd2b27457762b95213542123db19b959bc16e9b4cd2f9fe113a194155cc"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/PATH_MAP.json",
+      "bytes": 2796,
+      "sha256": "f2319567b66b719649c4859830eaf99192d16744c350050e8c0feb25b49526b6"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__00_开始使用.md",
+      "bytes": 3635,
+      "sha256": "5ce81de50352c361b1a07695a54883152d5e5cffd5a128a2b0b74dd25c24732d"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__01_取消请求教学.md",
+      "bytes": 7491,
+      "sha256": "d4c3731097475ee8cdcf3d63e930359211abdcd5c293ff6d0e7504aa909d79ce"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__MANIFEST.json",
+      "bytes": 6735,
+      "sha256": "55a0346d159e23ea0d789bd817d575c922a8f96df652506ac2d0a1f43aaea928"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__00_当前使用与范围.md",
+      "bytes": 2125,
+      "sha256": "ac9bae7d5b9a40270bc6ecce6d8decd33692e426e224b8ca8a23760316572376"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__MANIFEST.json",
+      "bytes": 2706,
+      "sha256": "c843c811bde75782b34c0875739e209c5d4f237d7744af448a77f138b83aa691"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1973,
+      "sha256": "aa8b5eda5a8ba2a6d9455b2d2da43e8c0ccd095d7b0a14ede1709e0a239d1f23"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__METHOD.md",
+      "bytes": 5977,
+      "sha256": "01c37795b1cb1528640407819ca29d962a5fbf1abf4fa7885569cba9f3894e12"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__README_中文.md",
+      "bytes": 5694,
+      "sha256": "2480fbcd56db248e6b53b90e9783bcf7375903160903edef77218cb92851b01c"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__VERSION.json",
+      "bytes": 8377,
+      "sha256": "e42b4e114a19391862e92253a802c14b59becb332a743a58971c8145a20a61b6"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "bytes": 3857,
+      "sha256": "f4efae5ec0abf1b10eb82c74c2f419db7d4eb80c252eb66140a0d40ce4dfbf03"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__references__current-platform-policy.md",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "bytes": 9812,
+      "sha256": "a44a40278b2c23b48afd814778570f2b58c2592c295576fa21312a3a356bfea8"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__references__input-output-contract.md",
+      "bytes": 12925,
+      "sha256": "e6139c06a6bd167423104d2e99323f96f03602022fd6d49fc04816c4d80d8975"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__references__source-map.md",
+      "bytes": 10650,
+      "sha256": "29f84d4101f843b6604ccdbacff1f3d6c38a016756c2a0f1986da6e6c64a81e3"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__templates__handoff-record.json",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "bytes": 888,
+      "sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__教学成果__A_取消评估内部稿.json",
+      "bytes": 11638,
+      "sha256": "eea45e4a9841f7c842e5ad4855cc677190d484c6e4c8078547b3d5a74a8186c3"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__教学成果__B_已交后选项内部稿.json",
+      "bytes": 12739,
+      "sha256": "f934721fa547f8cb17466887b79aec4710ee497c50fa4b21189b96fac4d3de7f"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__教学材料__A_明确未交承运商.json",
+      "bytes": 4094,
+      "sha256": "4b715686916e0be22d56ea8c51bb9c19e22ca1d27fc4f2d5b74d3b7096e8b15e"
+    },
+    {
+      "path": "skills/customer-support/references/library/references/base__support__教学材料__B_明确已交承运商.json",
+      "bytes": 4098,
+      "sha256": "304ebe6ff3a9da0c0be029aea69acc26cd0b7ccb928ad2491bd4a703ab7234e4"
+    },
+    {
+      "path": "skills/brand-brief/CONTENT_MANIFEST.json",
+      "bytes": 2994,
+      "sha256": "9dfa0018f8baa11d2b8ebffdf3fe1eacbec4c4034dcd0eed8b0cbd48abe528ef"
+    },
+    {
+      "path": "skills/brand-brief/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/brand-brief/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/brand-brief/SKILL.md",
+      "bytes": 3644,
+      "sha256": "77398405bb869ab810a745b33bfc3b50b73a8a0d7d0a4754c9b1c681f632b235"
+    },
+    {
+      "path": "skills/brand-brief/agents/openai.yaml",
+      "bytes": 330,
+      "sha256": "73b27f88176d9710386ada429dadef1090ccb2bc5961787cc6dbaa18c088d43b"
+    },
+    {
+      "path": "skills/brand-brief/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/brand-brief/examples/demo.md",
+      "bytes": 1908,
+      "sha256": "c78044366a504afcc223ebf667108aad2ceaa49febfbd487fea6786efe221cc6"
+    },
+    {
+      "path": "skills/brand-brief/examples/input.md",
+      "bytes": 615,
+      "sha256": "20eced257851f3267f61ad937dd9828c203487770a5d9a6e916bc1dd9be3a6ca"
+    },
+    {
+      "path": "skills/brand-brief/examples/output.md",
+      "bytes": 1122,
+      "sha256": "98a8bfa5b02e05bf22ec90a83a7f347dcf02980ee445c579e8db1d05842d58ed"
+    },
+    {
+      "path": "skills/brand-brief/references/library/00_当前使用与范围.md",
+      "bytes": 4641,
+      "sha256": "b1d3bca1c5e710ff57f36d101878f64c724301e3ca96240fa3166ba20f9a6486"
+    },
+    {
+      "path": "skills/brand-brief/references/library/01_留序示范_从方向比较到完整首屏.md",
+      "bytes": 7777,
+      "sha256": "f3c00c1dac1be2e51704ef5842f74e9fa6c7c4af02487e705fcc4c01b66092c5"
+    },
+    {
+      "path": "skills/brand-brief/references/library/MANIFEST.json",
+      "bytes": 1968,
+      "sha256": "28f1bf0b4639948d4dde6e974a12c0c0b85c037900133d4bb68f4d2595137331"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/00_开始使用.md",
+      "bytes": 1586,
+      "sha256": "a592637e45f21f936efbce85a62a9316841754cfc8a05154f2c18dc407d70a8b"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/brand-brief-research/METHOD.md",
+      "bytes": 4401,
+      "sha256": "2eba09385efcab8da44cb3def666905e6764c796cbd3c6c11992e961b5e78621"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/brand-brief-research/README.md",
+      "bytes": 3953,
+      "sha256": "a7e1ca9f3e8158a81ba04b362059fd0c4901dd58611edcad2840b8f53118e5de"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/brand-brief-research/references/KNOWN_LIMITATIONS.md",
+      "bytes": 4078,
+      "sha256": "b57d059be1441543a852d5c6c00b1586955af446b74dda97887746e1f2f42a63"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/brand-brief-research/references/SOURCE_AND_LIMITS.md",
+      "bytes": 11576,
+      "sha256": "5ad8a3bcddbc79c6103e6c65c30d1652c8379e2d53f29056839b0447e17e50dd"
+    },
+    {
+      "path": "skills/brand-brief/references/library/payload/brand-brief-research/templates/BRIEF_CONTRACT.md",
+      "bytes": 10400,
+      "sha256": "f2a3533fee5ace0f58a809f74b04a62e71d669c5e021132532d213a06a7c58f7"
+    },
+    {
+      "path": "skills/product-selection/CONTENT_MANIFEST.json",
+      "bytes": 4179,
+      "sha256": "ad5e05d3c854ab2b8d51224e98a432ff89a29ae2343f0b29721b5222bb603d84"
+    },
+    {
+      "path": "skills/product-selection/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/product-selection/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/product-selection/SKILL.md",
+      "bytes": 3682,
+      "sha256": "5b8f0a2ee2f2fc3a016f13eee30e0556749ea5af97880686268e686f63d82c82"
+    },
+    {
+      "path": "skills/product-selection/agents/openai.yaml",
+      "bytes": 324,
+      "sha256": "bd450f6e91c4d4c1d3575af66d8ee00c65bcb9f0379e8f759009b1841d50f051"
+    },
+    {
+      "path": "skills/product-selection/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/product-selection/examples/demo.md",
+      "bytes": 2069,
+      "sha256": "8b08241c7c1d46e6f40f3ddcdd6ff7345762ec3d166d5ccb55be21ec1b82408c"
+    },
+    {
+      "path": "skills/product-selection/examples/input.md",
+      "bytes": 725,
+      "sha256": "44250c510c2007680d332e793022989e61f22b0cee0823c4bb7a845522b837f4"
+    },
+    {
+      "path": "skills/product-selection/examples/output.md",
+      "bytes": 1203,
+      "sha256": "fdda5e0bc56e70fbdae11ce9157e3330082751dd7dc4300fb73b80c875086b5d"
+    },
+    {
+      "path": "skills/product-selection/references/library/00_开始使用.md",
+      "bytes": 5483,
+      "sha256": "373fbf1f44be720c6a06a27dd56ec9a2eb36e7bfe9909f489dc3a44ef3558e87"
+    },
+    {
+      "path": "skills/product-selection/references/library/01_完整教学示范.md",
+      "bytes": 9027,
+      "sha256": "bba2690aac0073b17f9e977282feb5ef55552de2322b5e50a0557c671d37cb56"
+    },
+    {
+      "path": "skills/product-selection/references/library/CURRENT_MANIFEST.json",
+      "bytes": 4592,
+      "sha256": "50931b9591d99ff91069226578711ce25eb4d3100ab06fec9ef348431d7e8fb6"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/METHOD.md",
+      "bytes": 16113,
+      "sha256": "a5727f8db3aae542d72c561c5ac33e4c4b3d0ec02fd7865cd612304c8e587478"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/knowledge/official-verification/OFFICIAL_FACT_RECHECK_2026-09-05.md",
+      "bytes": 1448,
+      "sha256": "110ae0d8443d3091bcd678e3ae55188503e3c698e0879b971e8d6cf87d7f8c06"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/claim-admission-and-maturity.md",
+      "bytes": 6799,
+      "sha256": "ee8a199ab518940e5754f27a3a07bdf76235a712839b7d6994ebc584bc6bf060"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/decision-workflow.md",
+      "bytes": 12097,
+      "sha256": "b8de4032be6a39d9044be07eb11b4875806a4c184ff09fde8bca76987c638176"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/evidence-schema.md",
+      "bytes": 5362,
+      "sha256": "c6b0e47c4c3e3ab68405fe684a27039a99f5cf903bcddb9ebea18394bf9a75bd"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/platform-adapters.md",
+      "bytes": 3624,
+      "sha256": "c73cbde874813dd54890b2694b767568fa2762457da43bb3952a902cf7b5d4ea"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/replenishment-and-supplier-evidence.md",
+      "bytes": 4783,
+      "sha256": "9e754c0691a19e503b310e4c32f647de2722fb253683a34c440d05414307b2e9"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/source-scope.md",
+      "bytes": 5156,
+      "sha256": "d0bdf1e732f5818d61116041f9dcd7919b4ab8a32c4dab6ad8abb5253b0334c9"
+    },
+    {
+      "path": "skills/product-selection/references/library/原版方法包/payload/研究方法/已验研究包/product-selection-research/references/templates.md",
+      "bytes": 4463,
+      "sha256": "11da6ddde131d4e7293e927966c1807db3896c22a07e2a4678b7d736813de356"
+    },
+    {
+      "path": "skills/influencer-collaboration/CONTENT_MANIFEST.json",
+      "bytes": 3226,
+      "sha256": "a8370f4908308fdf5a2f0b1e60eb6d96bd65e887e2958f442ff97f1def61b51f"
+    },
+    {
+      "path": "skills/influencer-collaboration/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/influencer-collaboration/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/influencer-collaboration/SKILL.md",
+      "bytes": 3639,
+      "sha256": "4b59dafb6a6624e986db17f510e913aa50f5e0f817a0334e7a316c49c3871007"
+    },
+    {
+      "path": "skills/influencer-collaboration/agents/openai.yaml",
+      "bytes": 343,
+      "sha256": "a099ca523aafb4d4eb8656cdb837eb00d6fcd1ad5d36881d9786d07d3bc4a581"
+    },
+    {
+      "path": "skills/influencer-collaboration/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/influencer-collaboration/examples/demo.md",
+      "bytes": 2161,
+      "sha256": "3b5c7da25b7f6ebdd6dd3aed12d13253f37cac870fa2c26ca2441f2184d8daf5"
+    },
+    {
+      "path": "skills/influencer-collaboration/examples/input.md",
+      "bytes": 827,
+      "sha256": "7cc3455ca0c671eec9b5517fce3530d83cbd3a3441ab904346ee62a399573f6c"
+    },
+    {
+      "path": "skills/influencer-collaboration/examples/output.md",
+      "bytes": 1372,
+      "sha256": "fc19fb102ae9e3ee2fe1648fe3ebd855201eb6ff8b572e270d3ff798e25197c8"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/METHOD.md",
+      "bytes": 1295,
+      "sha256": "1b0796b6bee4386437d38ca867da8e013eca4ac0a31b08973aec94d83edd7af3"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/00_开始使用.md",
+      "bytes": 5234,
+      "sha256": "2c148f155c75213ad19a5992ca61e967b07972de48ed6a64cedaae1123054e08"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/01_完整教学_候选选择到延期改判.md",
+      "bytes": 16204,
+      "sha256": "77f3d7401d629d6c74d66d62e39c68f9681333cf08b9383d51ca4f391ec21cad"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/MANIFEST.json",
+      "bytes": 2987,
+      "sha256": "820c138b572229f758fe9cf12567be93775594d27f143c1a5a031946135c3342"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/PATH_MAP.json",
+      "bytes": 711,
+      "sha256": "99d02557647b74375fa23a2d70dde80f828267e5c6d55f0b3ace85681e2fb089"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/influencer-collaboration-planner__METHOD.md",
+      "bytes": 7069,
+      "sha256": "484657c94663e7bfe2b9e884807367153fdf20e4d7892b89ac09c31d8f93f33f"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/influencer-collaboration-planner__references__合作成果模板.md",
+      "bytes": 3217,
+      "sha256": "37ef45b4962b063358242f38c92f5ba44a4d9c0d536b710618ae02a4d915ee5e"
+    },
+    {
+      "path": "skills/influencer-collaboration/references/library/references/influencer-collaboration-planner__references__来源与适用边界.md",
+      "bytes": 9100,
+      "sha256": "7d8458a4122561e5e54dbb3dbaf56f798ada36c10667ed3117af732f3475df4e"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/CONTENT_MANIFEST.json",
+      "bytes": 4173,
+      "sha256": "a5b237b5f1d6bcb3e99d4cef52934f5e47bbe68b5c08c6c06ef954e1ba9778e4"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/SKILL.md",
+      "bytes": 3665,
+      "sha256": "4dc758e00b5c13a51a34a0e5eb3ecb5ea8a5b5bc035a81ac21a6125461d870ab"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/agents/openai.yaml",
+      "bytes": 339,
+      "sha256": "80d7b2d92e57d2ca7f062f714313f697ddbbe2758bbdb741c9f3dbd15609af17"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/examples/demo.md",
+      "bytes": 1883,
+      "sha256": "d92587a480f05f8245d5e9e5023ba0cf94319269b9f527ba8c990505a9702a9d"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/examples/input.md",
+      "bytes": 554,
+      "sha256": "0c9c0912298aea3e3738f104607bc7881c94400a5e4558a11236c79e5dbd3ff0"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/examples/output.md",
+      "bytes": 1029,
+      "sha256": "315715c44a2ae4c030c8a76507762212a691ac17cc10a6c0ba97a8795e579ce1"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/METHOD.md",
+      "bytes": 828,
+      "sha256": "f8a9939698f48d0a5871ca2dcfd85e97bc68a3797e9d6ef5946009a3ae7ddebd"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/00_开始使用.md",
+      "bytes": 3913,
+      "sha256": "b690eb222907f8b3e7b6f8215e459edf89a4aa5db18039d69f1f969d51c059f9"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/01_完整教学示范.md",
+      "bytes": 7340,
+      "sha256": "9aa9d4a6db0f4b573cb639d8a8cd622c826be6f70c42de2310d96fd549419afd"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/MANIFEST.json",
+      "bytes": 3590,
+      "sha256": "75a43fe4f90f4bc863df3e67880ab1d68152acc7290a086039d050f74ef443cb"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/PATH_MAP.json",
+      "bytes": 1014,
+      "sha256": "2f4e767244f97804938e512a76f14944f18e6719ae716c94365c2cbe13134cb6"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/backoffice-evidence-handoff__METHOD.md",
+      "bytes": 2275,
+      "sha256": "b90532bef793e54b03ac607eda5e86fdd62584ac1752eeb0dec5f129092c8267"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/backoffice-evidence-handoff__assets__output-template.json",
+      "bytes": 5628,
+      "sha256": "58f07a31251809aa64d85d1e2bdf302e999ebd15f7526d637de44a5125c8e608"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/backoffice-evidence-handoff__references__material-review.md",
+      "bytes": 14161,
+      "sha256": "606feeb60c87e495130de964408103fdf6a8dac0a9ab3410a29f0cf3c4ac25e6"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/backoffice-evidence-handoff__references__sources-and-boundaries.md",
+      "bytes": 11496,
+      "sha256": "4f52dce6e8e1f8027794daff62a885836e20fa072fb1d768a6f9ed1fcc059d98"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/教学示范__INPUT_R1.md",
+      "bytes": 1792,
+      "sha256": "09826d7d8f501982b212bf8743e2e6f6ca4790e7f01b96d9736ae0bba27842e9"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/教学示范__INPUT_R2.md",
+      "bytes": 220,
+      "sha256": "2b02ff28d7e0b274a4519d41b8ec9b87c7a2818e3013e04c6d8268811626b16e"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/教学示范__OUTPUT_R1.md",
+      "bytes": 13747,
+      "sha256": "63ac151c1d0acea5a18727479f793e11ec80996a8d78dfdd719691cc2a4c9a93"
+    },
+    {
+      "path": "skills/ecommerce-backoffice/references/library/references/教学示范__OUTPUT_R2.md",
+      "bytes": 15475,
+      "sha256": "711e4c0b412d003c91aa070454d6dba846e0b3a26831a45d36ab7cd3c62e93d0"
+    },
+    {
+      "path": "skills/b2b-quotation/CONTENT_MANIFEST.json",
+      "bytes": 3287,
+      "sha256": "8ed91f43ea32089a2b0559f8e5506caa91866a99780d5854e172e827a7c348b2"
+    },
+    {
+      "path": "skills/b2b-quotation/LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "skills/b2b-quotation/NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "skills/b2b-quotation/SKILL.md",
+      "bytes": 3705,
+      "sha256": "ea92a3ef0a0a7e3e2e0381908696d350c4964d5f9c85fd0ba06e680786df8067"
+    },
+    {
+      "path": "skills/b2b-quotation/agents/openai.yaml",
+      "bytes": 360,
+      "sha256": "54f9127c11a8ffe76850f2a6f80206b15aa41a6ed28d89e89372cd6564bca6a5"
+    },
+    {
+      "path": "skills/b2b-quotation/assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "skills/b2b-quotation/examples/demo.md",
+      "bytes": 1970,
+      "sha256": "d2e36afbd406448e453c72bf06e7b6dacd9d201e146ff32c6ccbccb028082151"
+    },
+    {
+      "path": "skills/b2b-quotation/examples/input.md",
+      "bytes": 639,
+      "sha256": "0b354dcb3db93daac23e2915c889220cbaee3b4a4a0c98d889a44c81c7aca65b"
+    },
+    {
+      "path": "skills/b2b-quotation/examples/output.md",
+      "bytes": 1609,
+      "sha256": "2e7fc855bd7f25ab52c714221cfd5bcf27674733c1067396711888a087f14303"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/METHOD.md",
+      "bytes": 2110,
+      "sha256": "33b698f2b00a7f794770634bc3d50bcf0453cf6f9a36d4a1b8e9ccf3087dbe9e"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/00_开始使用.md",
+      "bytes": 4860,
+      "sha256": "8964d9b8462176474e8b23e85566e42ac98e7e1c4d274b2701ada94653ed22cf"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/01_询盘到报价与样品交接_完整示范.md",
+      "bytes": 12766,
+      "sha256": "dc01ecb90e37b567532fa1e34977f015ba4b391c61b7b208d22503aebb2ba679"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/MANIFEST.json",
+      "bytes": 2093,
+      "sha256": "c15807c7dfdce043845a26b5a12a768920da0f7eee2237835428138fd8473092"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/METHOD.md",
+      "bytes": 6166,
+      "sha256": "b6d56eefcc1b966472aef866703bcd3e098a09cbb562882560b2b29b41ac6c6f"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/PATH_MAP.json",
+      "bytes": 529,
+      "sha256": "2f1b7ea3cc592444b6825903c6f95fa248d39f6d6220318ef59d5a0b615e2a88"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/input-output-contract.md",
+      "bytes": 7461,
+      "sha256": "2dcc50c5361820f108e5f90d4f0eed8a8c97ae4462c4a7722ce71fa7367619c2"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/output-template.json",
+      "bytes": 3801,
+      "sha256": "b0cfc036fbeaa3fcdf887b04c56e4c229b35802a3a5ee191bf84415cb6a9de84"
+    },
+    {
+      "path": "skills/b2b-quotation/references/library/references/source-and-limits.md",
+      "bytes": 8012,
+      "sha256": "020afd1112b2018506b7f24501053fe7b5f7f46de903efbd7a5a6ae6222356f8"
+    }
+  ]
+}

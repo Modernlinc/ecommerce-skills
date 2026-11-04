@@ -32,4 +32,4 @@ LN-1撤Two-piece，两SKU撤waterproof及2日送达保证。材质、运输、�
 
 ## 对照入口
 
-版本：`0.1.1-public-demo` · [先做单文件试阅](demo.md) · [核对题设](input.md) · [功能卡片](../SKILL.md)
+版本：`1.0.0` · [先做单文件试阅](demo.md) · [核对题设](input.md) · [功能卡片](../SKILL.md)

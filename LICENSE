@@ -1,21 +1,21 @@
-Copyright (c) 2026 ModernLinc. All rights reserved.
+MIT License
 
-This repository is made publicly viewable for product documentation,
-evaluation, and demonstration purposes.
+Copyright (c) 2026 ModernLinc
 
-You may read and use the public synthetic demonstration materials for
-internal evaluation, including providing them to an AI assistant for that
-purpose. This limited permission does not cover the complete paid product,
-commercial redistribution, resale, or use of ModernLinc brand identifiers.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Except where a specific file explicitly states otherwise, no permission is
-granted to reproduce, redistribute, sublicense, sell, or create derivative
-commercial products from the materials in this repository beyond rights
-granted by applicable law and the GitHub Terms of Service.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-ModernLinc trademarks, brand assets, paid Skill implementations, proprietary
-methodologies, private references, customer data, and materials not expressly
-included in this repository are not licensed by this notice.
-
-For licensing inquiries, use the official ModernLinc contact channel when
-one is published. No payment or contact endpoint is supplied by this repository.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

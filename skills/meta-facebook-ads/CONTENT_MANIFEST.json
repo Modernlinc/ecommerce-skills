@@ -1,0 +1,320 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3700,
+      "sha256": "503fe2c3acebf4795b52cd32a3d882ad71f8e0758a9663ba3385f37939d3f401"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 344,
+      "sha256": "02ddc40950b032816104fb514d603cd0bc135f43f137b746f54ca8c158ce461a"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 2195,
+      "sha256": "7bce6270617f797e94ef4fa8a0f0188e6e6842faa5c789c4ce03e19fc8a49dc4"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 821,
+      "sha256": "c12a42f90e9a8969dd229f3aa4fff64227878578e5618d382ecc872670e9004b"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1754,
+      "sha256": "27385c16124a4f96d54d5521d90593e0c2f69a83593476e0069e474b3aee8ba0"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 692,
+      "sha256": "bd3383127c3f0bec760f0a7b0010f2834a83b36365280505cbd24bcd45b5ffb2"
+    },
+    {
+      "path": "references/library/references/00_P01入口.md",
+      "bytes": 1217,
+      "sha256": "83abbd34738f185fe1be1510ff38f8e2bae7a9305756fbc49ad3b060d0401d1c"
+    },
+    {
+      "path": "references/library/references/00_R1入口.md",
+      "bytes": 1178,
+      "sha256": "103ea33aa83f2662a8d5fd91d57acb63b3157c115c81af327bdc7d90899f0859"
+    },
+    {
+      "path": "references/library/references/00_当前使用与范围.md",
+      "bytes": 3275,
+      "sha256": "507ff785d87f39134a4e68aba298d45d8828ac708a51f7a93fddf825384c3a04"
+    },
+    {
+      "path": "references/library/references/ASSEMBLY_MANIFEST.json",
+      "bytes": 31369,
+      "sha256": "b33159a6513917db0b73e3de05164006fb9643e4d8032048914829f934250b21"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 11508,
+      "sha256": "bf5b3c3170b0c9ee16471f67859831f7abad537dd1245db97eaa177e57835ba8"
+    },
+    {
+      "path": "references/library/references/P01_MANIFEST.json",
+      "bytes": 19807,
+      "sha256": "8828b05729dbfd3af0e8e72607dee79b8508aba73ca7dca8c2fda9230d5bf97e"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 9962,
+      "sha256": "928fdf9fa5141af41b9b2929275f5202ee5a1190b1ab54ba2eabedd7632bffab"
+    },
+    {
+      "path": "references/library/references/payload__00-先读本交付.md",
+      "bytes": 3138,
+      "sha256": "8aaff2d7775d9f11bc02135348c0a0ec42c9f1e32097dd335145a107aff51af8"
+    },
+    {
+      "path": "references/library/references/payload__DELIVERY_MANIFEST.json",
+      "bytes": 10308,
+      "sha256": "91a0d0c418fd46a803f0a8a173b50b45749db48ec5cf28800c623f2c7ea78ead"
+    },
+    {
+      "path": "references/library/references/payload__DELIVERY_STATUS.json",
+      "bytes": 2357,
+      "sha256": "68ee34139503889af50387047ef72f4a53c3523cd842aff5b596542a3cb93469"
+    },
+    {
+      "path": "references/library/references/payload__SHA256SUMS.txt",
+      "bytes": 7089,
+      "sha256": "a36a1070c00e33ecd7b85d11b0bb0ccb6f3b735940dfb6a3b87c9bd64530019c"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__00-先读我.md",
+      "bytes": 2250,
+      "sha256": "436bbaacd24719df19a085c62a14b94c377ae02fc639105848b0f8e197b9a32b"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__00-限定验收摘要.md",
+      "bytes": 6871,
+      "sha256": "3c3920ebc4d7276a7d8812755392c887904fd32832ac0ce0b8c83fd4b63ac0b4"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__01-安装与使用.md",
+      "bytes": 4382,
+      "sha256": "960a5ad8347b8d1c03ff891b07c9e6aa57bc0399000408e9aaceb17b3b2aa2c3"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__02-验收范围与已知限制.md",
+      "bytes": 5312,
+      "sha256": "5e74a6e591ca4a3cbb8f9700b1fd2b1d43a60bd942cdbde35fd5a42fd876016a"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__03-版本与支持边界草案.md",
+      "bytes": 6061,
+      "sha256": "dfceb831e7eff8fcef44ba31bb2090bffc714a571568a592f1fcf266953a015c"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__DELIVERY_MANIFEST.json",
+      "bytes": 8456,
+      "sha256": "a9eeb5955178e65d6a1d632ee2f12fae1027fb3cfcaa62da6bf563cdaebac721"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__SHA256SUMS.txt",
+      "bytes": 5067,
+      "sha256": "c1ceca34ef1129e7eb7ee86821d6c6d7d0fc8416e0ad46b44b1743b436922148"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__CHANGELOG.md",
+      "bytes": 2888,
+      "sha256": "f639b2dcd56fcec1baab6b23155771e36e8d0b673705ffbc1cf439a52bc3948c"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__DELIVERY_MANIFEST.json",
+      "bytes": 6528,
+      "sha256": "ca496a52e5031a4b139f52e49e3a644974d11fa1a106bd42fd0923431d4c19d5"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__METHOD.md",
+      "bytes": 19213,
+      "sha256": "1c446dfccf932c0348315e3cc0d3830c68b8c1af6af899a5901b79b7a130cfb0"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__PACKAGE.json",
+      "bytes": 4681,
+      "sha256": "37d64f57b116f3f597800ead0266e0dbf6cde91a01d9924c7446fb292f475eb3"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__PAYLOAD_MANIFEST.json",
+      "bytes": 6016,
+      "sha256": "9d6a03794917ffd8b31c6bbb41fb60c382f0ca3cf5c946162b894b296e8edab3"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__QUICKSTART.md",
+      "bytes": 3070,
+      "sha256": "bed172b9698772118c47f11625adf0126bb93e068c4eec26e0dc86a6fd7eaf21"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__SUPPORT.md",
+      "bytes": 961,
+      "sha256": "fa753729f7e0ea5e95255a67995e639fbd868da26b754bf971e17a8dae8d5c02"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__USER_GUIDE.md",
+      "bytes": 11447,
+      "sha256": "892dda90527431a64e3800b2e4be8d8f47756a4d39123affc6d753beee7e2cfb"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__admission__STATUS.json",
+      "bytes": 2622,
+      "sha256": "3cf644e854714812431afb442c4427813819de06504e02a66ff769f2757cbd9c"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__agents__openai.yaml",
+      "bytes": 413,
+      "sha256": "cce68a73cf37efb4d016013d93aa7b150a9a96deb7903ff66595f48fbd2b9e6d"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f1__HISTORICAL_OUTPUT.md",
+      "bytes": 10914,
+      "sha256": "810c4087642bc3f329b6193722733447df41cd18c0d16401be132e6b55e36fbc"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f1__INPUT.md",
+      "bytes": 5209,
+      "sha256": "2a2325eb16e5339fd66287ff8d235f9c10dc870a0654f62699a30fa52943847f"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f3__INPUT.md",
+      "bytes": 4423,
+      "sha256": "93b5ed41f3a478a4f5daedcc64f50cc30fec4793babde275d88d5b2926711444"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f3__OUTPUT.md",
+      "bytes": 7516,
+      "sha256": "79a0db2543eec58a07acabbc860beba8104408bebf5fb7ead00034c816bd9395"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f4__INPUT.md",
+      "bytes": 4905,
+      "sha256": "5cead36e563828551c22eaa1899143d2fe5940a61de72e8267c425a5140c6baa"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__examples__f4__OUTPUT.md",
+      "bytes": 7482,
+      "sha256": "df551a6fdb7a7d59753f20d4a185f13f11e8d18b807bf27ea9c479af1895c92f"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__knowledge__2026-10-08-research-to-bounded-brief.md",
+      "bytes": 7072,
+      "sha256": "fff5390693f88208c9ddc86b8a8740c414948e4ded9fe19d21b7c176729675f3"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__knowledge__2026-10-19-first-round-and-utm-walkthrough.md",
+      "bytes": 12304,
+      "sha256": "1bcc38e1b17de8c4ee6afc892fc6568222aa47ddc74731eedf64c0999bad0b15"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__INTEGRATION_DELTA.md",
+      "bytes": 7017,
+      "sha256": "dae7d4e4e9a8f56c38101a9089f9b82475be142a2c40e25dcfe22b2d3f21b7d1"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__INTERNAL_METHODS.md",
+      "bytes": 2979,
+      "sha256": "a29edabce4645e649b6089617c0da6d135bc346702e592840f710ec9dba5bbb3"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__LIMITATIONS.md",
+      "bytes": 4877,
+      "sha256": "b792e590908b16b97a10ddeaaacfff39d949213606943b5b41599f34791323d5"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__PRACTICAL_V1_20261020_SOURCE_NOTES.md",
+      "bytes": 4180,
+      "sha256": "cfdbbdf86cb0dbcabd7955800538340b9b41dc1fe405bfff8c77bc7b23a12c91"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__PRELAUNCH_20261019_SOURCE_NOTES.md",
+      "bytes": 3154,
+      "sha256": "0197f0a4a31fd40ef023cde18ef4f6f5502809754742f6be711afb5a73e0c55d"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__RIGHTS.md",
+      "bytes": 3558,
+      "sha256": "98960ee5448ff06cd3a7e6da7cf133bb7a1d8d00f5d307d811bce1e8476bb62a"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__provenance__SOURCE_NOTES.md",
+      "bytes": 10844,
+      "sha256": "e307f1b33f392e872815aac95a65c71475f3cffcc4b398ca6dccd754c23228e5"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__business-math-and-unit-economics.md",
+      "bytes": 10628,
+      "sha256": "8fbf8758d9c25aa3275422f4dc9f0819d6dbb253ff5c5cc7fb84fd858d7e57cf"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__commerce-completion-workflows.md",
+      "bytes": 8922,
+      "sha256": "c9777c98d8ec7f5ea8a837296a5595a00c3ff5ac489573450bf8bf22e894bef0"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__course-distilled-operating-playbooks.md",
+      "bytes": 19101,
+      "sha256": "a536e8e50ccedbb01b52bc30e0bced4ada7e0ba4ad647c28da61888e5aa92d0f"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__measurement-attribution-and-events.md",
+      "bytes": 7432,
+      "sha256": "5aed3319e4a96e8b169ae48a4b73e72e62037764605dccf85812212a3e52004a"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__meta-ad-structure-and-draft.md",
+      "bytes": 17455,
+      "sha256": "4a83827d8c6cb36c40e2eabfd38e1102dba062d1d6b2e3302cb9c071cef391f6"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__permissions-and-live-gates.md",
+      "bytes": 7037,
+      "sha256": "bdd92147501bb5f05065ec40705b9e2456a1f631321bda285c3a89f66492f675"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__stage-audience-resource-playbook.md",
+      "bytes": 17156,
+      "sha256": "cc1337e5a58d6121d35461cf8325e02c88225f8b2be653cceaac31eb36fa2bac"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__testing-diagnosis-and-stop.md",
+      "bytes": 9066,
+      "sha256": "9d494d51c93e622aede96f21e3fd861004943c723a86567077bf8d1219396b6b"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__tracking-parameters-and-url-checks.md",
+      "bytes": 12810,
+      "sha256": "4a4b95660967a813db8bc4f656c1c6aaf012f64b58a75f8bec28832de49144b6"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__tools__static_utm.mjs",
+      "bytes": 11454,
+      "sha256": "760998b7d5863507625c94c2b033c8e0e580c33963a78a683226775746cdd91e"
+    },
+    {
+      "path": "references/library/references/payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__tools__verify_integrity.py",
+      "bytes": 4822,
+      "sha256": "28efa9a3936fa8a0ce15939a5e5f8fb25c5376f7a75bd943bbc1d49e5149ab64"
+    }
+  ]
+}

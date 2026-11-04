@@ -1,0 +1,4 @@
+interface:
+  display_name: "TikTok 运营"
+  short_description: "用证据规划 TikTok 产品售卖、渠道与广告方法"
+  default_prompt: "使用 $tiktok-operations 判断这款产品如何通过内容、达人、LIVE 或广告成交，并给出经济性、证据、风险门禁和停止条件；不要展开视频生成或剪辑工具教程。"

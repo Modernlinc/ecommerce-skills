@@ -1,0 +1,296 @@
+{
+  "skill_ref": {
+    "name": "support-offline-reply-handoff",
+    "version": "0.3.0-research-s3-continuation-01",
+    "mode": "offline_internal_draft_only"
+  },
+  "input_ref": "base__support__教学材料__A_明确未交承运商.json",
+  "status": "internal_draft",
+  "internal_reply_draft": "I understand that you would like to cancel if the parcel has not been handed to the carrier, and that you would like a person to help.\n\nThe warehouse record as of 19 October 2026 at 10:20 UTC confirms that the parcel was still at the warehouse and had not been handed to the carrier. Under the cancellation policy provided, the next step is for the order team to review your cancellation request and confirm whether it can still be accepted. This is not confirmation that the order has been cancelled or refunded.\n\nYour request for help from a person remains open. No team member's acceptance of your case has been confirmed in the records provided. You do not need to repeat the order details or complete another questionnaire for the request for human help to be prepared.",
+  "chinese_explanation": [
+    {
+      "claim": "截至给定时点有明确未交事实，不只是无扫描。",
+      "classification": "synthetic_input_fact",
+      "explanation": "仅本教学所给仓库记录，不是运行时查询，也不代表真实订单。",
+      "evidence_refs": [
+        "input#/order_snapshot"
+      ]
+    },
+    {
+      "claim": "选择取消评估，不先推签收退货。",
+      "classification": "inference",
+      "explanation": "客户条件与给定FAQ相符，但最终是否仍可取消须订单负责人决定，非自动批准。",
+      "evidence_refs": [
+        "input#/messages/0",
+        "input#/order_snapshot",
+        "input#/company_faq"
+      ]
+    },
+    {
+      "claim": "真人请求仍未决，拟交接不是已接手。",
+      "classification": "customer_request",
+      "explanation": "无接受回执，保持pending；不以额外问卷为准备交接前置。",
+      "evidence_refs": [
+        "input#/messages/0",
+        "input#/human_route"
+      ]
+    },
+    {
+      "claim": "没有取消/退款/签收/接手记录支持完成声明。",
+      "classification": "unknown",
+      "explanation": "给定记录未确认，不推断运行时绝对未发生；仅内部草稿。",
+      "evidence_refs": [
+        "input#/order_snapshot",
+        "input#/human_route",
+        "input#/processing_context"
+      ]
+    }
+  ],
+  "time_line": [
+    {
+      "time": "2026-10-01",
+      "timezone": "unknown",
+      "channel": "synthetic_company_faq",
+      "source_ref": "TEACH-FAQ-3",
+      "summary": "合成FAQ确认日期，不是订单事件时刻。",
+      "evidence_refs": [
+        "input#/company_faq"
+      ]
+    },
+    {
+      "time": "2026-10-19T09:10:00Z",
+      "timezone": "UTC",
+      "channel": "WhatsApp",
+      "message_ref": "TM01",
+      "summary": "条件取消、已交则问可行选项、要求真人。",
+      "evidence_refs": [
+        "input#/messages/0"
+      ]
+    },
+    {
+      "time": "2026-10-19T10:20:00Z",
+      "timezone": "UTC",
+      "channel": "synthetic_warehouse_record",
+      "source_ref": "TEACH-WH-A",
+      "summary": "教学仓库盘点明确记录：截至10:20 UTC包裹仍在仓库，尚未交给承运商。这是肯定记录，不是仅没有扫描事件。",
+      "evidence_refs": [
+        "input#/order_snapshot"
+      ]
+    },
+    {
+      "time": "unknown",
+      "timezone": "unknown",
+      "channel": "synthetic_role_card",
+      "source_ref": "TEACH-ROUTES-1",
+      "summary": "三角色职责；无接受/提交/解决证据，未伪排精确时序。",
+      "evidence_refs": [
+        "input#/human_route"
+      ]
+    }
+  ],
+  "intent": {
+    "primary": "按未交承运商条件请求取消，需订单负责人判断。",
+    "secondary": [
+      "要求真人协助，尚未接手。"
+    ],
+    "conditions": [
+      "客户不是无条件取消或退款请求；没有另提换货。"
+    ],
+    "evidence_refs": [
+      "input#/messages/0",
+      "input#/order_snapshot"
+    ]
+  },
+  "routing": [
+    {
+      "role_ref": "order_owner",
+      "reason": "教学记录明确未交；依给定FAQ优先评估取消，而不是先引导签收退货。",
+      "questions": [
+        "结合该明确仓库记录，客户已有取消请求是否仍可接受？请分别保留决定与实际执行证据。"
+      ],
+      "evidence_refs": [
+        "input#/order_snapshot",
+        "input#/company_faq/entries/1",
+        "input#/messages/0",
+        "input#/human_route/roles/0"
+      ],
+      "status": "proposed"
+    },
+    {
+      "role_ref": "support_lead",
+      "reason": "真人请求独立成立，不以继续问卷为前置。",
+      "questions": [
+        "谁可以接受本事项的真人协助并留下可回接回执？"
+      ],
+      "evidence_refs": [
+        "input#/messages/0",
+        "input#/human_route/roles/1"
+      ],
+      "status": "proposed"
+    },
+    {
+      "role_ref": "duty_coordinator",
+      "reason": "前述角色无人接手时按给定协调职责确认。",
+      "questions": [
+        "若无人接手，由谁承担对应职责，通过什么可达内部路径取得接受证据？"
+      ],
+      "evidence_refs": [
+        "input#/human_route/roles/2",
+        "input#/human_route/acceptance_receipt"
+      ],
+      "status": "proposed"
+    }
+  ],
+  "human_handoff": {
+    "schema_version": "1.0",
+    "organization_ref": "NorthDesk Demo",
+    "case_ref": "TEACH-CANCEL-19",
+    "order_refs": [
+      "TEACH-ORDER-19"
+    ],
+    "conversation_refs": [
+      "TEACH-CHAT-19"
+    ],
+    "issue_summary": "截至10:20明确未交承运商，优先拟请order_owner评估客户取消请求，同时拟准备真人协助；无接受或取消/退款完成证据。",
+    "customer_requests": [
+      "未交承运商时请取消；已交则说明可行选项。",
+      "希望真人帮助。"
+    ],
+    "known_facts": [
+      {
+        "statement": "同一合成组织、事项、订单和会话由操作者明确关联。",
+        "data_as_of": "unknown",
+        "evidence_refs": [
+          "input#/organization_ref",
+          "input#/case_ref",
+          "input#/identity_link"
+        ]
+      },
+      {
+        "statement": "客户提出条件取消及真人协助；是诉求，不是批准。",
+        "data_as_of": "2026-10-19T09:10:00Z",
+        "evidence_refs": [
+          "input#/messages/0"
+        ]
+      },
+      {
+        "statement": "教学仓库盘点明确记录：截至10:20 UTC包裹仍在仓库，尚未交给承运商。这是肯定记录，不是仅没有扫描事件。",
+        "data_as_of": "2026-10-19T10:20:00Z",
+        "evidence_refs": [
+          "input#/order_snapshot"
+        ]
+      },
+      {
+        "statement": "快照记录一套两只托盘、49 USD；取消决定/执行、退款、签收、接受回执均未提供。",
+        "data_as_of": "2026-10-19T10:20:00Z",
+        "evidence_refs": [
+          "input#/order_snapshot"
+        ]
+      },
+      {
+        "statement": "合成FAQ支持未交时请求取消并须确认；已交不走未发出取消，签收后14天内未使用且完整可申请退货、须审阅。未给运费/退款周期/赔偿。",
+        "data_as_of": "2026-10-01; timezone unknown",
+        "evidence_refs": [
+          "input#/company_faq"
+        ]
+      },
+      {
+        "statement": "给定三角色职责，无接受/解决/外部交接证据。",
+        "data_as_of": "unknown",
+        "evidence_refs": [
+          "input#/human_route"
+        ]
+      }
+    ],
+    "missing_evidence": [
+      "order_owner的取消决定及依据；若今后执行需另有执行证据。",
+      "实际接手对象、可达内部路径与接受回执。"
+    ],
+    "proposed_routes": [
+      {
+        "role_ref": "order_owner",
+        "responsibility": "教学记录明确未交；依给定FAQ优先评估取消，而不是先引导签收退货。",
+        "questions": [
+          "结合该明确仓库记录，客户已有取消请求是否仍可接受？请分别保留决定与实际执行证据。"
+        ],
+        "evidence_refs": [
+          "input#/order_snapshot",
+          "input#/company_faq/entries/1",
+          "input#/messages/0",
+          "input#/human_route/roles/0"
+        ]
+      },
+      {
+        "role_ref": "support_lead",
+        "responsibility": "真人请求独立成立，不以继续问卷为前置。",
+        "questions": [
+          "谁可以接受本事项的真人协助并留下可回接回执？"
+        ],
+        "evidence_refs": [
+          "input#/messages/0",
+          "input#/human_route/roles/1"
+        ]
+      },
+      {
+        "role_ref": "duty_coordinator",
+        "responsibility": "前述角色无人接手时按给定协调职责确认。",
+        "questions": [
+          "若无人接手，由谁承担对应职责，通过什么可达内部路径取得接受证据？"
+        ],
+        "evidence_refs": [
+          "input#/human_route/roles/2",
+          "input#/human_route/acceptance_receipt"
+        ]
+      }
+    ],
+    "evidence_refs": [
+      "input#/processing_context",
+      "input#/identity_link",
+      "input#/messages/0",
+      "input#/order_snapshot",
+      "input#/company_faq",
+      "input#/human_route"
+    ],
+    "handoff_status": "pending",
+    "receipt_evidence": null,
+    "accepted_by": null,
+    "accepted_at": null,
+    "resolution_evidence": null,
+    "resolved": false,
+    "external_handoff_executed": false,
+    "next_internal_action": "proposed / not_executed：操作者审阅草稿；拟请order_owner按给定仓库事实评估条件取消，同时准备support_lead真人协助，不重新向客户索取已有订单/交接信息。无人接手时由duty_coordinator确认负责人；没有接受回执保持pending，不发送/实际提交/取消/退款。"
+  },
+  "permission_unknowns": {
+    "current_official_rules": "unknown",
+    "window": "unknown",
+    "template": "unknown",
+    "account_eligibility": "unknown",
+    "consent_applicability": "unknown"
+  },
+  "ready_to_send": false,
+  "safe_next_action": {
+    "status": "proposed",
+    "execution": "not_executed",
+    "action": "proposed / not_executed：操作者审阅草稿；拟请order_owner按给定仓库事实评估条件取消，同时准备support_lead真人协助，不重新向客户索取已有订单/交接信息。无人接手时由duty_coordinator确认负责人；没有接受回执保持pending，不发送/实际提交/取消/退款。",
+    "minimum_information": [
+      "order_owner的取消决定及依据；若今后执行需另有执行证据。",
+      "实际接手对象、可达内部路径与接受回执。"
+    ]
+  },
+  "prohibited_external_actions": [
+    "发送消息",
+    "查询订单或CRM",
+    "实际提交交接",
+    "取消或修改订单",
+    "退货批准或退款",
+    "修改营销设置"
+  ],
+  "scope_limits": [
+    "制作方手工编写的教学完整成果，不是独立运行、盲测、正式QA或新首答证据。",
+    "A/B是同一合成请求的互斥事实变式，不是实际多回合执行；没有把A事实带进B。",
+    "订单状态字段只是本教学的本地描述，不是任何平台API或可执行字段。",
+    "全部客户、订单、角色和政策为合成；条款仅用于此例，不是法定退款权或真实商家政策。",
+    "不处理真实客户，不证明真实账号/发送/退款/接手/客户效果或跨宿主兼容。",
+    "平台规则快照未于本轮刷新，五项发送资格保持unknown，ready_to_send=false。"
+  ]
+}

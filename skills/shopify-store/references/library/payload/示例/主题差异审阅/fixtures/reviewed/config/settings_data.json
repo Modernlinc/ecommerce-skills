@@ -1,0 +1,11 @@
+{
+  "current": {
+    "color_background": "#FFFFFF"
+  },
+  "presets": {},
+  "platform_customizations": {
+    "custom_css": [
+      ".fixture-title { letter-spacing: 0.02em; }"
+    ]
+  }
+}

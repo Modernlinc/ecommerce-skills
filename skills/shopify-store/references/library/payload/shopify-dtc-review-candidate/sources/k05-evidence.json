@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "status": "candidate_method_not_final_reviewed",
+  "maturity": "method_hypothesis",
+  "formal_adoption": false,
+  "method_contract": {
+    "path": "evidence:SH-EV-83e5134b2842cb3cbd440692",
+    "sha256": "d7c42bd15021da32335d5c0403969188c531c20e679c878f770a4c22525e7c0e",
+    "decision_path": "evidence:SH-EV-e040e9933543d86e62fab58f",
+    "decision_json_path": "evidence:SH-EV-44a688e954033bfeb41f8247",
+    "implementation_mother": "evidence:SH-EV-346d6186ec9dbb48092dee4e",
+    "scope": "preserve approved signed-cash/normalization/coverage/revocation; no formula change"
+  },
+  "validation_reuse": {
+    "status": "existing_evidence_reused_not_new_execution",
+    "independent_record": "evidence:SH-EV-44a688e954033bfeb41f8247",
+    "record_section": "controller_arithmetic",
+    "record_time": "2026-09-05 20:01:07 UTC",
+    "scope": "original synthetic contract arithmetic only",
+    "historical_results": {
+      "N": 140,
+      "N_A": 80,
+      "net_fees": 9,
+      "A_contribution": 31,
+      "A_rate_pct": 38.75,
+      "processor_balance": 7,
+      "unexplained_difference": 0,
+      "all_scope_contribution": "unknown"
+    },
+    "producer_record": "evidence:SH-EV-b778a85bae1548651b3402c2",
+    "producer_section": "arithmetic",
+    "producer_scope": "old complete-cycle P4/P5 Decimal; same producer, not independent",
+    "new_arithmetic_run": false
+  },
+  "related_company_claims": [
+    {
+      "id": "C015",
+      "disposition": "K01材料范围背景，不是经营事件"
+    },
+    {
+      "id": "C016",
+      "disposition": "K02规格/拟价不等于sale"
+    },
+    {
+      "id": "C017",
+      "disposition": "K03请求/状态不等于posted退款"
+    },
+    {
+      "id": "C018",
+      "disposition": "reuse V2 K04 mapping unchanged; content not causal ROI",
+      "mapping_path": "k04-evidence.json"
+    },
+    {
+      "id": "C019",
+      "old_map_path": "evidence:SH-EV-db91b5610521fc50a6dd5754",
+      "claim": "先对齐报表、时间窗、币种、退款与成本覆盖；瓶颈只列证据或假设，不由金额独立归因",
+      "disposition": "bounded_refine_in_K05_mapping_only"
+    }
+  ],
+  "platform_claims": [
+    {
+      "id": "C010",
+      "formal_adoption": false,
+      "date_admission": "not_admitted"
+    },
+    {
+      "id": "C011",
+      "formal_adoption": false,
+      "date_admission": "not_admitted"
+    },
+    {
+      "id": "C014",
+      "formal_adoption": false,
+      "date_admission": "not_admitted"
+    }
+  ],
+  "local_admission_path": "evidence:SH-EV-ea7368f63a2a7bed5081b9bc",
+  "integration_validation": "local_file_checks_completed",
+  "real_project_validated": false,
+  "historical_source_hashes": {
+    "SH-EV-b8dc163731b198df2b26187d": "c9abbedf24e91469a0d39afe6a8775e288b92c2c31b6435c0c31c3f0befc904a",
+    "SH-EV-83e5134b2842cb3cbd440692": "d7c42bd15021da32335d5c0403969188c531c20e679c878f770a4c22525e7c0e",
+    "SH-EV-e040e9933543d86e62fab58f": "f89e47dd79ea7854eca7d56d3fda59ee9614a28825460319b0513a9856638825",
+    "SH-EV-44a688e954033bfeb41f8247": "88b4617c56bb9c28a0d27e54c3d3f10c36040b9cdb98f7723058312b6e25ff56",
+    "SH-EV-b778a85bae1548651b3402c2": "3d46cf9fad6da4463a2d9e06ac04b7cf0fc3d67e77382bf392c664323f2d3d12",
+    "SH-EV-346d6186ec9dbb48092dee4e": "2802100f8af87a0161b09a841d87e24415a77de969ca6f315bb2a62e31683fef",
+    "SH-EV-db91b5610521fc50a6dd5754": "366ef6743ef3694d7de3095c9f8b332fcff08cd0c36e125b4351d65ec5881c40",
+    "SH-EV-ea7368f63a2a7bed5081b9bc": "5d78243284ab596054143098cb52b5c8a69805eb1b691dc3497f01ca26391cff",
+    "SH-EV-22e143cce961defc7cd0ae35": "2b72f8b6eb6722af71b74276ec415f8b519d625131acf79a92bcd2f4bdd28e3c",
+    "SH-EV-99039cb1000476a20465f124": "6cde4225273d0cc9a5313e4bd93905705f97a78d0e97fca6e8b295374aea5db3",
+    "SH-EV-6c310ef277d0fa6e2a636e68": "781ed4e6b4cce80e9786c79cbc410e17ede4280885bb9955f287bdc65eb9360b"
+  },
+  "audit_projection": {
+    "schema_version": 1,
+    "path_convention": "Relative paths resolve from this JSON directory. evidence:SH-EV-* values identify maintainer-only historical records, not files or URLs, including legacy *_path fields.",
+    "hash_convention": "historical_source_hashes binds prior snapshots. A record adds historical_sha256 only when absent there; unknown stays unknown. Same-package current references do not authenticate old versions.",
+    "scope_and_validation": "Original contribution, source dates, observation and validation limits remain in their original fields. Historical records were not reopened for this projection. IDs/hashes prove neither access nor new validation.",
+    "runtime_required": false
+  },
+  "audit_records": [
+    {
+      "evidence_id": "SH-EV-83e5134b2842cb3cbd440692",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-e040e9933543d86e62fab58f",
+      "type": "scoped_independent_method_decision"
+    },
+    {
+      "evidence_id": "SH-EV-44a688e954033bfeb41f8247",
+      "type": "scoped_independent_method_decision"
+    },
+    {
+      "evidence_id": "SH-EV-346d6186ec9dbb48092dee4e",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-b778a85bae1548651b3402c2",
+      "type": "producer_validation_record"
+    },
+    {
+      "evidence_id": "SH-EV-db91b5610521fc50a6dd5754",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-ea7368f63a2a7bed5081b9bc",
+      "type": "historical_source_admission_record"
+    },
+    {
+      "evidence_id": "SH-EV-b8dc163731b198df2b26187d",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-22e143cce961defc7cd0ae35",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "../references/k04-retention.md"
+    },
+    {
+      "evidence_id": "SH-EV-99039cb1000476a20465f124",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "k04-evidence.json"
+    },
+    {
+      "evidence_id": "SH-EV-6c310ef277d0fa6e2a636e68",
+      "type": "historical_company_note"
+    }
+  ],
+  "current_version_evidence": {
+    "record_id": "SH-VR-20260911-K05",
+    "observed_on": "2026-09-11",
+    "date_route": "owner_authorized_current_version_review_for_named_12_pages_only",
+    "first_publication": "unknown",
+    "admission_status": "accepted_scoped_current_version",
+    "formal_adoption": false,
+    "legacy_fields_scope": "Existing platform_claims/blocked_claims and audit hashes retain their historical recording state. This dated observation supplements them; no actual store eligibility or formal adoption is inferred.",
+    "claims": [
+      {
+        "claim_id": "SC-SHOPIFY-C010",
+        "source_id": "SH-N-01",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports",
+        "fact_summary": "商品/变体利润报表只纳入销售时有成本记录的项；毛利按净销售额减对应商品成本。",
+        "section_locator": "L24–30; L74–107",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain",
+        "applicability_limit": "不等全店贡献，不为公司现金算法背书。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C011",
+        "source_id": "SH-N-01",
+        "url": "https://help.shopify.com/en/manual/reports-and-analytics/shopify-reports/report-types/default-reports/profit-reports",
+        "fact_summary": "市场与订单利润报表包括客户商品/运费/税费收费以及店铺相应成本项，不能直接套用商品毛利口径；cost per item仍是时点性静态数据。",
+        "section_locator": "L67–73; L121–142",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "需报告类型、期间、成本覆盖；未核真实账本。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C014",
+        "source_id": "SC-SHOPIFY-S009",
+        "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/understanding-customer-privacy-settings",
+        "fact_summary": "相关地区启用cookie横幅时，该地区访客数据在取得同意后采集；可用会话及依赖会话的转化率等指标可能下降。",
+        "section_locator": "L17–20; L36–38",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "实际地区、期间、配置和报表未知；不据此诊断现金或增长因果。"
+      }
+    ],
+    "controller_decision_id": "417",
+    "formal_adoption_scope": "whole_skill_final_adoption"
+  }
+}

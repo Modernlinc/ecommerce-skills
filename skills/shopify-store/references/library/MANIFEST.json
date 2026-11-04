@@ -1,0 +1,202 @@
+{
+  "schema": "modernlinc.local-file-package.v1",
+  "id": "MODERNLINC-SHOPIFY-LOCAL-20261020-01",
+  "date": "2026-10-20",
+  "entry": "00_本地文件使用入口.md",
+  "method": "payload/shopify-dtc-review-candidate/METHOD.md",
+  "parent": "2026-10-19-prelaunch-01/shopify-c2",
+  "parent_manifest_sha256": "0c3e1f96dce5e5a618afcfff9a4774bfbe4fe3eb3558f113334132cc3da5f86e",
+  "method_semantic_changes": false,
+  "status": "FROZEN_AWAITING_PACKAGING_REVIEW",
+  "formal_adoption": false,
+  "public_release": false,
+  "known_json_example_exception": "payload/示例/主题差异审阅/fixtures/reviewed/templates/promo.json",
+  "files": [
+    {
+      "path": "00_本地文件使用入口.md",
+      "bytes": 2043,
+      "sha256": "826ce5b28d2c2743d0836b5fcf56ec8219b3a7f046876b056959cb599764b578"
+    },
+    {
+      "path": "00_当前使用与范围.md",
+      "bytes": 5225,
+      "sha256": "a4c3d5d50c49fb3fbee125a293bca7725f8f958a2f1bb84ea49ac9cc92d74575"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/METHOD.md",
+      "bytes": 7548,
+      "sha256": "f5b63e10c7d3d5c89fbe312929ddc7565890723c5ee2f25f12bc12376bc97e7d"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/references/k01-readiness.md",
+      "bytes": 7309,
+      "sha256": "1ef39f8a594e58fc13d0325fb9d7531344e392933e40b34dd45929b1f3d3a823"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/references/k02-product-page.md",
+      "bytes": 17592,
+      "sha256": "482dfeee810d0bb89034d897a0e693281768a2db0d9053744d37f1da41ca8c68"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/references/k03-fulfillment-aftercare.md",
+      "bytes": 4975,
+      "sha256": "69a5a772d7f540fc5ee2c90a76a4914b91d8e19bc11f012d7c27c461954cc37a"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/references/k04-retention.md",
+      "bytes": 4899,
+      "sha256": "f4c4f2859be9a488c722a655a07e2d0fb97364be11af824058c542cceaae1559"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/references/k05-economics-cash.md",
+      "bytes": 8779,
+      "sha256": "2729175c5d2e1ec1a6c270ca2e237f3c01eafe1b643db0c406736f2c5a711e84"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/sources/k01-evidence.json",
+      "bytes": 11931,
+      "sha256": "eac0b0ef38ee209fd649c5d44b91e0c2e9ac0fdc1a7155a921e2f71247898a49"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/sources/k02-evidence.json",
+      "bytes": 33635,
+      "sha256": "96c2d8b09aa2e129becddfd9d629e0e0e8ecb275bb77cb5a4e2cf3c49494fadb"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/sources/k03-evidence.json",
+      "bytes": 8432,
+      "sha256": "d2edfc903c02c0deddd57c6d4c6f9b77afda9c5d52c28674d0476aef9939c041"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/sources/k04-evidence.json",
+      "bytes": 7906,
+      "sha256": "77b2c89413dfe32d05d7510d94ed8d596ae0c849d7edfcf77118ff1440410fb5"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/sources/k05-evidence.json",
+      "bytes": 8649,
+      "sha256": "7360a3a3ef73ee7906bd147cc7e088752923ed5323503bc3f5c7f8b6f81584d9"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/中文使用说明.md",
+      "bytes": 7066,
+      "sha256": "70c510429832b44584e4818887620df184024e6bc8023c854cb04b65fdc504c2"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/交付身份与限制.md",
+      "bytes": 4485,
+      "sha256": "6bcd293547a70f98204ce2036e207f603f71f346ad30f96525b5e625b573481d"
+    },
+    {
+      "path": "payload/shopify-dtc-review-candidate/当前状态与来源导航.md",
+      "bytes": 6153,
+      "sha256": "ab8c5f6dad0cf8b0e2426c7af06358e9e5bbdf3f07b72d4d13d21e16ee8a1009"
+    },
+    {
+      "path": "payload/开始使用.md",
+      "bytes": 10105,
+      "sha256": "067a12b8a9d406eb683e2181eeb05127d8878a8f2d0f7449df0c46596818affc"
+    },
+    {
+      "path": "payload/示例/01_合成报告输入节选.md",
+      "bytes": 12026,
+      "sha256": "fbf97fe63a190364e59e8e4e0707d27a22e2b0ab53e091af47d6b30137e1e083"
+    },
+    {
+      "path": "payload/示例/02_历史汇整结果节选.md",
+      "bytes": 4354,
+      "sha256": "6b9bf22984593327ba07021ba8e47fb1e5849cfbdddf4dd2372cff2a6626f551"
+    },
+    {
+      "path": "payload/示例/03_页面取舍与供货变化教学.md",
+      "bytes": 8909,
+      "sha256": "64b94a5c7db4ceb2552745bda35ab422f0af5f96a1724aa2d4c32e58bb2c0d06"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/INPUT.md",
+      "bytes": 1978,
+      "sha256": "859f5c7ed5eaaec43dfa6de4b173fb74052bd7c5ecdf02709d909ea0e98e5f09"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/INPUT_MANIFEST.json",
+      "bytes": 5649,
+      "sha256": "f78049254c125cadf68b289c87c0fd12e3854fc9b438705c2ef048207fab054e"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/NEW_FIRST_OUTPUT.md",
+      "bytes": 4533,
+      "sha256": "d585c63073eef4d2773c30621d4d8f7bff32bf04ac9d12aa4d256bbf6eaa7d97"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/config/settings_data.json",
+      "bytes": 131,
+      "sha256": "659354817c78bc4704de02a86e9184e562eb53ccfb78c7dedb0cbdaffab0f6ac"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/config/settings_schema.json",
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/sections/product-info.liquid",
+      "bytes": 80,
+      "sha256": "e295215bcd8d88e1d4ac17636842bae5576909af42edd1d7478b4f6e86d826c8"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/snippets/legacy-note.liquid",
+      "bytes": 29,
+      "sha256": "85c4b3f166463aee0a32b618dd1ddf21a80d6928367ad21a8b0a66b63c412a23"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/templates/index.json",
+      "bytes": 159,
+      "sha256": "0a7491813d59ddeb76ea30a4b47047406d809f74023e846c52e9bfe0410995d2"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/templates/product.json",
+      "bytes": 309,
+      "sha256": "909a285c286712e068a4c68f58cf0f16ba4d97484f866dd08bfedd1108bbe0a0"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/clean/templates/promo.json",
+      "bytes": 36,
+      "sha256": "3d1dfe9ec137c66e9f1557bcbe0f50b6ae56869b914e13a8b3458bbb728b285c"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/config/settings_data.json",
+      "bytes": 187,
+      "sha256": "3eb24f98a3c8678ecb1ae7010195027d305eeb4832293607f3652ab43244cf1f"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/config/settings_schema.json",
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/sections/product-info.liquid",
+      "bytes": 80,
+      "sha256": "c035dbc8c7072ae688cd1d731a55611fe28b50fee7dda412bcf6ebd2b856bf0b"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/sections/unused-note.liquid",
+      "bytes": 43,
+      "sha256": "2ac0c8d993aa5ec76b09ddab1120fcf226bcd5083f59ce4b0d93dc3559aa92d2"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/templates/index.json",
+      "bytes": 95,
+      "sha256": "ec6a06d31f3a787f45150381f38eace89033dd095e9dbe4313b781d219d1fc32"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/templates/product.json",
+      "bytes": 308,
+      "sha256": "99796deb1593b2235b8c051709d0e1e8bc86983ab6a13fdadda76754c22747b6"
+    },
+    {
+      "path": "payload/示例/主题差异审阅/fixtures/reviewed/templates/promo.json",
+      "bytes": 15,
+      "sha256": "743495ab514cbb4cdc6bf67d4a7065b6ebf19c839c32062c348e2522d18ec4bd"
+    }
+  ],
+  "self_excluded": "MANIFEST.json"
+}

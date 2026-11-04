@@ -1,0 +1,21 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-info",
+      "settings": {
+        "heading": "演示商品"
+      }
+    },
+    "info": {
+      "type": "faq",
+      "disabled": false,
+      "settings": {
+        "text": "演示护理说明"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "info"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "id": "INFLUENCER-PRACTICAL-20261020-PKG-01",
+  "version": "2026.10.20-p1.1",
+  "created_at": "2026-10-19T19:14:19.976Z",
+  "status": "CANDIDATE_AWAITING_LIMITED_PACKAGING_REVIEW",
+  "parent_candidate_id": "PRELAUNCH-influencer-W1-20261019-01-IF-P01-R1",
+  "parent_manifest_sha256": "c82dda52b9512d4c63b765a45bfb4612484aaa28074cb99d2bca6fff2346ee66",
+  "parent_delivery_id": "S4-influencer-20261014-01-final.1",
+  "authorization_id": "INFLUENCER-PRACTICAL-20261020-PKG-EXEC-01",
+  "authorization_sha256": "b1cb8842ede2a35d5544048aa03090abd3d9e08be3d061293fa67d9121cb6caa",
+  "packaging_plan_sha256": "c9d5da534f49cd6a8b6743e4ff865353608624834c80e2b96b317bd8682993fd",
+  "work_order_sha256": "5010f4e34aad331d95c26d7de3b12e40f7af17f2c0540cfa5415cc925299c8fc",
+  "scope": "Usage-only offline text package: Chinese entry, complete existing synthetic teaching example, original business method and template, source and maturity boundaries. Packaging/navigation changes only.",
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 5228,
+      "sha256": "9f0419879b1e8be7b384f1913167e9010b2266ae8738b232fe422200a2366d5e"
+    },
+    {
+      "path": "01_完整教学_候选选择到延期改判.md",
+      "bytes": 16200,
+      "sha256": "e497eadcd603e40e16c42742546a928c534ec53896a4f6f810429a38b41d073f"
+    },
+    {
+      "path": "influencer-collaboration-planner/METHOD.md",
+      "bytes": 7345,
+      "sha256": "340b68fc4f61acd425eded855ee415a64f6aecffdcab845e584b6f1a68436c5d"
+    },
+    {
+      "path": "influencer-collaboration-planner/references/合作成果模板.md",
+      "bytes": 3217,
+      "sha256": "37ef45b4962b063358242f38c92f5ba44a4d9c0d536b710618ae02a4d915ee5e"
+    },
+    {
+      "path": "influencer-collaboration-planner/references/来源与适用边界.md",
+      "bytes": 9112,
+      "sha256": "c034bfc6c653c5c3ff701182f04aa2a5cf50b4228950d898b04fb11fd4cea26f"
+    }
+  ],
+  "total_listed_bytes": 41102,
+  "self_excluded": "MANIFEST.json",
+  "core_semantic_changes": 0,
+  "new_independent_uses": 0,
+  "new_independent_expert_reviews": 0,
+  "adopted": false,
+  "installed": false,
+  "publicly_distributed": false,
+  "maturity": "method_hypothesis; preserve the narrow historical reviewed-use scope and all unobserved or unverified branches",
+  "distribution_boundary": "Usage-only candidate with no internal audit attachments or private filesystem pointers. Public distribution remains unauthorized.",
+  "notes": [
+    "Five actual nonself files; this manifest does not hash itself.",
+    "Core business instructions, input boundaries, template and teaching decisions are unchanged. Approved reference/navigation edits change file identities only.",
+    "Historical review summaries remain scoped to their original objects; this packaging has no new independent business validation.",
+    "Public source URLs are provenance links, not evidence of fresh verification or required network access for ordinary local text use."
+  ]
+}

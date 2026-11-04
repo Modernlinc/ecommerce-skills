@@ -20,8 +20,8 @@ EXPECTED = (
     'customer-support', 'brand-brief', 'product-selection',
     'influencer-collaboration', 'ecommerce-backoffice', 'b2b-quotation',
 )
-VERSION = '0.1.1-public-demo'
-HEADINGS = ('功能摘要', '输入', '输出', '演示步骤', '示例输入', '示例输出', '演示材料', '限制说明', '版本')
+VERSION = '1.0.0'
+HEADINGS = ('功能摘要', '输入', '工作流程', '输出', '演示步骤', '示例输入', '示例输出', '演示材料', '限制说明', '版本')
 INPUT_LABEL = 'Synthetic demo data. No real customer, account, order, or advertising data is used.'
 OUTPUT_LABEL = 'Public synthetic demonstration. This is not a real customer result and does not prove live external execution or business performance.'
 REQUIRED = (
@@ -37,6 +37,7 @@ REQUIRED = (
     'SUPPORT.md', 'catalog.json', 'docs/compatibility.md',
     'docs/evaluation-and-delivery.md', 'tests/test_product_contract.py',
     'docs/updates-and-feedback.md',
+    'scripts/install.py', 'scripts/refresh_manifest.py', 'CONTENT_MANIFEST.json', 'sources.json', 'tests/test_install.py',
     '.github/ISSUE_TEMPLATE/01-product-question.md',
     '.github/ISSUE_TEMPLATE/02-documentation.md',
     'docs/try.md', '.github/ISSUE_TEMPLATE/03-trial-feedback.md',
@@ -52,7 +53,7 @@ CSV_FIELDS = {
 
 def heading_ids(text):
     counts = {}
-    result = set()
+    result = set(re.findall(r'<a\s+(?:id|name)=[\"\']([^\"\']+)[\"\']', text))
     for heading in re.findall(r'^#{1,6} (.+)$', text, re.M):
         slug = ''.join(c for c in heading.lower() if c in ' -_' or unicodedata.category(c)[0] in 'LN').replace(' ', '-')
         count = counts.get(slug, 0)
@@ -117,7 +118,7 @@ def catalog_errors(root):
     errors = []
     try:
         catalog = json.loads((root / 'catalog.json').read_text())
-        if catalog['version'] != VERSION or catalog['schema_version'] != 1 or catalog['distribution'] != 'public-demo-only':
+        if catalog['version'] != VERSION or catalog['schema_version'] != 1 or catalog['distribution'] != 'open-source':
             errors.append('catalog: incorrect schema/version/distribution')
         if catalog['evidence_type'] != 'authored-synthetic-reference':
             errors.append('catalog: incorrect evidence type')
@@ -134,6 +135,9 @@ def catalog_errors(root):
             if item['files'] != paths:
                 errors.append(slug + ': catalog paths differ from the public layout')
                 continue
+            method = root / item['method_entry']
+            if not method.is_file() or not method.resolve().is_relative_to((root / 'skills' / slug).resolve()):
+                errors.append(slug + ': missing or escaping complete method')
             for key in ('input_requirements', 'deliverables', 'reader_checks'):
                 if not isinstance(item[key], list) or not item[key] or not all(isinstance(x, str) and x.strip() for x in item[key]):
                     errors.append(slug + ': empty public contract field ' + key)
@@ -265,6 +269,18 @@ def local_link_error(root, source, href):
 def validate(root):
     errors = []
     allowed = set(REQUIRED)
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("release_installer", root / "scripts/install.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        verified_files = module.verified_files
+        slugs, payload = verified_files(root)
+        if slugs != list(EXPECTED):
+            errors.append('install manifest: unexpected Skill set')
+        allowed.update(payload)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append('install manifest: ' + str(exc))
     for slug in EXPECTED:
         allowed.update('skills/' + slug + '/' + rel for rel in ('SKILL.md', 'examples/demo.md', 'examples/input.md', 'examples/output.md', 'assets/screenshots/README.md'))
     allowed.update('skills/ecommerce-analytics/examples/data/' + name for name in (*CSV_FIELDS, 'README.md'))
@@ -308,7 +324,7 @@ def validate(root):
             if fm['name'] != slug:
                 errors.append(slug + ': frontmatter name mismatch')
             meta = fm['metadata']
-            if (meta.get('version'), meta.get('status'), meta.get('distribution')) != (VERSION, 'public-demo', 'public-demo-only'):
+            if (meta.get('version'), meta.get('status'), meta.get('distribution')) != (VERSION, 'open-source', 'open-source'):
                 errors.append(slug + ': incorrect version/status/distribution')
             if not meta.get('display_name_zh') or not meta.get('display_name_en'):
                 errors.append(slug + ': missing display name')
@@ -325,9 +341,21 @@ def validate(root):
         if '.git' in p.relative_to(root).parts or p.is_symlink():
             continue
         for href in re.findall(r'!?\[[^\]]*\]\(([^\s)]+)\)', p.read_text()):
-            err = local_link_error(root, p, href)
+            boundary = root
+            parts = p.relative_to(root).parts
+            if len(parts) >= 3 and parts[0] == 'skills' and parts[1] in EXPECTED:
+                boundary = root / 'skills' / parts[1]
+            err = local_link_error(boundary, p, href)
             if err:
                 errors.append(str(p.relative_to(root)) + ': ' + err)
+    # Native @references must resolve inside the same installed Skill as well.
+    for slug in EXPECTED:
+        base = root / 'skills' / slug
+        for p in base.rglob('*.md'):
+            for href in re.findall(r'@((?:references|scripts|templates|assets)/[^\s`，。；、)]+)', p.read_text()):
+                target = (p.parent / href).resolve()
+                if not target.is_file() or not target.is_relative_to(base.resolve()):
+                    errors.append(str(p.relative_to(root)) + ': unresolved method reference ' + href)
     errors.extend(catalog_errors(root))
     errors.extend(analytics_errors(root))
     return errors
@@ -339,5 +367,5 @@ if __name__ == '__main__':
     problems = validate(ROOT)
     for problem in problems:
         print('BLOCK: ' + problem)
-    print('STRUCTURE: ' + ('BLOCK' if problems else 'PASS (18 cards/exercises/input-output sets, catalog, five CSVs and local links)'))
+    print('STRUCTURE: ' + ('BLOCK' if problems else 'PASS (18 complete Skills, installation payload, exercises, CSVs and local links)'))
     raise SystemExit(bool(problems))

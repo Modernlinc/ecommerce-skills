@@ -1,0 +1,61 @@
+{
+  "schema": "modernlinc.local-file-package.v1",
+  "id": "MODERNLINC-CODEX-LOCAL-20261020-01",
+  "date": "2026-10-20",
+  "parent": "2026-10-19-prelaunch-01/codex",
+  "entry": "00_从这里开始.md",
+  "method_semantic_changes": false,
+  "status": "FROZEN_AWAITING_PACKAGING_REVIEW",
+  "formal_adoption": false,
+  "public_release": false,
+  "installation_of_this_package": false,
+  "commercial_terms": "not_set",
+  "files": [
+    {
+      "path": "00_从这里开始.md",
+      "bytes": 4812,
+      "sha256": "2569afc41f498aa56770ba349df84ab3367476517e16437d55d2e76c2237914c"
+    },
+    {
+      "path": "01_完整改稿与撤价接续示范.md",
+      "bytes": 15273,
+      "sha256": "7f31603c29a7d8d257ae44c88e1608ba4e06caa9f5da7f915d344b3ad7f729d9"
+    },
+    {
+      "path": "原版/00_当前使用与范围.md",
+      "bytes": 2994,
+      "sha256": "f78600d784c74578d51e8ce1e16f1887c8515a4c47f2ab56848371bfc570893b"
+    },
+    {
+      "path": "原版/MANIFEST.json",
+      "bytes": 1161,
+      "sha256": "79bfa2f41a8f34386820841d05b158c019b3dfde99bf69e2d7066c48d2b4ff25"
+    },
+    {
+      "path": "原版/payload/MANIFEST.json",
+      "bytes": 3865,
+      "sha256": "6ac925983bc744918625a64cb2a9053cf0d8bab7b7773e246ac0d72e9e5ed238"
+    },
+    {
+      "path": "原版/payload/METHOD.md",
+      "bytes": 3105,
+      "sha256": "c2fa6e743e37570e0fa552e0a8d727c1e542cdae0a94bbe356dfa03bb8943add"
+    },
+    {
+      "path": "原版/payload/references/sources.md",
+      "bytes": 8013,
+      "sha256": "f60b0fdb91586e464bf884c25161fb23bfaf5283f4d510b44547b35e965ea767"
+    },
+    {
+      "path": "原版/payload/references/workflow.md",
+      "bytes": 8468,
+      "sha256": "2c7752a76eff5ec66494e53ade51f5082ec09cd886a95c3c4a0d0a0ec4ede096"
+    },
+    {
+      "path": "原版/payload/使用说明.md",
+      "bytes": 5687,
+      "sha256": "dfb003736922ef197b08cc21a969cb038c78933c343bad22032c514a51ab35ce"
+    }
+  ],
+  "self_excluded": "MANIFEST.json"
+}

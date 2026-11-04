@@ -1,0 +1,1090 @@
+{
+  "schema_version": 1,
+  "package_name": "tiktok-operations",
+  "package_version": "1.0.0-rc.3+demo.20261012.1+s3.1",
+  "stage": "S3-TEXT-CONTINUATION-CANDIDATE",
+  "status": "S3_CANDIDATE_FROZEN_PENDING_USE",
+  "whole_package_complete": false,
+  "independent_final_qa": "not_started_for_S3",
+  "current_facts_reverified": false,
+  "created_on": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "runtime": "Agent interprets Markdown; not a deployed service",
+  "source_runtime_baseline": [
+    {
+      "path": "METHOD.md",
+      "bytes": 15114,
+      "sha256": "7d38c716d21e47ac1d3668dafa0e532ce9c60a3ee948144970e1fcbb3e19bbc8"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+    },
+    {
+      "path": "references/beginner-first-route-and-glossary.md",
+      "bytes": 11581,
+      "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+    },
+    {
+      "path": "references/content-operating-system.md",
+      "bytes": 5500,
+      "sha256": "78eee5e21549d75f34f8809f4b67fab08a86e016ceb32c27e4fe29ae9b31da76"
+    },
+    {
+      "path": "references/organic-account-and-content-growth.md",
+      "bytes": 7095,
+      "sha256": "202d4e99fc529883032c98f01990c4dc2d79343802582ea50787612e26cad746"
+    },
+    {
+      "path": "references/shop-creator-and-live.md",
+      "bytes": 11655,
+      "sha256": "37e4ef83f61744c00acc808be9cbc0ba20ee4b58cb985ae6d82a4c70cc2edd88"
+    },
+    {
+      "path": "references/shop-merchandising-and-health.md",
+      "bytes": 5497,
+      "sha256": "6e3209d54fbd1db0f965886a4bb5d20e1fb3bc39fb43d1a2d357fe81e4cd9037"
+    },
+    {
+      "path": "references/creator-collaboration-objects.md",
+      "bytes": 6608,
+      "sha256": "4181c15701d04fd7a52819ddca3190a503e2718d26139907d2ed871180b8b291"
+    },
+    {
+      "path": "references/live-operations-and-analysis.md",
+      "bytes": 5617,
+      "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+    },
+    {
+      "path": "references/ads-delivery-and-diagnostics.md",
+      "bytes": 6975,
+      "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+    },
+    {
+      "path": "references/ads-measurement-and-experiments.md",
+      "bytes": 18692,
+      "sha256": "11bb7f78e9f33f033b12edee59f6995d87e5709c6e311f57797d5635c77adbd3"
+    },
+    {
+      "path": "references/business-center-and-asset-governance.md",
+      "bytes": 4998,
+      "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+    },
+    {
+      "path": "references/compliance-and-approval-gates.md",
+      "bytes": 3974,
+      "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+    },
+    {
+      "path": "references/evidence-and-practitioner-method-admission.md",
+      "bytes": 8686,
+      "sha256": "0d2f50ad415418a82a9a11b09e90ee41dc27e0b24fea0129355f17e256ee69db"
+    },
+    {
+      "path": "references/source-learning-and-evidence.md",
+      "bytes": 18249,
+      "sha256": "5085683fdcbdf94edcb6e98395fb6d44f49a27ead9fe0797c08b46b1f7b5fc8e"
+    }
+  ],
+  "examples": {
+    "product-content": {
+      "input": "examples/product-content/INPUT.md",
+      "output": "examples/product-content/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    },
+    "live": {
+      "input": "examples/live/INPUT.md",
+      "output": "examples/live/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    },
+    "website-ads": {
+      "input": "examples/website-ads/INPUT.md",
+      "output": "examples/website-ads/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    },
+    "product-gmv-max": {
+      "input": "examples/product-gmv-max/INPUT.md",
+      "output": "examples/product-gmv-max/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    },
+    "organic-shop": {
+      "input": "examples/organic-shop/INPUT.md",
+      "output": "examples/organic-shop/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    },
+    "creator": {
+      "input": "examples/creator/INPUT.md",
+      "output": "examples/creator/OUTPUT.md",
+      "state": "byte_identical_historical_synthetic_reuse",
+      "rc2_execution": "not_performed",
+      "independent_evaluation": "not_performed"
+    }
+  },
+  "remaining": [
+    "S3 normal task and natural follow-up use not run",
+    "S3 quality decision and local acceptance not received",
+    "S4 formal entry and necessary knowledge alignment pending",
+    "T01-T13 historical held facts, F01/FH01, source observation and business-effect limits unchanged"
+  ],
+  "historical_review_boundary": "Internal v10 and narrow B approvals do not transfer to this portable object.",
+  "formal_admission": false,
+  "rc2_behavior_validation": "not_performed",
+  "current_build_network_calls": 0,
+  "source_observation_reuse": {
+    "id": "TK-EVID-T01-26",
+    "objects": 2,
+    "observed_on": "2026-09-06",
+    "formal_admission": false
+  },
+  "historical_stage": {
+    "package_version": "1.0.0-rc.1",
+    "stage": "TK-PACK-01",
+    "manifest_payload_count": 31,
+    "note": "Historical stage snapshot only, not the complete rc.1 39-file inheritance baseline or current rc.2 40-file inventory."
+  },
+  "inherited_candidate_baseline": {
+    "package_version": "1.0.0-rc.1",
+    "payload_count": 39,
+    "identity_basis": "70 protected objects include complete rc.1 paths; detailed identities in external build receipt",
+    "files": [
+      {
+        "path": "METHOD.md",
+        "bytes": 15302,
+        "sha256": "928220a1c848b3eb2942537cfa6fd121c82ac2c8b22e3fa2fbf9b6f500b32367"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "bytes": 352,
+        "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+      },
+      {
+        "path": "references/beginner-first-route-and-glossary.md",
+        "bytes": 11581,
+        "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+      },
+      {
+        "path": "references/content-operating-system.md",
+        "bytes": 5500,
+        "sha256": "78eee5e21549d75f34f8809f4b67fab08a86e016ceb32c27e4fe29ae9b31da76"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "bytes": 7095,
+        "sha256": "202d4e99fc529883032c98f01990c4dc2d79343802582ea50787612e26cad746"
+      },
+      {
+        "path": "references/shop-creator-and-live.md",
+        "bytes": 11655,
+        "sha256": "37e4ef83f61744c00acc808be9cbc0ba20ee4b58cb985ae6d82a4c70cc2edd88"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "bytes": 5497,
+        "sha256": "6e3209d54fbd1db0f965886a4bb5d20e1fb3bc39fb43d1a2d357fe81e4cd9037"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "bytes": 6605,
+        "sha256": "3289d46b1e1d6c931f2fddc1d7ce6c5750ddb865a5a710d4a04f006aad5117f0"
+      },
+      {
+        "path": "references/live-operations-and-analysis.md",
+        "bytes": 5617,
+        "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+      },
+      {
+        "path": "references/ads-delivery-and-diagnostics.md",
+        "bytes": 6975,
+        "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+      },
+      {
+        "path": "references/ads-measurement-and-experiments.md",
+        "bytes": 18676,
+        "sha256": "aa9959856f1eae7e94a024f1a821b881de2c8b05f37f997539d314c806f750e9"
+      },
+      {
+        "path": "references/business-center-and-asset-governance.md",
+        "bytes": 4998,
+        "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+      },
+      {
+        "path": "references/compliance-and-approval-gates.md",
+        "bytes": 3974,
+        "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+      },
+      {
+        "path": "references/evidence-and-practitioner-method-admission.md",
+        "bytes": 8743,
+        "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+      },
+      {
+        "path": "references/source-learning-and-evidence.md",
+        "bytes": 11064,
+        "sha256": "265dee513eee04fb670c32100cee8d77e74eb636a10d6b4aace151d4eb038439"
+      },
+      {
+        "path": "README.md",
+        "bytes": 2688,
+        "sha256": "257dba97929f54700669a4ec476a5b329f39652064332c951f2264269f1d61ae"
+      },
+      {
+        "path": "USAGE.md",
+        "bytes": 4590,
+        "sha256": "40b269db28b25770c0673837f3b91e848cff8fd398f91cbe6f9d707db8077127"
+      },
+      {
+        "path": "VERSION.json",
+        "bytes": 3806,
+        "sha256": "700888fcf957fa35d3c32be2cfb8172078159a50649019ab056847e8b90669f0"
+      },
+      {
+        "path": "COMPATIBILITY.json",
+        "bytes": 1652,
+        "sha256": "81bc1dba3ae7cdd0c5dfc57aed70243b67b98dedefc8d95ca268cfbcfaaaf1f5"
+      },
+      {
+        "path": "CHANGELOG.md",
+        "bytes": 977,
+        "sha256": "a3d93b1800d3f3b451638efad0eea251216552a4be651442dbcffb38f217ca6d"
+      },
+      {
+        "path": "SUPPORT.md",
+        "bytes": 1530,
+        "sha256": "fce6b789dc79c090935e3b7179f9a766a59d1343f781fcaf1029e642a2d82d6c"
+      },
+      {
+        "path": "RIGHTS.json",
+        "bytes": 30622,
+        "sha256": "486df339f0d47fa63b443304fe69ea13ac08b6ccb4e3ee4c8e2cab7b52d72e74"
+      },
+      {
+        "path": "MANIFEST.json",
+        "bytes": 6374,
+        "sha256": "91d52537507724bf20698f20fac5e344020cdd8f2759e6f574b087cfca62e5a3"
+      },
+      {
+        "path": "provenance/method-source-map.json",
+        "bytes": 13390,
+        "sha256": "ef85285e1aaf0c7f672ddacb3c09dcd26c4a2094672ecb484df0b87f3de1bd89"
+      },
+      {
+        "path": "provenance/official-facts.md",
+        "bytes": 2775,
+        "sha256": "c85359aa06d69955e7a13be6ac63229360f0103eb3365439137c9990668c25c5"
+      },
+      {
+        "path": "provenance/creator-code-conditions.md",
+        "bytes": 1330,
+        "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+      },
+      {
+        "path": "provenance/limits.md",
+        "bytes": 2407,
+        "sha256": "aa21859d393c758729d2458c49012a64750a03635733c2c060f126e9a45c62e9"
+      },
+      {
+        "path": "examples/product-content/INPUT.md",
+        "bytes": 7057,
+        "sha256": "44b67301d244b3944db31c9d86588f81e4cdd499625296431a7c1707c46491be"
+      },
+      {
+        "path": "examples/product-content/OUTPUT.md",
+        "bytes": 16291,
+        "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+      },
+      {
+        "path": "examples/live/INPUT.md",
+        "bytes": 11873,
+        "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+      },
+      {
+        "path": "examples/live/OUTPUT.md",
+        "bytes": 26079,
+        "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+      },
+      {
+        "path": "examples/website-ads/INPUT.md",
+        "bytes": 7935,
+        "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+      },
+      {
+        "path": "examples/website-ads/OUTPUT.md",
+        "bytes": 23460,
+        "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+      },
+      {
+        "path": "examples/product-gmv-max/INPUT.md",
+        "bytes": 6505,
+        "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+      },
+      {
+        "path": "examples/product-gmv-max/OUTPUT.md",
+        "bytes": 19727,
+        "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+      },
+      {
+        "path": "examples/organic-shop/INPUT.md",
+        "bytes": 7000,
+        "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+      },
+      {
+        "path": "examples/organic-shop/OUTPUT.md",
+        "bytes": 21454,
+        "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+      },
+      {
+        "path": "examples/creator/INPUT.md",
+        "bytes": 7320,
+        "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+      },
+      {
+        "path": "examples/creator/OUTPUT.md",
+        "bytes": 23943,
+        "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+      }
+    ]
+  },
+  "source_runtime_baseline_note": "Historical original runtime foundation identities retained; not the current rc.1 or rc.2 payload hash inventory.",
+  "historical_rc2_packaging_approvals": {
+    "record_date": "2026-09-06",
+    "redistribution_approved": false,
+    "sale_approved": false
+  },
+  "physical_assembly_complete": true,
+  "current_candidate_behavior_validation": "not_run_for_S3",
+  "current_candidate_examples_run": 0,
+  "examples_run": 0,
+  "assembly_id": "TIKTOK-S3-CONTINUATION-20261014-01",
+  "payload_count": 46,
+  "payload_manifest_path": "MANIFEST.json",
+  "candidate_release_authorized": false,
+  "owner_distribution_rights": {
+    "decision_id": "OWNER_CONFIRMED_2026_09_07_NOT_AGENT_LEGAL_AUDIT",
+    "date": "2026-09-07",
+    "scope": "original ten-domain batch; not a current global blocker to internal development/delivery preparation",
+    "legal_audit": false,
+    "buyer_terms": "undecided",
+    "new_third_party_permission": "not_granted",
+    "publication_or_account_actions": "not_authorized"
+  },
+  "historical_rc2_remaining": [
+    "T01-T13 complete-chain integration and applicability coverage",
+    "Current candidate behavior and independent review; inherited examples are not new tests",
+    "Specific eligibility/health/fulfillment-fees/LIVE-primary evidence and source admission",
+    "Formal dual-sedimentation and complete project freeze",
+    "Independent final QA",
+    "Rights/license and support decisions"
+  ],
+  "historical_field_note": "Current S3 aliases resolve current_delivery. historical_parent_current_fields_20261012 preserves replaced parent metadata exactly; all older history, original source counts, examples and claims retain their original scope.",
+  "historical_b6_current_fields": {
+    "package_version": "1.0.0-rc.2+research.b6.20260908.1",
+    "stage": "B6-OFFLINE-ASSEMBLY",
+    "status": "offline_assembly_candidate_not_behavior_validated",
+    "remaining": [
+      "B5 actual use and independent candidate behavior checks not run",
+      "Applicable current market/eligibility/health/fees/refund/LIVE-primary evidence remains held",
+      "Formal dual sedimentation and complete project freeze",
+      "Independent final QA not invited or performed",
+      "Buyer terms/price/support and actual publication authorization remain separate"
+    ],
+    "assembly_id": "TIKTOK-B6-OFFLINE-ASSEMBLY-20260908-01",
+    "assembly_inputs": [
+      {
+        "path": "CHANGELOG.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 1816,
+        "sha256": "bfb1f920baf3ef72eda489a63792492c32a4357cc65c76041d0eaedf56c0243f",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "COMPATIBILITY.json",
+        "source_kind": "rc2_baseline",
+        "bytes": 1652,
+        "sha256": "81bc1dba3ae7cdd0c5dfc57aed70243b67b98dedefc8d95ca268cfbcfaaaf1f5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "MANIFEST.json",
+        "source_kind": "rc2_baseline",
+        "bytes": 9132,
+        "sha256": "0f59f2b39715ccfb1293a4645b68ac1e7231d0c7f9cf90ce6ac05eef8ec72eb7",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "README.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 2846,
+        "sha256": "8a911eb6390943aedd3b9a69b0dbd276c412073ce2fcf598b6a1fbd0fc1be6e5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "RIGHTS.json",
+        "source_kind": "rc2_baseline",
+        "bytes": 39290,
+        "sha256": "57d3732632c8bff0950f236504ffddb62f7b10c0cbf2a2f2b07ad23a389c98be",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "METHOD.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 15302,
+        "sha256": "928220a1c848b3eb2942537cfa6fd121c82ac2c8b22e3fa2fbf9b6f500b32367",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "SUPPORT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 1530,
+        "sha256": "fce6b789dc79c090935e3b7179f9a766a59d1343f781fcaf1029e642a2d82d6c",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "USAGE.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 5338,
+        "sha256": "5772a111863a518338fc64f800366e3dcfa4fbb3c2cefe1c76582c0a11d38d65",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "VERSION.json",
+        "source_kind": "rc2_baseline",
+        "bytes": 13058,
+        "sha256": "cc9da9319ade786806f36fc2ec25e37593170dd470090a34cc42ef267bd0cac5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "agents/openai.yaml",
+        "source_kind": "rc2_baseline",
+        "bytes": 352,
+        "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/creator/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 7320,
+        "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/creator/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 23943,
+        "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/live/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 11873,
+        "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/live/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 26079,
+        "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/organic-shop/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 7000,
+        "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/organic-shop/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 21454,
+        "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/product-content/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 7057,
+        "sha256": "44b67301d244b3944db31c9d86588f81e4cdd499625296431a7c1707c46491be",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/product-content/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 16291,
+        "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/product-gmv-max/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 6505,
+        "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/product-gmv-max/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 19727,
+        "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/website-ads/INPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 7935,
+        "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "examples/website-ads/OUTPUT.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 23460,
+        "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "provenance/creator-code-conditions.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 1330,
+        "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "provenance/limits.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 2478,
+        "sha256": "a0212ee8f17e5dc171582cf35382724dacc43ab1b8c3fbd7bc4624585010fb95",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "provenance/method-source-map.json",
+        "source_kind": "rc2_baseline",
+        "bytes": 21506,
+        "sha256": "3744f4310516d09265dbdba14ae6c5df64a71c439ad3119e0b3335ec06dc67db",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "provenance/official-facts.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 3180,
+        "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "provenance/us-registration-source-index.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 2388,
+        "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/ads-delivery-and-diagnostics.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 6975,
+        "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/ads-measurement-and-experiments.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 18676,
+        "sha256": "aa9959856f1eae7e94a024f1a821b881de2c8b05f37f997539d314c806f750e9",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/beginner-first-route-and-glossary.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 11581,
+        "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/business-center-and-asset-governance.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 4998,
+        "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/compliance-and-approval-gates.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 3974,
+        "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/content-operating-system.md",
+        "source_kind": "accepted_delta",
+        "bytes": 11626,
+        "sha256": "045882cbbde4bc9db9a84dcbe748378725d1267f04e94b273bee21efa620730e",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "source_kind": "accepted_delta",
+        "bytes": 7073,
+        "sha256": "d6c05d94fd45048073ad11e3c6f5947a64fc25e691546e553b81d69beddb4212",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/evidence-and-practitioner-method-admission.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 8743,
+        "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/live-operations-and-analysis.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 5617,
+        "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "source_kind": "accepted_delta",
+        "bytes": 7580,
+        "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/shop-creator-and-live.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 12705,
+        "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "source_kind": "accepted_delta",
+        "bytes": 9459,
+        "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec",
+        "identity_role": "source_identity_not_final_output_hash"
+      },
+      {
+        "path": "references/source-learning-and-evidence.md",
+        "source_kind": "rc2_baseline",
+        "bytes": 11064,
+        "sha256": "265dee513eee04fb670c32100cee8d77e74eb636a10d6b4aace151d4eb038439",
+        "identity_role": "source_identity_not_final_output_hash"
+      }
+    ],
+    "accepted_overlays": [
+      {
+        "path": "references/content-operating-system.md",
+        "sha256": "045882cbbde4bc9db9a84dcbe748378725d1267f04e94b273bee21efa620730e",
+        "acceptance": "bounded_method_design_acceptance_not_formal_QA"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "sha256": "d6c05d94fd45048073ad11e3c6f5947a64fc25e691546e553b81d69beddb4212",
+        "acceptance": "bounded_method_design_acceptance_not_formal_QA"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95",
+        "acceptance": "bounded_method_design_acceptance_not_formal_QA"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec",
+        "acceptance": "bounded_method_design_acceptance_not_formal_QA"
+      }
+    ],
+    "current_candidate_behavior_validation": "not_performed"
+  },
+  "current_boundary": "provenance/limits.md",
+  "freeze_kind": "s3_scoped_candidate",
+  "whole_scope_readiness": "awaiting_normal_task_and_natural_followup",
+  "inherited_observation": {
+    "product_journey": 1,
+    "journey_turns": 2,
+    "risk_handoff": 1,
+    "economics": "56_scoped_reuse_not_recomputed",
+    "source_object": "B6 20260908",
+    "strict_blind": false,
+    "new_combination_run": false
+  },
+  "formal_dual_deposit": {
+    "current_round": "S3_local_candidate_only",
+    "new_candidate_sync": "pending_S4",
+    "historical_record": "R3 reviewed company-note subsection already exists; no current formal Skill or Vault writes"
+  },
+  "owner_local_completion_authority": "The applicable separately issued execution order is recorded in the external delivery receipt; QA is not execution permission.",
+  "packaging_overlay": {
+    "id": "TIKTOK-486-20260912",
+    "date": "2026-09-12",
+    "status": "packaged_candidate_not_ready_for_sale",
+    "source_version": "1.0.0-rc.2+candidate.20260909.1",
+    "formal_qa": "not_performed",
+    "new_methods": 0,
+    "new_examples": 0,
+    "new_source_learning": 0,
+    "private_distillation_workflow": "excluded",
+    "entry": "../先读我.md",
+    "authority": "476 and TIKTOK-486; historical pending assembly instructions do not block this packaging"
+  },
+  "historical_pre_maintenance_fields_20261010": {
+    "package_version": "1.0.0-rc.3+brief.20261010.1",
+    "stage": "ROUND-TWO-BRIEF-CANDIDATE",
+    "status": "round_two_frozen_candidate_not_final_qa",
+    "independent_final_qa": "not_invited_not_performed",
+    "current_candidate_behavior_validation": "not_run_on_this_combination_inherited_limited_evidence_only",
+    "current_candidate_examples_run": 0,
+    "examples_run": 0,
+    "assembly_id": "TIKTOK-FINAL-PREPARATION-20260909-01",
+    "payload_count": 40,
+    "assembly_inputs": {
+      "portable_skeleton": "prior_B6_40_paths",
+      "formal_references": "four_259_verified_sources",
+      "source_identities": "Bound in external exact patch and execution receipt; payload identities only in MANIFEST"
+    },
+    "accepted_overlays": [
+      {
+        "path": "references/content-operating-system.md",
+        "formal_source_bytes": 11626,
+        "formal_source_sha256": "045882cbbde4bc9db9a84dcbe748378725d1267f04e94b273bee21efa620730e",
+        "portable_adaptation": "none"
+      },
+      {
+        "path": "references/organic-account-and-content-growth.md",
+        "formal_source_bytes": 7580,
+        "formal_source_sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95",
+        "portable_adaptation": "none"
+      },
+      {
+        "path": "references/creator-collaboration-objects.md",
+        "formal_source_bytes": 7076,
+        "formal_source_sha256": "4664fe01eb154ee6350e0572d131c4326c11d614723386c8f8c962f3aea3f6eb",
+        "portable_adaptation": "one_private_link_to_existing_packaged_summary"
+      },
+      {
+        "path": "references/shop-merchandising-and-health.md",
+        "formal_source_bytes": 9459,
+        "formal_source_sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec",
+        "portable_adaptation": "none"
+      }
+    ],
+    "historical_field_note": "source_runtime_baseline, source_runtime_baseline_note, inherited_candidate_baseline, historical_stage, source_observation_reuse, rc2_behavior_validation, examples.*.rc2_execution and historical_rc2_* retain previous-stage meanings; not current assembly identity or proof.",
+    "freeze_kind": "round_two_brief_candidate",
+    "whole_scope_readiness": "awaiting_independent_final_qa_for_declared_offline_scope",
+    "owner_local_completion_authority": "254 local reviewed updates executed; further assembly requires separate execution order; no publication permission",
+    "remaining": [
+      "Applicable market eligibility, Shop notices/appeal, fees/refunds/fulfillment clocks unverified",
+      "F2-A source deferred; LIVE primary/linked and adjacency rules held",
+      "Exact order attribution algorithm and historical C date conflict unresolved",
+      "Two practitioners preflight only; source publication/admission and unread exceptions retained",
+      "Full autonomous weekly operating report not run and outside validated promise",
+      "Independent final QA and exact new-object complete-scope evidence not established",
+      "F01 enhancement deferred until external copy-ready delivery or misuse",
+      "Buyer terms/support/publication authorization remain separate"
+    ],
+    "round_two": {
+      "id": "TIKTOK_R2_BRIEF_CANDIDATE_20261010_01",
+      "mother": "2026-09-14 42-file limited offline delivery",
+      "inherited_method_scope": "T01-T13 retained with original limitations",
+      "method_ids": [
+        "TT-R2-BRIEF-20261010",
+        "TT-MUSIC-CANDIDATE-20260922"
+      ],
+      "adoption_state": "project_trial",
+      "formal_policy": false,
+      "source_summary": "provenance/round-two-source-fusion.md",
+      "input": "examples/brief-fusion/INPUT.md",
+      "producer_output": "examples/brief-fusion/OUTPUT.md",
+      "producer_observation": "one_synthetic_working_method_application_not_independent_or_new_container_validation",
+      "formal_dual_deposit": "TIKTOK_BRIEF_DUAL_DEPOSIT_RECEIVED_20261010_01",
+      "independent_final_qa": "not_invited_not_performed",
+      "historical_fields_note": "Existing baseline, examples, inheritance, packaging_overlay and prior approval records refer to their named historical versions, not a new-container pass."
+    }
+  },
+  "current_delivery": {
+    "schema_version": 1,
+    "object_id": "TIKTOK-S3-CONTINUATION-20261014-01",
+    "package_version": "1.0.0-rc.3+demo.20261012.1+s3.1",
+    "prepared_on": "2026-10-14",
+    "current_status": "S3_CANDIDATE_FROZEN_PENDING_USE",
+    "scope": "Existing internal offline product/Offer to creator brief and complete Chinese text; S3 only changes output presentation and natural follow-up continuation. T01-T13 limitations remain.",
+    "adoption_state": "existing_project_trial_plus_new_method_hypothesis",
+    "formal_policy": false,
+    "counts": {
+      "inner_payload_including_manifest": 46,
+      "manifest_hashed_excluding_self": 45,
+      "whole_candidate_payload": 49,
+      "outer_entries": 2,
+      "companion_files": 1,
+      "archive_and_external_receipt_excluded": true
+    },
+    "parent_delivery": {
+      "object_id": "TIKTOK_R3_LOCAL_DELIVERY_ACCEPTANCE_20261012_01",
+      "package_version": "1.0.0-rc.3+demo.20261012.1",
+      "outer_revision": "FINAL-R3.1",
+      "payload_files": 49,
+      "payload_bytes": 549834,
+      "payload_set_sha256": "14423d23cf088eed9c869d58fa7a7b89a9dfc80662b16383fc15556b2c6fa98d",
+      "quality_verdict": "PASS_WITH_EXCEPTIONS",
+      "quality_scope": "Declared internal offline text preparation only",
+      "local_acceptance": "LOCAL_ACCEPTED_FOR_DECLARED_SCOPE",
+      "automatic_transfer_of_approval": false
+    },
+    "execution_authority": "TIKTOK-S3-REV-20261014-01",
+    "method_change_locations": [
+      "METHOD.md#output-contract",
+      "references/content-operating-system.md#deliverables"
+    ],
+    "behavior_basis": {
+      "s3_runs": 0,
+      "s3_normal_task": "not_run",
+      "s3_natural_followup": "not_run",
+      "historical_examples": "unchanged_reuse_not_new_runs",
+      "historical_FoldRack": "scoped_parent_evidence_not_S3_validation",
+      "causal_gain": "not_established"
+    },
+    "new_source_learning": 0,
+    "current_facts_reverified": false,
+    "dual_deposit": {
+      "status": "S4_pending_no_formal_or_vault_write",
+      "historical_company_note": "Existing R3 reviewed subsection retained; not absent",
+      "knowledge_decision": "No new source/business-method learning; assess minimal continuation-use knowledge after actual validation"
+    },
+    "final_QA": {
+      "status": "not_invited_not_started_for_S3",
+      "professional_report": null,
+      "novice_report": null,
+      "decision": null
+    },
+    "local_acceptance": "not_requested_not_received_for_S3",
+    "entry": "../../先读我.md",
+    "source_and_status": "provenance/round-three-source-fusion.md#current-status",
+    "companion": {
+      "path": "../../文件交付委托.md",
+      "bytes": 2586,
+      "sha256": "1e7a78cb4839272ac083926923565b6fb9a14d9e9bf0c707f1efe8b961ac01e7"
+    },
+    "source_status_note": "Source pages, example counters and inherited metadata outside this current node retain named historical meaning, not S3 execution or quality receipts.",
+    "version_format_note": "Exact opaque version literal authorized by TIKTOK-S3-REV-20261014-01; contains two plus signs and is not asserted to be strict SemVer. No install/parser compatibility claim.",
+    "metadata_alias_rule": "This node and the top-level S3 aliases define the current candidate. Historical nodes retain original values. Parent QA/local receipt do not certify S3."
+  },
+  "historical_r2_current_state_20261010": {
+    "package_version": "1.0.0-rc.3+brief.20261010.2",
+    "stage": "BOUNDED-LOCAL-DELIVERY",
+    "status": "maintenance_delta_awaiting_controller_retest_and_local_acceptance",
+    "created_on": "2026-10-10",
+    "assembly_id": "TIKTOK_R2_BRIEF_LOCAL_DELIVERY_20261010_01",
+    "payload_count": 43,
+    "independent_final_qa": "reviewed_basis_pass_with_exceptions_current_delta_pending",
+    "current_candidate_behavior_validation": "no_new_behavior_run_metadata_only_derivative_of_reviewed_candidate",
+    "current_candidate_examples_run": 0,
+    "examples_run": 0,
+    "freeze_kind": "bounded_local_delivery_maintenance",
+    "whole_scope_readiness": "maintenance_delta_awaiting_controller_retest_and_local_acceptance",
+    "historical_field_note": "All historical_* nodes, source_runtime_baseline/source_runtime_baseline_note, inherited_candidate_baseline, source_observation_reuse, rc2_behavior_validation, examples and packaging_overlay retain their named prior scopes. historical_pre_maintenance_fields_20261010 preserves the stale assembly_id/count/inputs and pre-QA states exactly. Current zero example-run fields mean no new run on this maintenance copy. Whole-package/formal-admission/current-facts false flags are global, not denial of reviewed_basis scoped QA. Read current_delivery for current identity, counts and scoped evidence.",
+    "physical_assembly_complete": true,
+    "current_delivery": {
+      "schema_version": 1,
+      "object_id": "TIKTOK_R2_BRIEF_LOCAL_DELIVERY_20261010_01",
+      "package_version": "1.0.0-rc.3+brief.20261010.2",
+      "prepared_on": "2026-10-10",
+      "current_status": "maintenance_delta_awaiting_controller_retest_and_local_acceptance",
+      "scope": "Internal offline product/Offer, creator brief and full text script, evidence, actual purchase destination, fulfillment/support, unknowns and safe stopping only.",
+      "adoption_state": "project_trial",
+      "formal_policy": false,
+      "counts": {
+        "inner_payload_including_manifest": 43,
+        "manifest_hashed_excluding_self": 42,
+        "whole_delivery_payload_including_companion": 46,
+        "companion_files": 1,
+        "archive_and_external_receipt_excluded": true
+      },
+      "reviewed_basis": {
+        "object_id": "TIKTOK_R2_BRIEF_CANDIDATE_20261010_01",
+        "package_version": "1.0.0-rc.3+brief.20261010.1",
+        "payload_files": 45,
+        "payload_bytes": 482948,
+        "payload_set_sha256": "19f83f9e2e68c02825edcc58c53abd28ce21494a1a67aa3706d084f4e0734529",
+        "decision_id": "TIKTOK_BRIEF_SCOPED_QA_20261010_01",
+        "decision": "PASS_WITH_EXCEPTIONS",
+        "decision_scope": "Declared internal offline text-use scope, not all T01-T13 or real operations.",
+        "decision_report_sha256": "0fed9673b50de71b06862375453c9ef946d996bd5deb4b6fdfd5d5600c31ead6",
+        "professional_report_sha256": "6b895bcc4316cdea1e5d1030e521026b5eac62f7a53db4aaa1d4285b5c456aef",
+        "novice_report_sha256": "8e21bf033d50be5e710db3640ea9496b99f2d48ca37fc3521a54f02e8e1c01e6",
+        "novice_first_answer_sha256": "b4ab9b0e949e0d00d5bd39491b749dd3fb4366d0f8cd63272da168a45a189c4a",
+        "novice_observation": "One independent first response without producer answer or other role conclusions; exposed to historical evaluation text in the real entry.",
+        "automatic_transfer_to_maintenance_copy": false
+      },
+      "current_delta": {
+        "issue_ids": [
+          "P01",
+          "N01"
+        ],
+        "method_semantic_changes": 0,
+        "new_learning_sources": 0,
+        "new_behavior_runs": 0,
+        "independent_retest": "pending",
+        "local_acceptance": "pending"
+      },
+      "learning_batch": {
+        "id": "ROUND_TWO_LEARNING_20261010_01",
+        "denominator": 5,
+        "official_defined_bodies_full_observed": 3,
+        "original_videos_unlearned_exception": 2,
+        "provider_caption_texts_partial_observed_separate": 2,
+        "original_audio_visual_seconds_observed": 0,
+        "screenshots": 0,
+        "long_term_core_creator_pair": "not_fully_locked"
+      },
+      "current_official_verification": {
+        "brief_defined_bodies": {
+          "date": "2026-10-10",
+          "count": 3,
+          "evidence_summary": "provenance/round-two-source-fusion.md"
+        },
+        "music_general_bodies": {
+          "date": "2026-10-10",
+          "count": 2,
+          "observer": "named_independent_professional_report_not_new_producer_observation",
+          "specific_tracks_or_interfaces_verified": false
+        },
+        "disclosure_page": "unavailable_during_professional_review_not_verified",
+        "all_platform_facts_reverified": false
+      },
+      "entry": "../../先读我.md",
+      "source_and_status": "provenance/round-two-source-fusion.md#current-status",
+      "companion": {
+        "path": "../../文件交付委托.md",
+        "bytes": 2586,
+        "sha256": "1e7a78cb4839272ac083926923565b6fb9a14d9e9bf0c707f1efe8b961ac01e7",
+        "kind": "previously_verified_request_instructions_not_automatic_file_saver",
+        "template_package_name": "historical_example_replace_with_actual_extracted_root"
+      },
+      "evidence_boundaries": [
+        "Original videos not watched; captions are not audiovisual observation",
+        "quick_validate failed due to missing yaml; no install or retry",
+        "No cross-host runtime validation or real performance evidence",
+        "F01 deferred; 350/T10/T09/S2 and sensitive-action gates unchanged",
+        "No real track rights, market/account eligibility, fees, arrival promise or publishing approval"
+      ],
+      "metadata_alias_rule": "Top-level identity/count/status fields are current compatibility aliases; this node is authoritative. Explicit historical_* nodes retain their named prior stages. Global false flags do not mean scoped QA was absent."
+    },
+    "formal_dual_deposit": {
+      "occurred_on": "2026-09-08",
+      "scope": "four_references_and_one_existing_company_note",
+      "verification": "259_scoped_only",
+      "new_candidate_sync": false
+    }
+  },
+  "historical_parent_current_fields_20261012": {
+    "package_version": "1.0.0-rc.3+demo.20261012.1",
+    "stage": "ROUND-THREE-TEXT-CANDIDATE",
+    "status": "R3_CANDIDATE_AWAITING_DUAL_DEPOSIT_AND_FINAL_QA",
+    "independent_final_qa": "not_started_for_this_round",
+    "created_on": "2026-10-12",
+    "remaining": [
+      "Applicable market eligibility, Shop notices/appeal, fees/refunds/fulfillment clocks unverified",
+      "F2-A source deferred; LIVE primary/linked and adjacency rules held",
+      "Exact order attribution algorithm and historical C date conflict unresolved",
+      "Two practitioners preflight only; source publication/admission and unread exceptions retained",
+      "Full autonomous weekly operating report not run and outside validated promise",
+      "Reviewed basis scoped QA completed; maintenance delta retest/local acceptance pending; full T01-T13 evidence not established",
+      "F01 enhancement deferred until external copy-ready delivery or misuse",
+      "Buyer terms/support/publication authorization remain separate"
+    ],
+    "current_candidate_behavior_validation": "one_known_context_overlay_run_not_run_on_integrated_package",
+    "assembly_id": "TIKTOK_R3_FULL_TEXT_CANDIDATE_20261012_01",
+    "historical_field_note": "Named historical nodes retain prior scopes. Top current aliases resolve current_delivery; one overlay producer run is not an integrated-package run, independent QA or business result.",
+    "freeze_kind": "scoped_candidate_pending_complete_freeze",
+    "whole_scope_readiness": "R3_CANDIDATE_AWAITING_DUAL_DEPOSIT_AND_FINAL_QA",
+    "formal_dual_deposit": {
+      "current_round": "pending_no_vault_write",
+      "new_candidate_sync": false,
+      "historical_record": "historical_r2_current_state_20261010.formal_dual_deposit"
+    },
+    "current_delivery": {
+      "schema_version": 1,
+      "object_id": "TIKTOK_R3_FULL_TEXT_CANDIDATE_20261012_01",
+      "package_version": "1.0.0-rc.3+demo.20261012.1",
+      "prepared_on": "2026-10-12",
+      "current_status": "R3_CANDIDATE_AWAITING_DUAL_DEPOSIT_AND_FINAL_QA",
+      "scope": "Internal offline product/Offer, creator brief and complete text script with evidence, conditions, rights, fulfillment and safe stopping; no real media or live operations.",
+      "adoption_state": "existing_project_trial_plus_new_method_hypothesis",
+      "formal_policy": false,
+      "counts": {
+        "inner_payload_including_manifest": 46,
+        "manifest_hashed_excluding_self": 45,
+        "whole_candidate_payload": 49,
+        "outer_entries": 2,
+        "companion_files": 1,
+        "archive_and_external_receipt_excluded": true
+      },
+      "actual_baseline": {
+        "object_id": "TIKTOK_R2_BRIEF_LOCAL_DELIVERY_20261010_01",
+        "package_version": "1.0.0-rc.3+brief.20261010.2",
+        "payload_files": 46,
+        "payload_bytes": 499358,
+        "payload_set_sha256": "c5e59bda119df24af624719be21c80dcfcc979153fe96d80fb0e4a2a4be78a0a",
+        "automatic_transfer_of_approval": false
+      },
+      "behavior_basis": {
+        "kind": "readonly_complete_baseline_plus_two_file_overlay",
+        "runs": 1,
+        "producer_context_known": true,
+        "clean_baseline_behavior": "not_run",
+        "integrated_package_runs": 0,
+        "independent_QA_runs": 0,
+        "causal_gain": "not_established",
+        "input": {
+          "path": "examples/demo-evidence/INPUT.md",
+          "bytes": 3005,
+          "sha256": "82f9ae7f6f2fd2174a549306516ef35ad0bccc1dd88e2e85f7e4a08ecfbce3ef"
+        },
+        "first_output": {
+          "path": "examples/demo-evidence/OUTPUT.md",
+          "bytes": 6938,
+          "sha256": "c2b809f0c0255116b1d369ff93eab4d3bd0550dd8f8e9e2cb17bcb3a207c49f9"
+        }
+      },
+      "learning_scope": {
+        "youtube_original_videos": 2,
+        "original_video_full_observed": 0,
+        "original_video_unlearned_exception": 2,
+        "sealeap_packages": 3,
+        "sealeap_local_files": 15,
+        "sealeap_text_full_observed": 13,
+        "sealeap_license_duplicate_reuse": 2,
+        "sealeap_bytes": 25143,
+        "adopted_current_platform_scope": "US misleading-content selected text only, checked 2026-10-12; not all policies refreshed"
+      },
+      "dual_deposit": {
+        "status": "pending_no_current_vault_write",
+        "actual_receipt": null
+      },
+      "final_QA": {
+        "status": "not_invited_not_started",
+        "professional_report": null,
+        "novice_report": null,
+        "decision": null
+      },
+      "local_acceptance": "not_requested_not_received",
+      "entry": "../../先读我.md",
+      "source_and_status": "provenance/round-three-source-fusion.md#current-status",
+      "companion": {
+        "path": "../../文件交付委托.md",
+        "bytes": 2586,
+        "sha256": "1e7a78cb4839272ac083926923565b6fb9a14d9e9bf0c707f1efe8b961ac01e7"
+      },
+      "metadata_alias_rule": "This node is the current scoped identity. Named historical nodes remain verbatim for old objects. No old review or count transfers to this candidate."
+    }
+  }
+}

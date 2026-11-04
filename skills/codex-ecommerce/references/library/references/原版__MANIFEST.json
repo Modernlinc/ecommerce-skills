@@ -1,0 +1,39 @@
+{
+  "id": "S4-codex-20261014-01",
+  "files": [
+    {
+      "path": "payload/MANIFEST.json",
+      "bytes": 3865,
+      "sha256": "6ac925983bc744918625a64cb2a9053cf0d8bab7b7773e246ac0d72e9e5ed238"
+    },
+    {
+      "path": "payload/METHOD.md",
+      "bytes": 3105,
+      "sha256": "c2fa6e743e37570e0fa552e0a8d727c1e542cdae0a94bbe356dfa03bb8943add"
+    },
+    {
+      "path": "payload/references/sources.md",
+      "bytes": 8013,
+      "sha256": "f60b0fdb91586e464bf884c25161fb23bfaf5283f4d510b44547b35e965ea767"
+    },
+    {
+      "path": "payload/references/workflow.md",
+      "bytes": 8468,
+      "sha256": "2c7752a76eff5ec66494e53ade51f5082ec09cd886a95c3c4a0d0a0ec4ede096"
+    },
+    {
+      "path": "payload/使用说明.md",
+      "bytes": 5687,
+      "sha256": "dfb003736922ef197b08cc21a969cb038c78933c343bad22032c514a51ab35ce"
+    },
+    {
+      "path": "00_当前使用与范围.md",
+      "bytes": 2994,
+      "sha256": "f78600d784c74578d51e8ce1e16f1887c8515a4c47f2ab56848371bfc570893b"
+    }
+  ],
+  "original_payload_preserved": true,
+  "review_status": "PRIOR_NAMED_SCOPE_REUSED",
+  "global_installation": false,
+  "self_excluded": "MANIFEST.json"
+}

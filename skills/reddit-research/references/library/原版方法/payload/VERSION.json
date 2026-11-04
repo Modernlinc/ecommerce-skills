@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "version": "REDDIT-S3-CONTINUATION-20261014-01",
+  "routes": [
+    "J1",
+    "J2",
+    "J3",
+    "J4"
+  ],
+  "current_core_scope": "authorized_samples_to_VOC_community_followup_and_ad_drafts",
+  "formal_adoption": false,
+  "production_validation": "not_run_for_this_S3_candidate; controller_to_arrange_ordinary_task_and_natural_followup",
+  "independent_QA": "not_invited_for_this_candidate; no_inherited_approval",
+  "portable_static_check": "passed_21_files_relative_links_closed_12_references_byte_identical; business_use_not_run",
+  "obsidian": "not_updated_for_this_candidate; S4_pending",
+  "whole_package_complete": false,
+  "real_project_effectiveness": "unverified",
+  "original_video_full_observed": false,
+  "runtime_dependencies": [],
+  "historical_original_source_register": "references/SOURCES.csv",
+  "current_source_map": "references/10-video-article-fusion.md",
+  "production_validation_limits": "P1_P2_P3_text_not_behaviorally_validated; static_checks_do_not_establish_use_success",
+  "base_version": "reddit-text-fusion-20261010-candidate",
+  "authorization_id": "REDDIT-S3-REV-20261014-01",
+  "revision_items": [
+    "P1_assistant_organizes_ordinary_business_request",
+    "P2_commissioning_user_goal_priority_fact_material_continuation",
+    "P3_complete_affected_outputs_with_concise_continuation"
+  ],
+  "inherited_methods": [
+    "D1_current_decision_two_route_handoff",
+    "D2_new_evidence_followup"
+  ],
+  "historical_base_state": {
+    "version": "reddit-text-fusion-20261010-candidate",
+    "scope": "verbatim_metadata_from_20261010_frozen_base_only; not_current_candidate_validation_or_approval",
+    "production_validation": "one_nonblind_synthetic_task_plus_one_targeted_regression_satisfied",
+    "independent_QA": "not_invited_at_freeze; separate_explicit_invitation_required",
+    "portable_static_check": "passed_21_files_8_preserved_relative_links_closed",
+    "obsidian": "updated_existing_20261010",
+    "production_validation_limits": "initial_output_issues_preserved; no independent novice test or real-world effectiveness"
+  },
+  "static_checked_at": "2026-10-14T01:13:31.080728+08:00"
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "packaging_identity": "GOOGLE-480",
+  "approved_claim_ids": [
+    "447-P1",
+    "447-P2",
+    "447-P3"
+  ],
+  "retained_boundary_ids": [
+    "447-P4"
+  ],
+  "sources": [
+    {
+      "source_id": "S447-01",
+      "input_origin": "autonomous_discovery",
+      "url": "https://blog.google/products/ads-commerce/asset-studio-updates/",
+      "returned_title": "Asset Studio brings new multimodal capabilities to Google Ads",
+      "body_heading": "Asset Studio is entering a new era of AI-powered creativity.",
+      "publication_date": "2026-05-20",
+      "publication_date_basis": {
+        "locator": "L20",
+        "page_text": "May 20, 2026",
+        "proof_type": "official page displayed publication date, not crawl/copyright date"
+      },
+      "updated_date": "unknown",
+      "verified_on": "2026-09-11",
+      "observation": {
+        "producer_order": "447",
+        "controller_recheck_order": "448",
+        "this_execution_new_network": 0,
+        "text": "article text L18–28 observed, 40 returned lines",
+        "depth": "article_text_observed_no_media",
+        "media_observed": false,
+        "linked_pages_observed": false,
+        "account_observed": false
+      },
+      "admission": {
+        "date_gate": "passed",
+        "controller_approved": true,
+        "scope": "historical announcement only, 447-P1",
+        "formal_skill_written": false
+      },
+      "claim_locators": {
+        "447-P1": [
+          "L26",
+          "L28"
+        ]
+      },
+      "current_market": "unknown",
+      "current_languages": "unknown",
+      "historical_rollout_note": "L28 historical globally/in-English summer rollout wording; not transferred into current entitlement",
+      "exclusions": [
+        "current account availability",
+        "mandatory input fields",
+        "all current languages or regions",
+        "1-click A/B capability",
+        "creative quality or performance claims"
+      ]
+    },
+    {
+      "source_id": "S447-02",
+      "input_origin": "autonomous_discovery",
+      "url": "https://blog.google/products/ads-commerce/demand-gen-drop-august-2026/",
+      "returned_title": "Reach more customers with August’s Demand Gen Drop",
+      "body_heading": "Reach your audience in new ways with August’s Demand Gen Drop.",
+      "publication_date": "2026-08-27",
+      "publication_date_basis": {
+        "locator": "L20",
+        "page_text": "Aug 27, 2026",
+        "proof_type": "official page displayed publication date, not crawl/copyright date"
+      },
+      "updated_date": "unknown",
+      "verified_on": "2026-09-11",
+      "observation": {
+        "producer_order": "447",
+        "controller_recheck_order": "448",
+        "this_execution_new_network": 0,
+        "text": "article/footnote text L18–34 observed, 47 returned lines; image alt not image observation",
+        "depth": "article_text_observed_no_media",
+        "media_observed": false,
+        "linked_pages_observed": false,
+        "account_observed": false
+      },
+      "admission": {
+        "date_gate": "passed",
+        "controller_approved": true,
+        "scope": "dated GA announcement and storyboard-to-horizontal/vertical asset workflow only, 447-P1–P3",
+        "formal_skill_written": false
+      },
+      "claim_locators": {
+        "447-P1": [
+          "L27"
+        ],
+        "447-P2": [
+          "L27"
+        ],
+        "447-P3": [
+          "L27"
+        ]
+      },
+      "current_market": "unknown",
+      "current_languages": "unknown",
+      "exclusions": [
+        "specific account eligibility",
+        "all language or region coverage",
+        "pixels or duration",
+        "price or quota",
+        "rights or review approval",
+        "Video Campaign creation fields",
+        "performance claim L24",
+        "messaging test L25",
+        "travel features L26"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "447-P1",
+      "kind": "dated_official_announcement_fact",
+      "sources": [
+        "S447-01",
+        "S447-02"
+      ],
+      "decision": "approved_scoped",
+      "relation": "retain May historical announcement; use later August release announcement as later dated evidence, not unconditional present guarantee"
+    },
+    {
+      "id": "447-P2",
+      "kind": "dated_official_announcement_fact_supporting_candidate_route",
+      "sources": [
+        "S447-02"
+      ],
+      "decision": "approved_scoped",
+      "supports": "named in-platform video asset creation candidate; not campaign creation"
+    },
+    {
+      "id": "447-P3",
+      "kind": "dated_official_announcement_fact",
+      "sources": [
+        "S447-02"
+      ],
+      "decision": "approved_scoped",
+      "supports": "storyboard to horizontal/vertical assets in one workflow; no technical format or review guarantee"
+    },
+    {
+      "id": "447-P4",
+      "kind": "existing_company_safety_boundary_reuse",
+      "sources": [
+        "existing_video_contract"
+      ],
+      "decision": "retain_existing_only",
+      "supports": "preparation, rights, unknowns, authorization; no new platform rule or reproduced-method claim"
+    }
+  ],
+  "excluded_source": {
+    "url": "https://business.google.com/us/accelerate/announcements/omni-in-google-ads/",
+    "reason": "publication_date_unproven",
+    "adopted": false
+  },
+  "working_reference": "video-measurement-and-review.md",
+  "api_version_addendum": {
+    "id": "GOOGLE-461-API-V24-BOUNDARY",
+    "status": "scoped_version_facts_fused",
+    "source": {
+      "url": "https://developers.google.com/google-ads/api/docs/release-notes",
+      "input_origin": "autonomous_discovery",
+      "official_identity": "Google for Developers / Google Ads API",
+      "api_version": "v24",
+      "version_release_date": "2026-04-22",
+      "date_basis": "L476: v24 (2026-04-22)",
+      "page_first_publication": "UNKNOWN",
+      "page_last_updated": "UNKNOWN",
+      "observed_on": "2026-09-12",
+      "observation": "selected_sections_observed",
+      "locators": [
+        "L476",
+        "L486",
+        "L489"
+      ],
+      "market": "UNKNOWN",
+      "account_observed": false
+    },
+    "claims": [
+      {
+        "id": "460-P1",
+        "locator": "L489",
+        "fact": "In v24, Campaign.video_brand_safety_suitability removed; Customer.video_brand_safety_suitability retained.",
+        "not_supported": "Automatic topic/placement inheritance or account changes."
+      },
+      {
+        "id": "460-P2",
+        "locator": "L486",
+        "fact": "In v24, videos and logo_images required when creating or mutating DemandGenVideoResponsiveAdInfo.",
+        "not_supported": "Display migration placeholder/error branches or all ad formats."
+      }
+    ],
+    "approval": {
+      "scope": "v24 dated release-record facts only",
+      "order": "GOOGLE-461-EXACT-API-BOUNDARY-FUSION-PLAN",
+      "execution_authorized": true,
+      "execution_order": "GOOGLE-462-API-VERSION-FUSION"
+    },
+    "limits": {
+      "actual_api_version_requires_recheck": true,
+      "c18_01_closed": false,
+      "c18_02_closed": false,
+      "full_display_complete": false,
+      "full_video_complete": false,
+      "frozen_changed": false,
+      "formal_root_changed": false,
+      "account_action_authorized": false,
+      "independent_final_qa": false
+    }
+  },
+  "scope": "Local round-one candidate; only approved scoped announcement and API v24 facts; no account validation, full Video/Display completion or final QA.",
+  "private_provenance": "Retained by producer outside this distributable candidate; not a runtime dependency."
+}

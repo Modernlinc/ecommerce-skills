@@ -1,0 +1,243 @@
+{
+  "中文摘要": null,
+  "entity_ref": null,
+  "transaction_ref": null,
+  "data_as_of": null,
+  "as_of_precision": null,
+  "scope": null,
+  "source_timeline": [],
+  "source_record_shape": {
+    "source_id": null,
+    "document_id": null,
+    "entity_ref": null,
+    "transaction_ref": null,
+    "item_refs": [],
+    "source_type": null,
+    "source_location": null,
+    "currency": null,
+    "quantity_unit": null,
+    "original_status": null,
+    "version": null,
+    "event_at": null,
+    "event_precision": null,
+    "recorded_at": null,
+    "recorded_precision": null,
+    "timezone": null,
+    "rights_and_authorized_use": null,
+    "evidence_refs": []
+  },
+  "finding_record_shape": {
+    "finding_id": null,
+    "observation": null,
+    "source_comparisons": [],
+    "evidence_refs": [],
+    "impact": null,
+    "proposed_role": null,
+    "question": null,
+    "next_materials": [],
+    "unknowns": []
+  },
+  "modules": {
+    "logistics": {
+      "findings": [],
+      "continue_steps": [],
+      "stop_decisions": []
+    },
+    "finance": {
+      "findings": [],
+      "continue_steps": [],
+      "stop_decisions": []
+    },
+    "contract_materials": {
+      "findings": [],
+      "continue_steps": [],
+      "stop_decisions": []
+    },
+    "tax_customs_materials": {
+      "findings": [],
+      "continue_steps": [],
+      "stop_decisions": []
+    }
+  },
+  "amount_records": [],
+  "amount_record_shape": {
+    "source_id": null,
+    "field_ref": null,
+    "raw_value": null,
+    "value_evidence_state": null,
+    "currency": null,
+    "original_status": null,
+    "recorded_at": null,
+    "time_precision": null,
+    "coverage": null,
+    "included_fee_refs": [],
+    "excluded_costs": [],
+    "evidence_refs": [],
+    "business_period": null,
+    "settlement_period": null,
+    "reporting_basis_as_given": null,
+    "basis_evidence_refs": []
+  },
+  "calculations": [],
+  "calculation_record_shape": {
+    "operation_id": null,
+    "operand_refs": [],
+    "expression": null,
+    "result": null,
+    "currency": null,
+    "coverage": null,
+    "excluded_items": [],
+    "unknown_dependencies": [],
+    "evidence_refs": [],
+    "period_alignment_note": null
+  },
+  "execution_evidence": [],
+  "execution_evidence_shape": {
+    "object_ref": null,
+    "request_amount_ref": null,
+    "request": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "approval": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "execution": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "settlement": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "bank_receipt": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "source_assertion": null,
+    "source_assertion_polarity": null,
+    "source_assertion_scope": null,
+    "evidence_refs": []
+  },
+  "contract_versions": [],
+  "contract_version_shape": {
+    "contract_ref": null,
+    "version": null,
+    "page_or_clause": null,
+    "original_text": null,
+    "comparison_refs": [],
+    "adoption_evidence": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "signature_evidence": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "evidence_refs": []
+  },
+  "material_gaps": [],
+  "material_gap_shape": {
+    "field_or_document": null,
+    "given_value": null,
+    "knowledge_state": null,
+    "affected_decision": null,
+    "next_material": null,
+    "evidence_refs": []
+  },
+  "authority_questions": [],
+  "authority_question_shape": {
+    "given_country_ref": null,
+    "jurisdiction_state": null,
+    "authority_type": null,
+    "question": null,
+    "prerequisite_materials": [],
+    "evidence_refs": [],
+    "rule_source_refs": [],
+    "transaction_period": null,
+    "effective_period": null,
+    "applicability_unknowns": []
+  },
+  "role_issue_packages": [],
+  "role_issue_shape": {
+    "issue_id": null,
+    "finding_refs": [],
+    "proposed_role": null,
+    "question": null,
+    "next_materials": [],
+    "dispatch": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "receipt": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "decision": {
+      "state": null,
+      "evidence_refs": [],
+      "at": null,
+      "time_precision": null,
+      "scope": null
+    },
+    "evidence_refs": []
+  },
+  "unknowns": [],
+  "human_gate": null,
+  "identity_records": [],
+  "identity_record_shape": {
+    "role": null,
+    "raw_name": null,
+    "registration_id": null,
+    "registration_jurisdiction": null,
+    "claimed_entity_ref": null,
+    "linkage_state": null,
+    "linkage_evidence_refs": [],
+    "next_identity_evidence": null
+  },
+  "rule_source_records": [],
+  "rule_source_record_shape": {
+    "source_id": null,
+    "official_or_source_claim": null,
+    "url": null,
+    "publisher": null,
+    "jurisdiction": null,
+    "subject_conditions": [],
+    "published_on": null,
+    "updated_on": null,
+    "effective_from": null,
+    "effective_to": null,
+    "checked_on": null,
+    "locator": null,
+    "supported_proposition": null,
+    "unverified_scope": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "candidate_identity": "FB-PRACTICAL-V1-20261020-01",
+  "status": "NOT_REVIEWED",
+  "final_qa_status": "NOT_FINAL_QA",
+  "publication_status": "NOT_PUBLISHED",
+  "quality_verdict": null,
+  "capability_ceiling": "L0_OFFLINE",
+  "prior_admission_inherited": false,
+  "baseline": {
+    "delivery_id": "S4-facebook-20261014-01-final.1",
+    "library_id": "MODERNLINC_COMPANY_SKILL_LIBRARY_20261015_01",
+    "file_count": 43,
+    "total_bytes": 253029,
+    "source_method_sha256": "35091a39d02be4656378a02e210c2f9e4184fd5f8568f5dff6f0c1bb8bc3bac4",
+    "prior_admission_inherited": false
+  },
+  "causal_claim_allowed": false,
+  "live_action_authorized": false,
+  "formal_runtime_alignment": "CANDIDATE_ONLY_CURRENT_LIBRARY_UNCHANGED",
+  "knowledge_deposit": "CANDIDATE_PREPARED_VAULT_NOT_WRITTEN_G5_PENDING",
+  "independent_review_performed": false,
+  "behavioral_validation": "NEW_CORE_BRANCHES_AWAIT_CONTROLLER_INDEPENDENT_RUNS",
+  "delivery_identity": "FB-PRACTICAL-V1-20261020-01",
+  "delivery_state": "CANDIDATE_READY_FOR_CONTROLLER_REVIEW",
+  "relative_root": "候选正文/Facebook广告运营Skill",
+  "release_authorized": false,
+  "sale_authorized": false,
+  "real_customer_data_authorized": false,
+  "account_api_actions_authorized": false,
+  "budget_or_publication_authorized": false,
+  "parent_candidate_identity": "FB-PRELAUNCH-20261019-W1-F01-R1",
+  "candidate_scope": "Admitted public/owner non-sensitive inputs to complete human-buildable offline Meta ad preparation, six modules and static UTM; no live/customer-data execution.",
+  "historical_baseline": {
+    "delivery_id": "META-LONG-VIDEO-LIMITED-DELIVERY-20261008-01",
+    "runtime_id": "META-LONG-VIDEO-PORTABLE-R1-20261008-01",
+    "file_count": 41,
+    "total_bytes": 265951,
+    "zip_bytes": 137161,
+    "zip_sha256": "7b90962c4204f456c588f9d4678005762f103dd6446cdbfc1890756806386333",
+    "prior_admission_inherited": false
+  },
+  "input_contract": {
+    "reference": "payload__候选正文__Facebook广告运营Skill__meta-facebook-ads-operations__references__permissions-and-live-gates.md",
+    "admitted": [
+      "synthetic",
+      "public_non_sensitive",
+      "owner_non_sensitive"
+    ],
+    "sensitive_customer_material_requires_owner_confirmation_before_read": true,
+    "supplied_fact_is_source_statement_not_independent_certification": true
+  }
+}

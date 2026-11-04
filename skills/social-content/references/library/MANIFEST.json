@@ -1,0 +1,202 @@
+{
+  "schema": "modernlinc.local-file-package.v1",
+  "id": "MODERNLINC-SOCIAL-LOCAL-20261020-01",
+  "date": "2026-10-20",
+  "entry": "00_本地文件使用入口.md",
+  "method": "原版方法/payload/METHOD.md",
+  "parent_source": "2026-10-19-prelaunch-01/social",
+  "parent_manifest_sha256": "0c2deea1cff56169c85cef31fe097aabdda412bdc3f135d81e7f51c15a19a06d",
+  "method_semantic_changes": false,
+  "status": "FROZEN_AWAITING_PACKAGING_REVIEW",
+  "formal_adoption": false,
+  "public_release": false,
+  "commercial_terms": "not_set",
+  "files": [
+    {
+      "path": "00_本地文件使用入口.md",
+      "bytes": 2065,
+      "sha256": "01399414cecde88e25b176e616d933a6d089042db0c957ee6fca577cd61fddb6"
+    },
+    {
+      "path": "00_开始使用.md",
+      "bytes": 5492,
+      "sha256": "58876685e3ac0a43d60aa2a369d2f85000279d721da001979fcf22cb49bb2a01"
+    },
+    {
+      "path": "01_完整教学_分工改稿与条件排期.md",
+      "bytes": 15046,
+      "sha256": "8ff5aefe93588ebccac8eb88329d805c1aeb3b8af4105027872a0341f611190e"
+    },
+    {
+      "path": "历史示例/01_原始委托.md",
+      "bytes": 1763,
+      "sha256": "e1122061366296a5f1e8d2b5cfd2341218c815319334f2bc392ef3709a1ec984"
+    },
+    {
+      "path": "历史示例/02_原始首答.md",
+      "bytes": 9862,
+      "sha256": "b0a1834ff5a0ca093dfb180055a7fee9fcbcf23b04260de5f28fdbaaf2bc5a56"
+    },
+    {
+      "path": "历史示例/03_原始跟进.md",
+      "bytes": 332,
+      "sha256": "6da869be475e4f6f5a22d64e183c5006668721b75fa955e0d9cd67d2200a2a06"
+    },
+    {
+      "path": "历史示例/04_原始跟进成果.md",
+      "bytes": 9016,
+      "sha256": "8016863d5fe0757268c636cb62b10809f887d77944ea353ea0cacac84d47e50f"
+    },
+    {
+      "path": "原版方法/00_当前使用与范围.md",
+      "bytes": 3279,
+      "sha256": "ba7bb04bbe2e19c27db3ed04fbdfd065a9cf161bd5afdc70006ce8d340b1e669"
+    },
+    {
+      "path": "原版方法/MANIFEST.json",
+      "bytes": 5137,
+      "sha256": "d9511b1d1c65302de5eb47b4c028f3c53958db95d273c13d0ff5a093bb506a62"
+    },
+    {
+      "path": "原版方法/payload/CHANGELOG.md",
+      "bytes": 2904,
+      "sha256": "9dc51ab60664bf1199710ee497e7712ba8af8587f7b5059070edd25c02910818"
+    },
+    {
+      "path": "原版方法/payload/DEPENDENCIES.json",
+      "bytes": 2590,
+      "sha256": "c1515ccb287be4205fc9c059351318d31550706215fe7d3b445ec3b9a05bf0ae"
+    },
+    {
+      "path": "原版方法/payload/LICENSE_DECISION.md",
+      "bytes": 1403,
+      "sha256": "79d689b2cb472f7f3c631caac8a724c86bda1b5d362d24458016027a9b2a710c"
+    },
+    {
+      "path": "原版方法/payload/MANIFEST.sha256",
+      "bytes": 2428,
+      "sha256": "fb52081d4ef1e6dc2e2889778d4384829ef1c9d10995aa5ec90b3bdf14e32603"
+    },
+    {
+      "path": "原版方法/payload/README.md",
+      "bytes": 5507,
+      "sha256": "20962c18d38ed1d6ce90d2dedfd2152e356e27b396a537eb07b524bd41eca3a8"
+    },
+    {
+      "path": "原版方法/payload/RIGHTS.csv",
+      "bytes": 7099,
+      "sha256": "6e5ef149aa766b5da91504fbd2aca7e32f72d509af36a757d17e2a471127d707"
+    },
+    {
+      "path": "原版方法/payload/METHOD.md",
+      "bytes": 5369,
+      "sha256": "231111feb8a0f9bbb3ae63b865a5f2731591ca6a4604facd1ad065eb7ddc6b1d"
+    },
+    {
+      "path": "原版方法/payload/SOURCE_MAP.csv",
+      "bytes": 15288,
+      "sha256": "782ab98e4a3a8de27e992614481e13d19df714ec5afca4cdc5896e7d42730206"
+    },
+    {
+      "path": "原版方法/payload/SUPPORT.md",
+      "bytes": 779,
+      "sha256": "be62aa772ac0ce1fab7cb2e8dc363848715d6b1b8827f5dd1a3c2f159864359d"
+    },
+    {
+      "path": "原版方法/payload/VERSION.json",
+      "bytes": 10748,
+      "sha256": "4aec1bb7cce6e09c84f5e5eb7bcda002c70bb9a12ceb693990ee3afc1b49718b"
+    },
+    {
+      "path": "原版方法/payload/examples/foldbox/INPUT.md",
+      "bytes": 4512,
+      "sha256": "79a7273b593aa4abbe022965ae56bafc14a378c0c393f20d266a0088563e2f7e"
+    },
+    {
+      "path": "原版方法/payload/examples/foldbox/OUTPUT.md",
+      "bytes": 13089,
+      "sha256": "64e58c54f14b2fc6ec6b9534aca932549b8fcd12149d9b78f3bd21b0e35c0acc"
+    },
+    {
+      "path": "原版方法/payload/examples/missing-economics/INPUT.md",
+      "bytes": 3958,
+      "sha256": "5845c295812e247b1a9d2f2921aac9ac9c42fbf89d8d60b9a3cf6d6e78bf8b8d"
+    },
+    {
+      "path": "原版方法/payload/examples/missing-economics/OUTPUT.md",
+      "bytes": 8415,
+      "sha256": "f0f4de131e48a73b7018e42f23b76b59543c156f31fa51ef209223bc686e9915"
+    },
+    {
+      "path": "原版方法/payload/examples/operating-review/INPUT.md",
+      "bytes": 9368,
+      "sha256": "3fa9a70b7c53392a82fba18296a9a1ca04d765a9a4143fa08c03b9f1310e869d"
+    },
+    {
+      "path": "原版方法/payload/examples/operating-review/OUTPUT.md",
+      "bytes": 10744,
+      "sha256": "a2a7c94e9d49ca2b2a370c73c08d499a3b31c891f7298bd123deda51203556e7"
+    },
+    {
+      "path": "原版方法/payload/references/creative-brief.md",
+      "bytes": 3584,
+      "sha256": "6281eb1d2fdb6f8b88d79c1a7589dd7c9681426c5de26ed4a89f8799b3be4cd4"
+    },
+    {
+      "path": "原版方法/payload/references/evidence-and-scope.md",
+      "bytes": 10359,
+      "sha256": "c6da5d5dad53ae0dab60ec1fb99ba004e115c5612fd8d48e10b749fc2da57d25"
+    },
+    {
+      "path": "原版方法/payload/references/experiment-and-review.md",
+      "bytes": 12678,
+      "sha256": "633620e61eed3b92ea1cf41c30de92884908829b7fa5559b12bf3772f1bc03a0"
+    },
+    {
+      "path": "原版方法/payload/references/failure-and-unknown.md",
+      "bytes": 1184,
+      "sha256": "0a62125962a429b66083f979ef7595164454b6bd4caa2a121756f037cb2fbe93"
+    },
+    {
+      "path": "原版方法/payload/references/offer-economics-cash.md",
+      "bytes": 3556,
+      "sha256": "5a889eca923f1bb54a507f87a58a9b04211f52d57b1b342e14fd94fb6bd3e369"
+    },
+    {
+      "path": "原版方法/payload/references/platform-handoff.md",
+      "bytes": 1213,
+      "sha256": "d6823adaba894de501d2e42f48bfb5028851ea8af110e3d1e970cbc716be4b07"
+    },
+    {
+      "path": "原版方法/payload/references/rights-lifecycle.md",
+      "bytes": 1474,
+      "sha256": "4b13dc3990b40f5ef90ad5aaa5c8e40dec19da0c9cd2f2fe0ef7056d2a1e215a"
+    },
+    {
+      "path": "原版方法/payload/scripts/calculate.py",
+      "bytes": 7755,
+      "sha256": "fb66620f0ffd379a07e4cdfa50b6d9f58e429717eca0e0e1787a139f670b2ab8"
+    },
+    {
+      "path": "原版方法/payload/templates/CHANNEL_PLAN.md",
+      "bytes": 26941,
+      "sha256": "32d7f92249ce0a46f2fde2e3179e4b8686e0b88f226859cb73fe58d5f75fbbe3"
+    },
+    {
+      "path": "原版方法/payload/templates/INTAKE.md",
+      "bytes": 2606,
+      "sha256": "58eaeccd6c45e4c44fdea20d00fc82e67332fc34c6c1cea5532232530f4da830"
+    },
+    {
+      "path": "原版方法/payload/templates/REPORT.md",
+      "bytes": 2964,
+      "sha256": "9e90f0bc27de25e253664229309395f4989f21bff433606e76f7bebbc72b3c4c"
+    },
+    {
+      "path": "原版方法/payload/先读我.md",
+      "bytes": 2405,
+      "sha256": "3bce6d953aa979ee99630f053310cb440f81660453e8fd26ca826729150dc3a4"
+    }
+  ],
+  "self_excluded": "MANIFEST.json"
+}

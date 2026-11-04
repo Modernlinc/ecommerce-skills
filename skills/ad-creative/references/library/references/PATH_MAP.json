@@ -1,0 +1,16 @@
+{
+  "mapping": {
+    "00_开始使用.md": "00_开始使用.md",
+    "01_教学导读_从用途到撤证改稿.md": "01_教学导读_从用途到撤证改稿.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "原版方法/MANIFEST.json": "原版方法__MANIFEST.json",
+    "原版方法/00_当前使用与范围.md": "原版方法__00_当前使用与范围.md",
+    "示例/03_原始跟进输入.md": "示例__03_原始跟进输入.md",
+    "示例/01_原始委托.md": "示例__01_原始委托.md",
+    "示例/04_原始跟进成果.md": "示例__04_原始跟进成果.md",
+    "示例/02_原始首答.md": "示例__02_原始首答.md",
+    "原版方法/payload/MEDIA_GUIDE.md": "原版方法__payload__MEDIA_GUIDE.md",
+    "原版方法/payload/GUIDE.md": "原版方法__payload__GUIDE.md",
+    "原版方法/payload/METHOD.md": "原版方法__payload__METHOD.md"
+  }
+}
