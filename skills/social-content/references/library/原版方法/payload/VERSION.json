@@ -1,0 +1,192 @@
+{
+  "version": "0.1.0-rc3",
+  "date": "2026-10-14",
+  "stage": "S3_CANDIDATE_FROZEN_AWAITING_ACTUAL_USE",
+  "whole_package_complete": false,
+  "K01": "scoped_original_arithmetic_and_candidate_offer",
+  "K02": "method_hypothesis",
+  "K03": "synthetic_permission_summary_analysis_only",
+  "K04_descriptive": "producer_run_completed",
+  "K04_causal_design": "core_blocking_gap",
+  "formal_adoption": false,
+  "independent_final_QA": false,
+  "sale_or_publish_authorized": false,
+  "manifest": "MANIFEST.sha256",
+  "source_dates": "34 inherited source/record rows plus 4 reused YouTube-related carriers and 2 SeaLeap disposition rows = 40 records; not 40 learned sources. Original videos/audio/pixels were not observed in round three; unknown video and SeaLeap first-publication dates are not made eligible by snapshot dates.",
+  "K04_preparation": "selection_exposure_and_target_population_evidence_requirements_refined_not_independently_validated",
+  "inherited_examples_rerun": false,
+  "integration_revision": "SOC-S3-DECISION-CONTINUATION-20261014-01",
+  "base_candidate_version": "0.1.0-rc3",
+  "inherited_descriptive_evidence_scope": "K04_descriptive refers to prior producer result; no new run in this integration",
+  "channel_template": {
+    "path": "templates/CHANNEL_PLAN.md",
+    "sha256": "32d7f92249ce0a46f2fde2e3179e4b8686e0b88f226859cb73fe58d5f75fbbe3",
+    "scope": "user-selected-channel content proposal, complete drafts and text production handoff, supplied-constraint schedule, descriptive review and scoped continuation; current G1/G2 behavior not yet observed",
+    "scope_review": "60 accepted single template; not final QA",
+    "use_evidence": "239 accepted one same-producer synthetic use with local limits; not strict blind test",
+    "unresolved": [
+      "OBS-01 label wording",
+      "OBS-02 PIN-C lacks concrete visible production expression"
+    ],
+    "original_template_historical_no_use_sentence_preserved": false,
+    "inherited_sha256": "1bc9eaf2c67c00b0d3547a4e5e45b904de6768907e1484465961e4ee22693528",
+    "immediate_parent_sha256": "6da5f3f77a6e0da086f54489178009a56f3c22835509a443e2d3fd0a3a082f88"
+  },
+  "commercial_rights_cleared_original_ten": true,
+  "commercial_rights_is_current_blocker": false,
+  "commercial_rights_basis": "OWNER_CONFIRMED_2026_09_07_NOT_AGENT_LEGAL_AUDIT",
+  "sale_or_publish_authorized_scope": "false for new integration listing/publication actions; does not revoke original ten-package rights",
+  "formal_skill_sync": "candidate_only_installed_skill_unchanged",
+  "obsidian_sync": "bounded_update_requires_actual_external_receipt",
+  "physical_assembly_evidence": "requires actual package-external receipt; this metadata is not proof",
+  "full_goal_hours": null,
+  "full_freeze_at": null,
+  "schedule_draft": {
+    "id": "SOC-R2-G01",
+    "scope": "user-supplied windows durations dependencies resources and permissions only",
+    "maturity": "method_hypothesis",
+    "validation": "not_run",
+    "inherits_prior_PWE": false
+  },
+  "status_scope": "S3 candidate adds bounded content decisions within user-selected channels and continuation after facts, constraints or an explicit goal change. Company synthesis / method_hypothesis; static inspection only, no new business use or independent QA. Third-round scoped acceptance belongs to the parent. Full K04 causal gap, formal entry and knowledge alignment remain open.",
+  "image_text_handoff": {
+    "id": "SOC-R2-ALT01",
+    "scope": "non-interactive informative image text handoff; functional images referred for platform review",
+    "sources": [
+      "S-ALT-01",
+      "S-ALT-02"
+    ],
+    "publisher_families": 1,
+    "source_observation": "full_substantive_text_only; no image pixels or linked subpages",
+    "maturity": "method_hypothesis",
+    "validation": "revision_awaiting_review",
+    "native_platform_verified": false,
+    "inherits_prior_PWE": false,
+    "parent_scoped_qa": {
+      "id": "SOCIAL_ALT_SCOPED_QA_20260922_01",
+      "revision": "alt-handoff-20260922-01",
+      "decision": "PASS_WITH_EXCEPTIONS",
+      "scope": "internal offline image text drafting and pending handoff only",
+      "applies_to_current_revision": false
+    }
+  },
+  "revision_issues": [
+    "G1",
+    "G2"
+  ],
+  "parent_revision": "r3-semantic-fidelity-20261012-01",
+  "content_review": {
+    "id": "SOC-R2-REVIEW01",
+    "maturity": "method_hypothesis",
+    "validation": "not_run",
+    "inherits_prior_PWE": false,
+    "video_evidence": "two_full_returned_transcripts_and_one_secondary_provider_visual_analysis; no_original_audio_or_pixels",
+    "claims": "no_effect_validation"
+  },
+  "inherited_metadata": {
+    "parent_status_scope": "parent image delta has named scoped PWE; current revision awaits review; prior text PWE and schedule scopes remain separate",
+    "parent_channel_template_scope": "inherited given-role and conditional schedule handoff plus image text handoff revision awaiting review",
+    "interpretation": "Inherited image/schedule/content_review capability states, original template scope_review/use_evidence, examples and RIGHTS/CHANGELOG retain their named historical scope. Current entry, integration_revision, revision_issues and qa_revision describe this revision. Old not_run or pending states are not claims that the parent lacked actual use, knowledge update or independent review. The removed historical template sentence is not present in this current template. All qa_revision, video_article_fusion, schedule_draft, image_text_handoff, content_review and inherited use states retain their named second-round or earlier frozen-object scope. Parent final acceptance is recorded separately below; none is a fresh third-round result.",
+    "article_parent_status_scope": "Current candidate is content-review-20261010-01 and is not independently accepted; inherited statuses describe their original frozen objects only. Video/article fusion remains incomplete.",
+    "parent_revision_issues": [
+      "P-ALT-01",
+      "P-ALT-02"
+    ],
+    "pre_s3_identity": {
+      "date": "2026-10-12",
+      "stage": "R3_CANDIDATE_AWAITING_VALIDATION_AND_INDEPENDENT_QA",
+      "integration_revision": "r3-semantic-fidelity-20261012-01",
+      "parent_revision": "video-article-fusion-qa-20261010-01",
+      "revision_issues": [
+        "SF-01",
+        "SF-02",
+        "SF-03"
+      ],
+      "status_scope": "Current third-round candidate adds only D01 semantic fidelity checks for authorized content rewriting. Both source groups have bounded dispositions; SeaLeap has no additional method delta. Candidate use, knowledge writeback and independent QA require their own actual receipts. The second-round parent was accepted with declared exceptions; that acceptance is not inherited by this candidate.",
+      "channel_template_scope": "given-channel complete drafts, text production handoff, conditional schedule and descriptive review; D01 authorized rewriting check only; current candidate awaits actual use and independent QA",
+      "channel_template_immediate_parent_sha256": "8b893ea7af1f585299d6012976e3c0016c740cd9f4550624be73ed75ee5ffefc"
+    },
+    "s3_interpretation": "All round_three, qa_revision, video_article_fusion, image_text_handoff, schedule_draft, content_review, historical use and old pending states retain their original frozen-object scope. Current identity and s3_candidate describe this candidate; no prior acceptance is inherited. Unchanged professional references, examples, source/rights rows and CHANGELOG retain their historical text."
+  },
+  "video_article_fusion": {
+    "id": "SOC-R2-FUSION01",
+    "maturity": "method_hypothesis",
+    "validation": "parent_review_REVISE_current_revision_awaiting_recheck",
+    "inherits_prior_PWE": false,
+    "video_ids": [
+      "SM5wkwyo-pE",
+      "oSjCahkH5Nc"
+    ],
+    "full_returned_transcripts": 2,
+    "provider_secondary_visual_analyses": 1,
+    "full_original_videos_observed": 0,
+    "adopted_refinements": [
+      "DV01",
+      "DV02",
+      "DV03"
+    ],
+    "effect_validation": false,
+    "source_claims_excluded": [
+      "algorithm_rules",
+      "fixed_posting_cadence",
+      "generalized_growth_or_commerce_effects",
+      "current_UI_capabilities",
+      "music_license_clearance",
+      "conflicting_provider_numbers"
+    ]
+  },
+  "qa_revision": {
+    "id": "SOCIAL_VIDEO_QA_REVISION_20261010_01",
+    "basis": "SOCIAL_VIDEO_FUSION_FINAL_QA_20261010_01",
+    "parent_decision": "REVISE",
+    "parent_candidate_collection_sha256": "9f9b85a7f775f08705740be277ed97e3c8c2435183ecc25aaa6b55eb3953f4d1",
+    "issues": [
+      "SF-01",
+      "SF-02",
+      "SF-03"
+    ],
+    "current_validation": "bounded_check_not_yet_recorded_in_this_freeze",
+    "current_independent_recheck": "not_performed",
+    "source_map_change": "no_update_needed; external source contributions unchanged, local task-contract and QA corrections traced by this record and the external implementation receipt",
+    "new_external_sources": 0,
+    "original_first_outputs_rewritten": false,
+    "inherits_prior_acceptance": false
+  },
+  "round_three": {
+    "id": "SOC-R3-D01",
+    "maturity": "method_hypothesis",
+    "method_deltas": 1,
+    "sealeap_method_deltas": 0,
+    "validation": "not_yet_performed",
+    "knowledge": "requires_actual_updated_existing_receipt",
+    "independent_QA": "not_yet_invited",
+    "parent_acceptance": "SOCIAL_ROUND_TWO_LOCAL_DELIVERY_ACCEPTANCE_20261010_01",
+    "parent_quality": "PASS_WITH_EXCEPTIONS_FOR_DECLARED_SCOPE",
+    "parent_collection_sha256": "c898aabd4c425e1b0f36cdc80941bd1fe1f10ea97fb579bbdcf8f4068fc47479",
+    "inherits_parent_acceptance": false,
+    "full_original_videos_observed": 0,
+    "real_effect_validated": false
+  },
+  "s3_candidate": {
+    "id": "SOC-S3-DECISION-CONTINUATION-20261014-01",
+    "authorization": "SOCIAL-S3-REV-20261014-01",
+    "basis": "CURRENT_REVIEW_AND_PLAN.md G1/G2, approved company synthesis of inherited creative, permission, dependency and descriptive-review methods; no new external sources",
+    "maturity": "method_hypothesis",
+    "method_deltas": [
+      "G1",
+      "G2"
+    ],
+    "parent_collection_sha256": "a7e79f16b322bb29558047f011cc12e5d58aa1c274b9bc5ca7237625371de9ad",
+    "parent_quality": "SOCIAL_R3_FINAL_QA_20261012_01 / PASS_WITH_EXCEPTIONS",
+    "parent_local_acceptance": "SOCIAL_R3_LOCAL_DELIVERY_ACCEPTANCE_20261012_01 / LOCAL_DELIVERY_ACCEPTED_FOR_DECLARED_SCOPE",
+    "inherits_parent_acceptance": false,
+    "business_validation": "not_run",
+    "independent_QA": "not_run",
+    "formal_entry_sync": "not_performed_S4_pending",
+    "knowledge_sync": "not_performed_S4_pending",
+    "runtime_validation": "not_run",
+    "new_external_sources": 0,
+    "original_answers_rewritten": false,
+    "real_effect_validated": false
+  }
+}

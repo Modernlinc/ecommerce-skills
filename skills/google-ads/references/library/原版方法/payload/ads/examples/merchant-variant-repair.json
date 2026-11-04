@@ -1,0 +1,72 @@
+{
+  "fixture_id": "GADS-VARIANT-ROUTE-20260929-01",
+  "provenance": "original_synthetic_producer_reasoning_not_account_export_not_independent_qa",
+  "scope": "ordinary_single_unit_notebook_variants_no_discount_membership_subscription_or_tax_decision",
+  "addresses": "reserved_invalid_domains_not_visited; route_behavior_is_given_fixture_input_not_inferred_from_url_syntax",
+  "input": {
+    "country": "US",
+    "currency": "USD",
+    "language": "en",
+    "marketing_method": "shopping_ads",
+    "source_version": "fixture-feed-v1",
+    "truth_version": "fixture-catalog-v3",
+    "item_group_id": "NB-G",
+    "target": {"id":"NB-A4-INK","variant":"A4 / ink","truth_price":"18.00 USD"},
+    "sibling": {"id":"NB-A5-INK","variant":"A5 / ink","truth_price":"12.00 USD"},
+    "source_ownership": "fixture_owner_confirms_feed_generator_row_is_authoritative; no_actual_system_identified",
+    "submitted_target_row": {
+      "id":"NB-A4-INK",
+      "item_group_id":"NB-G",
+      "price":"18.00 USD",
+      "link":"https://catalog.example.invalid/products/notebook",
+      "ads_redirect":"https://catalog.example.invalid/products/notebook?utm_source=shopping",
+      "mobile_link":null
+    },
+    "submitted_sibling_row": {
+      "id":"NB-A5-INK",
+      "price":"12.00 USD",
+      "link":"https://catalog.example.invalid/products/notebook?variant=NB-A5-INK",
+      "ads_redirect":null
+    },
+    "old_route_observation_in_fixture": {
+      "both_supplied_target_routes_initial_variant":"NB-A5-INK",
+      "visible_price":"12.00 USD",
+      "structured_offer_variant":"NB-A5-INK",
+      "structured_offer_price":"12.00 USD"
+    },
+    "candidate_route_given_by_fixture_owner": {
+      "link":"https://catalog.example.invalid/products/notebook?variant=NB-A4-INK",
+      "ads_redirect":"https://catalog.example.invalid/products/notebook?variant=NB-A4-INK&utm_source=shopping",
+      "supplied_desktop_and_mobile_initial_variant":"NB-A4-INK",
+      "supplied_initial_visible_and_structured_price":"18.00 USD",
+      "supplied_post_load_variant_and_price":"unchanged_from_initial",
+      "supplied_checkout_line_variant":"NB-A4-INK",
+      "supplied_checkout_line_unit_price":"18.00 USD",
+      "purchase_performed":false
+    },
+    "processed_merchant_price":"UNKNOWN",
+    "automation_setting":"UNKNOWN",
+    "eligibility_campaign_listing_group_and_delivery":"UNKNOWN"
+  },
+  "producer_output": {
+    "report_status":"NEEDS_FIX",
+    "draft_status":"DRAFT",
+    "diagnosis":"target price matches target business truth; supplied generic routes choose sibling; price difference is not evidence to lower target price",
+    "target_selector":{"id":"NB-A4-INK","source_version":"fixture-feed-v1","country":"US","language":"en","currency":"USD","marketing_method":"shopping_ads"},
+    "proposed_changes":[
+      {"field":"link","expected_old":"https://catalog.example.invalid/products/notebook","proposed_new":"https://catalog.example.invalid/products/notebook?variant=NB-A4-INK"},
+      {"field":"ads_redirect","expected_old":"https://catalog.example.invalid/products/notebook?utm_source=shopping","proposed_new":"https://catalog.example.invalid/products/notebook?variant=NB-A4-INK&utm_source=shopping"}
+    ],
+    "unchanged":["target price 18.00 USD","all NB-A5-INK fields","id","item_group_id","availability","inventory","site pricing","site structured data","mobile_link absence","country/language/currency/method","campaign","listing_group","budget","bids","automations settings"],
+    "rejected_action":"change target price to 12.00 USD or replace every NB-G row because the default page is cheaper",
+    "preconditions":["target selector resolves exactly one intended row","version and both old field values still match","source owner and effective generator path are confirmed","candidate routes are supplied and their same-variant behavior supported; never invent a working parameter","no unobserved redirect/mobile branch is asserted as verified"],
+    "verification_after_separate_execution_authorization":["re-read correct generator/source row then submitted and processed values","check link and Shopping ads_redirect separately on needed device routes; initial visible and structured identity then post-load state","check no unintended sibling row or price change","read same target combination status; processed or Approved alone is not serving evidence"],
+    "stop_if":["identity truth or price basis uncertain","wrong or stale source version","new URL route unproved","shared group write or generator ownership ambiguous","requires real account, site, payment, inventory or permission action"],
+    "rollback_boundary":"withdraw unapplied draft if precondition changes; after separately authorized implementation use owner-approved known-correct state, not automatic restoration of a known-wrong route",
+    "actual_execution":false,
+    "actual_objects_created":0,
+    "actual_account_or_page_verification":false,
+    "independent_qa":false,
+    "effectiveness_claim":false
+  }
+}

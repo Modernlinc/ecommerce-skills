@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "candidate_id": "GADS-PRACTICAL-20261020-P1",
+  "version": "2026.10.20-p1.1",
+  "status": "PACKAGING_CANDIDATE_AWAITING_STATIC_REVIEW",
+  "date": "2026-10-20",
+  "entrypoint": "00_从这里开始.md",
+  "core_skill": "原版方法/payload/ads/METHOD.md",
+  "parent_delivery": "S4-google_ads-20261014-01-final.1",
+  "member_count_including_manifest": 23,
+  "self_indexed": false,
+  "manifest_rule": "Covers the current usage-only selection except this manifest; historical parent records are not runtime dependencies.",
+  "core_semantic_changes": 0,
+  "independent_usage_validated": false,
+  "formally_adopted": false,
+  "public_release": false,
+  "pure_public_distribution": false,
+  "obsidian_writeback": "not_written_scope_restricted",
+  "files": [
+    {
+      "path": "00_从这里开始.md",
+      "bytes": 3991,
+      "sha256": "70c34b7b624103148383ddcf33b02df96c6c93813e42fea59cdf991d5e768293",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "01_Search完整教学示范.md",
+      "bytes": 12467,
+      "sha256": "0842b9480a3c31ce30a1b8f6a49533a58341282d1a2d609d1daff52ed93b91f6",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "02_能力与来源.md",
+      "bytes": 5175,
+      "sha256": "b92d7a44f4f6b01bb5b203f1e91b323bdf3df1aab01cd84c5ad9d08a6f16dc5f",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/QUICKSTART.zh-CN.md",
+      "bytes": 1348,
+      "sha256": "eb815c18a2c48e8dcf61b610eb353c42e4a5c2270fbc9f0cd2d8e93a6db293d3",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/RIGHTS.csv",
+      "bytes": 5524,
+      "sha256": "4982275f2f3465c617a262ef4334bd5d6d18d85aa3e3530f10847e9a7ca9dff6",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/METHOD.md",
+      "bytes": 9231,
+      "sha256": "dbe640d3135d135501bf0a7a509b195a77c2f4ff5ef1edff00d0fde80de382c6",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/SUPPORT.zh-CN.md",
+      "bytes": 741,
+      "sha256": "4fba27bc20b50429372e8286540ddb2adb720502504bb76869dd280b78ab39ba",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/USER_GUIDE.zh-CN.md",
+      "bytes": 4499,
+      "sha256": "0fa39c9d8fc148839c1560f00a339f9338218f585f95cf54d3158e50631b9bc0",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/agents/openai.yaml",
+      "bytes": 263,
+      "sha256": "4b68e94de7b34e3dab6837c03bc8448856909d23a9457d505043086349df1a88",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/examples/capability-portfolio.md",
+      "bytes": 19398,
+      "sha256": "b1759e6daa97eb788c7fd055d98476e6582d291f2d5f47156cabb7503b94ce65",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/examples/merchant-review.md",
+      "bytes": 10084,
+      "sha256": "a7e0de7be7c3310d90d07f1657cb5582676969a55990bc63f27d229d4d3129b6",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/examples/merchant-variant-repair.json",
+      "bytes": 4986,
+      "sha256": "fe3cad0fc7fb3f84838faa4d691b98e311967cef24101e15a6e8e028033ee44b",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/examples/search-review.md",
+      "bytes": 17001,
+      "sha256": "b04f460e451db733ddad1d06a4aaffc75aa2d1c24955fa21e7e108cf12b983a6",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/channel-choice-and-demand-gen.md",
+      "bytes": 7954,
+      "sha256": "fd7a995929bced690dff39ba1f2c7015fd53110e605ec5a5cd0d2dbf18a96532",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/current-platform-gates.md",
+      "bytes": 17710,
+      "sha256": "056513ea9173a8ade6529dea856d2bf07d2159105a037f71d951d20f261b6fae",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/evidence-and-safety.md",
+      "bytes": 5847,
+      "sha256": "0f117343d7647134f0166d57f7ba86f34601f976ec7d10b92b12221ea2dbc57e",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/round-three-sources.md",
+      "bytes": 3594,
+      "sha256": "59188a08f408b00d6cadfdfb606f1bbcb27126ae5715b814dadc790d7f892e9c",
+      "identity": "authorized_navigation_or_packaging_metadata"
+    },
+    {
+      "path": "原版方法/payload/ads/references/source-register.json",
+      "bytes": 88019,
+      "sha256": "426b1ce59873342cd2e82c9f90edbf6a4c0a3c9c97433968b73a880e43d70b40",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/video-asset-sources-450.json",
+      "bytes": 7536,
+      "sha256": "a4bf3a7d9a5599ef379c4be6b900b1ed664d432902c8278813afdbeeab850af7",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/video-measurement-and-review.md",
+      "bytes": 12732,
+      "sha256": "77e3421094befd80a9b11e0f926e7ddcf4f9911f0308944b5b84ff787e51469d",
+      "identity": "byte_exact_r1_inheritance"
+    },
+    {
+      "path": "原版方法/payload/ads/references/workflow-and-templates.md",
+      "bytes": 36471,
+      "sha256": "6158bc2c7a75d177d2223aedd223d464989827ebbec71848069be6cda418b62a",
+      "identity": "byte_exact_r1_inheritance"
+    }
+  ],
+  "parent_candidate_id": "GADS-PRELAUNCH-20261019-W1-R1",
+  "teaching_errata": 0,
+  "source_member_count": 35,
+  "selected_parent_files": [
+    "00_从这里开始.md",
+    "01_Search完整教学示范.md",
+    "02_能力与来源.md",
+    "MANIFEST.json",
+    "原版方法/payload/ads/QUICKSTART.zh-CN.md",
+    "原版方法/payload/ads/RIGHTS.csv",
+    "原版方法/payload/ads/METHOD.md",
+    "原版方法/payload/ads/SUPPORT.zh-CN.md",
+    "原版方法/payload/ads/USER_GUIDE.zh-CN.md",
+    "原版方法/payload/ads/agents/openai.yaml",
+    "原版方法/payload/ads/examples/capability-portfolio.md",
+    "原版方法/payload/ads/examples/merchant-review.md",
+    "原版方法/payload/ads/examples/merchant-variant-repair.json",
+    "原版方法/payload/ads/examples/search-review.md",
+    "原版方法/payload/ads/references/LICENSE-SeaLeap.txt",
+    "原版方法/payload/ads/references/channel-choice-and-demand-gen.md",
+    "原版方法/payload/ads/references/current-platform-gates.md",
+    "原版方法/payload/ads/references/evidence-and-safety.md",
+    "原版方法/payload/ads/references/round-three-sources.md",
+    "原版方法/payload/ads/references/source-register.json",
+    "原版方法/payload/ads/references/video-asset-sources-450.json",
+    "原版方法/payload/ads/references/video-measurement-and-review.md",
+    "原版方法/payload/ads/references/workflow-and-templates.md"
+  ],
+  "omitted_parent_files": [
+    "原版方法/00_当前使用与范围.md",
+    "原版方法/MANIFEST.json",
+    "原版方法/payload/00-交付先读.md",
+    "原版方法/payload/DELIVERY.json",
+    "原版方法/payload/FILES.json",
+    "原版方法/payload/SHA256SUMS.txt",
+    "原版方法/payload/ads/PACKAGE.json",
+    "原版方法/payload/ads/KNOWLEDGE_DELTA.zh-CN.md",
+    "原版方法/payload/ads/00-限定验收摘要.md",
+    "原版方法/payload/ads/CHANGELOG.md",
+    "原版方法/payload/ads/先读我.md",
+    "原版方法/payload/ads/本轮版本与限制.md"
+  ],
+  "byte_exact_inherited_files": 15,
+  "navigation_metadata_modified_files": 8,
+  "new_teaching_files": 0,
+  "content_selection": "usage_only",
+  "inherited_errata": "R1 P01/P02 retained; not new changes in this packaging."
+}

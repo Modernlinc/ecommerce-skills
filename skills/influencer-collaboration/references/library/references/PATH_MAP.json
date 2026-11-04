@@ -1,0 +1,11 @@
+{
+  "说明": "旧路径到平台副本的文件名；原MANIFEST为历史身份记录，不是当前哈希",
+  "mapping": {
+    "00_开始使用.md": "00_开始使用.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "01_完整教学_候选选择到延期改判.md": "01_完整教学_候选选择到延期改判.md",
+    "influencer-collaboration-planner/METHOD.md": "influencer-collaboration-planner__METHOD.md",
+    "influencer-collaboration-planner/references/来源与适用边界.md": "influencer-collaboration-planner__references__来源与适用边界.md",
+    "influencer-collaboration-planner/references/合作成果模板.md": "influencer-collaboration-planner__references__合作成果模板.md"
+  }
+}

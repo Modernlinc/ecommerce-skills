@@ -1,0 +1,135 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4081,
+      "sha256": "9e529fedde365983c6842034ea3add6694ce3a0fb4c1d139d53469a785b0d8db"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 356,
+      "sha256": "86511009899593d18c37dd2b64eafc826caa813d91b94da16814b37d14964edc"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/data/README.md",
+      "bytes": 1220,
+      "sha256": "b7cc77913d3426c705da15eba98688f1b6602b3078cb02ac1b03118ac4507184"
+    },
+    {
+      "path": "examples/data/ads.csv",
+      "bytes": 64,
+      "sha256": "7786b84a2336309b0d362f0f105407357e508edfa8138b4793c801d44e92f0f1"
+    },
+    {
+      "path": "examples/data/fees.csv",
+      "bytes": 35,
+      "sha256": "809add086cff42bee264c04fc3d5a379087fecf05cbae6b70f7e7d11aedf6874"
+    },
+    {
+      "path": "examples/data/items.csv",
+      "bytes": 29,
+      "sha256": "9eadbf4fb2f361d02fd04df830d4e2962280f57734b5b6a562b3ea7332524f14"
+    },
+    {
+      "path": "examples/data/orders.csv",
+      "bytes": 44,
+      "sha256": "4328d5707b8214b299269a37d210ffac9633c7304bac1cd8ddab5cda216476bc"
+    },
+    {
+      "path": "examples/data/refunds.csv",
+      "bytes": 31,
+      "sha256": "e8a9ec10d520f2f5edd0fcf698b868d3875a83ad6ee12c3d6af4e99053c964df"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 2846,
+      "sha256": "f103257184c1735d3631ed8be38d764a04af0c1c92cc81a38cb05f67c3d9b0d6"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 1455,
+      "sha256": "bcb45158ba2ab0f050a7342ab8065f165dbd5b8e41293c4f0d28d91f3dfe5200"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1173,
+      "sha256": "8773c05246a95f02f0cafa524fcecd0d536ad549a62c59ae60f42f67f3fb4f4b"
+    },
+    {
+      "path": "references/library/00_开始使用.md",
+      "bytes": 4027,
+      "sha256": "7c27d0fb6bf77ecaa49d68fa3d0b866663849d63c9344d0ebb207b4672b795c4"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 2641,
+      "sha256": "d934caaf9f57829fdc7728ac927e9b5bbc3192e692e4e386f211e358ef80cf19"
+    },
+    {
+      "path": "references/library/PACKAGE_MANIFEST.json",
+      "bytes": 2034,
+      "sha256": "48c1c7ca90e184bdc014c0374e810c13e659fd335c2ee3fb0ca301e4de9c1b49"
+    },
+    {
+      "path": "references/library/references/input-contract-v1.md",
+      "bytes": 8975,
+      "sha256": "6106667f8208f9b64bcf8199449646142a4b71f0b13be98eb481f73e8fbb4291"
+    },
+    {
+      "path": "references/library/references/method-sources-and-limits.md",
+      "bytes": 5090,
+      "sha256": "6a21bf6416326897e211312f5bca99c9c1b70c78857bb062c9d1ed073acb1c49"
+    },
+    {
+      "path": "references/library/scripts/reconcile_v1.mjs",
+      "bytes": 83020,
+      "sha256": "369918c8df0d6ea8de5f3d33d0a487220b47fb16a398264520754730cb204d83"
+    },
+    {
+      "path": "references/library/templates/INPUT_CONTRACT.json",
+      "bytes": 769,
+      "sha256": "23fafc937ad9357ecf97e7643d748609777909cb7699e01cc228fcaaa3930388"
+    },
+    {
+      "path": "references/library/templates/ad_daily.csv",
+      "bytes": 90,
+      "sha256": "3a418c6cb628195120cae934ec7ad27ab5f2da93d247e8f908f93627844b326d"
+    },
+    {
+      "path": "references/library/templates/order_costs.csv",
+      "bytes": 70,
+      "sha256": "08d285f5d0b1be73f93cd0a83af78d5cb6f29b5371110841c62dcecbecb7cf0b"
+    },
+    {
+      "path": "references/library/templates/order_lines.csv",
+      "bytes": 182,
+      "sha256": "59f644a282de07cc6280d777a98cb7fac7a5e0b1407040c37fd3f8a96de92cdf"
+    },
+    {
+      "path": "references/library/templates/refund_events.csv",
+      "bytes": 130,
+      "sha256": "dfa3d43a4aec4e74e58bb7b26b154007001004274d592b8d5ac56ead076afc7d"
+    },
+    {
+      "path": "references/library/templates/web_events.csv",
+      "bytes": 98,
+      "sha256": "1c304221e7e02f726756f983f15b165ab91dc1eaf6fe268b74de6ba6235a9c30"
+    }
+  ]
+}

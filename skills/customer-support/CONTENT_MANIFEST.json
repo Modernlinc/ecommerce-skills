@@ -1,0 +1,175 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3639,
+      "sha256": "c208b43ca05dd3f92a5a1bd0791791560ba3873fda9ec6342a017eb60cc1da23"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "da9c81b6856e64e864ba570b6ac7086f40ae9581623c5bb55a1ea280411d9cba"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1943,
+      "sha256": "38eac629c0f0b3c30f8ff89b25285611e791ae9b1a993fdc78edb59f2a924dba"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 613,
+      "sha256": "b3adeff61cb1e6b425a2b441935117a41355eb21c8fea25ad2f467c3f3a86035"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1127,
+      "sha256": "d98e59172d6025bf955c3556ca977700130a5b1e5b26ee9fa79ff00745fa66ec"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 588,
+      "sha256": "ed76ff156d877eab5bd3f8e400dc8e9fb38d16b8d982f8ce1434a9c0418ee02d"
+    },
+    {
+      "path": "references/library/references/00_R1入口.md",
+      "bytes": 1347,
+      "sha256": "70e3b4ebc3d2fa8b2f4e1e85b353b2f3e7dc8a83ecd67a9a23d399e134f20b18"
+    },
+    {
+      "path": "references/library/references/ASSEMBLY_RECEIPT.json",
+      "bytes": 39003,
+      "sha256": "e9ff6f11df5b2e8f3aa3b6e1c965898d640b916d62cd14acc4bfa6f84a3d4666"
+    },
+    {
+      "path": "references/library/references/C07_PATCH_MANIFEST.json",
+      "bytes": 23882,
+      "sha256": "e2bf44656dd04e61f0c25b0819567e01a7fb4e0dc9345f71e20384ceb0c8ac67"
+    },
+    {
+      "path": "references/library/references/C07_PORTABLE_ENTRY.md",
+      "bytes": 8025,
+      "sha256": "6ef95bd2b27457762b95213542123db19b959bc16e9b4cd2f9fe113a194155cc"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 2796,
+      "sha256": "f2319567b66b719649c4859830eaf99192d16744c350050e8c0feb25b49526b6"
+    },
+    {
+      "path": "references/library/references/base__support__00_开始使用.md",
+      "bytes": 3635,
+      "sha256": "5ce81de50352c361b1a07695a54883152d5e5cffd5a128a2b0b74dd25c24732d"
+    },
+    {
+      "path": "references/library/references/base__support__01_取消请求教学.md",
+      "bytes": 7491,
+      "sha256": "d4c3731097475ee8cdcf3d63e930359211abdcd5c293ff6d0e7504aa909d79ce"
+    },
+    {
+      "path": "references/library/references/base__support__MANIFEST.json",
+      "bytes": 6735,
+      "sha256": "55a0346d159e23ea0d789bd817d575c922a8f96df652506ac2d0a1f43aaea928"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__00_当前使用与范围.md",
+      "bytes": 2125,
+      "sha256": "ac9bae7d5b9a40270bc6ecce6d8decd33692e426e224b8ca8a23760316572376"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__MANIFEST.json",
+      "bytes": 2706,
+      "sha256": "c843c811bde75782b34c0875739e209c5d4f237d7744af448a77f138b83aa691"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1973,
+      "sha256": "aa8b5eda5a8ba2a6d9455b2d2da43e8c0ccd095d7b0a14ede1709e0a239d1f23"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__METHOD.md",
+      "bytes": 5977,
+      "sha256": "01c37795b1cb1528640407819ca29d962a5fbf1abf4fa7885569cba9f3894e12"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__README_中文.md",
+      "bytes": 5694,
+      "sha256": "2480fbcd56db248e6b53b90e9783bcf7375903160903edef77218cb92851b01c"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__VERSION.json",
+      "bytes": 8377,
+      "sha256": "e42b4e114a19391862e92253a802c14b59becb332a743a58971c8145a20a61b6"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "bytes": 3857,
+      "sha256": "f4efae5ec0abf1b10eb82c74c2f419db7d4eb80c252eb66140a0d40ce4dfbf03"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__references__current-platform-policy.md",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "bytes": 9812,
+      "sha256": "a44a40278b2c23b48afd814778570f2b58c2592c295576fa21312a3a356bfea8"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__references__input-output-contract.md",
+      "bytes": 12925,
+      "sha256": "e6139c06a6bd167423104d2e99323f96f03602022fd6d49fc04816c4d80d8975"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__references__source-map.md",
+      "bytes": 10650,
+      "sha256": "29f84d4101f843b6604ccdbacff1f3d6c38a016756c2a0f1986da6e6c64a81e3"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__templates__handoff-record.json",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501"
+    },
+    {
+      "path": "references/library/references/base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "bytes": 888,
+      "sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9"
+    },
+    {
+      "path": "references/library/references/base__support__教学成果__A_取消评估内部稿.json",
+      "bytes": 11638,
+      "sha256": "eea45e4a9841f7c842e5ad4855cc677190d484c6e4c8078547b3d5a74a8186c3"
+    },
+    {
+      "path": "references/library/references/base__support__教学成果__B_已交后选项内部稿.json",
+      "bytes": 12739,
+      "sha256": "f934721fa547f8cb17466887b79aec4710ee497c50fa4b21189b96fac4d3de7f"
+    },
+    {
+      "path": "references/library/references/base__support__教学材料__A_明确未交承运商.json",
+      "bytes": 4094,
+      "sha256": "4b715686916e0be22d56ea8c51bb9c19e22ca1d27fc4f2d5b74d3b7096e8b15e"
+    },
+    {
+      "path": "references/library/references/base__support__教学材料__B_明确已交承运商.json",
+      "bytes": 4098,
+      "sha256": "304ebe6ff3a9da0c0be029aea69acc26cd0b7ccb928ad2491bd4a703ab7234e4"
+    }
+  ]
+}

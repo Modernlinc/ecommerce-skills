@@ -1,0 +1,686 @@
+{
+  "schema_version": 1,
+  "status": "candidate_method_not_final_reviewed",
+  "scope": "K02 offline object comparison and editable brief connected to existing K01",
+  "maturity": "method_hypothesis",
+  "formal_adoption": false,
+  "source_contributions": [
+    {
+      "id": "OLD-K02-C016-SOP02-SOP03",
+      "path": "evidence:SH-EV-54c89a6e56fea86228c6b8f9",
+      "contribution": "retain逐对象源值/页面比较、素材边界、集合设计与编辑brief；refine精确改前改后及责任",
+      "kind": "company_method_candidate"
+    },
+    {
+      "id": "285-B2",
+      "path": "evidence:SH-EV-6e05557fb8df4c85b4a892e5",
+      "method_path": "evidence:SH-EV-052af0aa96d6e4a0757f6148",
+      "contribution": "保留版本/未知/真实接收与执行授权分开",
+      "kind": "accepted_draft_not_real_integration"
+    },
+    {
+      "id": "367-K01",
+      "path": "evidence:SH-EV-53032c4c8d46118bd8eb9d8e",
+      "reference_path": "../references/k01-readiness.md",
+      "application_path": "evidence:SH-EV-3f135bf5255350282ee048ea",
+      "contribution": "只读上游问题、材料范围与责任，不复跑就绪报告",
+      "kind": "local_reference_acceptance_only"
+    }
+  ],
+  "platform_claims": [
+    {
+      "id": "SC-SHOPIFY-C002",
+      "source_id": "SC-SHOPIFY-S001",
+      "claim": "选项组合形成变体、独立库存",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false,
+      "disposition": "research_background_only; no current store inference"
+    },
+    {
+      "id": "SC-SHOPIFY-C005",
+      "source_id": "SC-SHOPIFY-S008",
+      "claim": "旧/新集合层级及复制发布",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false,
+      "disposition": "research_background_only"
+    },
+    {
+      "id": "SC-SHOPIFY-CF02",
+      "related_claim": "SC-SHOPIFY-C005",
+      "actual_store_model": "unknown",
+      "disposition": "conditional_design_only; not model eligibility"
+    }
+  ],
+  "local_admission_path": "evidence:SH-EV-ea7368f63a2a7bed5081b9bc",
+  "validation_status": "producer_application_completed_not_independent",
+  "application_path": "evidence:SH-EV-292bb2f3d5d6355213142c05",
+  "real_project_validated": false,
+  "historical_source_hashes": {
+    "SH-EV-9279119744c6710e2a6ce5c1": "559a82c0595faf8ca75c75173a5c94006bc30d40f4e3758979ae465f523ee0c3",
+    "SH-EV-53032c4c8d46118bd8eb9d8e": "5ac84f9f9cbc1cf34d0fc40e33155f483d00ddbae3cfca26d9c1e501f6ca5675",
+    "SH-EV-6e05557fb8df4c85b4a892e5": "e5ac0b6096119a6e002ff0801e73337087024f0b4424d71246b4cbd2a668cc75",
+    "SH-EV-e4243527837b4bfd3c3a8406": "01132945642e7980f2979e8d5abe2a56dea805d2ac6a4a2d61534f09dab169fe",
+    "SH-EV-54c89a6e56fea86228c6b8f9": "f018573970ecaeec068748ff1aa6a270e64b2bb10150aa16c2f97eaf841b3aef",
+    "SH-EV-052af0aa96d6e4a0757f6148": "94c898e2c375411279d01cee9c6d9e468dfa448db244d0cb39fce3580173c27b",
+    "SH-EV-53c6184781a8775a7f5fd03c": "9097c26debbf9982fb0c9d4241de2c30f597f95e844fc7b259a760750f156a10",
+    "SH-EV-ea7368f63a2a7bed5081b9bc": "5d78243284ab596054143098cb52b5c8a69805eb1b691dc3497f01ca26391cff",
+    "SH-EV-e89aa36ed29f3060935c529c": "c1ae4404e9fb4846ec3f039dac7d5b12c885c0ee2847ae05daa2f7fb3da90489",
+    "SH-EV-541d67e7d008b4104a0134e9": "6b70d9b2704b83accc15627f553c59e211541f0f1dd77e56fa63a834f9be9a6d",
+    "SH-EV-3f135bf5255350282ee048ea": "d2ba3b001b680fecf760f5aebd18896ac86932963a5384c0f7f4986ac3e804ec",
+    "SH-EV-7b08fea1be7d50fba52fed32": "b3ac665c94bc8f9a7e4e1a6cdd07999947a6707830ba0f76e19dd214f3bd34a9",
+    "SH-EV-8738695230248984ed1d830d": "f3b4d64bfd2575d9e6e666a38560cbe28908c55579f869aa6290f786f92c8270"
+  },
+  "audit_projection": {
+    "schema_version": 1,
+    "path_convention": "Relative paths resolve from this JSON directory. evidence:SH-EV-* values identify maintainer-only historical records, not files or URLs, including legacy *_path fields.",
+    "hash_convention": "historical_source_hashes binds prior snapshots. A record adds historical_sha256 only when absent there; unknown stays unknown. Same-package current references do not authenticate old versions.",
+    "scope_and_validation": "Original contribution, source dates, observation and validation limits remain in their original fields. Historical records were not reopened for this projection. IDs/hashes prove neither access nor new validation.",
+    "runtime_required": false
+  },
+  "audit_records": [
+    {
+      "evidence_id": "SH-EV-54c89a6e56fea86228c6b8f9",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-6e05557fb8df4c85b4a892e5",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-052af0aa96d6e4a0757f6148",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-53032c4c8d46118bd8eb9d8e",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-3f135bf5255350282ee048ea",
+      "type": "producer_application_record"
+    },
+    {
+      "evidence_id": "SH-EV-ea7368f63a2a7bed5081b9bc",
+      "type": "historical_source_admission_record"
+    },
+    {
+      "evidence_id": "SH-EV-292bb2f3d5d6355213142c05",
+      "type": "producer_application_record",
+      "historical_sha256": "f368c877addef05fddec6b05b3225e5249b884142c3e0f1720638092cf8582c5"
+    },
+    {
+      "evidence_id": "SH-EV-9279119744c6710e2a6ce5c1",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-e4243527837b4bfd3c3a8406",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-53c6184781a8775a7f5fd03c",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-e89aa36ed29f3060935c529c",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "../references/k01-readiness.md"
+    },
+    {
+      "evidence_id": "SH-EV-541d67e7d008b4104a0134e9",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "k01-evidence.json"
+    },
+    {
+      "evidence_id": "SH-EV-7b08fea1be7d50fba52fed32",
+      "type": "historical_synthetic_input"
+    },
+    {
+      "evidence_id": "SH-EV-8738695230248984ed1d830d",
+      "type": "historical_company_note"
+    }
+  ],
+  "current_version_evidence": {
+    "record_id": "SH-VR-20260911-K02",
+    "observed_on": "2026-09-11",
+    "date_route": "owner_authorized_current_version_review_for_named_12_pages_only",
+    "first_publication": "unknown",
+    "admission_status": "accepted_scoped_current_version",
+    "formal_adoption": false,
+    "legacy_fields_scope": "Existing platform_claims/blocked_claims and audit hashes retain their historical recording state. This dated observation supplements them; no actual store eligibility or formal adoption is inferred.",
+    "claims": [
+      {
+        "claim_id": "SC-SHOPIFY-C002",
+        "source_id": "SC-SHOPIFY-S001",
+        "url": "https://help.shopify.com/en/manual/products/variants",
+        "fact_summary": "选项值组合可形成变体；库存可按变体管理。",
+        "section_locator": "L7–10",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain",
+        "applicability_limit": "实际商品ID、选项及库存未访问。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C005",
+        "source_id": "SC-SHOPIFY-S008",
+        "url": "https://help.shopify.com/en/manual/products/collections/smart-collections/create",
+        "fact_summary": "旧智能集合只纳入整件商品，新集合模型才可纳入变体；复制集合不自动加入销售渠道，导航仍是另一步。",
+        "section_locator": "L9; L45; L62–69; L165–167",
+        "assessment": "accepted_conditional_current_version",
+        "delta": "branch_by_condition",
+        "applicability_limit": "CF02保留，未打开新模型页面；实际可用性未知。"
+      }
+    ],
+    "controller_decision_id": "417",
+    "formal_adoption_scope": "whole_skill_final_adoption"
+  },
+  "collection_member_evidence_20260922": {
+    "record_id": "SH-K02-COLLECTION-MEMBER-20260922",
+    "execution_state": "approved_plan_written_to_isolated_candidate",
+    "quality_state": "pending_scoped_independent_review",
+    "formal_adoption": false,
+    "method_maturity": "method_hypothesis",
+    "observed_on": "2026-09-22",
+    "first_publication": "unknown",
+    "date_route": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913",
+    "sources": [
+      {
+        "id": "SH-CL22-S01",
+        "url": "https://help.shopify.com/en/manual/products/collections",
+        "locator": "L9,L23–29",
+        "contribution": "model applicability and multiple sources"
+      },
+      {
+        "id": "SH-CL22-S02",
+        "url": "https://help.shopify.com/en/manual/products/collections/conditions",
+        "locator": "L73–89,L110–123,L170–180",
+        "contribution": "per-source conditions, manual membership, Products/Variants and connected category-option boundary"
+      },
+      {
+        "id": "SH-CL22-S03",
+        "url": "https://help.shopify.com/en/manual/products/collections/make-collections-findable",
+        "locator": "L12",
+        "contribution": "retain existing channel/menu distinction; no new rule"
+      }
+    ],
+    "company_inference": "Record provenance per source group and verify option connection before inferring target-variant filtering; only affected unknown entries stop.",
+    "excluded": [
+      "Other source classes and complete metafield configuration",
+      "Compare-at-price zero/is-set conflict: L103/107/238–241; no adopted resolution"
+    ],
+    "actual_store_model": "unknown",
+    "behavior_validation": "not_executed",
+    "visual_observation": "none_text_sufficient_for_scoped_claims",
+    "legacy_fields": "Unchanged historical observations; neither date refresh nor new candidate approval inherited."
+  },
+  "qa_association_20260922": {
+    "decision_id": "SHOPIFY_K02_COLLECTION_MEMBER_SCOPED_QA_20260922_01",
+    "decision": "PASS_WITH_EXCEPTIONS",
+    "decision_date": "2026-09-22",
+    "decision_record_identity": {
+      "bytes": 9206,
+      "sha256": "7addf611af8b07033d24c198288e5abfba137de706dfcdbe77131bc2dd991902"
+    },
+    "frozen_payload_identity": {
+      "files": 17,
+      "bytes": 121667,
+      "manifest_receipt_sha256": "be7eb899bc1f42b103d703c26203ee19617925f6a876d7481139cd7c02db1721"
+    },
+    "scope": "K02 collection member evidence from authorized same-object same-version synthetic or deidentified offline materials; no live changes",
+    "formal_adoption": false,
+    "legacy_fields": "Preserve frozen pending/not_executed fields as historical; this association supplies the scoped QA result only.",
+    "packaging_delta": "Only start-page association and this JSON key; method text unchanged; packaging static acceptance separate.",
+    "exceptions": [
+      "Actual store model/configuration/member readback unknown",
+      "Compare-at-price zero/is-set conflict excluded",
+      "Other source types and full metafield/troubleshooting instructions excluded",
+      "Nine paused videos/visual/creator coverage not completed",
+      "Host installation/automatic loading/cross-machine editing/business results unverified",
+      "Novice saw historical entry evaluations; not a zero-history-exposure claim"
+    ],
+    "reopen": "Original Shopify owner submits scoped evidence/plan upon counterexample or expanded task; no automatic permission change"
+  },
+  "expression_scope_evidence_20261010": {
+    "record_id": "SH-K02-EXPRESSION-SCOPE-20261010",
+    "execution_id": "SHOPIFY_K02_EXPRESSION_SCOPE_REVISION_20261010_01",
+    "execution_state": "approved_plan_written_to_isolated_candidate",
+    "quality_state": "pending_formal_QA",
+    "formal_adoption": false,
+    "method_maturity": "method_hypothesis",
+    "observed_on": "2026-10-10",
+    "behavior_validation": "not_executed",
+    "sources": [
+      {
+        "id": "A01",
+        "url": "https://unofficialshopifypodcast.com/episodes/shopify-cro-2025-1SvHhjIe",
+        "publication_date": "unknown_for_body",
+        "observation_state": "full_observed",
+        "observation_depth": "full_visible_article_transcription_text_only",
+        "admission": "date_excluded_from_formal_method",
+        "maturity": "source_claim_not_admitted",
+        "locators": "merged web lines 0-230",
+        "contribution": "version conflict and rejection evidence only",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-4aa9e301be3c03d5e490ceec",
+          "evidence:SH-EV-22f0a977900017bd2499c702",
+          "evidence:SH-EV-612e6803475d2effd68ceebd"
+        ],
+        "unobserved": [
+          "original audio",
+          "original video pixels",
+          "historical recording date"
+        ]
+      },
+      {
+        "id": "V01",
+        "url": "https://www.youtube.com/watch?v=Ha6spU4Weyo",
+        "publication_date": "2025-07-08",
+        "observation_state": "full_observed",
+        "observation_depth": "full_provider_returned_transcript_read_not_original_audio_or_pixels",
+        "admission": "scoped_source_claim",
+        "maturity": "method_hypothesis_for_G1",
+        "contribution": "G1 purchasing question, supported facts, actual included items, image/text correspondence and conditional viewport evidence",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-581c1b7214388285834c67c2",
+          "evidence:SH-EV-4d291838649fe907c074fd68",
+          "evidence:SH-EV-72148ce53b561815f17d6685"
+        ],
+        "unobserved": [
+          "original audio",
+          "original video pixels",
+          "duration",
+          "captions compared verbatim to original audio"
+        ],
+        "semantic_locators": [
+          {
+            "theme": "清晰表达",
+            "keyword": "content side",
+            "zero_based_character_offset": 2991
+          },
+          {
+            "theme": "内含物信息",
+            "keyword": "everything that's included",
+            "zero_based_character_offset": 13577
+          },
+          {
+            "theme": "图片标注",
+            "keyword": "annotated product photos",
+            "zero_based_character_offset": 13961
+          }
+        ],
+        "locator_coordinate_system": "本轮已观察的provider返回字幕，Unicode字符零起点；不是字节、行号或原视频时间。其他字幕版本的偏移可能不同，以短主题/关键词辅助辨认；不表示原音频或像素已核。",
+        "locator_text_identity": {
+          "characters": 19275,
+          "utf8_sha256": "fd16b8034af750fe2675e87c541b28fd4415cde0941c647b47611cb456cb271d",
+          "provider_result_field": "structuredContent.transcription",
+          "source_video_id": "Ha6spU4Weyo"
+        }
+      },
+      {
+        "id": "A02",
+        "url": "https://ed.codes/blog/how-shopify-theme-updates-work",
+        "publication_date": "2026-04-14",
+        "observation_state": "full_observed",
+        "observation_depth": "full_substantive_article_text_only_not_embedded_images_or_comments",
+        "admission": "case_evidence_only",
+        "maturity": "case_evidence",
+        "locators": "local visible text lines 12-71, article body through closing suggestions",
+        "contribution": "G2 locate potentially lost references/code/settings; no platform merge-algorithm guarantee",
+        "commercial_interest": "author sells Shopify sections and services; same case as V02",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-de59422233bb554d71e7856a",
+          "evidence:SH-EV-a435d36b59acc5d9096a6734"
+        ],
+        "unobserved": [
+          "article source images",
+          "actual customer store/code",
+          "embedded video pixels"
+        ]
+      },
+      {
+        "id": "O01",
+        "url": "https://help.shopify.com/en/manual/online-store/themes/theme-structure/templates",
+        "publication_date": "unknown",
+        "observation_state": "full_observed",
+        "observation_depth": "full_visible_body_text_only",
+        "admission": "scoped_current_official_facts",
+        "maturity": "official_fact_with_unknown_store_applicability",
+        "locators": "local visible lines 6-25,77-83,109-157; remaining body read through line257",
+        "date_route": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913 current official version",
+        "verified_on": "2026-10-10",
+        "contribution": "G2 resource content/shared template scope and preview-versus-assignment distinction",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-af2ede11ad2b1ae295a00187",
+          "evidence:SH-EV-3cabc46a504f69609b37e85e"
+        ],
+        "unobserved": [
+          "page images",
+          "admin",
+          "actual template allocation"
+        ]
+      },
+      {
+        "id": "O02",
+        "url": "https://help.shopify.com/en/manual/online-store/themes/managing-themes/updating-themes",
+        "publication_date": "unknown",
+        "observation_state": "full_observed",
+        "observation_depth": "full_visible_body_text_only",
+        "admission": "scoped_current_official_facts",
+        "maturity": "official_fact_with_unknown_store_applicability",
+        "locators": "web lines0-97; scoped claims45-77",
+        "date_route": "OFFICIAL_SOURCE_ADMISSION_OWNER_RULE_20260913 current official version",
+        "verified_on": "2026-10-10",
+        "contribution": "G2 conflict-conditional inclusion, actual result status, display/function and selector review",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-ff497c2f076f3a0058b43aa7",
+          "evidence:SH-EV-67135a2f71943bb6da3e82c4"
+        ],
+        "unobserved": [
+          "page images",
+          "admin",
+          "actual theme behavior"
+        ]
+      },
+      {
+        "id": "V02",
+        "url": "https://www.youtube.com/watch?v=_Co-2gNBxAA",
+        "publication_date": "2026-04-14",
+        "observation_state": "unlearned_exception",
+        "observation_depth": "provider_report_read_only_no_direct_full_semantic_or_raw_pixel_verification",
+        "admission": "provider_case_locator_not_official_fact",
+        "maturity": "provider_observation_unverified_by_agent",
+        "contribution": "G2 locator and evidence-tier limitations only; no third method increment",
+        "exception_reason": "provider walkthrough is not original verbatim semantics or Agent direct pixel observation; full_observed threshold not met",
+        "provider_reported_coverage": "00:00-09:59",
+        "observed_on": "2026-10-10",
+        "evidence_ids": [
+          "evidence:SH-EV-e026eabd17cc0ab986d50508",
+          "evidence:SH-EV-4d9e66dd17123a0c09f55ef2",
+          "evidence:SH-EV-17164d2224b98e0a3d2ceeaf"
+        ],
+        "unobserved": [
+          "Agent original video pixels",
+          "Agent original audio",
+          "full verbatim video semantic coverage"
+        ]
+      }
+    ],
+    "source_independence": "V01/A01 share an author family but differ in body/version; A02/V02 same author case; two official pages same platform. No independent multi-source performance validation.",
+    "method_delta": [
+      {
+        "id": "G1",
+        "action": "refine_and_branch_by_condition",
+        "basis": [
+          "V01"
+        ],
+        "company_inference": "购买问题、已证事实、图文位置、候选表达与效果状态分开；缺图或视口只停对应结论。",
+        "last_source_check": "2026-10-10",
+        "next_evidence": "一次获准的安全离线应用及适用独立复核；经营效果未证"
+      },
+      {
+        "id": "G2",
+        "action": "refine_and_branch_by_condition",
+        "basis": [
+          "O01",
+          "O02"
+        ],
+        "case_locators": [
+          "A02",
+          "V02_provider_only"
+        ],
+        "company_inference": "条件触发改动层、共享/分配、影响范围与分层回读；不以文件或提示代替实际功能。",
+        "last_official_check": "2026-10-10",
+        "next_evidence": "安全材料应用；实例配置及运行效果仍未知"
+      }
+    ],
+    "reject": [
+      "A01正文借关联视频日期准入",
+      "转化倍数、固定弹窗/点击数及mobile-only通则",
+      "新文件必定迁移或复制后无损保证",
+      "provider代码行号等同Agent原像素核验"
+    ],
+    "no_update_needed": [
+      "既有逐对象对齐与完整替换稿",
+      "集合成员取证与局部未知停止"
+    ],
+    "real_project_validated": false,
+    "counts": {
+      "full_observed": 5,
+      "full_observed_scope": "4 text bodies + 1 returned caption text; not five original audiovisual sources",
+      "sampled_for_disposition": 0,
+      "exact_duplicate_reuse": 0,
+      "confirmed_content_duplicate_reuse": 0,
+      "direction_preflight_disposition": 0,
+      "unlearned_exception": 1,
+      "pending_provider_result": 0,
+      "original_video_pixels_observed": 0,
+      "original_audio_observed": 0,
+      "full_original_audiovisual_observation": 0,
+      "provider_reports_read": 1,
+      "full_observed_but_date_excluded": 1,
+      "proposed_method_increments": 2,
+      "adopted_method_increments": 0
+    },
+    "credit_receipts_scope": "已有学习轮两次回执5+25，余额138→133→132原因unknown；此写入轮费用0，不调查账户。",
+    "evidence_convention": "evidence:SH-EV-*为维护者保管的内部回执ID；不属于运行必需文件。来源URL、定位与限制已随包列出。",
+    "legacy_fields": "旧字段、历史日期与qa_association保持原对象；本块不扩大旧裁决。应用首答及结果如产生，另在本次冻结handoff关联，不追写此时点字段。"
+  },
+  "qa_association_20261010": {
+    "decision_id": "SHOPIFY-K02-SCOPED-FINAL-20261010-01",
+    "decision": "PASS_WITH_EXCEPTIONS",
+    "decision_date": "2026-10-10",
+    "decision_record_identity": {
+      "bytes": 13397,
+      "sha256": "0a063bd85db622aedbd2f70220917685a5997bfaf1ce659e5a932feffed8e197"
+    },
+    "applies_to_freeze_id": "SHOPIFY-K02-EXPRESSION-SCOPE-20261010-R1",
+    "frozen_payload_identity": {
+      "files": 17,
+      "bytes": 140042,
+      "manifest_sha256": "e8c4698b3e2710778a34171e22033c7aa719c7b324c62c8d48979262d04fe22b",
+      "freeze_manifest_sha256": "0f9e3793f9111acf9c9834548a1185eefc64e9b67896e41f7694d5db62fd8351"
+    },
+    "scope": "获授权、同对象同版本离线页面材料的事实差异、完整可编辑文字、有证图文建议、影响范围局部未知与安全下一步。",
+    "formal_adoption": false,
+    "exceptions": [
+      {
+        "id": "E1",
+        "limit": "5个文字层full_observed含A01正文日期排除；V02仅provider报告；原声画0。",
+        "owner": "原Shopify任务",
+        "reopen": "原声画独占知识成为具名核心需求时；不宣传6视频完整学完。"
+      },
+      {
+        "id": "E2",
+        "limit": "无本轮原图/视口/真实模板、账号或代码运行；G1效果为假设，G2公司流程受官方事实约束，未证经营效果。",
+        "owner": "原任务与真实任务中有权限的事实提供者",
+        "reopen": "获得对应授权材料或拟扩大用途/效果承诺时。"
+      },
+      {
+        "id": "E3",
+        "limit": "一个双商品合成任务、两个Agent角色；无Skill基线亦完成核心任务，非真人/全K/跨宿主/安装认证。",
+        "owner": "原任务和总控",
+        "reopen": "实际使用环境或声明范围变化；不声称普遍能力、速度、成本、转化优势。"
+      },
+      {
+        "id": "E4",
+        "limit": "新增截图0；回执5+25与余额138→133→132不同，原因unknown，watch退款字段false。",
+        "owner": "原Shopify任务",
+        "reopen": "未来获准可达截图路径或平台对账证据；不追造历史、不新收费查账。"
+      },
+      {
+        "id": "E5",
+        "limit": "原R1的短定位/历史状态负担为两项LOW意见，未阻断原限定用途；新维护差异尚待复检。",
+        "owner": "原Shopify任务提交维护，总控限定复检",
+        "reopen": "维护副本形成新冻结并明确邀请，或入口出现真实误用证据。"
+      }
+    ],
+    "baseline_comparison": "无/有Skill首答均完成核心任务；有限价值在组织与边界可复用，不能推断因果优势。专业角色先基线后审查、买家历史评价暴露限制保持。",
+    "legacy_fields": "仅绑定原R1裁决，不自动覆盖本维护副本；旧候选、未验及not_executed字段保留各自记录时点。"
+  },
+  "delivery_maintenance_20261010": {
+    "maintenance_version": "SHOPIFY-K02-DELIVERY-20261010-M1",
+    "freeze_id": "SHOPIFY-K02-DELIVERY-MAINTENANCE-20261010-M1",
+    "base_freeze_id": "SHOPIFY-K02-EXPRESSION-SCOPE-20261010-R1",
+    "authorization_id": "SHOPIFY_K02_SCOPED_PACKAGING_20261010_01",
+    "stage": "B",
+    "changes": "M1的定位/标签维护已获真实限定复检；本交付副本仅更新当前状态关联，不改变方法或定位。",
+    "review_status": "passed_with_exceptions",
+    "decision_id": "SHOPIFY-K02-MAINTENANCE-RETEST-20261010-01",
+    "decision_record_identity": {
+      "bytes": 4610,
+      "sha256": "de81f7ec12aa04bc8d5bbf67db715b1965fb3a269d6644eec3cd335aba9dfba9"
+    },
+    "formal_adoption": false,
+    "packaging_status": "see_external_packaging_receipt",
+    "actual_adoption_pointer_changed": false,
+    "scope_note": "限定复检适用于冻结M1，用途仍为授权、同对象同版本离线页面审阅与有据可编辑交付。原R1关联及历史E5保留；本副本只更新真实状态。实际本地封装及总控接收以外层回执为准，尚不代表根接收、发布或实际采用。",
+    "decision": "PASS_WITH_EXCEPTIONS",
+    "closed_findings": [
+      "QA-F01",
+      "QA-F02"
+    ],
+    "preserved_exceptions": [
+      "E1",
+      "E2",
+      "E3",
+      "E4"
+    ],
+    "packaging_receipt": {
+      "receipt_id": "SHOPIFY-K02-PACKAGING-20261010-01",
+      "location": "买家目录与ZIP所在交付根的外层PACKAGING_RECEIPT.json；不随买家目录/ZIP，不是运行依赖。",
+      "controller_acceptance": "pending_actual_controller_readback"
+    }
+  },
+  "round_three_theme_audit_20261012": {
+    "record_id": "SH-R3-THEME-AUDIT-20261012",
+    "status": "candidate_pending_execution_and_validation",
+    "formal_adoption": false,
+    "method_maturity": "method_hypothesis",
+    "source_units": [
+      {
+        "id": "Y04-ARTICLE",
+        "url": "https://ed.codes/blog/find-every-code-change-in-your-shopify-theme-using-claude",
+        "published_on": "2026-09-02",
+        "observed_on": "2026-10-12",
+        "observation": "article full body and four figures; understood, not embedded video",
+        "contribution": "same-version baseline and change handoff; author claims not performance proof"
+      },
+      {
+        "id": "Y04",
+        "url": "https://www.youtube.com/watch?v=UNdps5GcilQ",
+        "upload_date": "unknown",
+        "observation": "full returned default-en caption text read; original audio/pixels unobserved; video remains unlearned_exception",
+        "reason": "Upload date unknown, no source-audio or pixel observation; companion article cannot replace video. Caption text agrees with article but is same-source evidence.",
+        "caption_evidence": "Y04_TRANSCRIPT_RECONCILIATION.json in isolated producer evidence; raw captions excluded from payload",
+        "method_delta": "no_update_needed",
+        "formal_video_method_admission": false
+      },
+      {
+        "id": "O-R3-01",
+        "url": "https://help.shopify.com/en/manual/online-store/themes/managing-themes/updating-themes",
+        "verified_on": "2026-10-12",
+        "scope": "update handling and explicit review of appearance/function; not store evidence"
+      },
+      {
+        "id": "O-R3-02",
+        "url": "https://shopify.dev/docs/storefronts/themes/architecture/config/settings-data-json",
+        "verified_on": "2026-10-12",
+        "scope": "settings values/current/presets and theme-level custom CSS; conflicting container spelling unresolved, do not hardcode"
+      },
+      {
+        "id": "O-R3-03",
+        "url": "https://shopify.dev/docs/storefronts/themes/architecture/templates/json-templates",
+        "verified_on": "2026-10-12",
+        "scope": "section data/order/disabled and section-level custom_css; no runtime validation"
+      }
+    ],
+    "company_inference": "可信同版本基线、文件及设置差异、归因与覆盖未知、保留建议与实际迁移分开。",
+    "excluded_claims": [
+      "fixed 1-5 complexity approval",
+      "every change found",
+      "Horizon commit always equals distributable version",
+      "Claude/Codex identical behavior",
+      "automatic migration or removal"
+    ],
+    "next_validation": "one controlled offline comparison plus version-mismatch variation; pending specific authorization",
+    "real_project_validated": false
+  },
+  "round_three_fusion_20261012": {
+    "id": "SH-R3-FUSION-20261012",
+    "maturity": "method_hypothesis",
+    "adoption": "project_trial",
+    "formal_adoption": false,
+    "youtube_phase": "CLOSED_WITH_DECLARED_EXCEPTIONS by R3_YOUTUBE_PHASE_DISPOSITION_AND_SEALEAP_START_20261012_01; not full-video observation",
+    "Y04_contribution": "Existing same-version audit and evidence handoff; retain conditional workflow. Trial received with limits, no proven old/new gain.",
+    "Y05_contribution": "Shared text supply; no Shopify business-method increment.",
+    "sealeap": {
+      "commit": "e1a39e197193a07a044ca80191bf541eae17f4a5",
+      "source_date": "2026-09-29T06:35:49Z",
+      "packages": [
+        {
+          "name": "sealeap-shopify-conversion-audit",
+          "url": "https://github.com/xjli360/sealeap-ecommerce-skills/blob/e1a39e197193a07a044ca80191bf541eae17f4a5/sealeap-amazon-skills/shopify/sealeap-shopify-conversion-audit/METHOD.md",
+          "path": "sealeap-amazon-skills/shopify/sealeap-shopify-conversion-audit/METHOD.md",
+          "sha256": "05f85f19a5835e21d60ca3e9ade69507f5c235355df5854691bc60e6f703f547",
+          "git_blob_sha": "8b11cedc161510ff3e608006e882b0fe17599e15",
+          "match": "partial_match",
+          "route": "Existing K02 only; broader business/rights recovery paths excluded",
+          "adoption": "no_update_needed for SeaLeap operational rules",
+          "scope_exception": "No execution or contemporary platform-policy validation"
+        },
+        {
+          "name": "sealeap-shopify-store-operations",
+          "url": "https://github.com/xjli360/sealeap-ecommerce-skills/blob/e1a39e197193a07a044ca80191bf541eae17f4a5/sealeap-amazon-skills/shopify/sealeap-shopify-store-operations/METHOD.md",
+          "path": "sealeap-amazon-skills/shopify/sealeap-shopify-store-operations/METHOD.md",
+          "sha256": "dd141e54c00f6db79b50c35dc2872d9b9edae9188c87f6590dd6627559c3a28a",
+          "git_blob_sha": "ef52dd5616712b9ad81fb9e65b596f5af326b3f6",
+          "match": "partial_match",
+          "route": "Existing K02 only; broader business/rights recovery paths excluded",
+          "adoption": "no_update_needed for SeaLeap operational rules",
+          "scope_exception": "store-operations feed/retention reference not re-read"
+        },
+        {
+          "name": "sealeap-shopify-theme-license-recovery",
+          "url": "https://github.com/xjli360/sealeap-ecommerce-skills/blob/e1a39e197193a07a044ca80191bf541eae17f4a5/sealeap-amazon-skills/shopify/sealeap-shopify-theme-license-recovery/METHOD.md",
+          "path": "sealeap-amazon-skills/shopify/sealeap-shopify-theme-license-recovery/METHOD.md",
+          "sha256": "6be0bf4c65604b1f982c32f3854fe8668c2a45b1889828acd55e2629e49a27ce",
+          "git_blob_sha": "100f81efe7262685a843be27b059cb767c4b7ec3",
+          "match": "partial_match",
+          "route": "Existing K02 only; broader business/rights recovery paths excluded",
+          "adoption": "no_update_needed for SeaLeap operational rules",
+          "scope_exception": "No execution or contemporary platform-policy validation"
+        }
+      ],
+      "decision": "no_update_needed for operational method; compare and reuse existing entry/reference/evidence separation",
+      "excluded": [
+        "license/transfer/account recovery",
+        "CVR/profit/experimentation additions",
+        "source implementation/scripts/media",
+        "old platform facts as current facts"
+      ]
+    },
+    "delivery_structure_delta": "Expose already scoped K02 audit branch and package the existing real synthetic input/first-output dependencies. This is original company adaptation, not an upstream feature claim.",
+    "producer_validation": {
+      "known_items": 8,
+      "old_covered": 8,
+      "new_covered": 8,
+      "mismatch_covered": 8,
+      "independence": false,
+      "causal_gain": "not established",
+      "limitations": [
+        "same assistant/context",
+        "fixture author knows differences",
+        "version assertion conflict only",
+        "no real theme rendering or operation"
+      ],
+      "controller_receipt_id": "SHOPIFY_R3_LOCAL_CANDIDATE_REVIEW_20261012_01"
+    },
+    "third_round_final_qa": "not_started",
+    "source_rights": "Read-only fixed source and self-written summary; no third-party prose/media/scripts distributed. MIT/copyright remains attached to upstream originals.",
+    "next": "Authorize precise fusion, serial knowledge writeback, frozen candidate and explicit independent QA invitation, then final accepted local package."
+  }
+}

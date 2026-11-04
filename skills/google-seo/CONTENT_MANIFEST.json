@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3578,
+      "sha256": "2b51bbc9773084f07f35f07739fc52559076926a89e1dc717612ec4d7accc0f3"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "0308989b94ea4fff34bd2e29a48cb4199ab56fb66a6b25e4863a13ef35e69908"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1885,
+      "sha256": "1b0cd22e64eef766e1dbedcde9e99f341ed36c40d36f6bdb17bd77d1e78b44bb"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 579,
+      "sha256": "c6854816f0e5b26f6993f04013254bf47e7d3dc1737f62c0bde0656dc3e4b66b"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1443,
+      "sha256": "94ac968ce3f12eb9f5fe01dce650d69e4fc94d62a2b44b5fdd87e1dfbd82c59e"
+    },
+    {
+      "path": "references/library/00_从这里开始.md",
+      "bytes": 4146,
+      "sha256": "897d8fafcfe16598e46513eedfec3ee6716445f4a086bec0287cc3daff12c326"
+    },
+    {
+      "path": "references/library/01_页面选择与完整改稿教学.md",
+      "bytes": 8874,
+      "sha256": "12febab22ac6544bbc2d057462773e2f64480a10245c1256c7f34c34dc0d9aa2"
+    },
+    {
+      "path": "references/library/02_重复与索引疑问教学.md",
+      "bytes": 7325,
+      "sha256": "6094885f04ecf8b8faf032d8b2b0b373f47c99405fce880d327fd407082e9ba8"
+    },
+    {
+      "path": "references/library/03_能力与来源.md",
+      "bytes": 5073,
+      "sha256": "629a0fda3d7e7c9f99f387175d35ef8bee6ea230db292749dabe28c814d120be"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 9483,
+      "sha256": "a7fadfcbf07a3849b4ea6f0a488615a233ec26c7c5115873f6a6deb2d2a9bc75"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/METHOD.md",
+      "bytes": 8337,
+      "sha256": "6e268ce046f72a1874da86089ebc2931ccce83c9af60f2f9d9812e87a642481e"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/QUICKSTART.zh-CN.md",
+      "bytes": 1134,
+      "sha256": "59ef1a6ae692a661d4da20a454eca314e0b43d553421d30f7f0acb933777d14a"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/RIGHTS.csv",
+      "bytes": 5287,
+      "sha256": "366bcbd13c21371fb8ec6abe10fbc085cd2abf6a45c15e34105fff8484036976"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/SUPPORT.zh-CN.md",
+      "bytes": 1071,
+      "sha256": "42177f570f4b00ce4d9b30a910ef128cc8a8df48faec1adafbfd00058d4180ac"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/USER_GUIDE.zh-CN.md",
+      "bytes": 3836,
+      "sha256": "1726392842c7e257593733fef3cebfdd17d91dbf534a498eebb22b2eb40ec27e"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/agents/openai.yaml",
+      "bytes": 286,
+      "sha256": "52a56a7a59fd57328543758fded6206e2805772fd406259de8bf06312e0d8b47"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/examples/capability-portfolio.md",
+      "bytes": 16391,
+      "sha256": "d35b5a22d7367e49200ce91e65893dd41a4ada7fe0538ed70c2318de7143970a"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/examples/page-review.md",
+      "bytes": 15537,
+      "sha256": "d1037bc49bf0ac01e4ccaa5970442bf67fc141b84b39fb9dcf6cc77d77b9175d"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/examples/rendering-review.md",
+      "bytes": 9266,
+      "sha256": "14233833aac7833fba63c57f0d0129fe13641e68282183c5f4861d4fcfef9f47"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/current-google-facts.md",
+      "bytes": 15792,
+      "sha256": "16ee5738d78638a68d86a6a9e2fe7d0b28a88654675096f4749471f08ea97318"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/evidence-and-safety.md",
+      "bytes": 4704,
+      "sha256": "15915e45e0d33082969c1f68a20897a856507810f5c60f2848816512670bb534"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/international-implementation.md",
+      "bytes": 2950,
+      "sha256": "ea59739f6fcab517982903cc8f8ff851794404ef91ff7dd5181efd93970dcb75"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/lifecycle-and-structured-data.md",
+      "bytes": 2642,
+      "sha256": "77abdcc74f61b9d7cf5be825cc06227aa18458d3672deff4eec86fa06125c3f4"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/local-and-editorial-authority.md",
+      "bytes": 1738,
+      "sha256": "1df522acde2b57ff15cba2c0acda217c1ea995e4f0d9693698be59a31b24a584"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/round-three-sources.md",
+      "bytes": 2229,
+      "sha256": "577e196864721bbd5f3d2e6484958f17de27b8818715a4f7375ced732b7f942a"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/seo-ads-handoff.md",
+      "bytes": 3572,
+      "sha256": "d548912912030bca2260fc5c29e90d4cd56001fc197fcea443f98360db051591"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/source-register.json",
+      "bytes": 46532,
+      "sha256": "48457351cec83dc562bf05e87c13e0846463d5443095404537194bf7e127dcc0"
+    },
+    {
+      "path": "references/library/原版方法/payload/google-seo-operations/references/workflow-and-templates.md",
+      "bytes": 20772,
+      "sha256": "2a5d758464f8819620ca8cba6a73d5bc8cff75e70bb1b6e57f2d1e405805e611"
+    }
+  ]
+}

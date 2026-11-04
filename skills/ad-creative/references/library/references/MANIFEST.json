@@ -1,0 +1,71 @@
+{
+  "schema": "modernlinc.local-file-package.v1",
+  "id": "MODERNLINC-CREATIVE-LOCAL-20261020-01",
+  "date": "2026-10-20",
+  "parent": "2026-10-19-prelaunch-01/creative",
+  "entry": "00_开始使用.md",
+  "method_semantic_changes": false,
+  "status": "FROZEN_AWAITING_PACKAGING_REVIEW",
+  "formal_adoption": false,
+  "public_release": false,
+  "installation_of_this_package": false,
+  "commercial_terms": "not_set",
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 4421,
+      "sha256": "c17ae58911a2f16b40da2313e7aaf19e061eb3d4c65d2383618ae396284b0230"
+    },
+    {
+      "path": "01_教学导读_从用途到撤证改稿.md",
+      "bytes": 7581,
+      "sha256": "d7049243b95ff85a0fd6d0fb7179e8aa6c2cc651a7ea2741b4ce3f27c2593b1e"
+    },
+    {
+      "path": "原版方法/00_当前使用与范围.md",
+      "bytes": 3007,
+      "sha256": "892ec648538fcb13e9e10200c70d45de40b3aeb8de3d864667c671e99cab0414"
+    },
+    {
+      "path": "原版方法/MANIFEST.json",
+      "bytes": 831,
+      "sha256": "d76cd989d3f022db60493f451bdf88c1a7b99f5343fc1e92aacc47cabdf20dbc"
+    },
+    {
+      "path": "原版方法/payload/GUIDE.md",
+      "bytes": 10291,
+      "sha256": "f7b8ffe20cdfc1083089690a6b8cd7161b5a0beade8ba1b1676e7559f732599d"
+    },
+    {
+      "path": "原版方法/payload/MEDIA_GUIDE.md",
+      "bytes": 2798,
+      "sha256": "23f9b809c10092b7a5f9caa216d9ce19ebf22d6e97c13d991e1a0333ef22a681"
+    },
+    {
+      "path": "原版方法/payload/METHOD.md",
+      "bytes": 10507,
+      "sha256": "4735d2bd766bd3fda6ee29ecfbd32ea5ee33d0c6f964c5b5f0c0ae3e00b26c82"
+    },
+    {
+      "path": "示例/01_原始委托.md",
+      "bytes": 2483,
+      "sha256": "ce0eff1b1618f58fdffb5fc4059e58f4a0e78622320439ad88fc75712f8538c8"
+    },
+    {
+      "path": "示例/02_原始首答.md",
+      "bytes": 9659,
+      "sha256": "1beb1d5cff4138c630826dfbf700edf41680cb3584d83fc8a6fe176f12acb738"
+    },
+    {
+      "path": "示例/03_原始跟进输入.md",
+      "bytes": 186,
+      "sha256": "cc172d1c4c19802c48daab72b0321fcc715409467beb8efe3318383884b287e0"
+    },
+    {
+      "path": "示例/04_原始跟进成果.md",
+      "bytes": 7180,
+      "sha256": "309c6c3a1449cacb27ea7352a3dc3cb51ecae392ccc2b394520f37bff900f394"
+    }
+  ],
+  "self_excluded": "MANIFEST.json"
+}

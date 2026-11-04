@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "status": "candidate_method_not_final_reviewed",
+  "maturity": "method_hypothesis",
+  "scope": "K03 offline line-level fulfillment and aftercare evidence",
+  "formal_adoption": false,
+  "source_contributions": [
+    {
+      "id": "OLD-K03-C017-SOP06-SOP07",
+      "path": "evidence:SH-EV-317d8ad1ea07c86cab63e1e1",
+      "action": "retain/refine",
+      "contribution": "逐行时间/请求/权益分层，未知不代填；新增可回读交接及有证上游关联"
+    },
+    {
+      "id": "285-B2",
+      "path": "evidence:SH-EV-6e05557fb8df4c85b4a892e5",
+      "method_path": "evidence:SH-EV-052af0aa96d6e4a0757f6148",
+      "contribution": "原意图/版本/未知保留，接收与授权/执行分开"
+    },
+    {
+      "id": "K01-K02",
+      "paths": [
+        "../references/k01-readiness.md",
+        "../references/k02-product-page.md"
+      ],
+      "contribution": "仅责任接口背景，不作为订单证据，不重跑"
+    }
+  ],
+  "platform_claims": [
+    {
+      "id": "SC-SHOPIFY-C007",
+      "source_id": "SC-SHOPIFY-S006",
+      "claim": "订单/行不同履约方式",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false
+    },
+    {
+      "id": "SC-SHOPIFY-C008",
+      "source_id": "SC-SHOPIFY-S004",
+      "claim": "退款/退货/库存独立性及退款不可逆旧命题",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false
+    },
+    {
+      "id": "SC-SHOPIFY-C009",
+      "source_id": "SC-SHOPIFY-S004",
+      "claim": "店铺余额与原支付可能重复补偿",
+      "first_publication": "unknown",
+      "explicit_update_date": "unknown",
+      "formal_adoption": false
+    }
+  ],
+  "platform_disposition": "historical_research_only; actual_policy_permissions_payment_inventory_unknown",
+  "local_admission_path": "evidence:SH-EV-ea7368f63a2a7bed5081b9bc",
+  "validation_status": "producer_application_completed_not_independent",
+  "application_path": "evidence:SH-EV-071060be136d97e240aedecb",
+  "real_project_validated": false,
+  "historical_source_hashes": {
+    "SH-EV-7f71d5be769c83945e75eb22": "bc620c201fc03b12ab8fde9ff4787eea3b712d378c839df3791526f24e5441eb",
+    "SH-EV-6e05557fb8df4c85b4a892e5": "e5ac0b6096119a6e002ff0801e73337087024f0b4424d71246b4cbd2a668cc75",
+    "SH-EV-e4243527837b4bfd3c3a8406": "01132945642e7980f2979e8d5abe2a56dea805d2ac6a4a2d61534f09dab169fe",
+    "SH-EV-317d8ad1ea07c86cab63e1e1": "16e49767a77fda3e511debcfef07934a4fdfd86a005d983486b2808b4aaf4569",
+    "SH-EV-052af0aa96d6e4a0757f6148": "94c898e2c375411279d01cee9c6d9e468dfa448db244d0cb39fce3580173c27b",
+    "SH-EV-ea7368f63a2a7bed5081b9bc": "5d78243284ab596054143098cb52b5c8a69805eb1b691dc3497f01ca26391cff",
+    "SH-EV-e89aa36ed29f3060935c529c": "c1ae4404e9fb4846ec3f039dac7d5b12c885c0ee2847ae05daa2f7fb3da90489",
+    "SH-EV-ed37a60071d24c2e3f56586e": "6d583d0dd860c12228a6e4b9d975c6ffb2a76728ef0b10f57cabf06b1366c61b",
+    "SH-EV-3f135bf5255350282ee048ea": "d2ba3b001b680fecf760f5aebd18896ac86932963a5384c0f7f4986ac3e804ec",
+    "SH-EV-292bb2f3d5d6355213142c05": "f368c877addef05fddec6b05b3225e5249b884142c3e0f1720638092cf8582c5",
+    "SH-EV-7b08fea1be7d50fba52fed32": "b3ac665c94bc8f9a7e4e1a6cdd07999947a6707830ba0f76e19dd214f3bd34a9",
+    "SH-EV-b578b170182b0a99add66406": "785d8915468bbef93c2e1414c0aab90e7d1a343a4152ab5924aec54cb7393eb3"
+  },
+  "audit_projection": {
+    "schema_version": 1,
+    "path_convention": "Relative paths resolve from this JSON directory. evidence:SH-EV-* values identify maintainer-only historical records, not files or URLs, including legacy *_path fields.",
+    "hash_convention": "historical_source_hashes binds prior snapshots. A record adds historical_sha256 only when absent there; unknown stays unknown. Same-package current references do not authenticate old versions.",
+    "scope_and_validation": "Original contribution, source dates, observation and validation limits remain in their original fields. Historical records were not reopened for this projection. IDs/hashes prove neither access nor new validation.",
+    "runtime_required": false
+  },
+  "audit_records": [
+    {
+      "evidence_id": "SH-EV-317d8ad1ea07c86cab63e1e1",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-6e05557fb8df4c85b4a892e5",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-052af0aa96d6e4a0757f6148",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-ea7368f63a2a7bed5081b9bc",
+      "type": "historical_source_admission_record"
+    },
+    {
+      "evidence_id": "SH-EV-071060be136d97e240aedecb",
+      "type": "producer_application_record",
+      "historical_sha256": "6c408e9a598b2098a50a6b29558dbd002a82a61ea7a52d3ae91b1c3097aaf02d"
+    },
+    {
+      "evidence_id": "SH-EV-7f71d5be769c83945e75eb22",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-e4243527837b4bfd3c3a8406",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-e89aa36ed29f3060935c529c",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "../references/k01-readiness.md"
+    },
+    {
+      "evidence_id": "SH-EV-ed37a60071d24c2e3f56586e",
+      "type": "package_historical_snapshot",
+      "same_package_current_reference": "../references/k02-product-page.md"
+    },
+    {
+      "evidence_id": "SH-EV-3f135bf5255350282ee048ea",
+      "type": "producer_application_record"
+    },
+    {
+      "evidence_id": "SH-EV-292bb2f3d5d6355213142c05",
+      "type": "producer_application_record"
+    },
+    {
+      "evidence_id": "SH-EV-7b08fea1be7d50fba52fed32",
+      "type": "historical_synthetic_input"
+    },
+    {
+      "evidence_id": "SH-EV-b578b170182b0a99add66406",
+      "type": "historical_company_note"
+    }
+  ],
+  "current_version_evidence": {
+    "record_id": "SH-VR-20260911-K03",
+    "observed_on": "2026-09-11",
+    "date_route": "owner_authorized_current_version_review_for_named_12_pages_only",
+    "first_publication": "unknown",
+    "admission_status": "accepted_scoped_current_version",
+    "formal_adoption": false,
+    "legacy_fields_scope": "Existing platform_claims/blocked_claims and audit hashes retain their historical recording state. This dated observation supplements them; no actual store eligibility or formal adoption is inferred.",
+    "claims": [
+      {
+        "claim_id": "SC-SHOPIFY-C007",
+        "source_id": "SC-SHOPIFY-S006",
+        "url": "https://help.shopify.com/en/manual/fulfillment/fulfilling-orders",
+        "fact_summary": "自履约与服务商履约可以并用，同一订单不同商品可采用不同方式。",
+        "section_locator": "L8–14",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain",
+        "applicability_limit": "不证明具体服务商资格、库存或发货状态。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C008",
+        "source_id": "SC-SHOPIFY-S004",
+        "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/refunding-orders",
+        "fact_summary": "退款可以不先创建退货，但退款已发出后不能再创建退货；退款后不能取消或逆转。补库存与通知为另行选择，退款方式有对应权限。",
+        "section_locator": "L7–8; L23–29",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "refine",
+        "applicability_limit": "不能将退款/退货/库存区分误读为流程任意互换；实际权益、支付方式和权限仍未知。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C009",
+        "source_id": "SC-SHOPIFY-S004",
+        "url": "https://help.shopify.com/en/manual/fulfillment/managing-orders/refunding-orders",
+        "fact_summary": "先发店铺余额后退原支付不会自动撤回已发余额，可能重复补偿。页面所述超额退款功能限Shopify Payments处理的订单，且需对应超额退款权限。",
+        "section_locator": "L28; L194–200; L219–221",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "refine",
+        "applicability_limit": "未授权实际退款或更改余额；不能外推任意支付渠道可执行。"
+      }
+    ],
+    "controller_decision_id": "417",
+    "formal_adoption_scope": "whole_skill_final_adoption"
+  }
+}

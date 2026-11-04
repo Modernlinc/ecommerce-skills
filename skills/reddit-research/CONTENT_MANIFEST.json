@@ -1,0 +1,180 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3609,
+      "sha256": "a391d748713919d06784217f06b7c3547a07ed3bf840035ba0756b6634f2940b"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 336,
+      "sha256": "78264d0cbdd330a8a22fca9cec875d1123baeab781691297a51988f343ceb518"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 2007,
+      "sha256": "bd87fceeb46e86356b95f79bb9774f920f661fb1576ce6fc90fb7451a3cfbdbf"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 652,
+      "sha256": "03555ebe02486b436b9503765335a6519b665f740c8bbd80a27490ade1ef13ed"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1226,
+      "sha256": "604062fc322f6ef2e0a8483ab5a416177a09e9cc4a2dd08e763d43816a4ec22b"
+    },
+    {
+      "path": "references/library/00_开始使用.md",
+      "bytes": 5522,
+      "sha256": "9aba3df141a7c1893f5a04df9772cbe4ad4229edf267ae95e80aaf93fcf52a48"
+    },
+    {
+      "path": "references/library/00_本地文件使用入口.md",
+      "bytes": 1786,
+      "sha256": "808933efd1078a70568b882385da982785e6414e79fe97275ee211b6bd734670"
+    },
+    {
+      "path": "references/library/01_完整教学示范.md",
+      "bytes": 8532,
+      "sha256": "10d64cf6a3360df6aa12706848c143c0dae5e41c1fb968aa6d668bd5444bb519"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 5164,
+      "sha256": "9b551930cf76e07d1290cc0f06d5f57f7b8480afe7c4b482145dfc6fab2449dd"
+    },
+    {
+      "path": "references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3151,
+      "sha256": "f9b9f6e5f22adc2482c8ebbfe5d0cda1d3a5e8524db267672b73f0a9f59d329f"
+    },
+    {
+      "path": "references/library/原版方法/MANIFEST.json",
+      "bytes": 3856,
+      "sha256": "ccd78c5f731021b252c27b46d12fe5320919ab7965503713d64ead3a30fd5ac8"
+    },
+    {
+      "path": "references/library/原版方法/payload/MANIFEST.json",
+      "bytes": 6213,
+      "sha256": "5e05f5cb2bd3ae945f9e942293f452410e96abc725f19c2f447d56daff6540df"
+    },
+    {
+      "path": "references/library/原版方法/payload/METHOD.md",
+      "bytes": 4112,
+      "sha256": "66742ecb1ee210f521f92d64dd1a0770c0ada01c6feca7b9d63acb24a6a591e6"
+    },
+    {
+      "path": "references/library/原版方法/payload/QUICKSTART.md",
+      "bytes": 2317,
+      "sha256": "50c68d6933b246efeddda9d3fb6efd4ce50e6abadd79937ad6c0c291747bae9a"
+    },
+    {
+      "path": "references/library/原版方法/payload/README.md",
+      "bytes": 2003,
+      "sha256": "189acc1213bfb172b875235e6b3e3d8c76e12e26fff8fd3ee5beeb5efae2ce67"
+    },
+    {
+      "path": "references/library/原版方法/payload/RIGHTS.md",
+      "bytes": 1564,
+      "sha256": "8ecf4acb16044788e3aefa6b551938bed891f5553b708e07f13b977d7efa8ff3"
+    },
+    {
+      "path": "references/library/原版方法/payload/SUPPORT.md",
+      "bytes": 1398,
+      "sha256": "aab94b28c6b9381c0e2330de64178e5974f590b553a9d9c0c9c8013c51f2e4e2"
+    },
+    {
+      "path": "references/library/原版方法/payload/VERSION.json",
+      "bytes": 2157,
+      "sha256": "6b8b24fcc0e484ce1d15428f541aa9da15106a4fae596622c5d008850dd90b7f"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/01-intake-permissions.md",
+      "bytes": 2174,
+      "sha256": "e1614d1c3bc3ec4899b82b6d07328a53efeefd34ad9e04bb82dab2a55c27596f"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/02-voc.md",
+      "bytes": 2395,
+      "sha256": "5ada40891123b6844c050f0679edff99a2d017003ac9b034d9e78d6ec8a32bd1"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/03-community.md",
+      "bytes": 5805,
+      "sha256": "175722bbac1cd50b2dc17ad730b1fde2b67f39711aad7a4f1c7c9aead5b717de"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/04-ads-dpa.md",
+      "bytes": 4757,
+      "sha256": "88db2f2ac00362a05b1ad0c81b4452c1d6deceff782394dd2b2766cb4a64620d"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/05-events-funnel.md",
+      "bytes": 3394,
+      "sha256": "3e0e7af511ff40176e469de8f94124c093fc2b865837ca69ecfeff41c619b12a"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/06-evidence-maintenance.md",
+      "bytes": 2477,
+      "sha256": "6b6868f7f73c033c86062a8e3428a206b8d36ee9e9c19a89a9efd3e051d2ec77"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/07-economics-boundary.md",
+      "bytes": 1469,
+      "sha256": "4edc22107b7db2016cdc4d31be68fd8f36ad6c786727ddacb3042227032dd973"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/08-community-map-handoff.md",
+      "bytes": 11551,
+      "sha256": "fc9bd41078a79259736055e32c5c5b269736cfc003dff96f1ae529b99a271523"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/09-approved-reading-notes.md",
+      "bytes": 4186,
+      "sha256": "541d034cb8461fb4339874f9804cd986176c0b42800b75d91a0692cf88da713c"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/10-video-article-fusion.md",
+      "bytes": 5178,
+      "sha256": "0c7e1cb82f08dc8fb591d2e6b70dcf90763e7e51f24b2debf9277d3b72af26b7"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/EVIDENCE_LIMITS.md",
+      "bytes": 4458,
+      "sha256": "a893e79a6be9faa46f52e5d6cc58ae295b1eb75fee73d5d31ccd064d5ee8b800"
+    },
+    {
+      "path": "references/library/原版方法/payload/references/SOURCES.csv",
+      "bytes": 9185,
+      "sha256": "3d314f9d81c8154412c91a3c0a6584e9231bc2f8f4e8119ecc9093566f5fbbdc"
+    },
+    {
+      "path": "references/library/原版方法/payload/templates/BRIEF.md",
+      "bytes": 2177,
+      "sha256": "919d8f491ed0c7789927d0d6126cf38bab91c27ad9731377a8d02ea6d34e6935"
+    },
+    {
+      "path": "references/library/原版方法/payload/templates/REPORT.md",
+      "bytes": 2562,
+      "sha256": "66bfb9c92527b78a716653f4c653720b9a9a26e46b885c8bb6fc3b83ac7ee50e"
+    }
+  ]
+}

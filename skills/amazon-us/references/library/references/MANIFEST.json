@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "candidate_id": "AMAZON-PRACTICAL-20261020-P1",
+  "version": "2026.10.20-amazon-p1.1",
+  "date": "2026-10-20",
+  "entrypoint": "00_从这里开始.md",
+  "core_skill": "方法/METHOD.md",
+  "content_selection": "usage_only",
+  "member_count_including_manifest": 20,
+  "self_indexed": false,
+  "core_semantic_changes": 0,
+  "byte_exact_inherited_files": 11,
+  "navigation_metadata_modified_files": 9,
+  "status": "PACKAGING_CANDIDATE_AWAITING_STATIC_REVIEW",
+  "release_ready": false,
+  "independent_usage_validated": false,
+  "formally_adopted": false,
+  "public_release": false,
+  "pure_public_distribution": false,
+  "all_host_validation": false,
+  "parent_quality_verdict": "PASS_WITH_EXCEPTIONS",
+  "parent_quality_scope": "defined_US_offline_materials_only",
+  "parent_quality_basis": {
+    "file": "ROOT_R3_FINAL_DISPOSITION.md",
+    "sha256": "48b0a1c25759c3451d027d33a0a70bbac34abc1da9f222f94be7b56544dd173b"
+  },
+  "usage_evidence": "inherited_R2_actual_two_round_chain_plus_R3_scoped_independent_recheck",
+  "parent_candidate": {
+    "id": "AMAZON-K04-CONSOLIDATED-20261020-R3",
+    "version": "2026.10.20-amazon-k04-r3",
+    "member_count": 33,
+    "bytes": 231078,
+    "tree_sha256": "0d329c370c06f0d28ed9d169c53d6ac3fd1d8537be0845e8f0d566423411e777",
+    "tree_hash_algorithm": "SHA256 sorted relative POSIX path TAB bytes TAB file SHA256 LF UTF-8; includes manifest"
+  },
+  "files": [
+    {
+      "path": "00_从这里开始.md",
+      "bytes": 6278,
+      "sha256": "0da81c90c5565347be462a9a564c9366035b0c2fdff7e8034b1f101a59017e51",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "00_从这里开始.md",
+      "source_sha256": "51a97e39961260ebbae7a9dc3e09f43cd724c1f2c1c750b0d5b25aab90cd8c76"
+    },
+    {
+      "path": "02_范围与来源说明.md",
+      "bytes": 5346,
+      "sha256": "4616027fc3fc22c45096415d218c5f0fb673e73fbadde1542201c3f76c96c268",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "02_范围与来源说明.md",
+      "source_sha256": "f669d6d6d429a1460838476b3041a30d8ce68ad535f1e55b38381da13696c8b4"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 23,
+      "sha256": "1926bbef10e5916da11d2a447f65e82fb5bad4d548334f6bc1968e170daf25b1",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "VERSION",
+      "source_sha256": "0fb6995fffdc0d5b1b4ea63bb217b9991c9879b70036a10715cf86a6b9558d7e"
+    },
+    {
+      "path": "方法/LIMITATIONS.md",
+      "bytes": 4494,
+      "sha256": "1bbba8b5ec95a27330afaa98dbc251e34a034aed3ed6a430969b8b1c99cf5e2f",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "原版包/payload/LIMITATIONS.md",
+      "source_sha256": "fd45fbe065c0c268c0a2792a5f3b38299897512583b59584a9e18f17d741f697"
+    },
+    {
+      "path": "方法/METHOD.md",
+      "bytes": 6793,
+      "sha256": "3d693a503da41f0e971511c0bdb88b50c1392be0fe600e57e715ba0669e7f79a",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "原版包/payload/METHOD.md",
+      "source_sha256": "99dbdf98036681c905db6c30466a76ebba0441f418f25af7ec052758cbb64c67"
+    },
+    {
+      "path": "方法/contracts/INPUT.md",
+      "bytes": 4742,
+      "sha256": "fec363dd32682e7131cb81dd945d254bd3deea4a177e3495f4acd407972496f5",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/contracts/INPUT.md",
+      "source_sha256": "fec363dd32682e7131cb81dd945d254bd3deea4a177e3495f4acd407972496f5"
+    },
+    {
+      "path": "方法/contracts/OUTPUT.md",
+      "bytes": 4003,
+      "sha256": "51b12002976ac737df772949969092b57460816472f1a35530c6ed8850a80e21",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/contracts/OUTPUT.md",
+      "source_sha256": "51b12002976ac737df772949969092b57460816472f1a35530c6ed8850a80e21"
+    },
+    {
+      "path": "方法/provenance/K04_POLICY_EVIDENCE_20261020.md",
+      "bytes": 11935,
+      "sha256": "3e48bd16cda7ae1ee6b0476015a4f7192f5d00f9ae60463259e7b2de6137fea3",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "原版包/payload/provenance/K04_POLICY_EVIDENCE_20261020.md",
+      "source_sha256": "5dae45b441264787f1519aa5c5cd5658624ea64980c74bd2412345d8f8524a9c"
+    },
+    {
+      "path": "方法/provenance/RIGHTS.csv",
+      "bytes": 6287,
+      "sha256": "e9a0599b4715f7e859a1d1cf21563d698a68650b6a0f7eff53a0fb9a93a8c0e6",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "原版包/payload/provenance/RIGHTS.csv",
+      "source_sha256": "072b6c24ada473c94302f1539d18d3a06cf1f6ec89d7c3d71b4880392e1db6d0"
+    },
+    {
+      "path": "方法/provenance/ROUND_THREE_SOURCE_MAP.md",
+      "bytes": 3790,
+      "sha256": "a89a7022151f92ecc8ee8ab74be700dff070769fd888843ef1482274d67231a8",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/provenance/ROUND_THREE_SOURCE_MAP.md",
+      "source_sha256": "a89a7022151f92ecc8ee8ab74be700dff070769fd888843ef1482274d67231a8"
+    },
+    {
+      "path": "方法/provenance/ROUND_TWO_SOURCE_MAP.md",
+      "bytes": 5833,
+      "sha256": "0b06727bffb9c38ea550aea5976a754a5e1242ee8d708b43ec4b234ccd6b6e4a",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/provenance/ROUND_TWO_SOURCE_MAP.md",
+      "source_sha256": "0b06727bffb9c38ea550aea5976a754a5e1242ee8d708b43ec4b234ccd6b6e4a"
+    },
+    {
+      "path": "方法/provenance/SEALEAP_LICENSE.txt",
+      "bytes": 1064,
+      "sha256": "60a7266acaf7af934eb1529f367e069113fd396bb856099e57079253c53d1a09",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/provenance/SEALEAP_LICENSE.txt",
+      "source_sha256": "60a7266acaf7af934eb1529f367e069113fd396bb856099e57079253c53d1a09"
+    },
+    {
+      "path": "方法/provenance/SEALEAP_NOTICE.txt",
+      "bytes": 681,
+      "sha256": "70c6fb614de32932444c91a199a71af8ff924fc27766cb55c0c6dbceab9e007f",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/provenance/SEALEAP_NOTICE.txt",
+      "source_sha256": "70c6fb614de32932444c91a199a71af8ff924fc27766cb55c0c6dbceab9e007f"
+    },
+    {
+      "path": "方法/provenance/SOURCES.csv",
+      "bytes": 26443,
+      "sha256": "1acbc3899762b70c7800f2aeea6ee899ce26bbcfcff77ebf56447de846a49084",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/provenance/SOURCES.csv",
+      "source_sha256": "1acbc3899762b70c7800f2aeea6ee899ce26bbcfcff77ebf56447de846a49084"
+    },
+    {
+      "path": "方法/references/01-product-and-offer.md",
+      "bytes": 4982,
+      "sha256": "a0d95b2e01fad911a3621f18f392d70a2ce2d866ca5408bafe7a4199ea5b32b6",
+      "identity": "authorized_navigation_metadata",
+      "source_relative_path": "原版包/payload/references/01-product-and-offer.md",
+      "source_sha256": "647232351aef9b2be1866d95ed991212bb9359f2ed406b624183c7f49908f5c5"
+    },
+    {
+      "path": "方法/references/02-fulfillment-and-inventory.md",
+      "bytes": 2389,
+      "sha256": "936c2cd2fe2aa78a9c9ee94ad6e449b3443787c1d07d56e5a8c123f3f98fe0aa",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/references/02-fulfillment-and-inventory.md",
+      "source_sha256": "936c2cd2fe2aa78a9c9ee94ad6e449b3443787c1d07d56e5a8c123f3f98fe0aa"
+    },
+    {
+      "path": "方法/references/03-contribution-and-cash.md",
+      "bytes": 3446,
+      "sha256": "c121531903be6d5f3905b1fb42b5a19d95e6a0a43aaf90b6dd648f91af72c719",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/references/03-contribution-and-cash.md",
+      "source_sha256": "c121531903be6d5f3905b1fb42b5a19d95e6a0a43aaf90b6dd648f91af72c719"
+    },
+    {
+      "path": "方法/references/04-account-and-returns.md",
+      "bytes": 12833,
+      "sha256": "a100c374ecee66e0fec0fc793d65faa7eafd9bf7857ee8f9897e4e8d3003a59d",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/references/04-account-and-returns.md",
+      "source_sha256": "a100c374ecee66e0fec0fc793d65faa7eafd9bf7857ee8f9897e4e8d3003a59d"
+    },
+    {
+      "path": "方法/references/05-sponsored-products.md",
+      "bytes": 7051,
+      "sha256": "95fcd8dabd057ad200bc4eed465cc81b6ee6ab9b6ed7ddaac898ec1cbf896a54",
+      "identity": "byte_exact_inheritance",
+      "source_relative_path": "原版包/payload/references/05-sponsored-products.md",
+      "source_sha256": "95fcd8dabd057ad200bc4eed465cc81b6ee6ab9b6ed7ddaac898ec1cbf896a54"
+    }
+  ]
+}

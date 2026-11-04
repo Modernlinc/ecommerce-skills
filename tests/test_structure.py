@@ -42,7 +42,7 @@ class CatalogTests(unittest.TestCase):
         fm = structure.frontmatter((ROOT / 'skills/meta-facebook-ads/SKILL.md').read_text())
         self.assertEqual(fm['name'], 'meta-facebook-ads')
         self.assertTrue(fm['description'])
-        self.assertEqual(fm['metadata']['distribution'], 'public-demo-only')
+        self.assertEqual(fm['metadata']['distribution'], 'open-source')
 
     def test_existing_relative_link_passes(self):
         self.assertIsNone(structure.local_link_error(ROOT, ROOT / 'docs/getting-started.md', '../README.md'))

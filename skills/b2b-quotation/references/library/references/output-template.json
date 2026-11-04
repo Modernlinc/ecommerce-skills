@@ -1,0 +1,160 @@
+{
+  "document_kind": "optional_preparation_output_template_not_schema_validator",
+  "template_instructions": "所有null/空数组为未填写占位，不是业务默认值；按事实与证据填写，日期保留原精度。",
+  "identity": {
+    "case_id": null,
+    "factory_ref": null,
+    "inquiry_id": null,
+    "quote_id": null,
+    "quote_revision": null,
+    "order_ref": null,
+    "order_ref_kind": null,
+    "item_ref": null
+  },
+  "provenance": {
+    "old_output_path": null,
+    "old_output_sha256": null,
+    "input_sha256": null,
+    "call_sha256": null,
+    "document_hashes": [],
+    "native_identity": null,
+    "admission": [
+      {
+        "source_ref": null,
+        "source_kind": "unfilled",
+        "declared_category": null,
+        "rights_and_non_sensitive_statement": null,
+        "purpose": null,
+        "read_scope": null,
+        "decision_before_read": "unfilled",
+        "reason": null,
+        "object_specific_andy_confirmation": null
+      }
+    ]
+  },
+  "known_facts": [
+    {
+      "field": null,
+      "value": null,
+      "value_status": "unfilled",
+      "evidence_refs": [],
+      "time": {
+        "value": null,
+        "precision": "unfilled",
+        "status": "unfilled"
+      },
+      "source_kind": "unfilled"
+    }
+  ],
+  "quote_preparation": {
+    "draft_text": null,
+    "lines": [
+      {
+        "purpose": "unfilled",
+        "description": null,
+        "spec_version": null,
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "currency": null,
+        "per_unit": null,
+        "subtotal": null,
+        "evidence_refs": [],
+        "kit_composition": null,
+        "included": [],
+        "excluded": [],
+        "unknown_amounts": [],
+        "approval_status": null
+      }
+    ],
+    "date_records": []
+  },
+  "coverage": [
+    {
+      "record_id": null,
+      "version": null,
+      "object_ref": null,
+      "quantity": null,
+      "unit": null,
+      "purpose": null,
+      "conditions": [],
+      "decision": null,
+      "authority_scope": null,
+      "exclusions": [],
+      "evidence_refs": [],
+      "time": {
+        "value": null,
+        "precision": "unfilled",
+        "status": "unfilled"
+      }
+    }
+  ],
+  "role_handoffs": [
+    {
+      "question_id": null,
+      "proposed_role": null,
+      "question": null,
+      "reception": {
+        "status": "unfilled",
+        "evidence_refs": [],
+        "time": {
+          "value": null,
+          "precision": "unfilled",
+          "status": "unfilled"
+        }
+      },
+      "opinion": {
+        "value": null,
+        "status": "unfilled",
+        "evidence_refs": [],
+        "time": {
+          "value": null,
+          "precision": "unfilled",
+          "status": "unfilled"
+        }
+      },
+      "approval_evidence": [],
+      "remaining_questions": []
+    }
+  ],
+  "changes": [
+    {
+      "field": null,
+      "before": null,
+      "after": null,
+      "evidence_refs": [],
+      "replacement_scope": null,
+      "time": {
+        "value": null,
+        "precision": "unfilled",
+        "status": "unfilled"
+      }
+    }
+  ],
+  "unknowns": [
+    {
+      "field": null,
+      "value_status": "unfilled",
+      "reason": null,
+      "evidence_refs": [],
+      "next_evidence": null
+    }
+  ],
+  "internal_next_step": null,
+  "stop_points": [],
+  "claim_refs": [],
+  "limits": null,
+  "structure_version": "b2b-practical-output-v1",
+  "compatibility_note": "lines[]替代旧quote_preparation.line，不声明旧单行接口兼容。仅可选文字附录，不是解析器、校验器或业务默认。",
+  "communication_drafts": [
+    {
+      "purpose": null,
+      "language": null,
+      "subject": null,
+      "body": null,
+      "human_checks": [],
+      "source_refs": [],
+      "delivery_status": "unfilled"
+    }
+  ]
+}

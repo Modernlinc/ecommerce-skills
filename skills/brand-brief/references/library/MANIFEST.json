@@ -1,0 +1,55 @@
+{
+  "id": "MODERNLINC-BRAND-LOCAL-20261020-01",
+  "version": "2026.10.20.file-v1",
+  "entry": "00_当前使用与范围.md",
+  "method": "payload/brand-brief-research/METHOD.md",
+  "usage": "Explicit local file reading; not auto installation or platform execution",
+  "method_maturity": "method_hypothesis",
+  "parent_candidate": "BRAND-PRELAUNCH-20261019-W1-c1",
+  "core_method_unchanged": true,
+  "formal_adoption_executed": false,
+  "commercial_terms_set_by_package": false,
+  "self_excluded": "MANIFEST.json",
+  "files": [
+    {
+      "path": "00_当前使用与范围.md",
+      "bytes": 4640,
+      "sha256": "74ff5f2ff3b71980a7565c1e30211b19b594eee0576fcedd1964b2aea880f985"
+    },
+    {
+      "path": "01_留序示范_从方向比较到完整首屏.md",
+      "bytes": 7777,
+      "sha256": "f3c00c1dac1be2e51704ef5842f74e9fa6c7c4af02487e705fcc4c01b66092c5"
+    },
+    {
+      "path": "payload/00_开始使用.md",
+      "bytes": 1584,
+      "sha256": "5a5b19cd970cc971d09a54bfbaeb168d704059cfa67e6f31e0a390b875a5824c"
+    },
+    {
+      "path": "payload/brand-brief-research/README.md",
+      "bytes": 3950,
+      "sha256": "3b688a4d13329d07c975995a6fbb1c81514d1085dfbbd763baf4014d62af6df8"
+    },
+    {
+      "path": "payload/brand-brief-research/METHOD.md",
+      "bytes": 4673,
+      "sha256": "3d4147fb8a61e0fef4a64ecf19b1ee8df0ebe53e60bea4b91274d46f36a2daea"
+    },
+    {
+      "path": "payload/brand-brief-research/references/KNOWN_LIMITATIONS.md",
+      "bytes": 4078,
+      "sha256": "b57d059be1441543a852d5c6c00b1586955af446b74dda97887746e1f2f42a63"
+    },
+    {
+      "path": "payload/brand-brief-research/references/SOURCE_AND_LIMITS.md",
+      "bytes": 11574,
+      "sha256": "e5de0c5a2615e63a294e06e2577892c28e140c2691557e02049fbef4d0fc997e"
+    },
+    {
+      "path": "payload/brand-brief-research/templates/BRIEF_CONTRACT.md",
+      "bytes": 10399,
+      "sha256": "aa24586f19459ad7dfc3c56d83d6ab61cf5299472e3ccf8b63fc0d3e27211351"
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3677,
+      "sha256": "2c653537c77b25beaff6919a6066e19a13b9f466a706290613b868e39a4d42a8"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 341,
+      "sha256": "543523222fafa4451468779117af9fbb0d6133b147767409b235417e1007caf7"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1855,
+      "sha256": "5efb27d84118c701f70c47489ef5d405a6aefbafb228d74e04783a13378d0ab0"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 525,
+      "sha256": "6f21a2378c13eb97bbef455e05c83abded2da91d5645917e1217ae88e01d31bd"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1130,
+      "sha256": "641dde6098d30f428e3fe32e217a2fee376528035356c06d6cb271beb748dd0a"
+    },
+    {
+      "path": "references/library/00_开始使用.md",
+      "bytes": 5469,
+      "sha256": "afcc797d75aaa97dd26f4e83f2e474771513740cd4c2e35a27c7c644c1eaa1a8"
+    },
+    {
+      "path": "references/library/01_完整教学示范.md",
+      "bytes": 13821,
+      "sha256": "b72edd442475f3c372298d41743cc6cf204f6ab2a6febcd0072df10be08b742c"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 14212,
+      "sha256": "8adfed1723db4e7308f6d22f79a57d34f0e66191940598aba9a629f7023a1920"
+    },
+    {
+      "path": "references/library/原版方法/00_当前使用与范围.md",
+      "bytes": 3286,
+      "sha256": "7fe5cb7c0108eaf7c68b7579c1f5dac8732ee42cdc286b34d1acd7028652d827"
+    },
+    {
+      "path": "references/library/原版方法/MANIFEST.json",
+      "bytes": 10403,
+      "sha256": "df4a97fa363313c27a49cf0bbb055ca57bab24f0951b10eb94399902f3e95e91"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/CHANGELOG.md",
+      "bytes": 5950,
+      "sha256": "ad33f35c423256ca7e8587f643ac9be192cb5bc7b21de8dd65e087fda82de592"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/COMPATIBILITY.json",
+      "bytes": 2970,
+      "sha256": "67821a2d9c29c08d696c4afe98235d4e6a8b6288bd08b7baeba8ba95c81ae726"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/MANIFEST.json",
+      "bytes": 31328,
+      "sha256": "761e545ac2e3666b4b2fffd6a3cfe10e629a5b36881b207d4af0cbc9a5ca65bc"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/METHOD.md",
+      "bytes": 16140,
+      "sha256": "5d46099bb217d44570a1a2213f9965ff93091cd8ad1540259bc71d7968a9bfb6"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/README.md",
+      "bytes": 2700,
+      "sha256": "4f13caeee59f7da5a20eac1626cefb212aad73d4c4748d11967778b9684ff784"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/RIGHTS.json",
+      "bytes": 66791,
+      "sha256": "ae32d25ec7dce37b2f0224aed992fe55d59f61d4e4f849d5c66de99bbfc389ef"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/SUPPORT.md",
+      "bytes": 1599,
+      "sha256": "762051d22e2e038d51ea2229059ebd235751d9fbf7e119f47fe14062afe2df10"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/USAGE.md",
+      "bytes": 9089,
+      "sha256": "a70aee6ab083207abe63f5f872545111faafd70d945eb031d42198fec5eb4824"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/VERSION.json",
+      "bytes": 47504,
+      "sha256": "d1365028805d92b2ac58bc7f4d7e7043d17af7687b10ec793d630c2fd4ccd919"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "93bec509588c6185670ccd79f46e5dde6e7be7314f07893d0be8ed9dcef12fd4"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/brief-fusion/INPUT.md",
+      "bytes": 3175,
+      "sha256": "51ec2e7560f663766111ff84e33f367708a6017dcef72e3553a9dd79dfa8413e"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/brief-fusion/OUTPUT.md",
+      "bytes": 5811,
+      "sha256": "090f02e2908727df580de9fbc7b8c6519f806f068816f643d64cc38bb4e6337a"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/creator/INPUT.md",
+      "bytes": 7320,
+      "sha256": "b476da94742f0c746c72528201bb0f31a3b9d463ab1a9479b9209c415644e574"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/creator/OUTPUT.md",
+      "bytes": 23943,
+      "sha256": "192d0eb39cd2ff37d4ad470c74e71d5d4b55f4327091af9a27c3e57470eb2ce5"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/demo-evidence/INPUT.md",
+      "bytes": 3005,
+      "sha256": "82f9ae7f6f2fd2174a549306516ef35ad0bccc1dd88e2e85f7e4a08ecfbce3ef"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/demo-evidence/OUTPUT.md",
+      "bytes": 6938,
+      "sha256": "c2b809f0c0255116b1d369ff93eab4d3bd0550dd8f8e9e2cb17bcb3a207c49f9"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/live/INPUT.md",
+      "bytes": 11873,
+      "sha256": "548450cb26e509a43b8eb4e64f3634e48539e20b4218a7f4e153e96ce87ecf24"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/live/OUTPUT.md",
+      "bytes": 26079,
+      "sha256": "2a96c5ccaf5f2f9000becfd71d2362cdbc8b5bd98d896e98553701cb56bec8d8"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/organic-shop/INPUT.md",
+      "bytes": 7000,
+      "sha256": "e71945255e6e78d0d4b9465d6173bd207c4e55b95a712bb6286ed0c8fc3a2d7c"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/organic-shop/OUTPUT.md",
+      "bytes": 21454,
+      "sha256": "25d0aa1d4429ca63d67440cc3ecbcc5d37d79a6d2cf07892823a47b3d34913ac"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-content/INPUT.md",
+      "bytes": 7062,
+      "sha256": "fea7f7ca248b589b2e3084035e93a92c5f4d93562129cc0aaac7689456feb71a"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-content/OUTPUT.md",
+      "bytes": 16291,
+      "sha256": "4faa63214759cd8ee556655221b817b940149a9e9e891367ba442114e44c4b9c"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-gmv-max/INPUT.md",
+      "bytes": 6505,
+      "sha256": "aff3b2d30cc0b5d1507373e5f48741c9c86415e77c224605cf0b0cc7066b0857"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/product-gmv-max/OUTPUT.md",
+      "bytes": 19727,
+      "sha256": "3879cfc38f891aee56b0c8a1ad0c4641d61423fb8905282b053b438ea2f7aecb"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/website-ads/INPUT.md",
+      "bytes": 7935,
+      "sha256": "1a71d47f3581237272341c72e96c53ba67a1e645aa17ad0ed3849c2d9f482a19"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/examples/website-ads/OUTPUT.md",
+      "bytes": 23460,
+      "sha256": "9106a25379f12ddeb0836fc5f5e7573fcd18e3164a4e8cd2eac8a8263f55a81d"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/creator-code-conditions.md",
+      "bytes": 1330,
+      "sha256": "366dc7d17b6fdaaf15b9e40833577e03a08d7503bbfb354cf44e176b9419b9f5"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/limits.md",
+      "bytes": 11258,
+      "sha256": "3da6c04f336bc3faf1ed3bbc52091d8dfc861be94a372dfd06f376af39b88644"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/method-source-map.json",
+      "bytes": 30687,
+      "sha256": "be36612ffe9f4fb1c7171ed97d559b5d6960d9c15ddd49a57dc08e1c11588a5d"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/official-facts.md",
+      "bytes": 3180,
+      "sha256": "8d66a089eef1247c3f4176aa42808216fbddfc821a70c1ebe71f4b1f643554cf"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/round-three-source-fusion.md",
+      "bytes": 3778,
+      "sha256": "3e27b80b857f57a55e8f3aba99ef6c1bb42d88e809d504d2fa7035c97944f6b8"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/round-two-source-fusion.md",
+      "bytes": 6357,
+      "sha256": "ae27e3698bad406544a420b04c360f14cc56a868bbc4675655ae437500ebff89"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/provenance/us-registration-source-index.md",
+      "bytes": 2388,
+      "sha256": "a16ce14938013876269c79b88434c58ca4bcaf937c6713eda5924d5de0a9011f"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/ads-delivery-and-diagnostics.md",
+      "bytes": 6975,
+      "sha256": "8027b12431c92dc96f7e116ef749f980fbde24f6c91bd064adcc70666aa03c71"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/ads-measurement-and-experiments.md",
+      "bytes": 20623,
+      "sha256": "e865531392d541ddc36ccd3d28f649043c0043a8c7811bafa475ec6caf4b0ab4"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/beginner-first-route-and-glossary.md",
+      "bytes": 11581,
+      "sha256": "e9defde303d752c3eba08d4e1695efd3763e1c583ac43ddd9439433746f7d2bd"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/business-center-and-asset-governance.md",
+      "bytes": 4998,
+      "sha256": "2833286c169b9688967c72c675a237e22ff2b8beb19e545262b952b003631c77"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/compliance-and-approval-gates.md",
+      "bytes": 3974,
+      "sha256": "fe7f008f4753cbc961896eabe2f2bf65164e00c52773f7da57a084963c6b72f5"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/content-operating-system.md",
+      "bytes": 19703,
+      "sha256": "6b52648594d1763129685e98fa923193445816d8fdfe2b4b82302f2cf94319e0"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/creator-collaboration-objects.md",
+      "bytes": 7030,
+      "sha256": "da6401a0f22596ef20544e1a9f334d4923fc2644e7c451a3581dd6a62bccc9d6"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/evidence-and-practitioner-method-admission.md",
+      "bytes": 8743,
+      "sha256": "cae4667dcc22d5692ddc24e8199dcb0c40620764a7ab484ae9a047d6507d62a3"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/live-operations-and-analysis.md",
+      "bytes": 5617,
+      "sha256": "7831b10b809967ee8dab6b9b16335763a10b23f728a29f5b69fbb4c5746781e5"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/organic-account-and-content-growth.md",
+      "bytes": 7580,
+      "sha256": "c29bce80e8925cb8979f18680553739ffc3bda7071a4d684347717326d29ca95"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/shop-creator-and-live.md",
+      "bytes": 12705,
+      "sha256": "5335c9d64506f987686b2e5b9a8ea7485d4224bdf948cb9cc6b69e00647ee396"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/shop-merchandising-and-health.md",
+      "bytes": 9459,
+      "sha256": "fd0899e94318317cda8c40fc15f03d73bee535fa83bb217e81bdbfede0ea42ec"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/tiktok-operations/references/source-learning-and-evidence.md",
+      "bytes": 699,
+      "sha256": "36ae220022339a88bc186ae6a6f6e335a24d99d25d24cdb3f7cf174ff549c5be"
+    },
+    {
+      "path": "references/library/原版方法/payload/候选载荷/先读我.md",
+      "bytes": 2064,
+      "sha256": "5db61b9b525022693890e2fd5e8567d4964039e6433d8974def17c247d331faa"
+    },
+    {
+      "path": "references/library/原版方法/payload/先读我.md",
+      "bytes": 6964,
+      "sha256": "cdb905f7f8eac20838e48c0d56b336fa96294bc715216a38949ae3ac296339e3"
+    },
+    {
+      "path": "references/library/原版方法/payload/文件交付委托.md",
+      "bytes": 2938,
+      "sha256": "26743a9b990e24edec65f6fc410a55298847b40e6bfb4db7f65df6bce4347c81"
+    }
+  ]
+}

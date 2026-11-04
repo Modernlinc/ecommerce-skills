@@ -1,0 +1,32 @@
+{
+  "说明": "历史源路径到本平台候选文件名；原MANIFEST仅供追溯，不代表本副本字节身份",
+  "mapping": {
+    "00_开始使用.md": "00_开始使用.md",
+    "00_本地文件使用入口.md": "00_本地文件使用入口.md",
+    "02_版本与使用范围.md": "02_版本与使用范围.md",
+    "01_教学示范_两款托盘到Pin与目录.md": "01_教学示范_两款托盘到Pin与目录.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "方法原包/MANIFEST.json": "方法原包__MANIFEST.json",
+    "方法原包/00_当前使用与范围.md": "方法原包__00_当前使用与范围.md",
+    "方法原包/payload/可编辑成果委托.md": "方法原包__payload__可编辑成果委托.md",
+    "方法原包/payload/先读我.md": "方法原包__payload__先读我.md",
+    "方法原包/payload/pinterest-operations/DISTRIBUTION_STATUS.md": "方法原包__payload__pinterest-operations__DISTRIBUTION_STATUS.md",
+    "方法原包/payload/pinterest-operations/README.md": "方法原包__payload__pinterest-operations__README.md",
+    "方法原包/payload/pinterest-operations/METHOD.md": "方法原包__payload__pinterest-operations__METHOD.md",
+    "方法原包/payload/pinterest-operations/manifest.json": "方法原包__payload__pinterest-operations__manifest.json",
+    "方法原包/payload/pinterest-operations/MAINTENANCE.md": "方法原包__payload__pinterest-operations__MAINTENANCE.md",
+    "方法原包/payload/pinterest-operations/references/facts-and-evidence.md": "方法原包__payload__pinterest-operations__references__facts-and-evidence.md",
+    "方法原包/payload/pinterest-operations/references/shopping-ads-plan.md": "方法原包__payload__pinterest-operations__references__shopping-ads-plan.md",
+    "方法原包/payload/pinterest-operations/references/natural-content.md": "方法原包__payload__pinterest-operations__references__natural-content.md",
+    "方法原包/payload/pinterest-operations/references/review-and-recovery.md": "方法原包__payload__pinterest-operations__references__review-and-recovery.md",
+    "方法原包/payload/pinterest-operations/references/capabilities.md": "方法原包__payload__pinterest-operations__references__capabilities.md",
+    "方法原包/payload/pinterest-operations/references/report-date-basis-evidence.md": "方法原包__payload__pinterest-operations__references__report-date-basis-evidence.md",
+    "方法原包/payload/pinterest-operations/references/intake-and-output.md": "方法原包__payload__pinterest-operations__references__intake-and-output.md",
+    "方法原包/payload/pinterest-operations/references/round-two-evidence.md": "方法原包__payload__pinterest-operations__references__round-two-evidence.md",
+    "方法原包/payload/pinterest-operations/references/catalog-review.md": "方法原包__payload__pinterest-operations__references__catalog-review.md",
+    "方法原包/payload/pinterest-operations/references/rights-and-boundaries.md": "方法原包__payload__pinterest-operations__references__rights-and-boundaries.md",
+    "方法原包/payload/pinterest-operations/references/events-and-measurement.md": "方法原包__payload__pinterest-operations__references__events-and-measurement.md",
+    "方法原包/payload/pinterest-operations/references/export-contract.md": "方法原包__payload__pinterest-operations__references__export-contract.md",
+    "方法原包/payload/pinterest-operations/references/sources.csv": "方法原包__payload__pinterest-operations__references__sources.csv"
+  }
+}

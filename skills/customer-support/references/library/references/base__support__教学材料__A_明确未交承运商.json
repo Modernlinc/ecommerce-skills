@@ -1,0 +1,112 @@
+{
+  "organization_ref": "NorthDesk Demo",
+  "case_ref": "TEACH-CANCEL-19",
+  "processing_context": {
+    "material_type": "entirely_synthetic",
+    "purpose": "制作方用于解释取消条件取舍的完整教学示范，不是独立运行或真实客户事项。",
+    "allowed_scope": "仅本地内部回复与交接教学，不发送、不查询、不改订单、不退款。",
+    "scenario_note": "A与B是同一取消请求的互斥事实变式，不是先后发生的两轮；只使用当前选定变式的事实。",
+    "variant": "A：明确未交承运商"
+  },
+  "identity_link": {
+    "operator_statement": "本教学中的组织、订单、会话属于同一虚构事项；不做身份匹配。",
+    "order_refs": [
+      "TEACH-ORDER-19"
+    ],
+    "conversation_refs": [
+      "TEACH-CHAT-19"
+    ]
+  },
+  "messages": [
+    {
+      "message_ref": "TM01",
+      "conversation_ref": "TEACH-CHAT-19",
+      "channel": "WhatsApp",
+      "sender": "customer",
+      "time": "2026-10-19T09:10:00Z",
+      "timezone": "UTC",
+      "text": "If my order has not been handed to the carrier, please cancel it. If it has already been handed over, what can I do? I would like a person to help."
+    }
+  ],
+  "company_faq": {
+    "source_ref": "TEACH-FAQ-3",
+    "version": "3-teaching",
+    "as_of": "2026-10-01",
+    "timezone": "unknown",
+    "applies_to": "本教学TEACH-ORDER-19",
+    "source_type": "公司原创合成政策；沿10月14日已完成NorthDesk练习的FAQ条件，不代表真实商家或法定权利。",
+    "entries": [
+      {
+        "entry_ref": "DELIVERY",
+        "text": "公司不保证某个具体活动日期前到货。"
+      },
+      {
+        "entry_ref": "CANCEL",
+        "text": "承运商接收前可提交取消请求，由订单负责人确认是否仍可取消；请求不等于已取消。"
+      },
+      {
+        "entry_ref": "DISPATCHED",
+        "text": "已交承运商则不能按“尚未发出取消”处理。可向客服询问签收后的退货条件。"
+      },
+      {
+        "entry_ref": "RETURN",
+        "text": "本商品未使用、包含物完整时，可在签收后14天内申请退货；是否符合条件由客服负责人审阅。"
+      },
+      {
+        "entry_ref": "UNSPECIFIED",
+        "text": "未提供退货运费、退款周期或赔偿政策。"
+      }
+    ]
+  },
+  "human_route": {
+    "source_ref": "TEACH-ROUTES-1",
+    "data_as_of": "unknown",
+    "roles": [
+      {
+        "role_ref": "order_owner",
+        "responsibility": "核订单/仓库/承运商交接状态，决定可否取消。",
+        "availability": "unknown"
+      },
+      {
+        "role_ref": "support_lead",
+        "responsibility": "处理要求真人协助及签收后的退货条件问题。",
+        "availability": "unknown"
+      },
+      {
+        "role_ref": "duty_coordinator",
+        "responsibility": "前述角色无人接手时，确认具体接手人。",
+        "availability": "unknown"
+      }
+    ],
+    "acceptance_receipt": null,
+    "resolution_evidence": null,
+    "external_handoff_evidence": null
+  },
+  "channel_permission_evidence": {
+    "channel_product": "unknown",
+    "market": "unknown",
+    "account_eligibility": "unknown",
+    "approved_template": "unknown",
+    "consent_applicability": "unknown",
+    "marketing_opt_out": "not_provided_not_consent",
+    "granted_external_actions": []
+  },
+  "order_snapshot": {
+    "organization_ref": "NorthDesk Demo",
+    "order_ref": "TEACH-ORDER-19",
+    "product": "一套含两只托盘",
+    "price": 49,
+    "currency": "USD",
+    "source_ref": "TEACH-WH-A",
+    "data_as_of": "2026-10-19T10:20:00Z",
+    "timezone": "UTC",
+    "handover_state": "not_handed_to_carrier",
+    "statement": "教学仓库盘点明确记录：截至10:20 UTC包裹仍在仓库，尚未交给承运商。这是肯定记录，不是仅没有扫描事件。",
+    "carrier_accepted_at": null,
+    "cancellation_decision": null,
+    "cancellation_execution": null,
+    "refund_execution": null,
+    "delivery_receipt": null,
+    "human_acceptance_receipt": null
+  }
+}

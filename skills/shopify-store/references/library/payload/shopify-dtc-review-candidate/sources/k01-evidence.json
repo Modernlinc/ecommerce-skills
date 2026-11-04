@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "status": "candidate_method_not_final_reviewed",
+  "scope": "K01 offline supplied-evidence review",
+  "global_formal_adoption": false,
+  "source_contributions": [
+    {
+      "id": "OLD-K01",
+      "kind": "company_judgment",
+      "contribution": "商品承诺、配送、售后、购买路径、最小补证；不继承日期未决官方命题",
+      "maturity": "method_hypothesis"
+    },
+    {
+      "id": "285-B2",
+      "kind": "accepted_draft",
+      "contribution": "最小交接、未知保留、真实回执和授权边界",
+      "acceptance_scope": "static_draft_only"
+    },
+    {
+      "id": "349",
+      "kind": "local_fragment_acceptance",
+      "contribution": "入口证据候选方法原文融合",
+      "acceptance_scope": "fragment_only"
+    },
+    {
+      "id": "CE-01",
+      "url": "https://changelog.shopify.com/posts/improved-privacy-features-simplify-your-path-to-compliance",
+      "publication_date": "2025-02-12",
+      "date_evidence": "SOURCE_EVIDENCE.md; turn16view0 L88",
+      "body_location": "L91–95",
+      "observed_date": "2026-09-10",
+      "observation_depth": "full_observed_article_body",
+      "date_window_eligible": true,
+      "formal_adoption": false,
+      "fact": "该公告面向欧洲商家语境，发布时描述偏好横幅可重新打开及直达结账的横幅能力；结账功能当时默认关闭。",
+      "scope": "历史发布说明；保留欧洲商家语境，不扩大地区适用性，不声称2026任意店铺配置或法律合规。数据出售退出虽已读，本知识点不采用。",
+      "local_evidence_path": "evidence:SH-EV-a0d3123d1cdf6c3800039c0f",
+      "local_increment_path": "evidence:SH-EV-0e5e933c568232d9ad051af1"
+    },
+    {
+      "id": "CE-02",
+      "url": "https://changelog.shopify.com/posts/cookie-banners-are-now-supported-on-customer-account-pages",
+      "publication_date": "2025-05-21",
+      "date_evidence": "SOURCE_EVIDENCE.md; turn17view0 L88",
+      "body_location": "L91",
+      "observed_date": "2026-09-10",
+      "observation_depth": "full_observed_article_body",
+      "date_window_eligible": true,
+      "formal_adoption": false,
+      "fact": "该公告描述客户账户页在需要时显示横幅的支持，并以账户使用自定义域名为条件。",
+      "scope": "只证明当时条件性功能支持，不证明目标配置或第三方集成；条件不明或不满足不能倒推所有其他实现均不支持。",
+      "local_evidence_path": "evidence:SH-EV-a0d3123d1cdf6c3800039c0f",
+      "local_increment_path": "evidence:SH-EV-0e5e933c568232d9ad051af1"
+    }
+  ],
+  "blocked_claims": [
+    {
+      "id": "SC-SHOPIFY-C001",
+      "claim": "平台及渠道资格",
+      "date_admitted": false
+    },
+    {
+      "id": "SC-SHOPIFY-C003",
+      "claim": "Markets当前功能",
+      "date_admitted": false
+    },
+    {
+      "id": "SC-SHOPIFY-C004",
+      "claim": "配送模型迁移/CF01",
+      "date_admitted": false
+    },
+    {
+      "id": "SC-SHOPIFY-C006",
+      "claim": "测试支付模式",
+      "date_admitted": false
+    },
+    {
+      "id": "SC-SHOPIFY-C013",
+      "claim": "渠道营销许可相关旧命题",
+      "date_admitted": false
+    },
+    {
+      "id": "SC-SHOPIFY-C014",
+      "claim": "隐私/会话指标相关旧命题",
+      "date_admitted": false
+    }
+  ],
+  "validation_status": "producer_application_completed_not_independent",
+  "application_path": "evidence:SH-EV-3f135bf5255350282ee048ea",
+  "real_project_validated": false,
+  "unchanged_boundaries": [
+    "B1旧12页14命题未获日期豁免",
+    "F04 retain/no_update_needed仅原范围",
+    "DATA184暂停",
+    "K01–K05分母5",
+    "18SKU分母18",
+    "独立终验需明确邀请"
+  ],
+  "historical_source_hashes": {
+    "SH-EV-79b1dcf2999b2f4ff8b82d03": "cf86402ba93b6f8fb42272577453f495916099261de14195ea6904e791f01beb",
+    "SH-EV-6e05557fb8df4c85b4a892e5": "e5ac0b6096119a6e002ff0801e73337087024f0b4424d71246b4cbd2a668cc75",
+    "SH-EV-e4243527837b4bfd3c3a8406": "01132945642e7980f2979e8d5abe2a56dea805d2ac6a4a2d61534f09dab169fe",
+    "SH-EV-0ae3a300f1b436e8537cdd48": "5dc921a9aaf5cd5eb907c4c43505ee49c86e215af1f841927d2365eca3a02b79",
+    "SH-EV-18eebd82555af5588132db7b": "24a5c51a3924d2c5c942a1d85adaeb64aae12f94da4739baf3773ae7a3d13673",
+    "SH-EV-fd5f6f9f6d3b599b94003545": "7831604d98b3fbd130d284300f7b67e17abc660c6fb0d23fc0471c90924a9f69",
+    "SH-EV-d64c1d21e4829b4537e7398f": "8a628d77b7953e59095a48239aee912486113bcf1f297dfc8fa1a85716dd1c90",
+    "SH-EV-052af0aa96d6e4a0757f6148": "94c898e2c375411279d01cee9c6d9e468dfa448db244d0cb39fce3580173c27b",
+    "SH-EV-53c6184781a8775a7f5fd03c": "9097c26debbf9982fb0c9d4241de2c30f597f95e844fc7b259a760750f156a10",
+    "SH-EV-0e5e933c568232d9ad051af1": "e8703b443e0aa93d4b5dead1a3dcf1642be6e68d48c6bf7a56ffb0ca82334900",
+    "SH-EV-ea7368f63a2a7bed5081b9bc": "5d78243284ab596054143098cb52b5c8a69805eb1b691dc3497f01ca26391cff",
+    "SH-EV-7b08fea1be7d50fba52fed32": "b3ac665c94bc8f9a7e4e1a6cdd07999947a6707830ba0f76e19dd214f3bd34a9"
+  },
+  "audit_projection": {
+    "schema_version": 1,
+    "path_convention": "Relative paths resolve from this JSON directory. evidence:SH-EV-* values identify maintainer-only historical records, not files or URLs, including legacy *_path fields.",
+    "hash_convention": "historical_source_hashes binds prior snapshots. A record adds historical_sha256 only when absent there; unknown stays unknown. Same-package current references do not authenticate old versions.",
+    "scope_and_validation": "Original contribution, source dates, observation and validation limits remain in their original fields. Historical records were not reopened for this projection. IDs/hashes prove neither access nor new validation.",
+    "runtime_required": false
+  },
+  "audit_records": [
+    {
+      "evidence_id": "SH-EV-a0d3123d1cdf6c3800039c0f",
+      "type": "source_observation_record",
+      "historical_sha256": "unknown"
+    },
+    {
+      "evidence_id": "SH-EV-0e5e933c568232d9ad051af1",
+      "type": "source_increment_record"
+    },
+    {
+      "evidence_id": "SH-EV-3f135bf5255350282ee048ea",
+      "type": "producer_application_record",
+      "historical_sha256": "d2ba3b001b680fecf760f5aebd18896ac86932963a5384c0f7f4986ac3e804ec"
+    },
+    {
+      "evidence_id": "SH-EV-79b1dcf2999b2f4ff8b82d03",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-6e05557fb8df4c85b4a892e5",
+      "type": "scoped_controller_record"
+    },
+    {
+      "evidence_id": "SH-EV-e4243527837b4bfd3c3a8406",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-0ae3a300f1b436e8537cdd48",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-18eebd82555af5588132db7b",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-fd5f6f9f6d3b599b94003545",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-d64c1d21e4829b4537e7398f",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-052af0aa96d6e4a0757f6148",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-53c6184781a8775a7f5fd03c",
+      "type": "historical_method_or_planning_record"
+    },
+    {
+      "evidence_id": "SH-EV-ea7368f63a2a7bed5081b9bc",
+      "type": "historical_source_admission_record"
+    },
+    {
+      "evidence_id": "SH-EV-7b08fea1be7d50fba52fed32",
+      "type": "historical_synthetic_input"
+    }
+  ],
+  "current_version_evidence": {
+    "record_id": "SH-VR-20260911-K01",
+    "observed_on": "2026-09-11",
+    "date_route": "owner_authorized_current_version_review_for_named_12_pages_only",
+    "first_publication": "unknown",
+    "admission_status": "accepted_scoped_current_version",
+    "formal_adoption": false,
+    "legacy_fields_scope": "Existing platform_claims/blocked_claims and audit hashes retain their historical recording state. This dated observation supplements them; no actual store eligibility or formal adoption is inferred.",
+    "claims": [
+      {
+        "claim_id": "SC-SHOPIFY-C001",
+        "source_id": "SH-0-01",
+        "url": "https://help.shopify.com/en/manual/intro-to-shopify/initial-setup/new-to-shopify-checklists/general-checklist",
+        "fact_summary": "上线准备包括店铺基本设置、商品组织和交易测试；渠道资格依地区、商品及部分套餐而定。",
+        "section_locator": "L22–28; L42–82; L96–128; L149–180",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain",
+        "applicability_limit": "目标店铺/渠道资格未核，清单不是上线批准。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C003",
+        "source_id": "SC-SHOPIFY-S002",
+        "url": "https://help.shopify.com/en/manual/markets",
+        "fact_summary": "Markets以条件界定受众并定制币种、语言、价格、商品可用性和主题内容；按市场配送以店铺已获得该功能为条件。",
+        "section_locator": "L8–14",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "市场类型、功能版本与实例配置未知。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C004",
+        "source_id": "SC-SHOPIFY-S003",
+        "url": "https://help.shopify.com/en/manual/fulfillment/setup/shipping-profiles",
+        "fact_summary": "配送档案及费率正在逐步迁移至按市场配送；未升级店保留现有设置，升级时既有费率迁移。",
+        "section_locator": "L9–14",
+        "assessment": "accepted_conditional_current_version",
+        "delta": "branch_by_condition",
+        "applicability_limit": "CF01保留；不得凭公告替实际店选择版本。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C006",
+        "source_id": "SC-SHOPIFY-S005",
+        "url": "https://help.shopify.com/en/manual/checkout-settings/test-orders",
+        "fact_summary": "模拟测试订单不进入结算或报告；付款提供商处于测试模式时顾客不能下真实订单。真实支付后退款的测试路径可能产生费用，不能与模拟网关混同。",
+        "section_locator": "L7–16",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "只读，未启用测试模式、未执行交易。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C013",
+        "source_id": "SH-N-02",
+        "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/customer-contact-information",
+        "fact_summary": "促销应面向同意该店铺营销的顾客；自动区域设置不能替代商家核实适用性和法律责任。",
+        "section_locator": "L17–25; L32–46",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "不是全球法律结论、跨渠道许可或完整同意状态机；未更改配置。"
+      },
+      {
+        "claim_id": "SC-SHOPIFY-C014",
+        "source_id": "SC-SHOPIFY-S009",
+        "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/understanding-customer-privacy-settings",
+        "fact_summary": "相关地区启用cookie横幅时，该地区访客数据在取得同意后采集；可用会话及依赖会话的转化率等指标可能下降。",
+        "section_locator": "L17–20; L36–38",
+        "assessment": "accepted_scoped_current_version",
+        "delta": "retain_with_conditions",
+        "applicability_limit": "实际地区、期间、配置和报表未知；不据此诊断现金或增长因果。"
+      }
+    ],
+    "controller_decision_id": "417",
+    "formal_adoption_scope": "whole_skill_final_adoption"
+  }
+}

@@ -1,6 +1,6 @@
-# 原创合成试阅
+# 原创合成练习
 
-[首页](../README.md) · [十八项单文件试阅入口](../docs/skill-catalog.md)
+[首页](../README.md) · [十八项单文件练习入口](../docs/skill-catalog.md)
 
 每项Skill的examples/demo.md可独立交给AI，内含全部题设和应交成果；input.md保留独立输入，output.md是保存首答后使用的编辑对照。参考输出不作为模型独立试验或真实业务记录。
 

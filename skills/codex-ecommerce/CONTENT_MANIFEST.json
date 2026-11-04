@@ -1,0 +1,115 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3569,
+      "sha256": "14ffcdffb9845c3daa63b25c9a3e862549331e8d2b5b08fa1fdb8372ceeeea0a"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 334,
+      "sha256": "eb905e601fa80b28f041ac6554fd573262253f471163d829180ee42b67785744"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 2032,
+      "sha256": "140e8a93e80476e2884e387c8602da7bda8cd4f5455824dde962cde86c587fe9"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 688,
+      "sha256": "c51104a66d6bf79fc6ae91e34c429b64520d564545ac31a7edd4f7457ee393c0"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 917,
+      "sha256": "9c8b48c5b972e42816ae21fab68e77b0a72a0e70045cfd043e95a28f37305326"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 1317,
+      "sha256": "f45abc61a77380201d04ec00708eef83fb8127dead6b6e1a644f3039d2ec7dea"
+    },
+    {
+      "path": "references/library/references/00_从这里开始.md",
+      "bytes": 5500,
+      "sha256": "856740ee5e7146b556ae382719798a0f924c6f5357e934814219126419fdea73"
+    },
+    {
+      "path": "references/library/references/01_完整改稿与撤价接续示范.md",
+      "bytes": 15276,
+      "sha256": "902439268539628bdb61ac086ced8b9c3450871bc1f2a9916d985fd87802c784"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 1953,
+      "sha256": "f395784e71bdf2c68e654826308bef029aefc7742aade5f05e8a3923fe92a233"
+    },
+    {
+      "path": "references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 837,
+      "sha256": "54d18269c8a013682d43e8900e555ef6027e89d22b9a280c241e98f15f5f99eb"
+    },
+    {
+      "path": "references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/references/原版__00_当前使用与范围.md",
+      "bytes": 3021,
+      "sha256": "38967054239d1345a4217869cfade5368a24df3b36a76e7d81333f0973a34127"
+    },
+    {
+      "path": "references/library/references/原版__MANIFEST.json",
+      "bytes": 1162,
+      "sha256": "dafd4c125faedd172c7d3f2c69d48e122e84e897affbbc01aebb13670222db75"
+    },
+    {
+      "path": "references/library/references/原版__payload__MANIFEST.json",
+      "bytes": 3867,
+      "sha256": "4451e73ffe0d379679c7c4cc6d644616f67611eaadea4f8d39434b4d9527ef8f"
+    },
+    {
+      "path": "references/library/references/原版__payload__METHOD.md",
+      "bytes": 2773,
+      "sha256": "e60d7b0f30a5282e93c67f606199b785197626acab26a5b3e94d29284d280d7a"
+    },
+    {
+      "path": "references/library/references/原版__payload__references__sources.md",
+      "bytes": 8013,
+      "sha256": "f60b0fdb91586e464bf884c25161fb23bfaf5283f4d510b44547b35e965ea767"
+    },
+    {
+      "path": "references/library/references/原版__payload__references__workflow.md",
+      "bytes": 8468,
+      "sha256": "2c7752a76eff5ec66494e53ade51f5082ec09cd886a95c3c4a0d0a0ec4ede096"
+    },
+    {
+      "path": "references/library/references/原版__payload__使用说明.md",
+      "bytes": 5777,
+      "sha256": "8f180bf34b311dbfd5b7ebdc13890fcec1b9c99924d58fede47ae3032f1d7ac9"
+    }
+  ]
+}

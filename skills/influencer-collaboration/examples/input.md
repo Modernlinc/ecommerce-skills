@@ -14,4 +14,4 @@ Synthetic demo data. No real customer, account, order, or advertising data is us
 
 ## 导航
 
-版本：`0.1.1-public-demo` · [单文件试阅](demo.md) · [功能卡片](../SKILL.md) · [完成后看参考输出](output.md)
+版本：`1.0.0` · [单文件试阅](demo.md) · [功能卡片](../SKILL.md) · [完成后看参考输出](output.md)

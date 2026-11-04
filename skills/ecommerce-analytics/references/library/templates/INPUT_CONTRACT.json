@@ -1,0 +1,26 @@
+{
+  "contract_version": "data-practical-v1",
+  "dataset_id": "",
+  "currency": "USD",
+  "minor_unit_digits": 2,
+  "timezone": "Asia/Shanghai",
+  "order_window_start": "",
+  "order_window_end_exclusive": "",
+  "data_as_of": "",
+  "order_export_complete": false,
+  "refund_export_complete": false,
+  "order_cost_export_complete": false,
+  "input_mode": "csv",
+  "files": {
+    "order_lines": "order_lines.csv",
+    "refund_events": "refund_events.csv",
+    "ad_daily": "ad_daily.csv",
+    "order_costs": "order_costs.csv",
+    "web_events": "web_events.csv"
+  },
+  "advertising_scope": [],
+  "ad_report_definitions": [],
+  "event_definitions": [],
+  "web_events_supplied": false,
+  "cost_definition": "net_cogs_after_explicit_recovery_plus_fulfillment_and_payment_fee"
+}

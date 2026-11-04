@@ -11,6 +11,8 @@ FORBIDDEN_DIRS = {'private', 'paid', 'premium', 'internal', 'internal-qa', 'cont
 FORBIDDEN_SUFFIXES = {'.pem', '.key', '.p12', '.pfx', '.crt', '.token', '.secret', '.sqlite', '.db', '.zip', '.7z', '.tar', '.gz', '.skill'}
 IGNORED_RUNTIME = {'.git', '__pycache__', '.pytest_cache'}
 PATTERNS = (
+    ("email contact", re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")),
+    ("personal messaging contact", re.compile(r"(?:微信|WeChat)[^\n]{0,20}\d{6,}")),
     ('credential-shaped assignment', re.compile(r'''(?i)["']?(?:api[_-]?key|apikey|secret|access_token|refresh_token|password|cookie)["']?\s*[:=]\s*["']?[^\s"'`,;]{12,}''')),
     ('OpenAI-shaped credential', re.compile(r'\bsk-(?:(?:proj|svcacct)-)?[A-Za-z0-9_-]{20,}')),
     ('GitHub-shaped credential', re.compile(r'\b(?:gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{30,})')),

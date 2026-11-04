@@ -1,0 +1,140 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3613,
+      "sha256": "17ad64ab5e9809e1efcbce31c253c6e3741f177ed6624efa05b8d59444ca9827"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 342,
+      "sha256": "ad4d424c2476e8204cae2cad3b811b9abbc3613a3eed8950d326d902837cc351"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1917,
+      "sha256": "cd48490fe6f8db47a1eace916141f4f8c6ff735d36535f1ee59aa72d2107862e"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 591,
+      "sha256": "1ec72c6436bd5c9e4384eb6894932e07c14406d727aa730c6188ac4d077156fb"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1290,
+      "sha256": "497c6ef6b93bd866d3aa419f8b2deef9fef994a169ddebda275cef9787b68ad0"
+    },
+    {
+      "path": "references/library/GUIDE.md",
+      "bytes": 10292,
+      "sha256": "3c2b84cdb86571421d0e69f724b251f70cd5a98d58cb95e39eed390bd7ae27c2"
+    },
+    {
+      "path": "references/library/MEDIA_GUIDE.md",
+      "bytes": 3415,
+      "sha256": "64ac95295020b0e365fcb327175edffb40f58459010569aee2b37f7fc5c14d2b"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 11418,
+      "sha256": "2da10249ee90acd9e29b8b5d9ed6755540d2c5352b54ed180b647039d36ba042"
+    },
+    {
+      "path": "references/library/references/00_开始使用.md",
+      "bytes": 4430,
+      "sha256": "86a0b553b07b1cd0a28f0035b4360550458c4a41f6091c5a108c109401816084"
+    },
+    {
+      "path": "references/library/references/01_教学导读_从用途到撤证改稿.md",
+      "bytes": 7588,
+      "sha256": "d2b14499c8c7c399e8ad228d2468761730289a8898e3c02c1892b711be10753f"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 2289,
+      "sha256": "cf71a5942979fb2887fd7f38a2c207c7b26a511db2c8d44312fe9905c56c0633"
+    },
+    {
+      "path": "references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 870,
+      "sha256": "edae35d6759a54b8379f7cf72d37d5cf6ca5248a2513a9def6bb48468cec426e"
+    },
+    {
+      "path": "references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/references/原版方法__00_当前使用与范围.md",
+      "bytes": 3052,
+      "sha256": "df9a78bcc2237d1e547b02845f2392191d87d5b5b7b8241fb2656271c5a73f40"
+    },
+    {
+      "path": "references/library/references/原版方法__MANIFEST.json",
+      "bytes": 832,
+      "sha256": "042d0826c90843f9183682295bc934e60bde21412131b503edda38cd491fb5da"
+    },
+    {
+      "path": "references/library/references/原版方法__payload__GUIDE.md",
+      "bytes": 10292,
+      "sha256": "3c2b84cdb86571421d0e69f724b251f70cd5a98d58cb95e39eed390bd7ae27c2"
+    },
+    {
+      "path": "references/library/references/原版方法__payload__MEDIA_GUIDE.md",
+      "bytes": 2798,
+      "sha256": "23f9b809c10092b7a5f9caa216d9ce19ebf22d6e97c13d991e1a0333ef22a681"
+    },
+    {
+      "path": "references/library/references/原版方法__payload__METHOD.md",
+      "bytes": 10268,
+      "sha256": "354bbd2fd7a4c09ea70f6f54aeb3f969cfb3fc5bb238181d2be97ef3cc6c5bfa"
+    },
+    {
+      "path": "references/library/references/示例__01_原始委托.md",
+      "bytes": 2483,
+      "sha256": "ce0eff1b1618f58fdffb5fc4059e58f4a0e78622320439ad88fc75712f8538c8"
+    },
+    {
+      "path": "references/library/references/示例__02_原始首答.md",
+      "bytes": 9659,
+      "sha256": "1beb1d5cff4138c630826dfbf700edf41680cb3584d83fc8a6fe176f12acb738"
+    },
+    {
+      "path": "references/library/references/示例__03_原始跟进输入.md",
+      "bytes": 186,
+      "sha256": "cc172d1c4c19802c48daab72b0321fcc715409467beb8efe3318383884b287e0"
+    },
+    {
+      "path": "references/library/references/示例__04_原始跟进成果.md",
+      "bytes": 7180,
+      "sha256": "309c6c3a1449cacb27ea7352a3dc3cb51ecae392ccc2b394520f37bff900f394"
+    },
+    {
+      "path": "references/library/references/随包回执.md",
+      "bytes": 4156,
+      "sha256": "f36af41ce1bbcb5858515128c7175cfb398b8287de1f07ae9ac5949a9dd03f68"
+    }
+  ]
+}

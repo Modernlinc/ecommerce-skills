@@ -1,0 +1,55 @@
+{
+  "id": "B2B-PRACTICAL-V1-20261020-01",
+  "date": "2026-10-20",
+  "status": "CANDIDATE_PENDING_INDEPENDENT_REVIEW",
+  "entry": "00_开始使用.md",
+  "skill": "METHOD.md",
+  "structure_version": "b2b-practical-output-v1",
+  "parent_id": "B2B-PRELAUNCH-20261019-W1",
+  "parent_manifest_sha256": "99377a4e60cd1c3a023289b2017aed6634009e0cdc06ce1f8bae7b5e7728db6c",
+  "parent_core_sha256": "60507fc8cad60a50efeabb6a4e4ab5c80ee98f9af7f86232504ad6df48fc327f",
+  "authorization_id": "B2B-PRACTICAL-V1-20261020-EXEC-01",
+  "self_excluded": true,
+  "regular_file_count_including_manifest": 7,
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 4854,
+      "sha256": "b26779cb59abd941d959e4c6078f48f3884b49286257871f066aa8e81e3e5831"
+    },
+    {
+      "path": "01_询盘到报价与样品交接_完整示范.md",
+      "bytes": 12766,
+      "sha256": "dc01ecb90e37b567532fa1e34977f015ba4b391c61b7b208d22503aebb2ba679"
+    },
+    {
+      "path": "METHOD.md",
+      "bytes": 6161,
+      "sha256": "4a4a4b96c82d80289d9919e0a617923dfd40aabadb46794cf02433b99de821c7"
+    },
+    {
+      "path": "input-output-contract.md",
+      "bytes": 7456,
+      "sha256": "77c63be70721ba698d2318ef6a1c25f059bae1387486a067fbede6a6742c3a0d"
+    },
+    {
+      "path": "output-template.json",
+      "bytes": 3801,
+      "sha256": "b0cfc036fbeaa3fcdf887b04c56e4c229b35802a3a5ee191bf84415cb6a9de84"
+    },
+    {
+      "path": "source-and-limits.md",
+      "bytes": 8012,
+      "sha256": "020afd1112b2018506b7f24501053fe7b5f7f46de903efbd7a5a6ae6222356f8"
+    }
+  ],
+  "scope": "One factory, matter and product; admitted non-sensitive material to offline quotation preparation, sample handoff and complete email drafts. Object-specific sensitive-data confirmation and human execution remain separate.",
+  "independent_acceptance": false,
+  "formal_adoption": false,
+  "installed": false,
+  "obsidian_synced": false,
+  "publicly_published": false,
+  "real_customer_validation": false,
+  "production_or_sending_authorized": false,
+  "legacy_source_support": "0/1477 retained; no new full-course learning"
+}

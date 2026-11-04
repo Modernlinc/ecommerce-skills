@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "organization_ref": null,
+  "case_ref": null,
+  "order_refs": [],
+  "conversation_refs": [],
+  "issue_summary": null,
+  "customer_requests": [],
+  "known_facts": [],
+  "missing_evidence": [],
+  "proposed_routes": [],
+  "evidence_refs": [],
+  "handoff_status": "pending",
+  "receipt_evidence": null,
+  "accepted_by": null,
+  "accepted_at": null,
+  "resolution_evidence": null,
+  "resolved": false,
+  "external_handoff_executed": false,
+  "next_internal_action": null
+}

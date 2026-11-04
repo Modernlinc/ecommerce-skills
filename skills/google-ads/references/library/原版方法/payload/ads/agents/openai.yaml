@@ -1,0 +1,5 @@
+interface:
+  display_name: "Google Ads 运营"
+  short_description: "Google Ads 教学、审计、规划、诊断与受控草稿"
+  default_prompt: "使用 $google-ads-operations 审查这份 Google Ads 资料，识别首要问题并给出安全的下一步。"
+

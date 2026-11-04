@@ -1,0 +1,154 @@
+{
+  "name": "support-offline-reply-handoff",
+  "version": "0.4.0-practical-v1-candidate-01",
+  "revision_id": "support-practical-v1-20261020-01",
+  "mode": "offline_internal_draft_only",
+  "status": "CANDIDATE_AWAITING_INDEPENDENT_CHECK",
+  "created_date": "2026-10-20",
+  "candidate_files": [
+    "base__support__原版方法__payload__METHOD.md",
+    "base__support__原版方法__payload__README_中文.md",
+    "base__support__原版方法__payload__references__input-output-contract.md",
+    "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+    "base__support__原版方法__payload__references__source-map.md",
+    "base__support__原版方法__payload__references__current-platform-policy.md",
+    "base__support__原版方法__payload__templates__handoff-record.json",
+    "base__support__原版方法__payload__templates__knowledge-feedback.md",
+    "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+    "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+    "VERSION.json"
+  ],
+  "ready_to_send": false,
+  "formal_adoption": false,
+  "global_installation": false,
+  "supported_input_boundary": "单组织单事项；读前准入通过的新低敏问题摘要、公开/自有非敏感商品政策或原创合成材料。真实客户原话、工单/订单及摘录改写脱敏件、真实回执须读前另找使用者确认，当前一般准入不纳入。",
+  "runtime_dependencies": [
+    "existing Codex native reasoning",
+    "authorized local input and output access"
+  ],
+  "policy_reference": {
+    "source": "O01",
+    "checked_on": "2026-10-11",
+    "page_updated": "2026-09-23",
+    "scope": "WhatsApp Business Messaging Policy sections 1–3 only",
+    "case_applicability": "unknown"
+  },
+  "knowledge_association": {
+    "status": "candidate_local_alignment_only",
+    "maturity": "company_design / method_hypothesis",
+    "new_methods_synced_to_vault": false,
+    "formal_entry_alignment": "not_authorized_this_round"
+  },
+  "validation_scope": {
+    "materials": "New original safe producer inputs; actual execution identities and limitations are recorded in the frozen owner handoff, not inferred from this version file.",
+    "real_customer_or_external_action_verified": false,
+    "real_business_effects_verified": false,
+    "current_independent_qa": "not_run",
+    "optional_structural_validator": "Not a runtime dependency; missing components are not installed automatically"
+  },
+  "previous_reviews_not_inherited": true,
+  "parent_baseline": {
+    "candidate_id": "SUPPORT-PRELAUNCH-20261019-W1-R1",
+    "root_manifest_sha256": "4937d699d3fa6399f3119343ccefda71ce0f3da70e9d03f06f3c8dbbb9f3b98b",
+    "core_version": "0.3.0-research-s3-continuation-01",
+    "approval_inherited": false
+  },
+  "method_changes": {
+    "admission": "Pre-read metadata gating of new low-sensitive input and every follow-up; no real-customer-data admission by relabeling.",
+    "brief": "Optional issue_brief instead of requiring customer messages; preserve operator description, hypothesis, source and unknown dates.",
+    "delivery": "Complete English internal reply, Chinese rationale, next internal action and full unchanged 14/19-key result."
+  },
+  "source_limits": {
+    "G01": "full returned transcript and provider visual report; original video pixels not directly observed; observation exception retained",
+    "G03": "current source G03 first publication unknown; research reference only, not sole support for new formal claims",
+    "R04": "date and tutorial body unobserved"
+  },
+  "historical_metadata": {
+    "name": "support-offline-reply-handoff",
+    "version": "0.3.0-research-s3-continuation-01",
+    "revision_id": "support-s3-continuation-20261014-01",
+    "mode": "offline_internal_draft_only",
+    "status": "CANDIDATE_AWAITING_ISOLATED_USAGE",
+    "created_date": "2026-10-14",
+    "candidate_files": [
+      "base__support__原版方法__payload__METHOD.md",
+      "base__support__原版方法__payload__README_中文.md",
+      "base__support__原版方法__payload__references__input-output-contract.md",
+      "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "base__support__原版方法__payload__references__source-map.md",
+      "base__support__原版方法__payload__references__current-platform-policy.md",
+      "base__support__原版方法__payload__templates__handoff-record.json",
+      "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "VERSION.json"
+    ],
+    "ready_to_send": false,
+    "formal_adoption": false,
+    "global_installation": false,
+    "supported_input_boundary": "单组织单事项合成资料；真实客户资料须另获明确授权和适当环境，本轮不处理。",
+    "runtime_dependencies": [
+      "existing Codex native reasoning",
+      "authorized local input and output access"
+    ],
+    "policy_reference": {
+      "source": "O01",
+      "checked_on": "2026-10-11",
+      "page_updated": "2026-09-23",
+      "scope": "WhatsApp Business Messaging Policy sections 1–3 only",
+      "case_applicability": "unknown"
+    },
+    "knowledge_association": {
+      "status": "pending_S4_minimal_method_sync",
+      "maturity": "company_design / method_hypothesis",
+      "new_methods_synced_to_vault": false,
+      "bundled_knowledge": "Parent body retained unchanged; S3 decision/continuation rules are in callable references",
+      "formal_entry_alignment": "pending_S4",
+      "parent_association": {
+        "status": "updated_existing",
+        "date": "2026-10-11",
+        "maturity": "candidate_method / not_final_reviewed",
+        "original_prefix_bytes": 12214,
+        "original_prefix_sha256": "b8280c511c231aa4573cdb1cfcc42365e7b3c4a330c4d267a8f0aa691fbe2dac",
+        "current_bytes": 14360,
+        "current_sha256": "a9c0163f0712402f47c3e1a160b0d324aa753ffe3f7ee3744fcebc0db84f5d2f"
+      }
+    },
+    "current_revision_qa": "NOT_RUN_CURRENT_CANDIDATE",
+    "source_limits": {
+      "G01": "full returned transcript and provider visual report; original video pixels not directly observed; observation exception retained",
+      "G03": "current source G03 first publication unknown; research reference only, not sole support for new formal claims",
+      "R04": "date and tutorial body unobserved"
+    },
+    "historical_baseline": {
+      "version": "0.1.1-research-relative-date-anchor-01",
+      "base_qa": "Old 0.1.0 PWE and 0.1.1 local static acceptance apply only to their original objects",
+      "W01": "NOT_RUN_EXTERNAL_ACCESS_WITHHELD",
+      "G03": "Historical gap G03, distinct from round-two source G03; not retroactively marked closed",
+      "prior_vault_status": "Limited historical associations remain in original note; current appendix tracked separately"
+    },
+    "validation_scope": {
+      "materials": "offline synthetic materials only",
+      "real_customer_or_external_action_verified": false,
+      "real_business_effects_verified": false,
+      "optional_structural_validator": "Not a runtime dependency; actual check outcome recorded outside candidate; no installation required",
+      "current_normal_task_and_followup": "not_run",
+      "current_independent_qa": "not_run"
+    },
+    "previous_candidate_qa": "PASS_WITH_EXCEPTIONS for 0.2.1 parent only",
+    "previous_reviews_not_inherited": true,
+    "parent_baseline": {
+      "version": "0.2.1-research-round-two-entry-02",
+      "revision_id": "support-round-two-20261011-02",
+      "accepted_scope": "Single-organization single-case synthetic offline reply and pending handoff only",
+      "quality": "PASS_WITH_EXCEPTIONS applies to unchanged parent only",
+      "round_three_reuse": "WHOLE_ROUND_FINAL_REUSE_ACCEPTED applies to unchanged parent only",
+      "current_candidate_inherits_approval": false
+    },
+    "method_changes": {
+      "G01": "Evidence-based choice of explanation, minimal question, conditional options or proposed human route",
+      "G02": "Same-case continuation with source-dependent updates and retained unresolved work",
+      "G03": "Complete current reply first, concise rationale and internal next actions; full JSON retained"
+    }
+  }
+}

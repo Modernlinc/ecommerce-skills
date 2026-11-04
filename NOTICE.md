@@ -1,7 +1,7 @@
-# Notice
+# Notices
 
-ModernLinc Ecommerce AI Skills — public demonstration material only.
+Copyright © 2026 ModernLinc. ModernLinc's original methods, software, templates and synthetic examples are released under the MIT License.
 
-The complete paid Skill implementations, proprietary methodologies, private references, internal evaluations, customer information and credentials are not included. ModernLinc brand identifiers remain the property of their respective owner.
+Third-party attribution and licence texts are retained with their respective references. These include SeaLeap/Nexscope and Corey Haines Marketing Skills notices where applicable. External sources, platform names and trademarks remain subject to their owners' rights; their mention is not endorsement or affiliation.
 
-The product names, amounts, dates and scenarios in the demonstrations are fictional. No third-party images, course transcripts, proprietary charts or full paid source materials are redistributed in this version.
+The repository does not redistribute source course videos, paid lesson transcripts, credentials or customer data. Historical source records describe the evidence available at their dates, not continuous re-verification. Old internal publication restrictions on ModernLinc's own work are superseded by this open-source release; third-party rights and business safety limits remain in force.

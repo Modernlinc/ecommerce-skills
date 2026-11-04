@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meta/Facebook 广告运营"
+  short_description: "获准非敏感商品与素材到人工可搭建的Meta广告方案、文案与UTM"
+  default_prompt: "Use $meta-facebook-ads-operations to admit this task’s non-sensitive materials before reading, then prepare complete human-buildable Meta ad copy, briefs, conditional budgets and checked static URLs without live-account actions."

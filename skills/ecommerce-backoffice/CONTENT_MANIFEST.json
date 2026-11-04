@@ -1,0 +1,120 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3665,
+      "sha256": "4dc758e00b5c13a51a34a0e5eb3ecb5ea8a5b5bc035a81ac21a6125461d870ab"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 339,
+      "sha256": "80d7b2d92e57d2ca7f062f714313f697ddbbe2758bbdb741c9f3dbd15609af17"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1883,
+      "sha256": "d92587a480f05f8245d5e9e5023ba0cf94319269b9f527ba8c990505a9702a9d"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 554,
+      "sha256": "0c9c0912298aea3e3738f104607bc7881c94400a5e4558a11236c79e5dbd3ff0"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1029,
+      "sha256": "315715c44a2ae4c030c8a76507762212a691ac17cc10a6c0ba97a8795e579ce1"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 828,
+      "sha256": "f8a9939698f48d0a5871ca2dcfd85e97bc68a3797e9d6ef5946009a3ae7ddebd"
+    },
+    {
+      "path": "references/library/references/00_开始使用.md",
+      "bytes": 3913,
+      "sha256": "b690eb222907f8b3e7b6f8215e459edf89a4aa5db18039d69f1f969d51c059f9"
+    },
+    {
+      "path": "references/library/references/01_完整教学示范.md",
+      "bytes": 7340,
+      "sha256": "9aa9d4a6db0f4b573cb639d8a8cd622c826be6f70c42de2310d96fd549419afd"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 3590,
+      "sha256": "75a43fe4f90f4bc863df3e67880ab1d68152acc7290a086039d050f74ef443cb"
+    },
+    {
+      "path": "references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 1014,
+      "sha256": "2f4e767244f97804938e512a76f14944f18e6719ae716c94365c2cbe13134cb6"
+    },
+    {
+      "path": "references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/references/backoffice-evidence-handoff__METHOD.md",
+      "bytes": 2275,
+      "sha256": "b90532bef793e54b03ac607eda5e86fdd62584ac1752eeb0dec5f129092c8267"
+    },
+    {
+      "path": "references/library/references/backoffice-evidence-handoff__assets__output-template.json",
+      "bytes": 5628,
+      "sha256": "58f07a31251809aa64d85d1e2bdf302e999ebd15f7526d637de44a5125c8e608"
+    },
+    {
+      "path": "references/library/references/backoffice-evidence-handoff__references__material-review.md",
+      "bytes": 14161,
+      "sha256": "606feeb60c87e495130de964408103fdf6a8dac0a9ab3410a29f0cf3c4ac25e6"
+    },
+    {
+      "path": "references/library/references/backoffice-evidence-handoff__references__sources-and-boundaries.md",
+      "bytes": 11496,
+      "sha256": "4f52dce6e8e1f8027794daff62a885836e20fa072fb1d768a6f9ed1fcc059d98"
+    },
+    {
+      "path": "references/library/references/教学示范__INPUT_R1.md",
+      "bytes": 1792,
+      "sha256": "09826d7d8f501982b212bf8743e2e6f6ca4790e7f01b96d9736ae0bba27842e9"
+    },
+    {
+      "path": "references/library/references/教学示范__INPUT_R2.md",
+      "bytes": 220,
+      "sha256": "2b02ff28d7e0b274a4519d41b8ec9b87c7a2818e3013e04c6d8268811626b16e"
+    },
+    {
+      "path": "references/library/references/教学示范__OUTPUT_R1.md",
+      "bytes": 13747,
+      "sha256": "63ac151c1d0acea5a18727479f793e11ec80996a8d78dfdd719691cc2a4c9a93"
+    },
+    {
+      "path": "references/library/references/教学示范__OUTPUT_R2.md",
+      "bytes": 15475,
+      "sha256": "711e4c0b412d003c91aa070454d6dba846e0b3a26831a45d36ab7cd3c62e93d0"
+    }
+  ]
+}

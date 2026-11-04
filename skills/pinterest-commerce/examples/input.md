@@ -12,4 +12,4 @@ Pin B草稿：Blue storage pair，图片蓝色单件，链接box-blue。
 
 ## 导航
 
-版本：`0.1.1-public-demo` · [单文件试阅](demo.md) · [功能卡片](../SKILL.md) · [完成后看参考输出](output.md)
+版本：`1.0.0` · [单文件试阅](demo.md) · [功能卡片](../SKILL.md) · [完成后看参考输出](output.md)

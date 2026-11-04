@@ -1,0 +1,995 @@
+{
+  "assembly_id": "SUPPORT-C07-ASSEMBLED-20261022-01",
+  "status": "ASSEMBLED_LOCAL_IDENTITY_AND_DEPENDENCIES_VERIFIED_PENDING_FINAL_REVIEW",
+  "checked_at": "2026-10-22T05:21:45.315Z",
+  "authorization": {
+    "id": "R1-SUPPORT-C07-ASSEMBLY-20261022-A",
+    "path": "[source-archive-path]",
+    "bytes": 1918,
+    "sha256": "e57559671581b84b5aec740ead58827870851bbac3c410ebb3d8ef52777468ee",
+    "runtime_dependency": false
+  },
+  "selected_mode": "assembled_package",
+  "selected_base": "base/support",
+  "entry": "00_R1入口.md",
+  "overlay_entry": "C07_PORTABLE_ENTRY.md",
+  "frozen_source_identity": {
+    "id": "SUPPORT-C07-ROLE-OVERLAY-R1-20261022-FREEZE-01",
+    "bytes": 7551,
+    "sha256": "88a5c64a2131853b82cc9a5a23f3cd3ef99694808bd991b7b133629b6ce32c5f",
+    "runtime_dependency": false,
+    "embedded_identities": "copied_files includes frozen overlay expected hashes; source FREEZE file not copied"
+  },
+  "environment": {
+    "actual_host": "same local Mac; no remote or second host",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "os_release": "25.5.0",
+    "node_version": "v26.0.0",
+    "source_project": "[source-archive-path]",
+    "target_root": "[source-archive-path]",
+    "source_base_root": "[source-archive-path]",
+    "storage_mount": "[source-archive-path]",
+    "storage_device": "/dev/disk7s1",
+    "mount_verified": true,
+    "git_repository": false,
+    "branch": null,
+    "git_status": "not a git repository"
+  },
+  "destination_absence_checked_at": "2026-10-22T05:19:06.948Z",
+  "destination_absent_before_creation": true,
+  "copy_policy": "new directory; each exact target created once; no overwrite; cp -p; no business outputs rerun",
+  "copied_files": [
+    {
+      "path": "C07_PORTABLE_ENTRY.md",
+      "source_kind": "frozen_overlay",
+      "source_relative": "C07_PORTABLE_ENTRY.md",
+      "bytes": 7979,
+      "sha256": "55547efa3367803a7159862eea58a5ce190ba19f93f211e310fd547e27aefbab",
+      "expected_sha256": "55547efa3367803a7159862eea58a5ce190ba19f93f211e310fd547e27aefbab",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "C07_PATCH_MANIFEST.json",
+      "source_kind": "frozen_overlay",
+      "source_relative": "C07_PATCH_MANIFEST.json",
+      "bytes": 23772,
+      "sha256": "f48197124d43cf382411b01c26c163b41b818b6ce7bdb72dc5e64976b215cad5",
+      "expected_sha256": "f48197124d43cf382411b01c26c163b41b818b6ce7bdb72dc5e64976b215cad5",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__00_开始使用.md",
+      "source_kind": "baseline",
+      "source_relative": "00_开始使用.md",
+      "bytes": 3515,
+      "sha256": "1a627aac05a6fd9063d4088d187f555cb69034d667d7c1beedac0050ee2c38a7",
+      "expected_sha256": "1a627aac05a6fd9063d4088d187f555cb69034d667d7c1beedac0050ee2c38a7",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__01_取消请求教学.md",
+      "source_kind": "baseline",
+      "source_relative": "01_取消请求教学.md",
+      "bytes": 7373,
+      "sha256": "482fe919bf1a9d379f2b91663711a90b017ccb5fb0f2768e6a92579e5cab5452",
+      "expected_sha256": "482fe919bf1a9d379f2b91663711a90b017ccb5fb0f2768e6a92579e5cab5452",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__MANIFEST.json",
+      "source_kind": "baseline",
+      "source_relative": "MANIFEST.json",
+      "bytes": 6733,
+      "sha256": "ff1ce8258d6d820457b15d2071a8825d11a46217555f5ff0334f68d270637d7f",
+      "expected_sha256": "ff1ce8258d6d820457b15d2071a8825d11a46217555f5ff0334f68d270637d7f",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__00_当前使用与范围.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/00_当前使用与范围.md",
+      "bytes": 1999,
+      "sha256": "f283bd263e100f7bbf94b75a213069321028123dab98bafeefc50bbb0beb8928",
+      "expected_sha256": "f283bd263e100f7bbf94b75a213069321028123dab98bafeefc50bbb0beb8928",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__MANIFEST.json",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/MANIFEST.json",
+      "bytes": 2705,
+      "sha256": "15a8ac0f28fed60a9838473bed2873a9bd99eaf45cf9d7aaad65b25ae31aca54",
+      "expected_sha256": "15a8ac0f28fed60a9838473bed2873a9bd99eaf45cf9d7aaad65b25ae31aca54",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1890,
+      "sha256": "20436d867b92f2e5543642c4a5b86a96fa38899eebcc87affb74a5a5fae45880",
+      "expected_sha256": "20436d867b92f2e5543642c4a5b86a96fa38899eebcc87affb74a5a5fae45880",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__README_中文.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/README_中文.md",
+      "bytes": 5378,
+      "sha256": "a5753a574b49eab1ec54cef05165c36a009bfdccb4f3a318ff4ef3773a47fbfb",
+      "expected_sha256": "a5753a574b49eab1ec54cef05165c36a009bfdccb4f3a318ff4ef3773a47fbfb",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__METHOD.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/METHOD.md",
+      "bytes": 5798,
+      "sha256": "209d79773c6661cfb1a2c88ebe70f609e7cc5ad6ca563f67dd3ceffa30b20917",
+      "expected_sha256": "209d79773c6661cfb1a2c88ebe70f609e7cc5ad6ca563f67dd3ceffa30b20917",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__VERSION.json",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/VERSION.json",
+      "bytes": 7596,
+      "sha256": "ccfc4fb2bc73f9bf3bb6afc13c51e2317ecc4081651308f728e63672859323a5",
+      "expected_sha256": "ccfc4fb2bc73f9bf3bb6afc13c51e2317ecc4081651308f728e63672859323a5",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/knowledge/客服私信处理与人工升级.md",
+      "bytes": 3602,
+      "sha256": "e88603093cd2f23682885687f5ac5793cde17c54291f106e2945b568cabc2b7f",
+      "expected_sha256": "e88603093cd2f23682885687f5ac5793cde17c54291f106e2945b568cabc2b7f",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__current-platform-policy.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/references/current-platform-policy.md",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc",
+      "expected_sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/references/decision-and-stop-rules.md",
+      "bytes": 9621,
+      "sha256": "19de6eb0edbff4d2eb02db0f1b72299ca6b4c7cded45179b31b5d42bdfc55b6a",
+      "expected_sha256": "19de6eb0edbff4d2eb02db0f1b72299ca6b4c7cded45179b31b5d42bdfc55b6a",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__input-output-contract.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/references/input-output-contract.md",
+      "bytes": 12820,
+      "sha256": "62dc19890b5553193dce779a6bcb4b613a324d17144e85180d09f308022e83b9",
+      "expected_sha256": "62dc19890b5553193dce779a6bcb4b613a324d17144e85180d09f308022e83b9",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__source-map.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/references/source-map.md",
+      "bytes": 10445,
+      "sha256": "47f34b5d4baa482cb633360d7ad23014305f3998431d901e794f25ab0d28dc71",
+      "expected_sha256": "47f34b5d4baa482cb633360d7ad23014305f3998431d901e794f25ab0d28dc71",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__templates__handoff-record.json",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/templates/handoff-record.json",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501",
+      "expected_sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "source_kind": "baseline",
+      "source_relative": "原版方法/payload/templates/knowledge-feedback.md",
+      "bytes": 888,
+      "sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9",
+      "expected_sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__教学成果__A_取消评估内部稿.json",
+      "source_kind": "baseline",
+      "source_relative": "教学成果/A_取消评估内部稿.json",
+      "bytes": 11625,
+      "sha256": "c5c6d1d308daddd2c79af9382ec8c0b87dea0449589b183e0a79e0dcef294aa7",
+      "expected_sha256": "c5c6d1d308daddd2c79af9382ec8c0b87dea0449589b183e0a79e0dcef294aa7",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__教学成果__B_已交后选项内部稿.json",
+      "source_kind": "baseline",
+      "source_relative": "教学成果/B_已交后选项内部稿.json",
+      "bytes": 12726,
+      "sha256": "c19abeee465aa6df1e55b80e71b048331e7e643251f30fc822d4a72bc661fe09",
+      "expected_sha256": "c19abeee465aa6df1e55b80e71b048331e7e643251f30fc822d4a72bc661fe09",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__教学材料__A_明确未交承运商.json",
+      "source_kind": "baseline",
+      "source_relative": "教学材料/A_明确未交承运商.json",
+      "bytes": 4094,
+      "sha256": "4b715686916e0be22d56ea8c51bb9c19e22ca1d27fc4f2d5b74d3b7096e8b15e",
+      "expected_sha256": "4b715686916e0be22d56ea8c51bb9c19e22ca1d27fc4f2d5b74d3b7096e8b15e",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    },
+    {
+      "path": "base__support__教学材料__B_明确已交承运商.json",
+      "source_kind": "baseline",
+      "source_relative": "教学材料/B_明确已交承运商.json",
+      "bytes": 4098,
+      "sha256": "304ebe6ff3a9da0c0be029aea69acc26cd0b7ccb928ad2491bd4a703ab7234e4",
+      "expected_sha256": "304ebe6ff3a9da0c0be029aea69acc26cd0b7ccb928ad2491bd4a703ab7234e4",
+      "byte_equal_to_source": true,
+      "hash_matches_expected": true,
+      "regular_file": true
+    }
+  ],
+  "outer_entry_identity": {
+    "path": "00_R1入口.md",
+    "bytes": 1347,
+    "sha256": "70e3b4ebc3d2fa8b2f4e1e85b353b2f3e7dc8a83ecd67a9a23d399e134f20b18"
+  },
+  "minimum_runtime_dependencies": [
+    {
+      "path": "base__support__原版方法__payload__METHOD.md",
+      "purpose": "主方法、调用次序、起草与输出要求",
+      "bytes": 5798,
+      "sha256": "209d79773c6661cfb1a2c88ebe70f609e7cc5ad6ca563f67dd3ceffa30b20917",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    },
+    {
+      "path": "base__support__原版方法__payload__VERSION.json",
+      "purpose": "真实核心版本、输入/能力范围；非实时验收状态",
+      "bytes": 7596,
+      "sha256": "ccfc4fb2bc73f9bf3bb6afc13c51e2317ecc4081651308f728e63672859323a5",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__current-platform-policy.md",
+      "purpose": "仅2026-10-11已记录范围的历史平台参考；不证明当日资格",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "purpose": "问题分流、证据/时间/接手状态、停止与跟进",
+      "bytes": 9621,
+      "sha256": "19de6eb0edbff4d2eb02db0f1b72299ca6b4c7cded45179b31b5d42bdfc55b6a",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__input-output-contract.md",
+      "purpose": "元信息准入、14键输出/19键交接、真实资料停止",
+      "bytes": 12820,
+      "sha256": "62dc19890b5553193dce779a6bcb4b613a324d17144e85180d09f308022e83b9",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    },
+    {
+      "path": "base__support__原版方法__payload__templates__handoff-record.json",
+      "purpose": "19键人工交接结构，默认pending，不是接手回执",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501",
+      "exists": true,
+      "inside_package": true,
+      "hash_matches": true
+    }
+  ],
+  "relative_link_checks": [
+    {
+      "from": "00_R1入口.md",
+      "target": "C07_PORTABLE_ENTRY.md",
+      "resolved_package_relative": "C07_PORTABLE_ENTRY.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "C07_PORTABLE_ENTRY.md",
+      "target": "C07_PATCH_MANIFEST.json",
+      "resolved_package_relative": "C07_PATCH_MANIFEST.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "原版方法/payload/references/input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "原版方法/payload/METHOD.md",
+      "resolved_package_relative": "base__support__原版方法__payload__METHOD.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "01_取消请求教学.md",
+      "resolved_package_relative": "base__support__01_取消请求教学.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "原版方法/00_当前使用与范围.md",
+      "resolved_package_relative": "base__support__原版方法__00_当前使用与范围.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "原版方法/payload/VERSION.json",
+      "resolved_package_relative": "base__support__原版方法__payload__VERSION.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "MANIFEST.json",
+      "resolved_package_relative": "base__support__MANIFEST.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__00_开始使用.md",
+      "target": "原版方法/MANIFEST.json",
+      "resolved_package_relative": "base__support__原版方法__MANIFEST.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "教学材料/A_明确未交承运商.json",
+      "resolved_package_relative": "base__support__教学材料__A_明确未交承运商.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "教学成果/A_取消评估内部稿.json",
+      "resolved_package_relative": "base__support__教学成果__A_取消评估内部稿.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "教学材料/B_明确已交承运商.json",
+      "resolved_package_relative": "base__support__教学材料__B_明确已交承运商.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "教学成果/B_已交后选项内部稿.json",
+      "resolved_package_relative": "base__support__教学成果__B_已交后选项内部稿.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "原版方法/payload/references/decision-and-stop-rules.md#选择当前处理方式",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "选择当前处理方式",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "原版方法/payload/references/decision-and-stop-rules.md#同事项续接",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "同事项续接",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__01_取消请求教学.md",
+      "target": "原版方法/payload/references/input-output-contract.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__00_当前使用与范围.md",
+      "target": "payload/README_中文.md",
+      "resolved_package_relative": "base__support__原版方法__payload__README_中文.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__00_当前使用与范围.md",
+      "target": "payload/METHOD.md",
+      "resolved_package_relative": "base__support__原版方法__payload__METHOD.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__00_当前使用与范围.md",
+      "target": "payload/references/input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__00_当前使用与范围.md",
+      "target": "MANIFEST.json",
+      "resolved_package_relative": "base__support__原版方法__MANIFEST.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "target": "references/input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "target": "references/source-map.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__source-map.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "references/input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "references/input-output-contract.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "templates/knowledge-feedback.md",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "VERSION.json",
+      "resolved_package_relative": "base__support__原版方法__payload__VERSION.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "references/decision-and-stop-rules.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "knowledge/客服私信处理与人工升级.md",
+      "resolved_package_relative": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "DEPENDENCIES_AND_RIGHTS.md",
+      "resolved_package_relative": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__README_中文.md",
+      "target": "references/source-map.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__source-map.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "VERSION.json",
+      "resolved_package_relative": "base__support__原版方法__payload__VERSION.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/input-output-contract.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/decision-and-stop-rules.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "templates/handoff-record.json",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__handoff-record.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/current-platform-policy.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__current-platform-policy.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/decision-and-stop-rules.md#选择当前处理方式",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "选择当前处理方式",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/decision-and-stop-rules.md#同事项续接",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "同事项续接",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "references/source-map.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__source-map.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "DEPENDENCIES_AND_RIGHTS.md",
+      "resolved_package_relative": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "knowledge/客服私信处理与人工升级.md",
+      "resolved_package_relative": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "README_中文.md",
+      "resolved_package_relative": "base__support__原版方法__payload__README_中文.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__METHOD.md",
+      "target": "templates/knowledge-feedback.md",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../VERSION.json",
+      "resolved_package_relative": "base__support__原版方法__payload__VERSION.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../README_中文.md",
+      "resolved_package_relative": "base__support__原版方法__payload__README_中文.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../references/input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../templates/handoff-record.json",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__handoff-record.json",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../templates/knowledge-feedback.md",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../references/current-platform-policy.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__current-platform-policy.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "target": "../references/source-map.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__source-map.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "target": "source-map.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__source-map.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "target": "input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "target": "current-platform-policy.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__current-platform-policy.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "target": "../templates/knowledge-feedback.md",
+      "resolved_package_relative": "base__support__原版方法__payload__templates__knowledge-feedback.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__input-output-contract.md",
+      "target": "decision-and-stop-rules.md#同事项续接",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "同事项续接",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__input-output-contract.md",
+      "target": "decision-and-stop-rules.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__source-map.md",
+      "target": "input-output-contract.md#业务正文读取前",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": "业务正文读取前",
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__source-map.md",
+      "target": "decision-and-stop-rules.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__source-map.md",
+      "target": "decision-and-stop-rules.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    },
+    {
+      "from": "base__support__原版方法__payload__references__source-map.md",
+      "target": "input-output-contract.md",
+      "resolved_package_relative": "base__support__原版方法__payload__references__input-output-contract.md",
+      "inside_package": true,
+      "exists": true,
+      "anchor": null,
+      "anchor_exists": true
+    }
+  ],
+  "deferred_self_reference": [
+    {
+      "from": "00_R1入口.md",
+      "target": "ASSEMBLY_RECEIPT.json",
+      "reason": "Receipt self-reference; checked after saving in C07_ASSEMBLY_RECEIPT.md. No self hash."
+    }
+  ],
+  "baseline_manifest_checks": [
+    {
+      "path": "base__support__MANIFEST.json",
+      "declared_members": 19,
+      "all_members_match": true
+    },
+    {
+      "path": "base__support__原版方法__MANIFEST.json",
+      "declared_members": 12,
+      "all_members_match": true
+    }
+  ],
+  "anchor_checks": [
+    {
+      "path": "base__support__00_开始使用.md",
+      "line": 9,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__00_当前使用与范围.md",
+      "line": 7,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__DEPENDENCIES_AND_RIGHTS.md",
+      "line": 7,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__README_中文.md",
+      "line": 3,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__METHOD.md",
+      "line": 8,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__VERSION.json",
+      "line": 24,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__knowledge__客服私信处理与人工升级.md",
+      "line": 7,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__decision-and-stop-rules.md",
+      "line": 41,
+      "match": true
+    },
+    {
+      "path": "base__support__原版方法__payload__references__input-output-contract.md",
+      "line": 10,
+      "match": true
+    }
+  ],
+  "protected_source_checks": {
+    "original_freeze_hash": true,
+    "all_original_frozen_members": true,
+    "original_baseline": true,
+    "assembly_authorization": true
+  },
+  "checks": {
+    "copied_exactly_22": true,
+    "minimum_six_inside_and_match": true,
+    "all_checked_relative_links": true,
+    "baseline_manifests": true,
+    "nine_anchors": true,
+    "originals_unchanged": true,
+    "selected_base_inside_package": true,
+    "selected_base_correct": true
+  },
+  "non_runtime_exclusions": [
+    {
+      "field": "resolution.local_development",
+      "reason": "未选择的研发模式；七层外部路径不用于本装配运行"
+    },
+    {
+      "field": "authorization.source_local_relative",
+      "reason": "研发授权来源定位，不是运行依赖；没有复制授权档案"
+    },
+    {
+      "field": "reviewed_plan.relative",
+      "reason": "历史方案来源定位，不是运行依赖；未复制方案"
+    },
+    {
+      "field": "verification.producer_receipt_relative / frozen_identity_relative",
+      "reason": "历史验证/冻结证明来源，未复制validation；本回执嵌入核实的冻结身份，不声称已带齐历史证明"
+    }
+  ],
+  "preservation_note": "冻结覆盖层仍保留其制作时NOT_ASSEMBLED/本机路径说明；本组合由外层明确选择模式，实际装配状态以本新回执与文件核对为准，不改原记录。",
+  "self_hash": "excluded; outer C07_ASSEMBLY_RECEIPT.md records actual hash after save",
+  "not_run": [
+    "business_draft_rerun",
+    "newbie_answer_rewrite",
+    "fresh_session_business_run",
+    "cross_Mac",
+    "independent_buyer_host",
+    "real_customer_data_or_account",
+    "installation",
+    "public_release",
+    "final_scoped_acceptance"
+  ],
+  "independent_review_state": "per authorization: professional report received, novice continuation ongoing, no final conclusion; not independently reread here"
+}
+

@@ -1,0 +1,163 @@
+{
+  "case_id": "SH-R3-SYNTH-THEME-01",
+  "locked_at": "2026-10-12T16:16:19.146976+08:00",
+  "source_and_rights": "Entirely authored internal synthetic text/JSON; not customer or paid-theme files; never executed. This is a deliberately partial theme fixture, not an installable theme.",
+  "baseline_provenance": "Creator constructed clean snapshot first, retained fixed hashes; reviewed snapshot authored separately with predetermined differences below. Clean is known only within this synthetic fixture, not inferred from version string.",
+  "theme_identity": {
+    "name": "Fixture Paper",
+    "provider": "Internal Synthetic Author",
+    "clean_declared_version": "1.2.3",
+    "reviewed_declared_version": "1.2.3"
+  },
+  "files": {
+    "clean/config/settings_data.json": {
+      "bytes": 131,
+      "sha256": "659354817c78bc4704de02a86e9184e562eb53ccfb78c7dedb0cbdaffab0f6ac"
+    },
+    "clean/config/settings_schema.json": {
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    "clean/sections/product-info.liquid": {
+      "bytes": 80,
+      "sha256": "e295215bcd8d88e1d4ac17636842bae5576909af42edd1d7478b4f6e86d826c8"
+    },
+    "clean/snippets/legacy-note.liquid": {
+      "bytes": 29,
+      "sha256": "85c4b3f166463aee0a32b618dd1ddf21a80d6928367ad21a8b0a66b63c412a23"
+    },
+    "clean/templates/index.json": {
+      "bytes": 159,
+      "sha256": "0a7491813d59ddeb76ea30a4b47047406d809f74023e846c52e9bfe0410995d2"
+    },
+    "clean/templates/product.json": {
+      "bytes": 309,
+      "sha256": "909a285c286712e068a4c68f58cf0f16ba4d97484f866dd08bfedd1108bbe0a0"
+    },
+    "clean/templates/promo.json": {
+      "bytes": 36,
+      "sha256": "3d1dfe9ec137c66e9f1557bcbe0f50b6ae56869b914e13a8b3458bbb728b285c"
+    },
+    "reviewed/config/settings_data.json": {
+      "bytes": 187,
+      "sha256": "3eb24f98a3c8678ecb1ae7010195027d305eeb4832293607f3652ab43244cf1f"
+    },
+    "reviewed/config/settings_schema.json": {
+      "bytes": 151,
+      "sha256": "7b23150a5d5545aa158821874d6fb06f5bbd7d5c665ff04aa537e9ae49cd5e92"
+    },
+    "reviewed/sections/product-info.liquid": {
+      "bytes": 80,
+      "sha256": "c035dbc8c7072ae688cd1d731a55611fe28b50fee7dda412bcf6ebd2b856bf0b"
+    },
+    "reviewed/sections/unused-note.liquid": {
+      "bytes": 43,
+      "sha256": "2ac0c8d993aa5ec76b09ddab1120fcf226bcd5083f59ce4b0d93dc3559aa92d2"
+    },
+    "reviewed/templates/index.json": {
+      "bytes": 95,
+      "sha256": "ec6a06d31f3a787f45150381f38eace89033dd095e9dbe4313b781d219d1fc32"
+    },
+    "reviewed/templates/product.json": {
+      "bytes": 308,
+      "sha256": "99796deb1593b2235b8c051709d0e1e8bc86983ab6a13fdadda76754c22747b6"
+    },
+    "reviewed/templates/promo.json": {
+      "bytes": 15,
+      "sha256": "743495ab514cbb4cdc6bf67d4a7065b6ebf19c839c32062c348e2522d18ec4bd"
+    }
+  },
+  "known_differences_locked_before_outputs": [
+    {
+      "id": "K1",
+      "file": "sections/product-info.liquid",
+      "kind": "changed_text",
+      "before": "演示说明A",
+      "after": "演示说明B",
+      "locator": "line2"
+    },
+    {
+      "id": "K2",
+      "file": "config/settings_data.json",
+      "kind": "json_value",
+      "locator": "/platform_customizations/custom_css",
+      "before": [],
+      "after": [
+        ".fixture-title { letter-spacing: 0.02em; }"
+      ]
+    },
+    {
+      "id": "K3",
+      "file": "templates/product.json",
+      "kind": "json_value",
+      "locator": "/sections/info/disabled",
+      "before": false,
+      "after": true
+    },
+    {
+      "id": "K4",
+      "file": "templates/product.json",
+      "kind": "array_order",
+      "locator": "/order",
+      "before": [
+        "main",
+        "info"
+      ],
+      "after": [
+        "info",
+        "main"
+      ]
+    },
+    {
+      "id": "K5",
+      "file": "templates/index.json",
+      "kind": "format_only",
+      "semantic_change": false
+    },
+    {
+      "id": "K6",
+      "file": "sections/unused-note.liquid",
+      "kind": "right_only",
+      "purpose_and_runtime": "unknown; no reference in supplied text"
+    },
+    {
+      "id": "K7",
+      "file": "snippets/legacy-note.liquid",
+      "kind": "left_only",
+      "purpose_and_runtime": "unknown; no reference in supplied text"
+    },
+    {
+      "id": "K8",
+      "file": "templates/promo.json",
+      "kind": "changed_with_parse_error",
+      "before_parse": "valid",
+      "after_parse": "invalid",
+      "semantic_comparison": "unknown"
+    }
+  ],
+  "coverage_limitations": [
+    {
+      "path": "assets/badge.webp",
+      "status": "Declared possible image dependency, bytes not supplied on either side; no existence/change/pixel/rights conclusion."
+    },
+    "faq and welcome section implementations not supplied; cannot verify actual rendering or function",
+    "No complete theme/export, page assignment, runtime or application identity evidence"
+  ],
+  "expected_file_sets": {
+    "left": 7,
+    "right": 7,
+    "union": 8,
+    "identical": 1,
+    "modified_bytes": 5,
+    "left_only": 1,
+    "right_only": 1
+  },
+  "mismatch_variation": {
+    "only_changed_condition": "baseline identity assertion in task input changes clean version1.2.3 to1.2.2; file bytes/hashes stay identical",
+    "reason": "Inconsistent with clean settings_schema1.2.3; version not reliable, must not classify differences as custom changes",
+    "input_override": {
+      "theme_identity.clean_declared_version": "1.2.2"
+    }
+  },
+  "answer_generation": "Real assistant first answers after reading supplied input using local read/compare tools. No scripted expected-answer templates. Known truth is visible to fixture creator; not blind."
+}

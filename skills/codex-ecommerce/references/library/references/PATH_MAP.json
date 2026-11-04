@@ -1,0 +1,15 @@
+{
+  "说明": "历史源路径到本平台候选文件名；原MANIFEST仅供追溯，不代表本副本字节身份",
+  "mapping": {
+    "01_完整改稿与撤价接续示范.md": "01_完整改稿与撤价接续示范.md",
+    "MANIFEST.json": "MANIFEST.json",
+    "00_从这里开始.md": "00_从这里开始.md",
+    "原版/MANIFEST.json": "原版__MANIFEST.json",
+    "原版/00_当前使用与范围.md": "原版__00_当前使用与范围.md",
+    "原版/payload/使用说明.md": "原版__payload__使用说明.md",
+    "原版/payload/METHOD.md": "原版__payload__METHOD.md",
+    "原版/payload/MANIFEST.json": "原版__payload__MANIFEST.json",
+    "原版/payload/references/sources.md": "原版__payload__references__sources.md",
+    "原版/payload/references/workflow.md": "原版__payload__references__workflow.md"
+  }
+}

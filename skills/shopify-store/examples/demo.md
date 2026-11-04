@@ -1,6 +1,6 @@
 # Shopify 独立站｜单文件试阅
 
-公开版本：`0.1.1-public-demo` · 原创合成案例 · 文字试阅，不是完整付费产品安装包。
+公开版本：`1.0.0` · 原创合成案例 · 文字试阅，不是完整付费产品安装包。
 
 把本文件整体复制或上传给能读取Markdown的AI助手即可。用户不需要另找商品资料；本文件已包含本次全部题设。输入与核对说明为中文；英文业务稿按任务要求输出。模型措辞可能不同，应检查事实与完整程度。
 
@@ -40,4 +40,4 @@ LoopNest Pad：40×28cm；灰色；24 USD；一张桌垫，无其他配件。
 
 [编辑参考输出](output.md)是人工编写的对照材料，不是来自这次AI调用的实测记录，也不是唯一正确表达。请先保存自己的回答，再比较事实、缺项和交接状态。
 
-[功能卡片](../SKILL.md) · [独立输入](input.md) · [使用指南](../../../docs/getting-started.md)
+[功能卡片](../SKILL.md) · [独立输入](input.md) · [使用指南](https://github.com/Modernlinc/ecommerce-skills/blob/main/docs/getting-started.md)

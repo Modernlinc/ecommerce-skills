@@ -1,0 +1,2007 @@
+{
+  "query_evidence_addendum_20260922": {
+    "delivery_version": "0.1.6-rc.1+queryevidence.20260922",
+    "source_url": "https://support.google.com/google-ads/answer/2472708",
+    "read_on": "2026-09-22",
+    "published_on": "unknown",
+    "updated_on": "unknown",
+    "origin": "autonomous_discovery",
+    "locator": "Differences between the search terms report and search terms insights",
+    "supports": "查询报告与洞察的粒度/标签时间及转化表面差异；不恢复隐藏原词",
+    "company_method": "查询级与主题/聚合级证据分支，保留可比性、误伤、批准与局部继续",
+    "decision_id": "GADS_QUERY_EVIDENCE_SCOPED_QA_20260922_01",
+    "subject_id": "GADS_QUERY_EVIDENCE_REVISION_20260922_01",
+    "verdict": "PASS_WITH_EXCEPTIONS",
+    "scope": "限定离线Search；非完整平台事实刷新或效果验证",
+    "new_sources_in_packaging": 0,
+    "historical_register_fields_preserved": true
+  },
+  "schema_version": 1,
+  "domain": "google-ads-operations",
+  "package_version": "0.2.0-rc.1+fusion.20261009",
+  "source_date_rule": "Official current applicable observed claims may be admitted with first publication unknown under Owner rule 2026-09-13; no per-page date exception. Non-official sources retain provable publication cutoff 2024-08-01. Access, claim coverage and execution permission remain separate.",
+  "legacy_evidence": [
+    {
+      "evidence_id": "OFFICIAL-GADS-SEARCH-STRUCTURE-001",
+      "url": "https://support.google.com/google-ads/answer/14752782?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "业务目标与主题组织Search；无固定数量/匹配默认"
+      ],
+      "does_not_support": [
+        "fixed campaign counts",
+        "SKAG as a universal rule",
+        "Broad Match as a universal default",
+        "lecturer CPA guarantees"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "2023-01/02 data period",
+        "observation": "partial_observed_scoped_text",
+        "locator": "25–38,43–58",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "业务目标与主题组织Search；无固定数量/匹配默认",
+        "does_not_support": "不采用效果数字；2023-01/02仅统计期",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-SEARCH-TERMS-001",
+      "url": "https://support.google.com/google-ads/answer/2684537?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "实际查询与关键词有别，可用于正负关键词审查"
+      ],
+      "does_not_support": [
+        "all queries are visible",
+        "platform motive claims",
+        "fixed review cadence"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "19–23",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "实际查询与关键词有别，可用于正负关键词审查",
+        "does_not_support": "同页可见性措辞张力，不证明全部查询可见",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-NEGATIVE-KEYWORDS-001",
+      "url": "https://support.google.com/google-ads/answer/2453972?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "Search否定广泛/词组/完全分别匹配；拼写/大小写与同义/单复数分开"
+      ],
+      "does_not_support": [
+        "automatic semantic exclusion of every close variant",
+        "one-conversion promotion rules",
+        "automatic application without approval"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "32–40,44–99",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "Search否定广泛/词组/完全分别匹配；拼写/大小写与同义/单复数分开",
+        "does_not_support": "不自动覆盖全部语义变体，不授权写入",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-CONVERSION-GOALS-001",
+      "url": "https://support.google.com/google-ads/answer/10993988?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "普通目标选择/Primary/Secondary与custom例外；账号默认有采用条件"
+      ],
+      "does_not_support": [
+        "CRM stage truth",
+        "business value accuracy",
+        "privacy or consent compliance"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "30,39–55",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "普通目标选择/Primary/Secondary与custom例外；账号默认有采用条件",
+        "does_not_support": "不证明CRM真值、隐私或实际目标映射",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-OFFLINE-UPLOAD-001",
+      "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-offline?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "条件式导入字段、历史资格限制、partial_failure/job_id及响应不等于归因"
+      ],
+      "does_not_support": [
+        "real account eligibility",
+        "successful upload",
+        "lawful customer-data processing",
+        "dedupe or attribution quality"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "2026-09-10",
+        "event_date": "2026-06-15 historical eligibility restriction",
+        "observation": "partial_observed_scoped_text",
+        "locator": "223–230,592–660,1581–1595,1724–1749,1777; code468–578",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "条件式导入字段、历史资格限制、partial_failure/job_id及响应不等于归因",
+        "does_not_support": "不证明账号资格/合法性；规范化代码差异不采用",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-CONVERSION-ADJUSTMENT-001",
+      "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-adjustments?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "RESTATEMENT/RETRACTION、订单ID/动作类型/调整时间条件"
+      ],
+      "does_not_support": [
+        "real adjustment success",
+        "permission to upload customer data",
+        "business reason for an adjustment"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "2026-09-10",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "224–237,249–288,498–558,741–757,764",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "RESTATEMENT/RETRACTION、订单ID/动作类型/调整时间条件",
+        "does_not_support": "不证明真实调整成功",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-MERCHANT-MARKETING-METHOD-001",
+      "url": "https://support.google.com/merchants/answer/15130232?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "营销方式、数据源继承、Shopping需Campaign与展示区别"
+      ],
+      "does_not_support": [
+        "serving evidence",
+        "profitability",
+        "permission to edit Shopify, feeds, inventory or Merchant settings"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "19–36,55–60,75",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "营销方式、数据源继承、Shopping需Campaign与展示区别",
+        "does_not_support": "不单独证明国家×语言×账户商品资格矩阵",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-PMAX-ASSET-GROUP-001",
+      "url": "https://support.google.com/google-ads/answer/10724492?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "Asset Group内组合及多group对象概念"
+      ],
+      "does_not_support": [
+        "fixed asset counts as a business optimum",
+        "real account eligibility",
+        "incremental or profit outcome"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "mid-April 2025 migration",
+        "observation": "partial_observed_scoped_text",
+        "locator": "20–35,49",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "Asset Group内组合及多group对象概念",
+        "does_not_support": "公司承诺/页面一致不冒充最低启动要求或最佳数量",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-PMAX-CONTROLS-001",
+      "url": "https://support.google.com/google-ads/answer/16672776?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "URL/search/negative/brand各控制主题不同"
+      ],
+      "does_not_support": [
+        "signals as strict targeting",
+        "recommended defaults as mandatory",
+        "all controls available in every account without use-day verification"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "20–36",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "URL/search/negative/brand各控制主题不同",
+        "does_not_support": "导航不证明算法、默认、完整inventory或资格",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-BRAND-SETTINGS-OVERVIEW-001",
+      "url": "https://support.google.com/google-ads/answer/13721847?hl=en",
+      "verified_on": "2026-09-13",
+      "page_granularity_role": "overview_page",
+      "supports": [
+        "Search inclusions、Search/PMax exclusions，概述PMax Search/Shopping"
+      ],
+      "does_not_support": [
+        "complete inventory enumeration",
+        "PMax brand inclusions",
+        "brand settings enabled by default",
+        "real account availability",
+        "guaranteed performance improvement"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "21–30,41,49–56,79–103",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "Search inclusions、Search/PMax exclusions，概述PMax Search/Shopping",
+        "does_not_support": "不是完整inventory；不代证14505308",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-BRAND-EXCLUSIONS-TOPIC-001",
+      "url": "https://support.google.com/google-ads/answer/16669487?hl=en",
+      "verified_on": "2026-09-13",
+      "page_granularity_role": "pmax_topic_page",
+      "supports": [
+        "PMax Search/Shopping概述及Shopping-only allowance"
+      ],
+      "does_not_support": [
+        "complete inventory enumeration",
+        "treating this summary's omission of YouTube search as negating the operation page's finer enumeration",
+        "allowance for Search or YouTube search",
+        "other YouTube inventory",
+        "real account availability",
+        "default business recommendation"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "24–26",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "PMax Search/Shopping概述及Shopping-only allowance",
+        "does_not_support": "不扩至其他流量，不代证14505308",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-BRAND-EXCLUSIONS-APPLY-001",
+      "url": "https://support.google.com/google-ads/answer/14505308?hl=en",
+      "verified_on": "2026-09-04",
+      "page_granularity_role": "specific_application_instructions",
+      "supports": [
+        "PMax brand exclusions apply only to Search, Shopping and YouTube search inventory",
+        "the excluded-brand allowance permits Shopping ads to appear on searches mentioning excluded brands"
+      ],
+      "does_not_support": [
+        "all YouTube inventory",
+        "Display",
+        "Discover",
+        "Gmail",
+        "Maps",
+        "Video Partners",
+        "allowance for Search or YouTube search",
+        "real account eligibility or activation",
+        "default business recommendation",
+        "performance guarantee"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "historical_support_with_current_access_exception",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "unlearned_exception",
+        "locator": "no_body_Internal_Error",
+        "admission": "historical_support_with_current_access_exception",
+        "supports": "仅复用2026-09-04历史细化记录",
+        "does_not_support": "2026-09-13无法读；当前YouTube search/完整枚举未知",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": true,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-SMART-BIDDING-CYCLE-001",
+      "url": "https://support.google.com/google-ads/answer/10970825?hl=en",
+      "verified_on": "2026-09-13",
+      "supports": [
+        "结合转化周期与延迟评估，不固定天数"
+      ],
+      "does_not_support": [
+        "fixed 30 conversions in 30 days",
+        "fixed 90-day wait",
+        "weekly 20 percent budget increases",
+        "profit causality"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "current_official_scoped_claims_owner_rule_20260913",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "partial_observed_scoped_text",
+        "locator": "28–40,46–59,64–68",
+        "admission": "current_official_scoped_claims_owner_rule_20260913",
+        "supports": "结合转化周期与延迟评估，不固定天数",
+        "does_not_support": "不支持固定预算涨幅/效果或代证原生实验",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": false,
+        "previous_verified_on": "2026-09-04"
+      }
+    },
+    {
+      "evidence_id": "OFFICIAL-GADS-EXPERIMENTS-001",
+      "url": "https://support.google.com/google-ads/answer/10682377?hl=en",
+      "verified_on": "2026-09-04",
+      "supports": [
+        "native experiment uses an original campaign, experiment object, split, lifecycle and apply decision"
+      ],
+      "does_not_support": [
+        "ordinary pre-post comparison as a native experiment",
+        "all experiment types or splits in every account",
+        "permission to apply a winner"
+      ],
+      "first_publication_date": "unknown",
+      "observed_in_this_package_run": false,
+      "admission": "historical_support_with_current_access_exception",
+      "rights": "link_and_company_paraphrase_only",
+      "refresh_20260913": {
+        "observed_on": "2026-09-13",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "event_date": "unknown",
+        "observation": "unlearned_exception",
+        "locator": "no_body_Internal_Error",
+        "admission": "historical_support_with_current_access_exception",
+        "supports": "仅复用2026-09-04原生对象历史记录",
+        "does_not_support": "2026-09-13无法读；当前类型/split/完整生命周期待证",
+        "first_publication_gate": "not_blocking_owner_rule",
+        "account_market_version": "English official document; account eligibility and actual API version not read back",
+        "access_stop": true,
+        "previous_verified_on": "2026-09-04"
+      }
+    }
+  ],
+  "legacy_pointers": [
+    {
+      "evidence_id": "LEGACY-POINTER-01",
+      "url": "https://support.google.com/google-ads/answer/2472708?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-02",
+      "url": "https://support.google.com/google-ads/answer/7102995?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-03",
+      "url": "https://support.google.com/google-ads/answer/15713840?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-04",
+      "url": "https://support.google.com/google-ads/answer/16884284?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-05",
+      "url": "https://support.google.com/google-ads/answer/13321563?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-06",
+      "url": "https://support.google.com/google-ads/answer/7686280?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-07",
+      "url": "https://developers.google.com/google-ads/api/docs/conversions/upload-summaries",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-08",
+      "url": "https://support.google.com/google-ads/answer/2998031?hl=en_USanswer",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-09",
+      "url": "https://support.google.com/google-ads/answer/11021502?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-10",
+      "url": "https://support.google.com/merchants/answer/11586438?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-11",
+      "url": "https://support.google.com/merchants/answer/15624855?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-12",
+      "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-13",
+      "url": "https://support.google.com/merchants/answer/6324507?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-14",
+      "url": "https://support.google.com/merchants/answer/12652277?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-15",
+      "url": "https://support.google.com/merchants/answer/12488713?hl=en-GB",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-16",
+      "url": "https://support.google.com/google-ads/answer/16672777?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-17",
+      "url": "https://support.google.com/google-ads/answer/14453047?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-18",
+      "url": "https://support.google.com/google-ads/answer/16260130?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-19",
+      "url": "https://support.google.com/google-ads/answer/14571185?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-20",
+      "url": "https://support.google.com/google-ads/answer/17061251?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    },
+    {
+      "evidence_id": "LEGACY-POINTER-21",
+      "url": "https://support.google.com/google-ads/answer/17125145?hl=en",
+      "scope": "入口和现有日期化事实记录见current-platform-gates.md；未作为本轮新正文观察",
+      "first_publication_date": "unknown",
+      "admission": "pointer_not_new_support",
+      "rights": "link_only"
+    }
+  ],
+  "new_research": [
+    {
+      "evidence_id": "DG-OVERVIEW",
+      "url": "https://support.google.com/google-ads/answer/13695777?hl=en",
+      "title": "About Demand Gen campaigns",
+      "locator": "migration notice L21–26; comparison L77–133; preparation L141–184",
+      "open": 1,
+      "find": 0,
+      "contribution": "渠道/版本边界，见channel-choice-and-demand-gen.md；不证明账户迁移、统一分类或经营效果",
+      "disposition": "refine",
+      "observation_date": "2026-09-06",
+      "first_publication_date": "unknown",
+      "updated_date": "unknown",
+      "observation_depth": "selected_sections_observed",
+      "formal_admission": false,
+      "admission": "research_candidate_only_date_pending",
+      "rights": "URL_and_original_brief_summary_no_source_body",
+      "underlying_http": "unknown"
+    },
+    {
+      "evidence_id": "DG-ASSETS",
+      "url": "https://support.google.com/google-ads/answer/13704860?hl=en",
+      "title": "Demand Gen campaign creative: Asset specifications and guidelines",
+      "locator": "Asset specifications L32–99; placement table L102–115",
+      "open": 1,
+      "find": 0,
+      "contribution": "仅可读素材规格用于制作brief；图标未标明含义的单元不用于资格判断",
+      "disposition": "refine",
+      "observation_date": "2026-09-06",
+      "first_publication_date": "unknown",
+      "updated_date": "unknown",
+      "observation_depth": "selected_sections_observed",
+      "formal_admission": false,
+      "admission": "research_candidate_only_date_pending",
+      "rights": "URL_and_original_brief_summary_no_source_body",
+      "underlying_http": "unknown"
+    },
+    {
+      "evidence_id": "DG-CREATE",
+      "url": "https://support.google.com/google-ads/answer/13695389",
+      "title": "Create a Demand Gen campaign",
+      "locator": "Learning/review L21–28; Steps1–6 L31–163",
+      "open": 1,
+      "find": 1,
+      "contribution": "候选层级与设置合同；预算与转化量建议不成为损失豁免或通用阈值",
+      "disposition": "refine",
+      "observation_date": "2026-09-06",
+      "first_publication_date": "unknown",
+      "updated_date": "unknown",
+      "observation_depth": "selected_sections_observed",
+      "formal_admission": false,
+      "admission": "research_candidate_only_date_pending",
+      "rights": "URL_and_original_brief_summary_no_source_body",
+      "underlying_http": "unknown"
+    },
+    {
+      "evidence_id": "DISPLAY-MIGRATION-18",
+      "url": "https://support.google.com/google-ads/answer/17051545",
+      "title": "Google Display Ads campaigns have a new home in Demand Gen",
+      "entry_url": "https://support.google.com/google-ads/answer/13695777?hl=en",
+      "discovery": "historical stage18: actual entry link5 then target click; this stage no network",
+      "admission": "not_admitted_date_pending",
+      "formal_admission": false,
+      "new_company_methods": 0,
+      "default_business_support": false,
+      "observation_date": "2026-09-06",
+      "first_publication_date": "unknown",
+      "updated_date": "unknown",
+      "migration_effective_date_evidence": {
+        "locator": "L24-27",
+        "scope": "June 2026 phased tool rollout; later phases unspecified; not publication date"
+      },
+      "future_feature_version_evidence": {
+        "locator": "L139-140/L152",
+        "scope": "future plan not current account availability"
+      },
+      "observation_depth": "selected_sections_observed",
+      "observation_scope": [
+        "L19-168 necessary migration body",
+        "L208-264 relevant FAQs",
+        "L169-207 only field/version boundary crosscheck, no color or icon inference"
+      ],
+      "market": {
+        "language": "English",
+        "explicit_market_list": "not_observed",
+        "actual_account_eligibility": "unknown"
+      },
+      "historical_acquisition": {
+        "stage": 18,
+        "observed_utc": "2026-09-06T00:28:27.486Z",
+        "web_actions": 2,
+        "distinct_documents": 2,
+        "entry_open": 1,
+        "target_click": 1,
+        "find": 0,
+        "underlying_http": "unknown"
+      },
+      "current_stage": {
+        "stage": 19,
+        "activity": "reuse_registered_evidence_and_controller_decision_only",
+        "web_actions": 0,
+        "new_observation": 0,
+        "business_runs": 0,
+        "formal_adoption": 0
+      },
+      "claims": [
+        {
+          "claim_id": "D18-01",
+          "topic": "eligibility",
+          "locator": "L21-27,L223-224",
+          "status": "partial_support_account_threshold_unknown",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-02",
+          "topic": "stages",
+          "locator": "L24-27,L210-212",
+          "status": "partial_support_later_dates_unknown",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-03",
+          "topic": "identity_and_status",
+          "locator": "L97,L155-167,L244-245,L262-264",
+          "status": "numeric_ids_and_mapping_unknown",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-04",
+          "topic": "budget",
+          "locator": "L59,L92,L99-100",
+          "status": "day_of_migration_risk_evidence",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-05",
+          "topic": "bidding",
+          "locator": "L115-123,L247-248",
+          "status": "per_strategy_only_not_all_inherited",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-06",
+          "topic": "conversion_goals_and_studies",
+          "locator": "L74,L229",
+          "status": "action_level_mapping_unknown",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-07",
+          "topic": "audiences",
+          "locator": "L124-134",
+          "status": "per_feature_support_not_blanket",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-08",
+          "topic": "creative",
+          "locator": "L85-94,L110,L135-140,L253-257",
+          "status": "workflow_branch_and_asset_eligibility_unverified",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-09",
+          "topic": "inventory",
+          "locator": "L46,L128-131",
+          "status": "not_exclusion_level_proof",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-10",
+          "topic": "exclusions",
+          "locator": "L93,L129-131",
+          "status": "granularity_layer_version_unknown_not_proven_contradiction",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-11",
+          "topic": "before_after_evidence",
+          "locator": "L64-73,L153-167",
+          "status": "pre_backup_contract_not_established",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        },
+        {
+          "claim_id": "D18-12",
+          "topic": "reversal",
+          "locator": "L63,L244-245,L262-264",
+          "status": "return_to_original_Display_type_after_completed_migration_not_supported; in_progress_cancel_and_other_recovery_unknown",
+          "analysis": "channel-choice-and-demand-gen.md#display-research-19",
+          "formal_adoption": false
+        }
+      ],
+      "controller_boundaries": [
+        {
+          "id": "C18-01",
+          "classification": "NOT_PROVEN_LOGICAL_CONTRADICTION_APPLICABILITY_UNRESOLVED",
+          "overview": {
+            "url": "https://support.google.com/google-ads/answer/13695777?hl=en",
+            "locator": "L182-184"
+          },
+          "specialty": {
+            "url": "https://support.google.com/google-ads/answer/17051545",
+            "locator": "L129-131"
+          },
+          "decision": "General campaign/ad-group availability versus feature support without level: retain layer/version unknown. Account-level suitability agrees. Do not infer newer authority, migration exemption, all-control inheritance, or permission to remove/elevate controls."
+        },
+        {
+          "id": "C18-02",
+          "classification": "DOCUMENT_LEVEL_COMPLEMENTARY_BRANCH_UNVERIFIED",
+          "locators": [
+            "L86",
+            "L110",
+            "L253-254"
+          ],
+          "decision": "Add-logo and tool placeholder can coexist; actual branch, valid asset/rights/review remain unverified. Neither always-block nor guaranteed approval follows."
+        }
+      ],
+      "reversal_limit": "D18-12 concerns return to old Display type after completed migration, not in-progress cancel or all business rollback.",
+      "status_limit": "Source enabled/paused inheritance is not automatic pausing.",
+      "budget_limit": "Risk evidence does not authorize additional spending or establish a hard cap.",
+      "contribution": "research context only; no new company-rule or method-unit support",
+      "remaining_gaps": [
+        "first publication and update dates",
+        "account rollout and recent-spend threshold",
+        "numeric source/destination ID map",
+        "per-action conversion mapping",
+        "exclusion levels and source difference",
+        "logo branch conditions",
+        "pre-migration full backup requirements",
+        "in-progress cancellation and restoration capabilities",
+        "real account values and approvals"
+      ],
+      "unread_boundaries": [
+        "embedded images/video and unlabeled icons",
+        "linked help/blog/account pages",
+        "current native account UI and exact eligibility",
+        "independent host/use and real business validation"
+      ],
+      "rights": "public URL and short original paraphrase only; no media/body copy; distribution and sale approval unresolved"
+    },
+    {
+      "evidence_id": "GO-VIDEO-22-A",
+      "url": "https://blog.google/products/ads-commerce/youtube-brand-campaign-updates/",
+      "title": "Unlock deeper insights for YouTube brand campaigns.",
+      "input_origin": "autonomous_discovery",
+      "selection": "controller-scoped primary source",
+      "first_publication_date": "2026-06-29",
+      "updated_date": "unknown",
+      "observation_date": "2026-09-06",
+      "date_window_qualified": true,
+      "formal_admission": false,
+      "admission": "dated_narrow_announcement_context_only_no_new_formal_adoption",
+      "default_business_support": "not_account_eligibility_or_effect_or_general_Video_rules",
+      "observation_depth": "necessary_short_text_and_both_footnotes_observed_no_media",
+      "locator": "A1 L25; A2 L26; A3 L25-26/L31/L35",
+      "claims": [
+        {
+          "claim_id": "A1",
+          "scope": "Shorts-opted-in Video View Campaigns: announcement only",
+          "locator": "L25"
+        },
+        {
+          "claim_id": "A2",
+          "scope": "announcement of branded-search reporting with activation condition; actual account unknown",
+          "locator": "L26"
+        },
+        {
+          "claim_id": "A3",
+          "scope": "promotional effects not adopted or used in projections",
+          "locator": "L25-26/L31/L35"
+        }
+      ],
+      "historical_acquisition": {
+        "ticket": 22,
+        "open": 1,
+        "click": 0,
+        "observed_utc": "2026-09-06T02:08:10.341Z",
+        "underlying_http": "unknown"
+      },
+      "current_stage": {
+        "ticket": 24,
+        "new_network": 0,
+        "new_observation": 0,
+        "new_formal_adoption": 0
+      },
+      "analysis": "references/video-measurement-and-review.md source appendix",
+      "rights": "short original paraphrase and public URL only; owner distribution terms pending"
+    },
+    {
+      "evidence_id": "GO-VIDEO-22-B",
+      "url": "https://support.google.com/google-ads/answer/2375431",
+      "title": "About YouTube ads and view metrics",
+      "input_origin": "autonomous_discovery",
+      "discovery": "A actual reporting columns link in ticket22",
+      "first_publication_date": "unknown",
+      "updated_date": "unknown",
+      "observation_date": "2026-09-06",
+      "date_window_qualified": false,
+      "source_date_transfer": false,
+      "formal_admission": false,
+      "default_business_support": false,
+      "admission": "isolated_research_date_pending",
+      "observation_depth": "selected_necessary_sections_only",
+      "locator": "L19-100,L187-230,L233-254",
+      "partial_locator": "L256 cut mid-example; L257-361 not obtained",
+      "claims": [
+        {
+          "claim_id": "B1",
+          "topic": "format_and_counting",
+          "locator": "L40-68"
+        },
+        {
+          "claim_id": "B2",
+          "topic": "public_and_paid_scope",
+          "locator": "L77-100"
+        },
+        {
+          "claim_id": "B3",
+          "topic": "action_and_goal",
+          "locator": "L187-203"
+        },
+        {
+          "claim_id": "B4",
+          "topic": "attribution_granularity_unknown",
+          "locator": "L215-230",
+          "controller_boundary": "No unification of general nonclick language with Shorts CTA clause; no common threshold/formula inferred"
+        },
+        {
+          "claim_id": "B5",
+          "topic": "cross_report_scope",
+          "locator": "L233-254"
+        }
+      ],
+      "prohibitions": [
+        "no default business metric definitions or formulas",
+        "no inferred threshold, billing or attribution equivalence",
+        "no publication date borrowed from A",
+        "no claim of complete page or troubleshooting observation"
+      ],
+      "unread": [
+        "L257-361",
+        "media and linked pages",
+        "full intervening Engagement/Quartile/earned detail",
+        "account UI"
+      ],
+      "historical_acquisition": {
+        "ticket": 22,
+        "open": 0,
+        "click": 1,
+        "observed_utc": "2026-09-06T02:08:20.575Z",
+        "underlying_http": "unknown"
+      },
+      "current_stage": {
+        "ticket": 24,
+        "new_network": 0,
+        "new_observation": 0,
+        "new_formal_adoption": 0
+      },
+      "analysis": "references/video-measurement-and-review.md source appendix",
+      "rights": "short original paraphrase and public URL only; owner distribution terms pending"
+    }
+  ],
+  "company_rules": [
+    {
+      "rule_id": "GADS-COMPANY-EVIDENCE-01",
+      "supports": "Separate observed platform metrics, CRM/business results and causal claims; unknown evidence stays unknown."
+    },
+    {
+      "rule_id": "GADS-COMPANY-CHANGE-01",
+      "supports": "Use one main variable, keep a change log, define complete-cycle window, maximum loss, stop, rollback and readback."
+    },
+    {
+      "rule_id": "GADS-COMPANY-SAFETY-01",
+      "supports": "Real account, budget, target, customer-data, campaign, conversion, experiment or feed writes require separate human authorization."
+    },
+    {
+      "rule_id": "GADS-COMPANY-SOURCE-01",
+      "supports": "Non-official sources published before 2024-08-01 or with unproven dates are context only and cannot formally support company methods."
+    }
+  ],
+  "method_units": [
+    {
+      "unit_id": "GOOGLE-METHOD-SEARCH-01",
+      "current_official_support": [
+        {
+          "evidence_id": "OFFICIAL-GADS-SEARCH-STRUCTURE-001",
+          "supports": "业务目标与主题组织Search；无固定数量/匹配默认",
+          "does_not_support": "不采用效果数字；2023-01/02仅统计期"
+        }
+      ],
+      "company_rule_support": [
+        "GADS-COMPANY-EVIDENCE-01",
+        "GADS-COMPANY-SAFETY-01",
+        "GADS-COMPANY-SOURCE-01"
+      ],
+      "company_judgment": "Organize Campaigns by business goal, market/language, budget responsibility and control needs; group one intent/offer/page promise without fixed counts or match-type defaults.",
+      "maturity": "current_official_and_company_rule_supported_offline_method_no_admitted_course_support_real_account_gap",
+      "next_evidence": "Authorized Search account case with business-quality readback.",
+      "course_contribution": "Private undated/pre-window source locators excluded; no new course admission"
+    },
+    {
+      "unit_id": "GOOGLE-METHOD-QUERY-02",
+      "current_official_support": [
+        {
+          "evidence_id": "OFFICIAL-GADS-SEARCH-TERMS-001",
+          "supports": "实际查询与关键词有别，可用于正负关键词审查",
+          "does_not_support": "同页可见性措辞张力，不证明全部查询可见"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-NEGATIVE-KEYWORDS-001",
+          "supports": "Search否定广泛/词组/完全分别匹配；拼写/大小写与同义/单复数分开",
+          "does_not_support": "不自动覆盖全部语义变体，不授权写入"
+        }
+      ],
+      "company_rule_support": [
+        "GADS-COMPANY-EVIDENCE-01",
+        "GADS-COMPANY-CHANGE-01",
+        "GADS-COMPANY-SAFETY-01",
+        "GADS-COMPANY-SOURCE-01"
+      ],
+      "company_judgment": "Classify visible queries by intent and business qualification, propose negative level/match with should-block and must-not-block examples, require approval and post-change misfire readback.",
+      "maturity": "current_official_and_company_rule_supported_offline_method_no_admitted_course_support_real_change_gap",
+      "next_evidence": "Authorized negative-keyword change and recovery case.",
+      "course_contribution": "Private undated/pre-window source locators excluded; no new course admission"
+    },
+    {
+      "unit_id": "GOOGLE-METHOD-MEASUREMENT-03",
+      "current_official_support": [
+        {
+          "evidence_id": "OFFICIAL-GADS-CONVERSION-GOALS-001",
+          "supports": "普通目标选择/Primary/Secondary与custom例外；账号默认有采用条件",
+          "does_not_support": "不证明CRM真值、隐私或实际目标映射"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-OFFLINE-UPLOAD-001",
+          "supports": "条件式导入字段、历史资格限制、partial_failure/job_id及响应不等于归因",
+          "does_not_support": "不证明账号资格/合法性；规范化代码差异不采用"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-CONVERSION-ADJUSTMENT-001",
+          "supports": "RESTATEMENT/RETRACTION、订单ID/动作类型/调整时间条件",
+          "does_not_support": "不证明真实调整成功"
+        }
+      ],
+      "company_rule_support": [
+        "GADS-COMPANY-EVIDENCE-01",
+        "GADS-COMPANY-SAFETY-01",
+        "GADS-COMPANY-SOURCE-01"
+      ],
+      "company_judgment": "Define business states/value/dedupe/delay and actual ordinary/custom goal selection before bidding. Check the chosen import surface and historical eligibility; missing tag/GCLID alone does not prove every route invalid. Response is not attribution; preserve adjustment identity/time and separate authorization.",
+      "maturity": "current_official_and_company_rule_supported_offline_contract_no_admitted_course_support_real_data_gap",
+      "next_evidence": "Authorized privacy-reviewed conversion reconciliation.",
+      "course_contribution": "Private undated/pre-window source locators excluded; no new course admission"
+    },
+    {
+      "unit_id": "GOOGLE-METHOD-FEED-04",
+      "current_official_support": [
+        {
+          "evidence_id": "OFFICIAL-MERCHANT-MARKETING-METHOD-001",
+          "supports": "营销方式、数据源继承、Shopping需Campaign与展示区别",
+          "does_not_support": "不单独证明国家×语言×账户商品资格矩阵"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-PMAX-ASSET-GROUP-001",
+          "supports": "Asset Group内组合及多group对象概念",
+          "does_not_support": "公司承诺/页面一致不冒充最低启动要求或最佳数量"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-PMAX-CONTROLS-001",
+          "supports": "URL/search/negative/brand各控制主题不同",
+          "does_not_support": "导航不证明算法、默认、完整inventory或资格"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-BRAND-SETTINGS-OVERVIEW-001",
+          "supports": "Search inclusions、Search/PMax exclusions，概述PMax Search/Shopping",
+          "does_not_support": "不是完整inventory；不代证14505308"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-BRAND-EXCLUSIONS-TOPIC-001",
+          "supports": "PMax Search/Shopping概述及Shopping-only allowance",
+          "does_not_support": "不扩至其他流量，不代证14505308"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-BRAND-EXCLUSIONS-APPLY-001",
+          "supports": "仅复用2026-09-04历史细化记录",
+          "does_not_support": "2026-09-13无法读；当前YouTube search/完整枚举未知"
+        }
+      ],
+      "company_rule_support": [
+        "GADS-COMPANY-EVIDENCE-01",
+        "GADS-COMPANY-CHANGE-01",
+        "GADS-COMPANY-SAFETY-01",
+        "GADS-COMPANY-SOURCE-01"
+      ],
+      "company_judgment": "Use company evidence checks for Merchant facts and target context; 15130232 supports marketing-method distinctions, not all target combinations. Preserve conditional PMax object planning. Current overview/topic supports Search/Shopping and Shopping-only allowance. 14505308 has historical 2026-09-04 detail and current access failure; do not assert current YouTube search or complete inventory scope without evidence.",
+      "maturity": "offline_evidence_framework_with_dated_support_and_current_access_exception_no_account_validation",
+      "next_evidence": "Authorized PMax draft/account capability and item-level outcome case.",
+      "course_contribution": "Private undated/pre-window source locators excluded; no new course admission"
+    },
+    {
+      "unit_id": "GOOGLE-METHOD-BID-05",
+      "current_official_support": [
+        {
+          "evidence_id": "OFFICIAL-GADS-SMART-BIDDING-CYCLE-001",
+          "supports": "结合转化周期与延迟评估，不固定天数",
+          "does_not_support": "不支持固定预算涨幅/效果或代证原生实验"
+        },
+        {
+          "evidence_id": "OFFICIAL-GADS-EXPERIMENTS-001",
+          "supports": "仅复用2026-09-04原生对象历史记录",
+          "does_not_support": "2026-09-13无法读；当前类型/split/完整生命周期待证"
+        }
+      ],
+      "company_rule_support": [
+        "GADS-COMPANY-EVIDENCE-01",
+        "GADS-COMPANY-CHANGE-01",
+        "GADS-COMPANY-SAFETY-01",
+        "GADS-COMPANY-SOURCE-01"
+      ],
+      "company_judgment": "Use reliable business outcomes, isolate one main variable, freeze concurrent changes, define a complete-cycle window, maximum loss, stop/rollback and separate experiment completion from apply authorization.",
+      "maturity": "offline_evidence_framework_with_dated_support_and_current_access_exception_no_account_validation",
+      "next_evidence": "Authorized native Experiment with business-result readback.",
+      "course_contribution": "Private undated/pre-window source locators excluded; no new course admission"
+    }
+  ],
+  "synthetic_source_ids": [
+    "SYN-A01",
+    "SYN-A02",
+    "SYN-A03",
+    "SYN-A04"
+  ],
+  "counters": {
+    "stage": "24_video_local_contract_revision",
+    "new_urls": 0,
+    "open": 0,
+    "click": 0,
+    "find": 0,
+    "total_web_actions": 0,
+    "allowed_max": 0,
+    "full_pages_observed": 0,
+    "new_selected_sections_observed": 0,
+    "reused_prior_evidence_sources": 2,
+    "formal_new_rules": 0,
+    "new_business_runs": 0
+  },
+  "limitations": [
+    "两位独立创作者缺口保留",
+    "来源公开不等于分发许可",
+    "Video专项和Display迁移实现未补齐",
+    "新观察不是当前真实账户事实"
+  ],
+  "historical_counters": {
+    "version": "0.1.0-rc.1",
+    "counters": {
+      "new_urls": 3,
+      "open": 3,
+      "find": 1,
+      "total_web_actions": 4,
+      "allowed_max": 6,
+      "unused_allowance": 2,
+      "search_retry_alternative_date_requests": 0,
+      "full_pages_observed": 0,
+      "selected_sections_observed": 3,
+      "formal_new_rules": 0
+    }
+  },
+  "current_research_limitations": [
+    "Official date-unknown restrictions in historical stage records are superseded by Owner rule 2026-09-13; non-official cutoff remains.",
+    "foundation14_refresh_20260913 and current_alignment_433 govern their respective scoped claims; other research is not automatically adopted.",
+    "Stage18/19/24 counters and original decisions remain historical, not new-run counts.",
+    "B remains outside default metric definitions due to truncated observation and unresolved semantic scope, not publication unknown alone.",
+    "14505308 and10682377 current access failures preserve dependency-specific limits; no retries."
+  ],
+  "prior_stage19_counters": {
+    "stage": "19_research_integration_only",
+    "new_urls": 0,
+    "open": 0,
+    "click": 0,
+    "find": 0,
+    "total_web_actions": 0,
+    "allowed_max": 0,
+    "full_pages_observed": 0,
+    "new_selected_sections_observed": 0,
+    "reused_prior_evidence_sources": 1,
+    "formal_new_rules": 0,
+    "new_business_runs": 0
+  },
+  "current_alignment_433": {
+    "alignment_id": "GOOGLE-433-EXACT-ALIGNMENT-20260911",
+    "status": "scoped_alignment_accepted_assembled_candidate_not_final_qa",
+    "date_authorization": "432 Owner six-page exception",
+    "evidence_authority": "431 and 433 controller-observed local records",
+    "use_day": "2026-09-11",
+    "first_publication_date": "unknown",
+    "updated_date": "unknown",
+    "input_origin": "autonomous_discovery",
+    "precedence": "Only the precise claims here refine matching historical DG-OVERVIEW/DISPLAY-MIGRATION-18 statements. new_research formal_admission=false and prior counters remain historical acquisition records. Unlisted claims are not promoted.",
+    "sources": [
+      {
+        "source_id": "DG-OVERVIEW",
+        "url": "https://support.google.com/google-ads/answer/13695777?hl=en",
+        "locator": "L182–185",
+        "scope": "通用DG系列/广告组层级限制，不证迁移例外"
+      },
+      {
+        "source_id": "DISPLAY-MIGRATION-18",
+        "url": "https://support.google.com/google-ads/answer/17051545",
+        "locator": "L59,63,86,93,99–100,110,129–131,223–224,244–245,253–254,257,262–264",
+        "scope": "仅433具名素材、排除和迁移安全事实；不证资格阈值、ID/转化映射、自动分支及继承"
+      },
+      {
+        "source_id": "DG-FAQ-433",
+        "url": "https://support.google.com/google-ads/answer/14509385?hl=en",
+        "locator": "L106–107",
+        "scope": "通用DG层级限制，非迁移继承"
+      },
+      {
+        "source_id": "ACCOUNT-PLACEMENT-431",
+        "url": "https://support.google.com/google-ads/answer/7331110?hl=en",
+        "locator": "L19–70",
+        "scope": "通用账号级控制及覆盖低层，不证迁移层级"
+      },
+      {
+        "source_id": "GENERAL-EXCLUSION-431",
+        "url": "https://support.google.com/google-ads/answer/2454012",
+        "locator": "L19–77",
+        "scope": "通用排除语境，不覆盖DG一般限制"
+      },
+      {
+        "source_id": "DISPLAY-TOPIC-431",
+        "url": "https://support.google.com/google-ads/answer/2456096?hl=en&ref_topic=3123061",
+        "locator": "L19–44",
+        "scope": "旧Display主题语境，不证迁移后层级"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "C18-01",
+        "formal_fact_admission": true,
+        "disposition": "refine",
+        "sources": [
+          "DG-OVERVIEW",
+          "DG-FAQ-433",
+          "DISPLAY-MIGRATION-18",
+          "ACCOUNT-PLACEMENT-431",
+          "GENERAL-EXCLUSION-431",
+          "DISPLAY-TOPIC-431"
+        ],
+        "company_judgment": "Record control layer, purpose and before/after evidence; stop migration if critical control unconfirmed; no unauthorized removal/elevation.",
+        "unknown": "migration layer/version/inheritance",
+        "classification_retained": "NOT_PROVEN_LOGICAL_CONTRADICTION_APPLICABILITY_UNRESOLVED"
+      },
+      {
+        "claim_id": "C18-02",
+        "formal_fact_admission": true,
+        "disposition": "refine",
+        "sources": [
+          "DISPLAY-MIGRATION-18"
+        ],
+        "locator": "L86,L110,L253–254,L257",
+        "company_judgment": "Named missing-logo error does not promise placeholder rescue; placeholder does not establish rights, validity or review approval.",
+        "unknown": "actual format/state/workflow triggers",
+        "classification_retained": "DOCUMENT_LEVEL_COMPLEMENTARY_BRANCH_UNVERIFIED"
+      },
+      {
+        "claim_id": "D18-01-status-spend",
+        "locator": "L223–224",
+        "supports": "状态与近期花费影响资格",
+        "unknown": "阈值/实际资格",
+        "sources": [
+          "DISPLAY-MIGRATION-18"
+        ],
+        "formal_fact_admission": true,
+        "disposition": "refine"
+      },
+      {
+        "claim_id": "D18-03-state",
+        "locator": "L244–245,L262–264",
+        "supports": "新旧状态/源启停继承，不是自动暂停",
+        "unknown": "数字ID映射",
+        "sources": [
+          "DISPLAY-MIGRATION-18"
+        ],
+        "formal_fact_admission": true,
+        "disposition": "refine"
+      },
+      {
+        "claim_id": "D18-04-day-spend",
+        "locator": "L59,L99–100",
+        "supports": "旧当天花费不抵扣新额度，不增预算、不保证硬封顶",
+        "unknown": "真实花费/监控/批准",
+        "sources": [
+          "DISPLAY-MIGRATION-18"
+        ],
+        "formal_fact_admission": true,
+        "disposition": "refine"
+      },
+      {
+        "claim_id": "D18-12-return-type",
+        "locator": "L63,L244–245,L262–264",
+        "supports": "完成后不可迁回原Display类型",
+        "unknown": "进行中取消/原系列恢复/其他恢复",
+        "sources": [
+          "DISPLAY-MIGRATION-18"
+        ],
+        "formal_fact_admission": true,
+        "disposition": "refine"
+      }
+    ],
+    "observation": "selected controller-observed text reused; no media/account observation",
+    "maturity": "current_official_text_plus_company_safety_boundary_not_account_or_outcome_validated",
+    "outside_scope": [
+      "DG-ASSETS",
+      "DG-CREATE",
+      "Video",
+      "unlisted D18 subclaims",
+      "performance/bidding/attribution numeric recommendations"
+    ],
+    "next_evidence": "separately authorized specific migration branch and control/asset/review materials; unknowns do not require repeated same-page retrieval",
+    "rights": "URLs and original paraphrase only; no media/source-body republication; sale clearance unresolved",
+    "new_web_actions": 0,
+    "new_business_runs": 0,
+    "whole_display_completed": false,
+    "final_qa": false
+  },
+  "foundation14_refresh_20260913": {
+    "owner_rule": {
+      "official_first_publication_unknown_blocks": false,
+      "nonofficial_cutoff": "2024-08-01",
+      "scope": "current_applicable_observed_official_claims_only",
+      "no_account_or_outcome_validation": true,
+      "owner_rule_date": "2026-09-13"
+    },
+    "total": 14,
+    "scoped_body_observed": 12,
+    "access_exceptions": 2,
+    "full_page_learning_claimed": 0,
+    "method_status": "REVISION_IMPLEMENTED_AWAITING_RETEST",
+    "source_origin": "project_local_selected_official_refresh",
+    "historical_fields_preserved": true,
+    "unobserved_other_research_not_automatically_adopted": true,
+    "scope": "read per-entry refresh_20260913; only explicit supports, not whole-source adoption",
+    "failed_ids": [
+      "OFFICIAL-GADS-BRAND-EXCLUSIONS-APPLY-001",
+      "OFFICIAL-GADS-EXPERIMENTS-001"
+    ],
+    "formal_qa": false,
+    "new_business_runs": 0
+  },
+  "historical_date_status_override_20260913": {
+    "scope": "All official sources in this register, including prior new_research and inherited date-pending fields; historical original admission and acquisition values are not a current date blocker.",
+    "effective_rule": "Official unknown first publication is not independently blocking; only adopted claim scopes apply. This revision newly adopts foundation14 scoped evidence; current_alignment_433 retained. Other actual coverage/conflict/approval gaps remain, not automatic default-method adoption.",
+    "nonofficial_date_rule_unchanged": true
+  },
+  "variant_mismatch_addendum_20260929": {
+    "package_version": "0.2.0-rc.1+fusion.20261009",
+    "status": "candidate_pending_independent_review",
+    "method_unit_id": "GOOGLE-METHOD-FEED-04",
+    "disposition": "refine_and_branch_by_condition",
+    "applies_when": "需要诊断变体/路由错配时；不是所有Ads任务的通用必填表",
+    "company_judgment_delta": {
+      "D1": "先比较同一变体，再区分已证实旧源价、错误入口或页面/结构化绑定；保留原同商品价格修复，不以便宜兄弟款改掉正确目标价。",
+      "D2": "普通link与适用广告入口分别取证；改稿锁定唯一行、负责数据源和版本，不猜有效URL、不按变体组批改其他商品。",
+      "D3": "平台自动修正不证明生成源修复；源值、提交值、处理值与同一目标组合状态分别回读。实际改动草稿为DRAFT，诊断可为NEEDS_FIX/NEEDS_RESEARCH，缺证只停受影响动作。"
+    },
+    "official_sources": [
+      {
+        "evidence_id": "OFFICIAL-MERCHANT-LANDING-VARIANT-20260929",
+        "url": "https://support.google.com/merchants/answer/4752265?hl=en",
+        "verified_on": "2026-09-29",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "origin": "autonomous_discovery",
+        "observation": "full_observed",
+        "observation_unit": "main_article_text_only_L17-L142",
+        "locator": "Minimum requirements / Show your product clearly L48-L62; Best practices L101-L106",
+        "supports": [
+          "商品资料与页面须对应同一商品/变体及价格，初始加载的价格和选择应稳定",
+          "URL预选正确变体属于最佳实践，不是统一强制参数语法；使用结构化数据时也需保持一致"
+        ],
+        "does_not_support": [
+          "某商家或真实账户已经合规",
+          "将地域稳定要求外推到所有流量或采用订阅/税务结论",
+          "点击、转化或经营效果保证"
+        ],
+        "unobserved_media": [
+          "article_illustrations_not_visually_observed"
+        ],
+        "account_market_version": "English current public help text; no merchant account, actual landing page or account-specific market eligibility observed"
+      },
+      {
+        "evidence_id": "OFFICIAL-MERCHANT-LINK-ROUTING-20260929",
+        "url": "https://support.google.com/merchants/answer/6324416?hl=en",
+        "verified_on": "2026-09-29",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "origin": "autonomous_discovery",
+        "observation": "full_observed",
+        "observation_unit": "main_article_text_only_L17-L117",
+        "locator": "When to use L36-L38; Best practices L77-L83; Examples / Product with variants L103-L112",
+        "supports": [
+          "提供ads_redirect时Shopping点击走该值，free listings仍走link/mobile_link；单一入口证据不能代表全部适用路径",
+          "稳定URL、预选匹配变体及结构化标记对应展示变体是本文推荐"
+        ],
+        "does_not_support": [
+          "任意网站识别同一variant参数或真实账户没有其他跟踪/重定向",
+          "Search/PMax全部URL控制逻辑",
+          "本轮SEO索引修改授权或实际页面验证"
+        ],
+        "unobserved_media": [
+          "article_illustration_not_visually_observed"
+        ],
+        "account_market_version": "English current public help text; Shopping and free-listing attribute distinction only, no real route or account observation"
+      },
+      {
+        "evidence_id": "OFFICIAL-MERCHANT-AUTOMATIONS-LIMITS-20260929",
+        "url": "https://support.google.com/merchants/answer/12157888?hl=en",
+        "verified_on": "2026-09-29",
+        "first_publication_date": "unknown",
+        "updated_on": "unknown",
+        "origin": "autonomous_discovery",
+        "observation": "full_observed",
+        "observation_unit": "main_article_text_only_L17-L160_including_expanded_text_and_unexecuted_code",
+        "locator": "Benefits / Notes L45-L48; Best practices L149; FAQ L157-L160",
+        "supports": [
+          "自动更新不能代替持续维护商品数据源，价格/库存识别使用link页面",
+          "页面有多条划线价格时不应启用价格自动更新；结构化数据为推荐而非唯一提取路径"
+        ],
+        "does_not_support": [
+          "真实账户设置已启用、当前错配已修复或生成源已纠正",
+          "全部自动更新字段、默认设置或界面已经实测",
+          "保证每个域名被正确提取或取得经营效果"
+        ],
+        "unobserved_media": [
+          "L19_embedded_YouTube_video_not_played_no_caption_or_visual_observation"
+        ],
+        "account_market_version": "English current public help text; no actual setting or processed product value verified; field-enumeration differences not expanded into a full contract"
+      }
+    ],
+    "nonofficial_teaching_context": {
+      "source_id": "FEEDARMY-PRICE-VARIANT-20250410",
+      "origin": "autonomous_discovery",
+      "url": "https://feedarmy.com/kb/google-updates-price-attribute-policy-in-merchant-center-april-2025/",
+      "publication_date": "2025-04-10",
+      "date_evidence": "author page L56 explicitly states creation on 10 April 2025",
+      "updated_on": "unknown",
+      "observed_on": "2026-09-29",
+      "observation": "full_observed",
+      "observation_unit": "main_article_text_only_L66-L112",
+      "adopted_locator": "section 2 L81-L90 and section 4 L94-L101",
+      "contribution": "教学解释把价格一致与所广告变体对应结合，补默认便宜款导致误诊的反例意识；不复制作者例子。",
+      "interest_disclosure": "作者经营Feed/Shopping服务和课程咨询，自称Product Expert不等于官方发布或独立效果验证。",
+      "official_calibration": "O1/O2决定平台事实与要求/最佳实践层级，作者较强预选语气不升级为统一参数硬要求。",
+      "excluded_claims": [
+        "coupon_policy",
+        "membership_pricing",
+        "tax_policy",
+        "minimum_order_values",
+        "marketing_effect_claims"
+      ],
+      "unobserved_media": [
+        "L70_embedded_video_not_played_no_caption_or_visual_observation"
+      ],
+      "maturity_limit": "dated_teaching_context_not_independent_experiment_or_real_project_validation"
+    },
+    "maturity": "official_supported_offline_company_method_no_real_account_validation",
+    "next_evidence": "authorized_same_variant_multi_route_input_and_post_change_source_readback",
+    "observation_counts": {
+      "selected_texts": 4,
+      "full_observed_text_only": 4,
+      "official_texts": 3,
+      "nonofficial_texts": 1,
+      "unobserved_embedded_videos": 2,
+      "full_videos": 0,
+      "visual_observations": 0
+    },
+    "packaging_observation": {
+      "new_sources": 0,
+      "new_videos": 0,
+      "new_business_runs": 0,
+      "reused_synthetic_fixture_count": 1
+    },
+    "runtime_references": [
+      "workflow-and-templates.md",
+      "current-platform-gates.md",
+      "../examples/merchant-variant-repair.json"
+    ],
+    "synthetic_fixture_id": "GADS-VARIANT-ROUTE-20260929-01",
+    "synthetic_fixture_status": "producer_reasoning_not_independent_qa",
+    "permissions": {
+      "execution_permission_expanded": false
+    },
+    "acceptance": {
+      "independent_qa_completed": false
+    }
+  },
+  "search_copy_addendum_20261008": {
+    "package_version": "0.2.0-rc.1+fusion.20261009",
+    "status": "candidate_pending_independent_review",
+    "method_unit_id": "GOOGLE-METHOD-SEARCH-01",
+    "verified_on": "2026-10-08",
+    "disposition": {
+      "D1": "refine",
+      "D2": "refine_branch_by_condition",
+      "measurement_and_query_baseline": "retain_no_update_needed"
+    },
+    "company_rule_delta": [
+      "Separate RSA asset evidence from ad-level totals and causal winner claims",
+      "Deliver evidence-linked concrete old/new copy while stopping only judgments dependent on missing evidence"
+    ],
+    "official_sources": [
+      {
+        "evidence_id": "OFFICIAL-GADS-RSA-REPORT-20261008-01",
+        "url": "https://support.google.com/google-ads/answer/9564897?hl=en",
+        "verified_on": "2026-10-08",
+        "supports": [
+          "RSA asset metrics require combination context"
+        ],
+        "does_not_support": [
+          "isolated asset causal winner",
+          "account UI verified"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-ASSET-METRICS-20261008-02",
+        "url": "https://support.google.com/google-ads/answer/16259414",
+        "verified_on": "2026-10-08",
+        "supports": [
+          "overlapping RSA asset metrics are not additive ad totals"
+        ],
+        "does_not_support": [
+          "new cross-channel capability",
+          "actual account calculation"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-RSA-COMBINATION-20261008-03",
+        "url": "https://support.google.com/google-ads/answer/7684791",
+        "verified_on": "2026-10-08",
+        "supports": [
+          "RSA combination and display constraints",
+          "English headline 30 and description 90 character limits"
+        ],
+        "does_not_support": [
+          "all assets guaranteed to display",
+          "local draft accepted by Google"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-SEARCH-COPY-20261008-04",
+        "url": "https://support.google.com/google-ads/answer/6167122",
+        "verified_on": "2026-10-08",
+        "supports": [
+          "specific user value and action in Search copy",
+          "broader performance context"
+        ],
+        "does_not_support": [
+          "universal RSA count",
+          "business lift or causal proof"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-CONVERSION-LAG-20261008-05",
+        "url": "https://support.google.com/google-ads/answer/9347141?hl=en",
+        "verified_on": "2026-10-08",
+        "supports": [
+          "recent conversion lag affects performance interpretation"
+        ],
+        "does_not_support": [
+          "forecast equals actual",
+          "universal waiting period"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN",
+        "observation_unit": "main_article_text_only"
+      }
+    ],
+    "restricted_teaching_sources": [
+      {
+        "id": "GADS-TEXT-20261008-T01",
+        "url": "https://www.definedigitalacademy.com/blog/how-to-optimise-your-google-ads-search-campaigns-in-2026",
+        "page_date": "2026-01-14",
+        "contribution": "intent and controlled-change teaching",
+        "maturity": "source_claim",
+        "interest": "own training and coaching",
+        "origin": "autonomous_discovery",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "id": "GADS-TEXT-20261008-T02",
+        "url": "https://www.ppcmastery.com/newsletter/tpe-124-15-tips-to-boost-ctr",
+        "page_date": "2025-02-21",
+        "contribution": "concrete copy-angle hypotheses",
+        "maturity": "method_hypothesis",
+        "interest": "own training",
+        "origin": "autonomous_discovery",
+        "observation_unit": "main_article_text_only"
+      },
+      {
+        "id": "GADS-TEXT-20261008-T03",
+        "url": "https://courses.ppcmastery.com/blog/tpe-121-tracking",
+        "page_date": "2025-02-03",
+        "index_date": "2025-01-23",
+        "first_publication": "UNKNOWN",
+        "contribution": "measurement and business-result distinctions",
+        "maturity": "source_claim",
+        "interest": "own training and named tools; commission UNKNOWN",
+        "origin": "autonomous_discovery",
+        "observation_unit": "main_article_text_only"
+      }
+    ],
+    "excluded_claims": [
+      "Unverified performance uplifts, reviews or guarantees",
+      "Mandatory named-tool route",
+      "Universal GA4 failure",
+      "Bypassing platform limits",
+      "Fixed guaranteed uplift"
+    ],
+    "maturity_limit": "Officially bounded offline conditional judgments; teaching strategies remain hypotheses, not real-project validated effects.",
+    "observation": {
+      "full_main_text": 8,
+      "video_seconds_observed": 0,
+      "video_transcripts_observed": 0,
+      "video_exceptions": [
+        "SZKyWw7KkRQ",
+        "QUQKAzjnz2U"
+      ],
+      "original_visual_observation": 0
+    },
+    "limits": [
+      "video learning not complete",
+      "no account or causal effect validation",
+      "no new channel or execution authority",
+      "old RoomReady input does not test numerical asset aggregation"
+    ],
+    "as_of": "2026-10-08",
+    "scope": "historical_text_revision_snapshot",
+    "current_observation_ref": "video_learning_addendum_20261009",
+    "runtime_references": [
+      "workflow-and-templates.md",
+      "current-platform-gates.md",
+      "../examples/search-review.md"
+    ],
+    "packaging_observation": {
+      "new_sources": 0,
+      "new_videos": 0,
+      "new_business_runs": 0
+    },
+    "permissions": {
+      "execution_permission_expanded": false,
+      "independent_qa_completed": false
+    }
+  },
+  "video_learning_addendum_20261009": {
+    "package_version": "0.2.0-rc.1+fusion.20261009",
+    "status": "candidate_pending_independent_review",
+    "schema_version": "1.0",
+    "verified_on": "2026-10-09",
+    "observation_unit": "complete_returned_transcript_text_not_original_audio_video",
+    "sources": [
+      {
+        "id": "GADS-VIDEO-20261009-V01",
+        "video_id": "SZKyWw7KkRQ",
+        "url": "https://www.youtube.com/watch?v=SZKyWw7KkRQ",
+        "creator": "Aaron Young / Define Digital Academy",
+        "publication_evidence": {
+          "author_article_date": "2026-01-14",
+          "youtube_date_from_prior_index": "2026-01-14",
+          "author_article_url": "https://www.definedigitalacademy.com/blog/how-to-optimise-your-google-ads-search-campaigns-in-2026"
+        },
+        "origin": "autonomous_discovery",
+        "language": "en",
+        "transcript_characters": 14030,
+        "whitespace_words": 2653,
+        "transcript_sha256": "4596bddc90b18244c74070964cd0b014f76a29102420aa3ea4508cf959ca9046",
+        "text_range": [
+          0,
+          14030
+        ],
+        "maturity": "source_claim",
+        "interest": "own courses and coaching",
+        "limits": [
+          "no timestamps",
+          "ASR not checked against audio",
+          "original pixels not observed",
+          "not evidence of general performance uplift"
+        ]
+      },
+      {
+        "id": "GADS-VIDEO-20261009-V02",
+        "video_id": "QUQKAzjnz2U",
+        "url": "https://www.youtube.com/watch?v=QUQKAzjnz2U",
+        "creator": "PPC Mastery / Miles McNair and Bob Meijer",
+        "publication_evidence": {
+          "publisher_episode_date": "2025-09-09",
+          "publisher_episode": "E43 / Scaling with Bob EP3",
+          "publisher_url": "https://podcast.ppcmastery.com/18828/take-your-google-ads-audits-to-the-next-level-scaling-with-bob-ep3",
+          "youtube_upload_date": "UNKNOWN"
+        },
+        "origin": "autonomous_discovery",
+        "language": "en",
+        "transcript_characters": 24342,
+        "whitespace_words": 4617,
+        "transcript_sha256": "302e82743faf33ec414e103708dcd6c8077cd59d398bfdf4c957e5b54c314e4d",
+        "text_range": [
+          0,
+          24342
+        ],
+        "maturity": "case_evidence_not_independently_verified",
+        "interest": "own PPC Hub coaching and newsletter",
+        "limits": [
+          "publisher episode date is not YouTube upload date",
+          "no timestamps",
+          "ASR not checked against audio",
+          "private case numbers and charts not verified",
+          "not evidence of client acceptance or real business outcome"
+        ]
+      }
+    ],
+    "method_deltas": [
+      {
+        "id": "VD1",
+        "unit_id": "GOOGLE-METHOD-MEASUREMENT-03",
+        "decision": "refine_branch_by_condition",
+        "source_refs": [
+          {
+            "id": "GADS-VIDEO-20261009-V02",
+            "ranges": [
+              [
+                6080,
+                8563
+              ],
+              [
+                15488,
+                20900
+              ]
+            ]
+          },
+          "GADS-TEXT-20261008-T03"
+        ],
+        "company_judgment": "Conditionally explain conversion columns across tracking transitions; reconcile submitted, accepted, rejected and pending events without treating row errors as lost unique sales, and separate import expiry from ordinary reporting lag.",
+        "official_evidence_ids": [
+          "OFFICIAL-GADS-OCI-RECONCILE-20261009-01",
+          "OFFICIAL-GADS-OCI-LIMITS-20261009-02"
+        ],
+        "runtime_section": "测量切换与导入缺口的条件式诊断",
+        "maturity": "officially_bounded_company_method_candidate",
+        "next_evidence": "Authorized minimal deidentified/synthetic usage input exposing overlap and rejected-event scope; independent review later."
+      },
+      {
+        "id": "VD2",
+        "unit_id": "GOOGLE-METHOD-BID-05",
+        "decision": "refine",
+        "source_refs": [
+          {
+            "id": "GADS-VIDEO-20261009-V01",
+            "ranges": [
+              [
+                3779,
+                7476
+              ]
+            ]
+          },
+          "GADS-TEXT-20261008-T01"
+        ],
+        "company_judgment": "Treat low Search impression share as a diagnostic candidate using the eligible-impression denominator and budget/rank distinction, not an automatic budget increase or fixed account structure.",
+        "official_evidence_ids": [
+          "OFFICIAL-GADS-SEARCH-IS-20261009-03",
+          "OFFICIAL-GADS-SEARCH-IS-LOSS-20261009-04"
+        ],
+        "runtime_section": "Search 展示份额的扩量解释",
+        "maturity": "officially_bounded_company_method_candidate",
+        "next_evidence": "Review a legitimate comparable campaign-level export; current source account values remain unverified."
+      }
+    ],
+    "existing_rule_reuse": [
+      {
+        "unit_id": "GOOGLE-METHOD-SEARCH-01",
+        "decision": "retain_no_update_needed",
+        "basis": "workflow section 7 Search conditional editing + 20261008 D1 producer application",
+        "video_source": "GADS-VIDEO-20261009-V01",
+        "range": [
+          10670,
+          13037
+        ],
+        "limit": "Reject isolated asset winners and fixed bottom-five removal; do not call observational ad comparison a controlled causal test."
+      },
+      {
+        "unit_id": "GOOGLE-METHOD-QUERY-02",
+        "decision": "retain_no_update_needed",
+        "basis": "workflow section 4 query visibility and negative-match preview",
+        "video_source": "GADS-VIDEO-20261009-V01",
+        "range": [
+          7476,
+          10670
+        ],
+        "limit": "Spend prioritization may organize review, not automatic exclusion, top-ten-only completeness or fixed weekly cadence."
+      },
+      {
+        "unit_id": "GOOGLE-METHOD-FEED-04",
+        "decision": "retain_no_update_needed",
+        "basis": "20260929 variant delta; neither video supplies new feed facts"
+      }
+    ],
+    "official_refresh": {
+      "verified_on": "2026-10-09",
+      "evidence_ids": [
+        "OFFICIAL-GADS-RSA-REPORT-20261008-01",
+        "OFFICIAL-GADS-ASSET-METRICS-20261008-02"
+      ],
+      "result": "same scoped RSA constraints retained; no historical date overwrite"
+    },
+    "observation": {
+      "transcript_texts_full_read": 2,
+      "returned_text_characters": 38372,
+      "whitespace_words": 7270,
+      "video_duration_seconds": "UNKNOWN",
+      "audio_seconds_observed": 0,
+      "original_visual_frames_observed": 0,
+      "semantic_text_completeness": "entire provider return read; original-source completeness unverified",
+      "visual_gap_decision": "No adopted offline rule needs source UI/chart pixels; do not adopt or claim original visual demonstrations."
+    },
+    "limits": [
+      "not full audiovisual observation",
+      "no source account numbers independently verified",
+      "no real account or business effect validation",
+      "no new channel/execution permissions",
+      "historical 20261008 zero-video observation remains a dated snapshot"
+    ],
+    "official_sources": [
+      {
+        "evidence_id": "OFFICIAL-GADS-OCI-RECONCILE-20261009-01",
+        "url": "https://support.google.com/google-ads/answer/10029210?hl=en",
+        "verified_on": "2026-10-09",
+        "observation": "FAQ 4; text only",
+        "supports": [
+          "Action-segmented conversion-time report versus upload results"
+        ],
+        "does_not_support": [
+          "all submitted rows imported",
+          "shifting true event dates",
+          "private case error rate verified"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-OCI-LIMITS-20261009-02",
+        "url": "https://support.google.com/google-ads/answer/15081888?hl=en",
+        "verified_on": "2026-10-09",
+        "observation": "Time your uploads and View your imported conversions; text only",
+        "supports": [
+          "Import limits distinguish 90-day ordinary offline and 63-day enhanced-leads contexts after associated last click",
+          "Import expiry is not ordinary reporting lag"
+        ],
+        "does_not_support": [
+          "all routes share a 90-day cookie window",
+          "account eligibility or successful upload"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-SEARCH-IS-20261009-03",
+        "url": "https://support.google.com/google-ads/answer/2497703?hl=en",
+        "verified_on": "2026-10-09",
+        "observation": "Impression share and estimation paragraphs; text only",
+        "supports": [
+          "Estimated eligible-impression denominator"
+        ],
+        "does_not_support": [
+          "all-market search share",
+          "automatic profitable scaling"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN"
+      },
+      {
+        "evidence_id": "OFFICIAL-GADS-SEARCH-IS-LOSS-20261009-04",
+        "url": "https://support.google.com/google-ads/answer/7103314",
+        "verified_on": "2026-10-09",
+        "observation": "Which metrics to view; Search entries only",
+        "supports": [
+          "Search budget-loss versus rank-loss; budget loss at campaign level"
+        ],
+        "does_not_support": [
+          "missing value means zero",
+          "new cross-channel method"
+        ],
+        "first_publication": "UNKNOWN",
+        "updated": "UNKNOWN"
+      }
+    ],
+    "observation_precedence": "Updates only the two named videos' returned transcript text and fused methods. search_copy_addendum_20261008 zero-video/D1 limits are the historical text-revision snapshot. The two separate 20260929 embedded videos, GADS-202601-094 and other historical gaps remain unclosed.",
+    "existing_producer_usage": {
+      "count": 2,
+      "case": "RoomReady, company-original synthetic business; two separate private counterfactual inputs",
+      "scopes": [
+        "D1: overlapping asset statistics and concrete Search copy",
+        "Measurement transition/import denominators and Search impression share, with concrete copy"
+      ],
+      "status": "performed_and_received_for_declared_producer_scope",
+      "original_inputs_and_answers_distributed": false,
+      "independent_qa_completed": false,
+      "real_account_or_business_effect_validated": false,
+      "limit": "Producer applications of the formal rules, not independent testing of this new portable candidate or arbitrary-host certification."
+    },
+    "runtime_references": [
+      "workflow-and-templates.md",
+      "current-platform-gates.md",
+      "../examples/search-review.md"
+    ],
+    "packaging_observation": {
+      "new_sources": 0,
+      "new_videos": 0,
+      "new_business_runs": 0
+    },
+    "permissions": {
+      "execution_permission_expanded": false,
+      "independent_qa_completed": false
+    }
+  }
+}

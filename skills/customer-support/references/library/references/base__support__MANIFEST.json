@@ -1,0 +1,168 @@
+{
+  "id": "SUPPORT-PRACTICAL-V1-20261020-01",
+  "created_on": "2026-10-20",
+  "status": "CANDIDATE_AWAITING_INDEPENDENT_CHECK",
+  "scope": "Authorized new low-sensitive issue briefs and public or owned non-sensitive product policies; complete offline internal reply and proposed handoff. Not real-customer-data permission, external execution, independent acceptance or release.",
+  "core_method_version": "0.4.0-practical-v1-candidate-01",
+  "parent": {
+    "id": "SUPPORT-PRELAUNCH-20261019-W1-R1",
+    "manifest_bytes": 7699,
+    "manifest_sha256": "4937d699d3fa6399f3119343ccefda71ce0f3da70e9d03f06f3c8dbbb9f3b98b"
+  },
+  "authorization_id": "SUPPORT-PRACTICAL-V1-20261020-EXEC-01",
+  "preservation": {
+    "copied_parent_files": 20,
+    "changed_files": 12,
+    "byte_exact_files": 8,
+    "original_method_directory": "Legacy path name retained for compatibility; this is revised current content, not an unchanged original package."
+  },
+  "members_excluding_self": 19,
+  "expected_total_files_including_self": 20,
+  "self_excluded": "MANIFEST.json",
+  "member_bytes_excluding_self": 108277,
+  "nested_manifest": {
+    "path": "原版方法/MANIFEST.json",
+    "scope": "Current 12 inner members; excludes itself. Outer manifest includes its actual current identity."
+  },
+  "files": [
+    {
+      "path": "00_开始使用.md",
+      "bytes": 3515,
+      "sha256": "1a627aac05a6fd9063d4088d187f555cb69034d667d7c1beedac0050ee2c38a7",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "01_取消请求教学.md",
+      "bytes": 7373,
+      "sha256": "482fe919bf1a9d379f2b91663711a90b017ccb5fb0f2768e6a92579e5cab5452",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "原版方法/00_当前使用与范围.md",
+      "bytes": 1999,
+      "sha256": "f283bd263e100f7bbf94b75a213069321028123dab98bafeefc50bbb0beb8928",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/MANIFEST.json",
+      "bytes": 2705,
+      "sha256": "15a8ac0f28fed60a9838473bed2873a9bd99eaf45cf9d7aaad65b25ae31aca54",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/DEPENDENCIES_AND_RIGHTS.md",
+      "bytes": 1890,
+      "sha256": "20436d867b92f2e5543642c4a5b86a96fa38899eebcc87affb74a5a5fae45880",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/README_中文.md",
+      "bytes": 5378,
+      "sha256": "a5753a574b49eab1ec54cef05165c36a009bfdccb4f3a318ff4ef3773a47fbfb",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/METHOD.md",
+      "bytes": 5798,
+      "sha256": "209d79773c6661cfb1a2c88ebe70f609e7cc5ad6ca563f67dd3ceffa30b20917",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/VERSION.json",
+      "bytes": 7596,
+      "sha256": "ccfc4fb2bc73f9bf3bb6afc13c51e2317ecc4081651308f728e63672859323a5",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/knowledge/客服私信处理与人工升级.md",
+      "bytes": 3602,
+      "sha256": "e88603093cd2f23682885687f5ac5793cde17c54291f106e2945b568cabc2b7f",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/references/current-platform-policy.md",
+      "bytes": 1605,
+      "sha256": "1fd11c57f21da0ffb18f1a01e3fc370b2d98978282d23a9a51654e9ceba2f1fc",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "原版方法/payload/references/decision-and-stop-rules.md",
+      "bytes": 9621,
+      "sha256": "19de6eb0edbff4d2eb02db0f1b72299ca6b4c7cded45179b31b5d42bdfc55b6a",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/references/input-output-contract.md",
+      "bytes": 12820,
+      "sha256": "62dc19890b5553193dce779a6bcb4b613a324d17144e85180d09f308022e83b9",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/references/source-map.md",
+      "bytes": 10445,
+      "sha256": "47f34b5d4baa482cb633360d7ad23014305f3998431d901e794f25ab0d28dc71",
+      "change": "authorized_practical_v1_revision"
+    },
+    {
+      "path": "原版方法/payload/templates/handoff-record.json",
+      "bytes": 499,
+      "sha256": "80aedef976e112a19c4e8aa8b6937ab6db558aa648744c861748ea6050f40501",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "原版方法/payload/templates/knowledge-feedback.md",
+      "bytes": 888,
+      "sha256": "8498d37303a02f783a89ea70c7522bd74438e6dff2688a4fa4ee252cb750e4c9",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "教学成果/A_取消评估内部稿.json",
+      "bytes": 11625,
+      "sha256": "c5c6d1d308daddd2c79af9382ec8c0b87dea0449589b183e0a79e0dcef294aa7",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "教学成果/B_已交后选项内部稿.json",
+      "bytes": 12726,
+      "sha256": "c19abeee465aa6df1e55b80e71b048331e7e643251f30fc822d4a72bc661fe09",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "教学材料/A_明确未交承运商.json",
+      "bytes": 4094,
+      "sha256": "4b715686916e0be22d56ea8c51bb9c19e22ca1d27fc4f2d5b74d3b7096e8b15e",
+      "change": "byte_exact_parent_reuse"
+    },
+    {
+      "path": "教学材料/B_明确已交承运商.json",
+      "bytes": 4098,
+      "sha256": "304ebe6ff3a9da0c0be029aea69acc26cd0b7ccb928ad2491bd4a703ab7234e4",
+      "change": "byte_exact_parent_reuse"
+    }
+  ],
+  "evidence_boundaries": {
+    "new_behavior_evidence": "Actual producer input/output identities and observations are recorded separately in the frozen owner handoff; not inferred from this manifest.",
+    "historical_teaching": "Original W1 synthetic producer teaching retained unchanged; not practical V1 execution or current input restriction.",
+    "independent_qa": "not_run",
+    "real_customer_or_business_effects_verified": false,
+    "formal_adoption": false,
+    "global_installation": false,
+    "public_release": false
+  },
+  "usage": {
+    "entry": "00_开始使用.md",
+    "method": "原版方法/payload/METHOD.md",
+    "environment": "Existing Codex with authorized local file read/write; no new dependencies or account connectors"
+  },
+  "safety": {
+    "ready_to_send": false,
+    "permission_unknowns": "all five unknown",
+    "human_handoff_without_receipt": "pending",
+    "external_actions": false
+  },
+  "pending": [
+    "Independent practical V1 check",
+    "Separately authorized formal library / knowledge / adoption alignment",
+    "Separate real-customer or sensitive-object authority before reading such material"
+  ]
+}

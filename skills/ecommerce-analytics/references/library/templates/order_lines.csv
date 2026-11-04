@@ -1,0 +1,1 @@
+store_id,order_id,line_id,sku,ordered_at,order_status,currency,quantity,line_gross,line_discount,order_gross,order_discount,shipping_charged,tax_charged,refund_history_complete,note

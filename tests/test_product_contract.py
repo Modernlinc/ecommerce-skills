@@ -59,6 +59,12 @@ class ProductContractTests(unittest.TestCase):
         self.assertEqual(structure.local_link_error(ROOT, ROOT / 'README.md', '#missing-product-section'),
                          'missing Markdown heading anchor')
 
+    def test_installed_skill_cannot_depend_on_repository_docs(self):
+        base = ROOT / 'skills/meta-facebook-ads'
+        self.assertEqual(structure.local_link_error(base, base / 'examples/demo.md', '../../../docs/getting-started.md'),
+                         'link escapes repository')
+        self.assertIsNone(structure.local_link_error(base, base / 'examples/demo.md', '../SKILL.md'))
+
     def test_existing_same_page_heading_works(self):
         self.assertIsNone(structure.local_link_error(ROOT, ROOT / 'README.md', '#先试一项'))
 

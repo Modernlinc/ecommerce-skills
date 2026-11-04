@@ -1,0 +1,200 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3647,
+      "sha256": "2e47e6bd0d47e8af71841237895351f12b7e5b0f2c68cb5aa968decca666ea47"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 351,
+      "sha256": "8b9cbd20fe1d69665fe704f7923cbc75285228b438588d227434fbcce6362569"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1970,
+      "sha256": "0f5217ff5d4b4233c34e67ed0de80f82312073fb1c50a6c4bb84eda6b6c83920"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 623,
+      "sha256": "b58596151a38b8a0834970018448422ca78d192ab2190f9d7dc4fbb30a0f29a9"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1178,
+      "sha256": "81322efcf448c018144ae32ffe5354fb2971ef7a41c6c0d4a793c84b06802d7d"
+    },
+    {
+      "path": "references/library/METHOD.md",
+      "bytes": 835,
+      "sha256": "9b006c7cdcac985c669071c04e3aaa8036b4126b5f307d7151dd69bfc93517f7"
+    },
+    {
+      "path": "references/library/references/00_开始使用.md",
+      "bytes": 4993,
+      "sha256": "1ff2bc2f589367e1d38927430887810c11916765228cc7d5916cba064355e9a3"
+    },
+    {
+      "path": "references/library/references/00_本地文件使用入口.md",
+      "bytes": 1870,
+      "sha256": "5ad632845e33d93d1caa7b0867e49c11c651e769e4196798c463f7572c7ae9b7"
+    },
+    {
+      "path": "references/library/references/01_教学示范_两款托盘到Pin与目录.md",
+      "bytes": 14416,
+      "sha256": "7028a11d95221153186ab2b62bd5123823fbed99b5cb758ed3635a596ae3c385"
+    },
+    {
+      "path": "references/library/references/02_版本与使用范围.md",
+      "bytes": 3132,
+      "sha256": "8dbbb43a664c485ebf3eeb14d908604b9d4573b3c44d88d776b94ca5f16fdb7e"
+    },
+    {
+      "path": "references/library/references/MANIFEST.json",
+      "bytes": 5619,
+      "sha256": "0c1e233f179bcdb9a65d95668b8c2c04a74fdecd7758f58df3ac14ac96ba44c6"
+    },
+    {
+      "path": "references/library/references/MarketingSkills-CoreyHaines-MIT-2025.txt",
+      "bytes": 1069,
+      "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "path": "references/library/references/PATH_MAP.json",
+      "bytes": 3546,
+      "sha256": "99ef89b12d06064c028642246ec2ea1215bd4a8d9132657b58fe6f0cb4e6902b"
+    },
+    {
+      "path": "references/library/references/SeaLeap-Nexscope-MIT-2026.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/references/方法原包__00_当前使用与范围.md",
+      "bytes": 3093,
+      "sha256": "04201cdfe86862f1c1f9df9e9e145142aa5e28458866ce509e4ca272a4b8557b"
+    },
+    {
+      "path": "references/library/references/方法原包__MANIFEST.json",
+      "bytes": 4118,
+      "sha256": "c5a5d603def0b2b9cd3347e91e8761194babf368e1a0402f375298473ae2b96c"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__DISTRIBUTION_STATUS.md",
+      "bytes": 1674,
+      "sha256": "5001c4ac1a2194cbd224eab636932329c5cb4465770f08996a714d1d204ec21a"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__MAINTENANCE.md",
+      "bytes": 1124,
+      "sha256": "f203a9b5f957734f17ce5141bfdd534983050c9d2566aee4e3159686794bcd26"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__METHOD.md",
+      "bytes": 5191,
+      "sha256": "a30a71f265d0bc21e67e1808a7cd38123a2daaebcdcfd0506825e4b067256f2e"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__README.md",
+      "bytes": 2672,
+      "sha256": "cbfe057a71bfc3b48da4fa1ec41a61ce7cf554b67a56a49aaf398cfe95785375"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__manifest.json",
+      "bytes": 4507,
+      "sha256": "61978b9964ba62c7d4b44e3ae7d12b145a1dd33a610a4cf65ba9ee7af30280fc"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__capabilities.md",
+      "bytes": 3425,
+      "sha256": "2ef2691c8762faf9f4b9ca79416e9ae1a48189db754b8f502d317cac494836a3"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__catalog-review.md",
+      "bytes": 2834,
+      "sha256": "90c73b953ff8e538c05e0edab3e7729c21210c525eedd96c427a63c7677887b9"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__events-and-measurement.md",
+      "bytes": 4932,
+      "sha256": "be4f4d46a090d89582eac685f07e15c4c3e7ec45adf4c70a2e60d7887b22387d"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__export-contract.md",
+      "bytes": 13609,
+      "sha256": "cc1e01cd2deadaa70e312b3cceee8025ff7935d3f4c5b1db1a77b522d7d0e102"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__facts-and-evidence.md",
+      "bytes": 7966,
+      "sha256": "e3ec9504123c7d5b8452d646d0d35da484bb76e6e0a34ceeb97a8e9e1c7d5a7d"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__intake-and-output.md",
+      "bytes": 3647,
+      "sha256": "a7fb6899644741dd880829e16c25474bfd94269e6c1542fbc80f40ebbc04e2e4"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__natural-content.md",
+      "bytes": 4864,
+      "sha256": "98f8e6d3ceb13f30b946609ff75bacac5a7a7465a41da4e308ee2f69c2593bed"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__report-date-basis-evidence.md",
+      "bytes": 1935,
+      "sha256": "3f8d528478ea5320c05cc021b2706f772e6d06d32358a35a8e24dbd6900be08b"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__review-and-recovery.md",
+      "bytes": 3437,
+      "sha256": "cfa68ef2c1907ae0a47efdb70a5ff52bdc74b76d78c4d8c1fa422051165a2436"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__rights-and-boundaries.md",
+      "bytes": 1808,
+      "sha256": "58b90dfda07db8609b277bf806a6ccf833689b7e0bc528754f7bfbdc78a64ade"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__round-two-evidence.md",
+      "bytes": 4612,
+      "sha256": "d2a604c452934862a645cc03612816f21323dfc846de95eb60bb606590c29041"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__shopping-ads-plan.md",
+      "bytes": 2742,
+      "sha256": "93ded131b80e373e366dc89fa98949b608b50ec4ba4eef0bac4c7c447c47cd36"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__pinterest-operations__references__sources.csv",
+      "bytes": 15309,
+      "sha256": "262c1188245be151021c60d1ef8ef12e8f4a962c169e1d7e26e801b28e674b72"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__先读我.md",
+      "bytes": 3747,
+      "sha256": "ae937fd3c4a3a1b0c31bd9c8ba442b27703bce4209e59e26b686517b4d74e449"
+    },
+    {
+      "path": "references/library/references/方法原包__payload__可编辑成果委托.md",
+      "bytes": 4619,
+      "sha256": "5c9be90ecac2de5fa1b3e01980d09321e1788c86bbd698993c02d261633338f5"
+    }
+  ]
+}

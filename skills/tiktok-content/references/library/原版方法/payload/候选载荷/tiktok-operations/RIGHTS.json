@@ -1,0 +1,1179 @@
+{
+  "schema_version": 1,
+  "package_version": "1.0.0-rc.3+demo.20261012.1",
+  "status": "owner_confirmed_original_batch_scope_not_legal_audit_not_release_permission",
+  "all_payload_paths_classified": 46,
+  "licensed_payloads": [],
+  "licensed_payloads_note": "No separately evidenced third-party redistribution licence identified in this bounded intake; no licence choice made.",
+  "reference_only": [
+    {
+      "class": "official_help_and_policy_links",
+      "scope": "External URLs in references and provenance; only links and company-authored summaries shipped",
+      "permission": "public reading is not a redistribution licence"
+    },
+    {
+      "class": "primary_research_and_practitioner_links",
+      "scope": "Existing citations and limitation summaries; no external-source body or media shipped",
+      "permission": "No author endorsement or business-result guarantee"
+    }
+  ],
+  "excluded": [
+    "paid course text",
+    "course images and proprietary diagrams",
+    "source audio/video",
+    "raw ASR/OCR",
+    "unread/sensitive tables",
+    "real account/customer/employee data",
+    "secrets and account-context tracking identifiers",
+    "internal QA corpus and private source paths"
+  ],
+  "scope_note": "original_candidate identifies authored artifact provenance, not a legal ownership determination; licence absence not proof of no rights. No actual sale or distribution.",
+  "historical_rc2_records": [
+    {
+      "payload_path": "METHOD.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "agents/openai.yaml",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/beginner-first-route-and-glossary.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/content-operating-system.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/organic-account-and-content-growth.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/shop-creator-and-live.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/shop-merchandising-and-health.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/creator-collaboration-objects.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/live-operations-and-analysis.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/ads-delivery-and-diagnostics.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/ads-measurement-and-experiments.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/business-center-and-asset-governance.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/compliance-and-approval-gates.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/evidence-and-practitioner-method-admission.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "references/source-learning-and-evidence.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored runtime guidance, copied or narrowly localized; underlying platform sources separately reference-only",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "README.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "USAGE.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "VERSION.json",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "COMPATIBILITY.json",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "CHANGELOG.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "SUPPORT.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "RIGHTS.json",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "MANIFEST.json",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "provenance/method-source-map.json",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "provenance/official-facts.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "provenance/creator-code-conditions.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "provenance/limits.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/product-content/INPUT.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored synthetic F1 artifact, byte-identical historical reuse",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/product-content/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "Existing company-authored synthetic F1 artifact, byte-identical historical reuse",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/live/INPUT.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/live/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "New company-authored packaging/provenance text, machine-generated inventory, or synthetic example",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/creator/INPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/creator/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/organic-shop/INPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/organic-shop/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/product-gmv-max/INPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/product-gmv-max/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/website-ads/INPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "examples/website-ads/OUTPUT.md",
+      "category": "original_candidate",
+      "origin": "Byte-identical company-authored synthetic example inherited from rc.1 PACK02/03; not newly executed or independently validated in rc.2.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    },
+    {
+      "payload_path": "provenance/us-registration-source-index.md",
+      "category": "original_candidate",
+      "origin": "Company-authored source identity, observation scope and held-status index; official URLs reference-only; no source claim body or media.",
+      "distribution_grant": "unknown_pending_rights_owner_confirmation",
+      "legal_clearance": false,
+      "intended_use": "Internal candidate review now; any external distribution requires rights-owner decision",
+      "third_party_material": "Public-source citations only where present; no original course/media/transcript payload",
+      "licence_selected": false,
+      "attribution_requirement": "Preserve source links and source/fictional-case boundaries; no claim that these satisfy all future licence requirements",
+      "unresolved": "Ownership/distribution terms and commercial support not authorized by this build",
+      "approval_status": "not_approved_for_external_distribution"
+    }
+  ],
+  "historical_rc2_unknown": [
+    {
+      "item": "Licence, owner distribution grant, user/territory scope, commercial support terms",
+      "impact": "External distribution and sale remain blocked"
+    }
+  ],
+  "current_payload_classification": [
+    {
+      "payload_path": "CHANGELOG.md",
+      "category": "original_candidate",
+      "historical_record_path": "CHANGELOG.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "COMPATIBILITY.json",
+      "category": "original_candidate",
+      "historical_record_path": "COMPATIBILITY.json",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "MANIFEST.json",
+      "category": "original_candidate",
+      "historical_record_path": "MANIFEST.json",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "README.md",
+      "category": "original_candidate",
+      "historical_record_path": "README.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "RIGHTS.json",
+      "category": "original_candidate",
+      "historical_record_path": "RIGHTS.json",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "METHOD.md",
+      "category": "original_candidate",
+      "historical_record_path": "METHOD.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "SUPPORT.md",
+      "category": "original_candidate",
+      "historical_record_path": "SUPPORT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "USAGE.md",
+      "category": "original_candidate",
+      "historical_record_path": "USAGE.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "VERSION.json",
+      "category": "original_candidate",
+      "historical_record_path": "VERSION.json",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "agents/openai.yaml",
+      "category": "original_candidate",
+      "historical_record_path": "agents/openai.yaml",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/brief-fusion/INPUT.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "examples/brief-fusion/OUTPUT.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "examples/creator/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/creator/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/creator/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/creator/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/demo-evidence/INPUT.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "examples/demo-evidence/OUTPUT.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "examples/live/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/live/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/live/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/live/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/organic-shop/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/organic-shop/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/organic-shop/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/organic-shop/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/product-content/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/product-content/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/product-content/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/product-content/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/product-gmv-max/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/product-gmv-max/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/product-gmv-max/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/product-gmv-max/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/website-ads/INPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/website-ads/INPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "examples/website-ads/OUTPUT.md",
+      "category": "original_candidate",
+      "historical_record_path": "examples/website-ads/OUTPUT.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "provenance/creator-code-conditions.md",
+      "category": "original_candidate",
+      "historical_record_path": "provenance/creator-code-conditions.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "provenance/limits.md",
+      "category": "original_candidate",
+      "historical_record_path": "provenance/limits.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "provenance/method-source-map.json",
+      "category": "original_candidate",
+      "historical_record_path": "provenance/method-source-map.json",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "provenance/official-facts.md",
+      "category": "original_candidate",
+      "historical_record_path": "provenance/official-facts.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "provenance/round-three-source-fusion.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "provenance/round-two-source-fusion.md",
+      "category": "company_authored_candidate",
+      "classification_is_legal_determination": false,
+      "change": "current_round_authored_or_inherited_text_not_third_party_licence"
+    },
+    {
+      "payload_path": "provenance/us-registration-source-index.md",
+      "category": "original_candidate",
+      "historical_record_path": "provenance/us-registration-source-index.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/ads-delivery-and-diagnostics.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/ads-delivery-and-diagnostics.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/ads-measurement-and-experiments.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/ads-measurement-and-experiments.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/beginner-first-route-and-glossary.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/beginner-first-route-and-glossary.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/business-center-and-asset-governance.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/business-center-and-asset-governance.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/compliance-and-approval-gates.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/compliance-and-approval-gates.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/content-operating-system.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/content-operating-system.md",
+      "change": "company_method_handoff_refinement_no_new_third_party_material",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/creator-collaboration-objects.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/creator-collaboration-objects.md",
+      "change": "formal_verified_mother_plus_private_link_to_existing_company_authored_summary_no_new_third_party_material",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/evidence-and-practitioner-method-admission.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/evidence-and-practitioner-method-admission.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/live-operations-and-analysis.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/live-operations-and-analysis.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/organic-account-and-content-growth.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/organic-account-and-content-growth.md",
+      "change": "company_method_handoff_refinement_no_new_third_party_material",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/shop-creator-and-live.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/shop-creator-and-live.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/shop-merchandising-and-health.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/shop-merchandising-and-health.md",
+      "change": "company_method_handoff_refinement_no_new_third_party_material",
+      "classification_is_legal_determination": false
+    },
+    {
+      "payload_path": "references/source-learning-and-evidence.md",
+      "category": "original_candidate",
+      "historical_record_path": "references/source-learning-and-evidence.md",
+      "change": "same_path_authored_classification_reused",
+      "classification_is_legal_determination": false
+    }
+  ],
+  "owner_distribution_decision": "OWNER_CONFIRMED_2026_09_07_NOT_AGENT_LEGAL_AUDIT",
+  "owner_decision_date": "2026-09-07",
+  "candidate_release_authorized": false,
+  "legal_clearance": false,
+  "current_scope": "Existing owner original-batch scope retained; new source is reference-only, and this candidate adds no legal clearance, media rights, release permission or live-operation grant.",
+  "current_unresolved": [
+    "Buyer licence/user/territory terms, price and support terms",
+    "Actual publication or sale action authorization and candidate quality gates",
+    "Rights for any newly introduced third-party material; none introduced by the four company-method refinements"
+  ],
+  "historical_record_note": "historical_rc2_records and historical_rc2_unknown preserve exact old values as 2026-09-06 bookkeeping, not current original-ten-batch grant status. Authored classification is not legal clearance; source links remain reference-only.",
+  "local_reviewed_update_authority": {
+    "id": "OWNER-SALEABLE-LOCAL-COMPLETION-20260908",
+    "scope": "254 reviewed local formal references and company note updates executed,259 scoped verified; not assembly/publication/account authorization"
+  },
+  "historical_r2_current_state_20261010": {
+    "package_version": "1.0.0-rc.2+candidate.20260909.1",
+    "all_payload_paths_classified": 40,
+    "current_scope": "Original ten-domain batch commercial distribution rights confirmed by the owner on 2026-09-07; no repeat global rights blocker for internal development/delivery preparation. Not a legal audit, licence choice, sublicense, new-source permission, new-candidate quality approval, publication or account-action grant. Subsequent reviewed local formal updates were authorized and completed; this new candidate does not bypass its own assembly verification and release gates. Formal creator text retained with one portable provenance-link adaptation.",
+    "current_payload_classification": [
+      {
+        "payload_path": "METHOD.md",
+        "category": "original_candidate",
+        "historical_record_path": "METHOD.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "agents/openai.yaml",
+        "category": "original_candidate",
+        "historical_record_path": "agents/openai.yaml",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/beginner-first-route-and-glossary.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/beginner-first-route-and-glossary.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/content-operating-system.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/content-operating-system.md",
+        "change": "company_method_handoff_refinement_no_new_third_party_material",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/organic-account-and-content-growth.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/organic-account-and-content-growth.md",
+        "change": "company_method_handoff_refinement_no_new_third_party_material",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/shop-creator-and-live.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/shop-creator-and-live.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/shop-merchandising-and-health.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/shop-merchandising-and-health.md",
+        "change": "company_method_handoff_refinement_no_new_third_party_material",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/creator-collaboration-objects.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/creator-collaboration-objects.md",
+        "change": "formal_verified_mother_plus_private_link_to_existing_company_authored_summary_no_new_third_party_material",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/live-operations-and-analysis.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/live-operations-and-analysis.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/ads-delivery-and-diagnostics.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/ads-delivery-and-diagnostics.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/ads-measurement-and-experiments.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/ads-measurement-and-experiments.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/business-center-and-asset-governance.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/business-center-and-asset-governance.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/compliance-and-approval-gates.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/compliance-and-approval-gates.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/evidence-and-practitioner-method-admission.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/evidence-and-practitioner-method-admission.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "references/source-learning-and-evidence.md",
+        "category": "original_candidate",
+        "historical_record_path": "references/source-learning-and-evidence.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "README.md",
+        "category": "original_candidate",
+        "historical_record_path": "README.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "USAGE.md",
+        "category": "original_candidate",
+        "historical_record_path": "USAGE.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "VERSION.json",
+        "category": "original_candidate",
+        "historical_record_path": "VERSION.json",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "COMPATIBILITY.json",
+        "category": "original_candidate",
+        "historical_record_path": "COMPATIBILITY.json",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "CHANGELOG.md",
+        "category": "original_candidate",
+        "historical_record_path": "CHANGELOG.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "SUPPORT.md",
+        "category": "original_candidate",
+        "historical_record_path": "SUPPORT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "RIGHTS.json",
+        "category": "original_candidate",
+        "historical_record_path": "RIGHTS.json",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "MANIFEST.json",
+        "category": "original_candidate",
+        "historical_record_path": "MANIFEST.json",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "provenance/method-source-map.json",
+        "category": "original_candidate",
+        "historical_record_path": "provenance/method-source-map.json",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "provenance/official-facts.md",
+        "category": "original_candidate",
+        "historical_record_path": "provenance/official-facts.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "provenance/creator-code-conditions.md",
+        "category": "original_candidate",
+        "historical_record_path": "provenance/creator-code-conditions.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "provenance/limits.md",
+        "category": "original_candidate",
+        "historical_record_path": "provenance/limits.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/product-content/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/product-content/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/product-content/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/product-content/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/live/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/live/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/live/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/live/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/creator/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/creator/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/creator/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/creator/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/organic-shop/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/organic-shop/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/organic-shop/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/organic-shop/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/product-gmv-max/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/product-gmv-max/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/product-gmv-max/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/product-gmv-max/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/website-ads/INPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/website-ads/INPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "examples/website-ads/OUTPUT.md",
+        "category": "original_candidate",
+        "historical_record_path": "examples/website-ads/OUTPUT.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      },
+      {
+        "payload_path": "provenance/us-registration-source-index.md",
+        "category": "original_candidate",
+        "historical_record_path": "provenance/us-registration-source-index.md",
+        "change": "same_path_authored_classification_reused",
+        "classification_is_legal_determination": false
+      }
+    ]
+  }
+}

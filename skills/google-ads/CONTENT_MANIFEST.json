@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1067,
+      "sha256": "c31f9e7f5cc4271853d7a2c0ed9717f49119073eefc900c046a107799ab564ce"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 751,
+      "sha256": "b11051d77c987556a6fb5b58e93751f7b02b9bb286060ce976473f926e7be838"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 3623,
+      "sha256": "fd68892c479bcad8cee13014586a40f96a0e102b72ff7976264407c7e620650d"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 313,
+      "sha256": "f53981e76c55c48bafa0273431cd346e68f030b7ce6b325a75a688b37214ba64"
+    },
+    {
+      "path": "assets/screenshots/README.md",
+      "bytes": 730,
+      "sha256": "fb3d3fe60ab49d55b3ee1422b7f28135e037204a54e35183ba4911ebe953625b"
+    },
+    {
+      "path": "examples/demo.md",
+      "bytes": 1993,
+      "sha256": "b8de2723b966261aa6764d09ada1a717e56ab262826a89ebd1c8325ce7da429f"
+    },
+    {
+      "path": "examples/input.md",
+      "bytes": 641,
+      "sha256": "b69142e9873e81f9e0e21e33daf2b7e174ae34f1d05b26045a796e95d22982ab"
+    },
+    {
+      "path": "examples/output.md",
+      "bytes": 1974,
+      "sha256": "c6391ee86d205c49eeb9435a1dddd3fe2ace3967d16222180027eed8c3298800"
+    },
+    {
+      "path": "references/library/00_从这里开始.md",
+      "bytes": 3992,
+      "sha256": "c3c26db09b94ff2a6417d6b9ac19753d246d3c0c0abbf0cb81622184b999c209"
+    },
+    {
+      "path": "references/library/01_Search完整教学示范.md",
+      "bytes": 12467,
+      "sha256": "0842b9480a3c31ce30a1b8f6a49533a58341282d1a2d609d1daff52ed93b91f6"
+    },
+    {
+      "path": "references/library/02_能力与来源.md",
+      "bytes": 5175,
+      "sha256": "b92d7a44f4f6b01bb5b203f1e91b323bdf3df1aab01cd84c5ad9d08a6f16dc5f"
+    },
+    {
+      "path": "references/library/MANIFEST.json",
+      "bytes": 8239,
+      "sha256": "99bb0c6c3324593c4c00ff01289eee0368aacd233305192f697bc3edc2886fd4"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/METHOD.md",
+      "bytes": 8583,
+      "sha256": "67baf5aa4470b6cbcbca47eea1b059c251aaf1811dda8ff09cb94d8a22c439b1"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/QUICKSTART.zh-CN.md",
+      "bytes": 1349,
+      "sha256": "51076c17efca5cb57ca2241a5a27e59d8e8262f704d6e2a41b0b5f0238c50f33"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/RIGHTS.csv",
+      "bytes": 5530,
+      "sha256": "e6df42886a32755c97fb02945798e0e0eaa86bfb8d99cb33ce8a1bf137c5aec7"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/SUPPORT.zh-CN.md",
+      "bytes": 741,
+      "sha256": "4fba27bc20b50429372e8286540ddb2adb720502504bb76869dd280b78ab39ba"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/USER_GUIDE.zh-CN.md",
+      "bytes": 4505,
+      "sha256": "a1f9267053ff1cdb0032a7fc18e79b510fa0656103f643a716565a0d8236c1e6"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/agents/openai.yaml",
+      "bytes": 263,
+      "sha256": "4b68e94de7b34e3dab6837c03bc8448856909d23a9457d505043086349df1a88"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/examples/capability-portfolio.md",
+      "bytes": 19398,
+      "sha256": "b1759e6daa97eb788c7fd055d98476e6582d291f2d5f47156cabb7503b94ce65"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/examples/merchant-review.md",
+      "bytes": 10089,
+      "sha256": "634e592cab2513b7f564a46e434dd480e5c8fdbb18e4629026b9cbd9234722de"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/examples/merchant-variant-repair.json",
+      "bytes": 4986,
+      "sha256": "fe3cad0fc7fb3f84838faa4d691b98e311967cef24101e15a6e8e028033ee44b"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/examples/search-review.md",
+      "bytes": 17001,
+      "sha256": "b04f460e451db733ddad1d06a4aaffc75aa2d1c24955fa21e7e108cf12b983a6"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/LICENSE-SeaLeap.txt",
+      "bytes": 1095,
+      "sha256": "309607c778b0f3043edee2e0929a5c4714cc6373d3a6060484252c535be13ec2"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/channel-choice-and-demand-gen.md",
+      "bytes": 7954,
+      "sha256": "fd7a995929bced690dff39ba1f2c7015fd53110e605ec5a5cd0d2dbf18a96532"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/current-platform-gates.md",
+      "bytes": 17710,
+      "sha256": "056513ea9173a8ade6529dea856d2bf07d2159105a037f71d951d20f261b6fae"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/evidence-and-safety.md",
+      "bytes": 5847,
+      "sha256": "0f117343d7647134f0166d57f7ba86f34601f976ec7d10b92b12221ea2dbc57e"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/round-three-sources.md",
+      "bytes": 3594,
+      "sha256": "59188a08f408b00d6cadfdfb606f1bbcb27126ae5715b814dadc790d7f892e9c"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/source-register.json",
+      "bytes": 88019,
+      "sha256": "426b1ce59873342cd2e82c9f90edbf6a4c0a3c9c97433968b73a880e43d70b40"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/video-asset-sources-450.json",
+      "bytes": 7536,
+      "sha256": "a4bf3a7d9a5599ef379c4be6b900b1ed664d432902c8278813afdbeeab850af7"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/video-measurement-and-review.md",
+      "bytes": 12732,
+      "sha256": "77e3421094befd80a9b11e0f926e7ddcf4f9911f0308944b5b84ff787e51469d"
+    },
+    {
+      "path": "references/library/原版方法/payload/ads/references/workflow-and-templates.md",
+      "bytes": 36471,
+      "sha256": "6158bc2c7a75d177d2223aedd223d464989827ebbec71848069be6cda418b62a"
+    }
+  ]
+}

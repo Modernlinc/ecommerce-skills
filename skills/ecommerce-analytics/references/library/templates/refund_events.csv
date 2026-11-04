@@ -1,0 +1,1 @@
+store_id,refund_id,refund_line_id,order_id,line_id,refunded_at,refund_status,currency,item_refund,shipping_refund,tax_refund,note
