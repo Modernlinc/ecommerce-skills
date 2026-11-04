@@ -25,7 +25,7 @@ HEADINGS = ('功能摘要', '输入', '工作流程', '输出', '演示步骤', 
 INPUT_LABEL = 'Synthetic demo data. No real customer, account, order, or advertising data is used.'
 OUTPUT_LABEL = 'Public synthetic demonstration. This is not a real customer result and does not prove live external execution or business performance.'
 REQUIRED = (
-    'README.md', 'README_EN.md', 'LICENSE', 'NOTICE.md', 'CHANGELOG.md',
+    '.gitattributes', 'README.md', 'README_EN.md', 'LICENSE', 'NOTICE.md', 'CHANGELOG.md',
     'CONTRIBUTING.md', 'SECURITY.md', 'PUBLICATION_AUDIT.md', '.gitignore',
     'docs/getting-started.md', 'docs/skill-catalog.md',
     'docs/public-private-boundary.md', 'docs/licensing.md',

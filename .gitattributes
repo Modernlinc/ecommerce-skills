@@ -1,0 +1,2 @@
+# Preserve hashed payload bytes on every OS; do not normalize source CSV endings.
+* -text
